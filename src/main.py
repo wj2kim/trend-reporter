@@ -14,9 +14,9 @@ import yaml
 from dotenv import load_dotenv
 
 from cache import ContentCache
-from collectors import RedditCollector, HackerNewsCollector, RSSCollector
+from collectors import HackerNewsCollector, RSSCollector
 from analyzer import TrendAnalyzer
-from notifier import SlackNotifier
+from notifier import DiscordNotifier
 
 
 def load_config():
@@ -44,26 +44,27 @@ def main():
     # 수집된 데이터 저장
     collected_data = []
 
-    # 1. Reddit 수집
-    print("\n[1/3] Reddit 데이터 수집 중...")
-    try:
-        reddit_collector = RedditCollector(cache=cache)
-        reddit_categories = {
-            k: v for k, v in config["reddit"].items()
-            if isinstance(v, list)
-        }
-        reddit_data = reddit_collector.collect_by_category(
-            reddit_categories,
-            posts_per_subreddit=config["reddit"].get("posts_per_subreddit", 15),
-            sort_by=config["reddit"].get("sort_by", "hot")
-        )
-        collected_data.append(reddit_collector.format_for_analysis(reddit_data))
-    except Exception as e:
-        print(f"[Reddit] 수집 실패: {e}")
-        collected_data.append("[Reddit] 수집 실패\n")
+    # 1. Reddit 수집 (API 승인 후 활성화)
+    # print("\n[1/3] Reddit 데이터 수집 중...")
+    # try:
+    #     from collectors import RedditCollector
+    #     reddit_collector = RedditCollector(cache=cache)
+    #     reddit_categories = {
+    #         k: v for k, v in config["reddit"].items()
+    #         if isinstance(v, list)
+    #     }
+    #     reddit_data = reddit_collector.collect_by_category(
+    #         reddit_categories,
+    #         posts_per_subreddit=config["reddit"].get("posts_per_subreddit", 15),
+    #         sort_by=config["reddit"].get("sort_by", "hot")
+    #     )
+    #     collected_data.append(reddit_collector.format_for_analysis(reddit_data))
+    # except Exception as e:
+    #     print(f"[Reddit] 수집 실패: {e}")
+    #     collected_data.append("[Reddit] 수집 실패\n")
 
     # 2. Hacker News 수집
-    print("\n[2/3] Hacker News 데이터 수집 중...")
+    print("\n[1/2] Hacker News 데이터 수집 중...")
     try:
         hn_collector = HackerNewsCollector(cache=cache)
         hn_data = hn_collector.collect_all(
@@ -76,7 +77,7 @@ def main():
         collected_data.append("[HN] 수집 실패\n")
 
     # 3. RSS 수집
-    print("\n[3/3] RSS 피드 수집 중...")
+    print("\n[2/2] RSS 피드 수집 중...")
     try:
         rss_collector = RSSCollector(cache=cache)
         rss_data = rss_collector.collect_all(
@@ -95,14 +96,14 @@ def main():
     all_data = "\n".join(collected_data)
 
     # 데이터가 거의 없으면 알림만 보내고 종료
-    if "새로운" in all_data and all_data.count("없음") >= 3:
+    if "새로운" in all_data and all_data.count("없음") >= 2:
         print("\n새로운 데이터가 거의 없습니다. 간단한 알림만 전송합니다.")
-        notifier = SlackNotifier()
+        notifier = DiscordNotifier()
         notifier.send_simple("📊 트렌드 리포트: 새로운 업데이트가 거의 없습니다.")
-        return
+        return 0
 
-    # Claude로 분석
-    print("\n[분석] Claude API로 분석 중...")
+    # Gemini로 분석
+    print("\n[분석] Gemini API로 분석 중...")
     analyzer = TrendAnalyzer()
     report = analyzer.analyze(all_data)
     title = analyzer.create_report_header()
@@ -112,9 +113,9 @@ def main():
     print("=" * 50)
     print(report)
 
-    # Slack으로 전송
-    print("\n[전송] Slack으로 리포트 전송 중...")
-    notifier = SlackNotifier()
+    # Discord로 전송
+    print("\n[전송] Discord로 리포트 전송 중...")
+    notifier = DiscordNotifier()
     success = notifier.send(title, report)
 
     if success:

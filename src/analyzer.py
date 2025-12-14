@@ -1,17 +1,17 @@
-"""Claude API를 사용한 트렌드 분석기"""
+"""Google Gemini API를 사용한 트렌드 분석기"""
 
 import os
-from anthropic import Anthropic
+import google.generativeai as genai
 from datetime import datetime
 import pytz
 
 
 class TrendAnalyzer:
-    """수집된 데이터를 Claude API로 분석하는 클래스"""
+    """수집된 데이터를 Gemini API로 분석하는 클래스"""
 
     def __init__(self):
-        self.client = Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
-        self.model = "claude-sonnet-4-20250514"  # 비용 효율적인 모델
+        genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+        self.model = genai.GenerativeModel('gemini-1.5-flash')  # 무료 tier로 충분
 
     def analyze(self, collected_data: str) -> str:
         """수집된 데이터를 분석하여 리포트 생성"""
@@ -57,14 +57,8 @@ class TrendAnalyzer:
 """
 
         try:
-            response = self.client.messages.create(
-                model=self.model,
-                max_tokens=2000,
-                messages=[
-                    {"role": "user", "content": prompt}
-                ]
-            )
-            return response.content[0].text
+            response = self.model.generate_content(prompt)
+            return response.text
         except Exception as e:
             return f"분석 실패: {e}"
 
