@@ -1,0 +1,23 @@
+# 환경변수
+.env
+
+# 캐시
+cache/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 가상환경
+venv/
+env/
+.venv/

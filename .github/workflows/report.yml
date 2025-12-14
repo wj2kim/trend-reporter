@@ -1,0 +1,64 @@
+name: Daily Trend Report
+
+on:
+  schedule:
+    # KST 09:00 = UTC 00:00
+    - cron: '0 0 * * *'
+    # KST 21:00 = UTC 12:00
+    - cron: '0 12 * * *'
+    # KST 22:00 = UTC 13:00
+    - cron: '0 13 * * *'
+    # KST 23:00 = UTC 14:00
+    - cron: '0 14 * * *'
+    # KST 00:00 (다음날) = UTC 15:00
+    - cron: '0 15 * * *'
+    # KST 01:00 = UTC 16:00
+    - cron: '0 16 * * *'
+
+  # 수동 실행 허용
+  workflow_dispatch:
+
+jobs:
+  generate-report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytz
+
+      - name: Restore cache
+        uses: actions/cache@v4
+        with:
+          path: cache/
+          key: content-cache-${{ github.run_id }}
+          restore-keys: |
+            content-cache-
+
+      - name: Run trend reporter
+        env:
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          REDDIT_USER_AGENT: TrendReporter/1.0
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          python src/main.py
+
+      - name: Save cache
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: cache/
+          key: content-cache-${{ github.run_id }}
