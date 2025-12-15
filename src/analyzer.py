@@ -11,7 +11,7 @@ class TrendAnalyzer:
 
     def __init__(self):
         genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-        self.model = genai.GenerativeModel('gemini-3-pro-preview')
+        self.model = genai.GenerativeModel('gemini-2.0-flash')
 
     def analyze(self, collected_data: str) -> str:
         """수집된 데이터를 분석하여 리포트 생성"""
