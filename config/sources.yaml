@@ -31,16 +31,16 @@ hackernews:
 rss:
   feeds:
     # 세계 정세
-    - name: Reuters World
-      url: https://www.reutersagency.com/feed/?best-regions=asia&post_type=best
-      category: world
-
     - name: BBC World
       url: https://feeds.bbci.co.uk/news/world/rss.xml
       category: world
 
-    - name: AP News
-      url: https://rsshub.app/apnews/topics/world-news
+    - name: NPR World
+      url: https://feeds.npr.org/1004/rss.xml
+      category: world
+
+    - name: Al Jazeera
+      url: https://www.aljazeera.com/xml/rss/all.xml
       category: world
 
     # 미국 주식/경제
