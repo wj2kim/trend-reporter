@@ -41,12 +41,16 @@ jobs:
       - name: Install dependencies
         run: pip install -q google-generativeai requests feedparser python-dotenv pyyaml pytz
 
+      - name: Create cache directory
+        run: mkdir -p cache
+
       - name: Restore content cache
         uses: actions/cache@v4
         with:
           path: cache/
-          key: content-cache-v1
-          restore-keys: content-cache-
+          key: content-cache-${{ hashFiles('cache/seen_content.json') }}
+          restore-keys: |
+            content-cache-
 
       - name: Run trend reporter
         env:
@@ -59,4 +63,4 @@ jobs:
         if: always()
         with:
           path: cache/
-          key: content-cache-v1-${{ github.run_number }}
+          key: content-cache-${{ github.run_id }}-${{ github.run_attempt }}
