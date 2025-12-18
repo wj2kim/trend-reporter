@@ -79,7 +79,7 @@ class LobstersCollector:
                 score=item.get("score", 0),
                 comment_count=item.get("comment_count", 0),
                 tags=item.get("tags", []),
-                author=item.get("submitter_user", {}).get("username", "unknown"),
+                author=item.get("submitter_user", "unknown"),
                 created_at=created
             ))
 

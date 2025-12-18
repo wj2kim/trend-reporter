@@ -1,6 +1,7 @@
 """DEV.to 데이터 수집기"""
 
 import os
+import time
 import requests
 from typing import List, Optional
 from dataclasses import dataclass
@@ -110,9 +111,10 @@ class DevToCollector:
             "general": self.collect_articles(limit=general_limit)
         }
 
-        # 태그별 수집
+        # 태그별 수집 (rate limit 방지를 위해 딜레이 추가)
         if tags:
             for tag in tags:
+                time.sleep(1)  # 1초 딜레이
                 tag_articles = self.collect_articles(tag=tag, limit=10)
                 # 일반에서 이미 있는 것 제외
                 general_ids = {a.id for a in results["general"]}
