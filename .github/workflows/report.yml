@@ -4,16 +4,12 @@ on:
   schedule:
     # KST 09:00 = UTC 00:00
     - cron: '0 0 * * *'
-    # KST 21:00 = UTC 12:00
-    - cron: '0 12 * * *'
     # KST 22:00 = UTC 13:00
     - cron: '0 13 * * *'
     # KST 23:00 = UTC 14:00
     - cron: '0 14 * * *'
     # KST 00:00 (다음날) = UTC 15:00
     - cron: '0 15 * * *'
-    # KST 01:00 = UTC 16:00
-    - cron: '0 16 * * *'
 
   workflow_dispatch:
 
