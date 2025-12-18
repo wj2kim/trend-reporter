@@ -42,13 +42,11 @@ class DevToCollector:
     def collect_articles(
         self,
         tag: Optional[str] = None,
-        top: str = "week",
         limit: int = 30
     ) -> List[DevToArticle]:
-        """아티클 수집 (top: day, week, month, year, infinity)"""
+        """아티클 수집 (최신순)"""
         params = {
             "per_page": limit * 2,  # 캐시 고려
-            "top": top
         }
         if tag:
             params["tag"] = tag
