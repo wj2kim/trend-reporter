@@ -84,19 +84,21 @@ class TrendAnalyzer:
 
 ## 5. 개발 업데이트
 
-### a. Claude Code
+### a. Vibe Coding
 
-• [Claude Code 관련 새로운 기능, 업데이트 소식]
+• [Claude Code 업데이트, 새 기능, 활용 팁 (메인)]
 
-• [Claude Code 활용 팁, 유용한 사용법]
+• [Cursor, Windsurf, Copilot 등 AI 코딩 에이전트 소식]
 
-• [Claude Code 관련 커뮤니티 논의나 베스트 프랙티스]
+• [Vibe Coding 워크플로우, 프롬프트 엔지니어링 팁]
 
-### b. AI 개발 도구
+• [AI 페어 프로그래밍 베스트 프랙티스, 생산성 향상 노하우]
 
-• [GPT, Gemini, Grok, Cursor, Copilot 등 AI 코딩 도구 업데이트]
+### b. AI 모델 & API
 
-• [AI 코딩 도구 비교, 활용 팁]
+• [GPT, Gemini, Grok, Claude 등 AI 모델 업데이트]
+
+• [AI API 활용법, 새로운 기능 소개]
 
 ### c. 개발 트렌드
 
