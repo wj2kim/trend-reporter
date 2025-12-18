@@ -84,9 +84,23 @@ class TrendAnalyzer:
 
 ## 5. 개발 업데이트
 
-• [DEV.to, Hacker News 등에서 수집된 개발 관련 소식]
+### a. Claude Code
 
-• [Claude Code, GPT, Gemini, Grok 등 AI 도구 업데이트]
+• [Claude Code 관련 새로운 기능, 업데이트 소식]
+
+• [Claude Code 활용 팁, 유용한 사용법]
+
+• [Claude Code 관련 커뮤니티 논의나 베스트 프랙티스]
+
+### b. AI 개발 도구
+
+• [GPT, Gemini, Grok, Cursor, Copilot 등 AI 코딩 도구 업데이트]
+
+• [AI 코딩 도구 비교, 활용 팁]
+
+### c. 개발 트렌드
+
+• [DEV.to, Hacker News 등에서 수집된 개발 관련 소식]
 
 • [프로그래밍 언어, 프레임워크, 라이브러리 관련 소식]
 
