@@ -43,6 +43,18 @@ rss:
       url: https://www.aljazeera.com/xml/rss/all.xml
       category: world
 
+    - name: CNN World
+      url: http://rss.cnn.com/rss/edition_world.rss
+      category: world
+
+    - name: NYT World
+      url: https://rss.nytimes.com/services/xml/rss/nyt/World.xml
+      category: world
+
+    - name: Washington Post World
+      url: https://feeds.washingtonpost.com/rss/world
+      category: world
+
     # 미국 주식/경제
     - name: Yahoo Finance
       url: https://finance.yahoo.com/news/rssindex
@@ -50,6 +62,22 @@ rss:
 
     - name: CNBC Top News
       url: https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114
+      category: stocks
+
+    - name: MarketWatch
+      url: https://feeds.marketwatch.com/marketwatch/topstories/
+      category: stocks
+
+    - name: Seeking Alpha
+      url: https://seekingalpha.com/market_currents.xml
+      category: stocks
+
+    - name: Bloomberg Markets
+      url: https://feeds.bloomberg.com/markets/news.rss
+      category: stocks
+
+    - name: Forbes
+      url: https://www.forbes.com/real-time/feed2/
       category: stocks
 
     # 기술/AI
@@ -73,4 +101,20 @@ rss:
       url: https://www.technologyreview.com/feed/
       category: ai
 
-  items_per_feed: 5
+    - name: Wired
+      url: https://www.wired.com/feed/rss
+      category: tech
+
+    - name: CNET
+      url: https://www.cnet.com/rss/all/
+      category: tech
+
+    - name: VentureBeat AI
+      url: https://venturebeat.com/category/ai/feed/
+      category: ai
+
+    - name: OpenAI Blog
+      url: https://openai.com/blog/rss.xml
+      category: ai
+
+  items_per_feed: 8
