@@ -14,7 +14,7 @@ import yaml
 from dotenv import load_dotenv
 
 from cache import ContentCache
-from collectors import HackerNewsCollector, RSSCollector
+from collectors import HackerNewsCollector, RSSCollector, DevToCollector, LobstersCollector
 from analyzer import TrendAnalyzer
 from notifier import DiscordNotifier
 
@@ -45,7 +45,7 @@ def main():
     collected_data = []
 
     # 1. Hacker News 수집
-    print("\n[1/2] Hacker News 데이터 수집 중...")
+    print("\n[1/4] Hacker News 데이터 수집 중...")
     try:
         hn_collector = HackerNewsCollector(cache=cache)
         hn_data = hn_collector.collect_all(
@@ -57,8 +57,34 @@ def main():
         print(f"[HN] 수집 실패: {e}")
         collected_data.append("[HN] 수집 실패\n")
 
-    # 2. RSS 수집
-    print("\n[2/2] RSS 피드 수집 중...")
+    # 2. DEV.to 수집
+    print("\n[2/4] DEV.to 데이터 수집 중...")
+    try:
+        devto_collector = DevToCollector(cache=cache)
+        devto_data = devto_collector.collect_all(
+            general_limit=config.get("devto", {}).get("limit", 20),
+            tags=config.get("devto", {}).get("tags")
+        )
+        collected_data.append(devto_collector.format_for_analysis(devto_data))
+    except Exception as e:
+        print(f"[DEV.to] 수집 실패: {e}")
+        collected_data.append("[DEV.to] 수집 실패\n")
+
+    # 3. Lobste.rs 수집
+    print("\n[3/4] Lobste.rs 데이터 수집 중...")
+    try:
+        lobsters_collector = LobstersCollector(cache=cache)
+        lobsters_data = lobsters_collector.collect_all(
+            hottest_limit=config.get("lobsters", {}).get("hottest", 20),
+            newest_limit=config.get("lobsters", {}).get("newest", 10)
+        )
+        collected_data.append(lobsters_collector.format_for_analysis(lobsters_data))
+    except Exception as e:
+        print(f"[Lobsters] 수집 실패: {e}")
+        collected_data.append("[Lobsters] 수집 실패\n")
+
+    # 4. RSS 수집
+    print("\n[4/4] RSS 피드 수집 중...")
     try:
         rss_collector = RSSCollector(cache=cache)
         rss_data = rss_collector.collect_all(

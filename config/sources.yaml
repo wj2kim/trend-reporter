@@ -28,6 +28,18 @@ hackernews:
   top_stories: 20
   best_stories: 10
 
+devto:
+  limit: 20
+  tags:
+    - python
+    - javascript
+    - ai
+    - machinelearning
+
+lobsters:
+  hottest: 20
+  newest: 10
+
 rss:
   feeds:
     # 세계 정세
