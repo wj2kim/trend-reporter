@@ -13,8 +13,8 @@ class TrendAnalyzer:
         genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
         self.model = genai.GenerativeModel('gemini-3-flash-preview')
 
-    def analyze(self, collected_data: str) -> str:
-        """수집된 데이터를 분석하여 리포트 생성"""
+    def analyze(self, collected_data: str) -> tuple:
+        """수집된 데이터를 분석하여 리포트 생성. (title, report) 튜플 반환"""
 
         # 한국 시간
         kst = pytz.timezone('Asia/Seoul')
@@ -22,6 +22,14 @@ class TrendAnalyzer:
         timestamp = now_kst.strftime("%Y-%m-%d %H:%M KST")
 
         prompt = f"""당신은 글로벌 트렌드 분석 전문가입니다. 아래 수집된 데이터를 분석하여 한국어로 간결한 리포트를 작성해주세요.
+
+**중요: 리포트 맨 첫 줄에 반드시 아래 형식으로 제목을 작성하세요:**
+TITLE: [오늘의 가장 중요한 핵심 뉴스/트렌드 한 줄 요약 (15자 이내)]
+
+예시:
+TITLE: 연준 금리 동결, AI 반도체 급등
+TITLE: 트럼프 관세 발표, 테슬라 신고가
+TITLE: 엔비디아 실적 발표, 시장 관망세
 
 ## 수집 시간
 {timestamp}
@@ -133,14 +141,30 @@ class TrendAnalyzer:
 
         try:
             response = self.model.generate_content(prompt)
-            return response.text
+            text = response.text
+
+            # 제목과 본문 분리
+            title, report = self._extract_title(text)
+            return title, report
         except Exception as e:
-            return f"분석 실패: {e}"
+            return "트렌드 리포트", f"분석 실패: {e}"
+
+    def _extract_title(self, text: str) -> tuple:
+        """응답에서 제목과 본문 분리"""
+        lines = text.strip().split('\n')
+        title = "트렌드 리포트"  # 기본값
+        report_lines = []
+
+        for i, line in enumerate(lines):
+            if line.strip().startswith('TITLE:'):
+                title = line.replace('TITLE:', '').strip()
+            else:
+                report_lines.append(line)
+
+        return title, '\n'.join(report_lines).strip()
 
     def create_report_header(self) -> str:
-        """리포트 헤더 생성"""
+        """리포트 헤더 생성 (날짜 부분만)"""
         kst = pytz.timezone('Asia/Seoul')
         now_kst = datetime.now(kst)
-        weekdays = ['월', '화', '수', '목', '금', '토', '일']
-        weekday = weekdays[now_kst.weekday()]
-        return f"트렌드 리포트 | {now_kst.month}월 {now_kst.day}일 ({weekday})"
+        return now_kst.strftime("%Y-%m-%d %H:%M")

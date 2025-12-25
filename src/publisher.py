@@ -48,9 +48,7 @@ class GitHubPagesPublisher:
     def _generate_html(self, title: str, content: str, timestamp: datetime) -> str:
         """마크다운 컨텐츠를 HTML로 변환"""
         html_content = self._md_to_html(content)
-        weekdays = ['월', '화', '수', '목', '금', '토', '일']
-        weekday = weekdays[timestamp.weekday()]
-        date_str = f"{timestamp.month}월 {timestamp.day}일 ({weekday}) {timestamp.strftime('%H:%M')}"
+        date_str = timestamp.strftime("%Y-%m-%d %H:%M")
 
         return f"""<!DOCTYPE html>
 <html lang="ko">
@@ -264,14 +262,11 @@ class GitHubPagesPublisher:
             except:
                 pass
 
-        weekdays = ['월', '화', '수', '목', '금', '토', '일']
-        weekday = weekdays[timestamp.weekday()]
-
         # 새 리포트 추가
         reports.insert(0, {
             "title": title,
             "filename": filename,
-            "date": f"{timestamp.month}월 {timestamp.day}일 ({weekday})",
+            "date": timestamp.strftime("%Y-%m-%d"),
             "time": timestamp.strftime("%H:%M")
         })
 
@@ -289,16 +284,16 @@ class GitHubPagesPublisher:
 
     def _generate_index(self, reports: list):
         """인덱스 HTML 생성"""
+        import re
         report_items = ""
         for r in reports:
-            # 제목에서 이모지 제거
-            clean_title = r['title'].encode('ascii', 'ignore').decode('ascii').strip()
-            if not clean_title:
-                clean_title = r['title']
+            # 제목 그대로 사용 (이모지는 이제 생성 안 됨)
+            title = r['title']
+            date_time = f"{r['date']} {r['time']}"
             report_items += f"""
                 <a href="reports/{r['filename']}" class="report-item">
-                    <span class="title">{clean_title}</span>
-                    <span class="date">{r['date']}</span>
+                    <span class="title">{title}</span>
+                    <span class="date">{date_time}</span>
                 </a>"""
 
         html = f"""<!DOCTYPE html>

@@ -113,8 +113,9 @@ def main():
     # Gemini로 분석
     print("\n[분석] Gemini API로 분석 중...")
     analyzer = TrendAnalyzer()
-    report = analyzer.analyze(all_data)
-    title = analyzer.create_report_header()
+    headline, report = analyzer.analyze(all_data)
+    date_str = analyzer.create_report_header()
+    title = f"{headline} | {date_str}"
 
     print("\n" + "=" * 50)
     print(title)
