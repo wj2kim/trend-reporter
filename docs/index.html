@@ -87,7 +87,7 @@
             font-weight: 500;
             flex-shrink: 0;
         }
-        .category-world {
+        .category-market {
             background: #e8f4fc;
             color: #1a73e8;
         }
@@ -122,11 +122,25 @@
         <p class="subtitle">Daily Tech & Market Trends</p>
         <div class="filter-tabs">
             <button class="filter-tab active" data-filter="all">All</button>
-            <button class="filter-tab" data-filter="world">World</button>
+            <button class="filter-tab" data-filter="market">Market</button>
             <button class="filter-tab" data-filter="dev">Dev</button>
         </div>
         <div class="report-list">
             
+                <a href="reports/2025-12-26-0201-dev.html" class="report-item" data-category="dev">
+                    <div class="item-left">
+                        <span class="badge category-dev">Dev</span>
+                        <span class="title">GPT-5.2-Codex 출시, 코딩 혁신 | 2025-12-26 02:00</span>
+                    </div>
+                    <span class="date">2025-12-26 02:01</span>
+                </a>
+                <a href="reports/2025-12-26-0201-market.html" class="report-item" data-category="market">
+                    <div class="item-left">
+                        <span class="badge category-market">Market</span>
+                        <span class="title">엔비디아 거대 인수, 증시 사상 최고 | 2025-12-26 02:00</span>
+                    </div>
+                    <span class="date">2025-12-26 02:01</span>
+                </a>
                 <a href="reports/2025-12-26-0137-dev.html" class="report-item" data-category="dev">
                     <div class="item-left">
                         <span class="badge category-dev">Dev</span>
@@ -136,7 +150,7 @@
                 </a>
                 <a href="reports/2025-12-26-0137-world.html" class="report-item" data-category="world">
                     <div class="item-left">
-                        <span class="badge category-world">World</span>
+                        
                         <span class="title">엔비디아의 Groq 인수와 미 증시 최고치 | 2025-12-26 01:36</span>
                     </div>
                     <span class="date">2025-12-26 01:37</span>
@@ -150,7 +164,7 @@
                 </a>
                 <a href="reports/2025-12-26-0133-world.html" class="report-item" data-category="world">
                     <div class="item-left">
-                        <span class="badge category-world">World</span>
+                        
                         <span class="title">우크라이나 DMZ 수용, 증시 신고가 | 2025-12-26 01:32</span>
                     </div>
                     <span class="date">2025-12-26 01:33</span>
@@ -164,7 +178,7 @@
                 </a>
                 <a href="reports/2025-12-26-0128-world.html" class="report-item" data-category="world">
                     <div class="item-left">
-                        <span class="badge category-world">World</span>
+                        
                         <span class="title">엔비디아 대형 인수와 우크라이나 평화안 | 2025-12-26 01:27</span>
                     </div>
                     <span class="date">2025-12-26 01:28</span>
@@ -201,7 +215,7 @@
 
         // URL 경로에 따라 초기 필터 설정
         const path = location.pathname.split('/').pop();
-        if (path === 'world' || path === 'dev') {
+        if (path === 'market' || path === 'dev') {
             setFilter(path);
         }
     </script>
