@@ -46,10 +46,34 @@
         .report-item:hover {
             opacity: 0.6;
         }
+        .item-left {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            min-width: 0;
+        }
+        .badge {
+            font-size: 11px;
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-weight: 500;
+            flex-shrink: 0;
+        }
+        .category-world {
+            background: #e8f4fc;
+            color: #1a73e8;
+        }
+        .category-dev {
+            background: #e6f4ea;
+            color: #1e8e3e;
+        }
         .title {
             color: #000;
             font-size: 15px;
             font-weight: 500;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
         .date {
             color: #888;
@@ -69,8 +93,26 @@
         <h1>Trend Reporter</h1>
         <p class="subtitle">Daily Tech & Market Trends</p>
         <div class="report-list">
+            
+                <a href="reports/2025-12-26-0128-dev.html" class="report-item">
+                    <div class="item-left">
+                        <span class="badge category-dev">Dev</span>
+                        <span class="title">GPT-5.2-Codex 및 Ruby 4 출시 | 2025-12-26 01:27</span>
+                    </div>
+                    <span class="date">2025-12-26 01:28</span>
+                </a>
+                <a href="reports/2025-12-26-0128-world.html" class="report-item">
+                    <div class="item-left">
+                        <span class="badge category-world">World</span>
+                        <span class="title">엔비디아 대형 인수와 우크라이나 평화안 | 2025-12-26 01:27</span>
+                    </div>
+                    <span class="date">2025-12-26 01:28</span>
+                </a>
                 <a href="reports/2025-12-26-0058.html" class="report-item">
-                    <span class="title">엔비디아 그록 인수, GPT-5.2 발표 | 2025-12-26 00:58</span>
+                    <div class="item-left">
+                        
+                        <span class="title">엔비디아 그록 인수, GPT-5.2 발표 | 2025-12-26 00:58</span>
+                    </div>
                     <span class="date">2025-12-26 00:58</span>
                 </a>
         </div>
