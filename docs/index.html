@@ -28,7 +28,32 @@
         .subtitle {
             color: #666;
             font-size: 15px;
-            margin-bottom: 48px;
+            margin-bottom: 32px;
+        }
+        .filter-tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 24px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 16px;
+        }
+        .filter-tab {
+            padding: 8px 16px;
+            border: none;
+            background: #f5f5f5;
+            color: #666;
+            font-size: 14px;
+            font-weight: 500;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .filter-tab:hover {
+            background: #eee;
+        }
+        .filter-tab.active {
+            background: #000;
+            color: #fff;
         }
         .report-list {
             display: flex;
@@ -42,6 +67,9 @@
             border-bottom: 1px solid #eee;
             text-decoration: none;
             transition: opacity 0.2s;
+        }
+        .report-item.hidden {
+            display: none;
         }
         .report-item:hover {
             opacity: 0.6;
@@ -92,23 +120,42 @@
     <div class="container">
         <h1>Trend Reporter</h1>
         <p class="subtitle">Daily Tech & Market Trends</p>
+        <div class="filter-tabs">
+            <button class="filter-tab active" data-filter="all">All</button>
+            <button class="filter-tab" data-filter="world">World</button>
+            <button class="filter-tab" data-filter="dev">Dev</button>
+        </div>
         <div class="report-list">
             
-                <a href="reports/2025-12-26-0128-dev.html" class="report-item">
+                <a href="reports/2025-12-26-0133-dev.html" class="report-item" data-category="dev">
+                    <div class="item-left">
+                        <span class="badge category-dev">Dev</span>
+                        <span class="title">GPT-5.2와 루비 4.0 출시 | 2025-12-26 01:32</span>
+                    </div>
+                    <span class="date">2025-12-26 01:33</span>
+                </a>
+                <a href="reports/2025-12-26-0133-world.html" class="report-item" data-category="world">
+                    <div class="item-left">
+                        <span class="badge category-world">World</span>
+                        <span class="title">우크라이나 DMZ 수용, 증시 신고가 | 2025-12-26 01:32</span>
+                    </div>
+                    <span class="date">2025-12-26 01:33</span>
+                </a>
+                <a href="reports/2025-12-26-0128-dev.html" class="report-item" data-category="dev">
                     <div class="item-left">
                         <span class="badge category-dev">Dev</span>
                         <span class="title">GPT-5.2-Codex 및 Ruby 4 출시 | 2025-12-26 01:27</span>
                     </div>
                     <span class="date">2025-12-26 01:28</span>
                 </a>
-                <a href="reports/2025-12-26-0128-world.html" class="report-item">
+                <a href="reports/2025-12-26-0128-world.html" class="report-item" data-category="world">
                     <div class="item-left">
                         <span class="badge category-world">World</span>
                         <span class="title">엔비디아 대형 인수와 우크라이나 평화안 | 2025-12-26 01:27</span>
                     </div>
                     <span class="date">2025-12-26 01:28</span>
                 </a>
-                <a href="reports/2025-12-26-0058.html" class="report-item">
+                <a href="reports/2025-12-26-0058.html" class="report-item" data-category="general">
                     <div class="item-left">
                         
                         <span class="title">엔비디아 그록 인수, GPT-5.2 발표 | 2025-12-26 00:58</span>
@@ -117,5 +164,21 @@
                 </a>
         </div>
     </div>
+    <script>
+        document.querySelectorAll('.filter-tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                const filter = tab.dataset.filter;
+                document.querySelectorAll('.report-item').forEach(item => {
+                    if (filter === 'all' || item.dataset.category === filter) {
+                        item.classList.remove('hidden');
+                    } else {
+                        item.classList.add('hidden');
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
