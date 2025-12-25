@@ -24,7 +24,7 @@ class GitHubPagesPublisher:
         Args:
             title: 리포트 제목
             content: 리포트 내용 (마크다운)
-            category: 카테고리 ("world" | "dev" | "general")
+            category: 카테고리 ("market" | "dev" | "general")
         """
         try:
             # 디렉토리 생성
@@ -55,7 +55,7 @@ class GitHubPagesPublisher:
         """마크다운 컨텐츠를 HTML로 변환"""
         html_content = self._md_to_html(content)
         date_str = timestamp.strftime("%Y-%m-%d %H:%M")
-        category_label = "World & Market" if category == "world" else "Dev & AI" if category == "dev" else "Report"
+        category_label = "Market" if category == "market" else "Dev" if category == "dev" else "Report"
 
         return f"""<!DOCTYPE html>
 <html lang="ko">
@@ -314,8 +314,8 @@ class GitHubPagesPublisher:
             title = r['title']
             date_time = f"{r['date']} {r['time']}"
             category = r.get('category', 'general')
-            category_label = "World" if category == "world" else "Dev" if category == "dev" else ""
-            category_class = f"category-{category}" if category in ["world", "dev"] else ""
+            category_label = "Market" if category == "market" else "Dev" if category == "dev" else ""
+            category_class = f"category-{category}" if category in ["market", "dev"] else ""
 
             badge_html = f'<span class="badge {category_class}">{category_label}</span>' if category_label else ""
 
@@ -417,7 +417,7 @@ class GitHubPagesPublisher:
             font-weight: 500;
             flex-shrink: 0;
         }}
-        .category-world {{
+        .category-market {{
             background: #e8f4fc;
             color: #1a73e8;
         }}
@@ -452,7 +452,7 @@ class GitHubPagesPublisher:
         <p class="subtitle">Daily Tech & Market Trends</p>
         <div class="filter-tabs">
             <button class="filter-tab active" data-filter="all">All</button>
-            <button class="filter-tab" data-filter="world">World</button>
+            <button class="filter-tab" data-filter="market">Market</button>
             <button class="filter-tab" data-filter="dev">Dev</button>
         </div>
         <div class="report-list">
@@ -482,7 +482,7 @@ class GitHubPagesPublisher:
 
         // URL 경로에 따라 초기 필터 설정
         const path = location.pathname.split('/').pop();
-        if (path === 'world' || path === 'dev') {{
+        if (path === 'market' || path === 'dev') {{
             setFilter(path);
         }}
     </script>
@@ -491,8 +491,8 @@ class GitHubPagesPublisher:
 
         self.index_file.write_text(html, encoding='utf-8')
 
-        # world.html, dev.html 생성 (같은 내용, URL 라우팅용)
-        (self.docs_dir / "world.html").write_text(html, encoding='utf-8')
+        # market.html, dev.html 생성 (같은 내용, URL 라우팅용)
+        (self.docs_dir / "market.html").write_text(html, encoding='utf-8')
         (self.docs_dir / "dev.html").write_text(html, encoding='utf-8')
 
         print(f"[Publisher] 인덱스 업데이트: {self.index_file}")

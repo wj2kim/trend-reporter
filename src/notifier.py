@@ -95,8 +95,8 @@ class DiscordNotifier:
         success = True
 
         # 1. 세계 정세 & 주식 리포트 (파란색)
-        print("[Discord] 세계 정세 리포트 전송 중...")
-        if not self._send_report(world_title, world_content, color=3447003, prefix="World"):
+        print("[Discord] Market 리포트 전송 중...")
+        if not self._send_report(world_title, world_content, color=3447003, prefix="Market"):
             success = False
 
         # 2. 개발 & AI 리포트 (녹색)

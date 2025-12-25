@@ -175,7 +175,7 @@ def main():
     print("\n[저장] GitHub Pages용 HTML 생성 중...")
     publisher = GitHubPagesPublisher()
 
-    world_success = publisher.publish(world_title, world_report, category="world")
+    world_success = publisher.publish(world_title, world_report, category="market")
     dev_success = publisher.publish(dev_title, dev_report, category="dev")
 
     if world_success and dev_success:
