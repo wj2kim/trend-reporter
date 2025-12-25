@@ -14,7 +14,10 @@ import yaml
 from dotenv import load_dotenv
 
 from cache import ContentCache
-from collectors import HackerNewsCollector, RSSCollector, DevToCollector, LobstersCollector
+from collectors import (
+    HackerNewsCollector, RSSCollector, DevToCollector, LobstersCollector,
+    GitHubTrendingCollector, HuggingFaceCollector
+)
 from analyzer import TrendAnalyzer
 from notifier import DiscordNotifier
 from publisher import GitHubPagesPublisher
@@ -46,7 +49,7 @@ def main():
     collected_data = []
 
     # 1. Hacker News 수집
-    print("\n[1/4] Hacker News 데이터 수집 중...")
+    print("\n[1/6] Hacker News 데이터 수집 중...")
     try:
         hn_collector = HackerNewsCollector(cache=cache)
         hn_data = hn_collector.collect_all(
@@ -59,7 +62,7 @@ def main():
         collected_data.append("[HN] 수집 실패\n")
 
     # 2. DEV.to 수집
-    print("\n[2/4] DEV.to 데이터 수집 중...")
+    print("\n[2/6] DEV.to 데이터 수집 중...")
     try:
         devto_collector = DevToCollector(cache=cache)
         devto_data = devto_collector.collect_all(
@@ -72,7 +75,7 @@ def main():
         collected_data.append("[DEV.to] 수집 실패\n")
 
     # 3. Lobste.rs 수집
-    print("\n[3/4] Lobste.rs 데이터 수집 중...")
+    print("\n[3/6] Lobste.rs 데이터 수집 중...")
     try:
         lobsters_collector = LobstersCollector(cache=cache)
         lobsters_data = lobsters_collector.collect_all(
@@ -85,7 +88,7 @@ def main():
         collected_data.append("[Lobsters] 수집 실패\n")
 
     # 4. RSS 수집
-    print("\n[4/4] RSS 피드 수집 중...")
+    print("\n[4/6] RSS 피드 수집 중...")
     try:
         rss_collector = RSSCollector(cache=cache)
         rss_data = rss_collector.collect_all(
@@ -96,6 +99,26 @@ def main():
     except Exception as e:
         print(f"[RSS] 수집 실패: {e}")
         collected_data.append("[RSS] 수집 실패\n")
+
+    # 5. GitHub Trending 수집
+    print("\n[5/6] GitHub Trending 수집 중...")
+    try:
+        github_collector = GitHubTrendingCollector(cache=cache)
+        github_data = github_collector.collect_all(limit=10)
+        collected_data.append(github_collector.format_for_analysis(github_data))
+    except Exception as e:
+        print(f"[GitHub] 수집 실패: {e}")
+        collected_data.append("[GitHub] 수집 실패\n")
+
+    # 6. Hugging Face 수집
+    print("\n[6/6] Hugging Face 모델 수집 중...")
+    try:
+        hf_collector = HuggingFaceCollector(cache=cache)
+        hf_data = hf_collector.collect_all(trending_limit=8, recent_limit=5)
+        collected_data.append(hf_collector.format_for_analysis(hf_data))
+    except Exception as e:
+        print(f"[HuggingFace] 수집 실패: {e}")
+        collected_data.append("[HuggingFace] 수집 실패\n")
 
     # 캐시 저장
     cache.save()

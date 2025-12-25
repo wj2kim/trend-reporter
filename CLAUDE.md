@@ -15,6 +15,8 @@
 │ - DEV.to (개발자 커뮤니티)            │
 │ - Lobste.rs (기술 뉴스)              │
 │ - RSS (뉴스 매체 20개+)              │
+│ - GitHub Trending (인기 레포)        │
+│ - Hugging Face (AI 모델 트렌드)      │
 │ - Reddit (비활성화 - API 승인 대기)   │
 └─────────────────────────────────────┘
 ```
@@ -78,6 +80,8 @@ trend-reporter/
 │       ├── devto.py         # DEV.to API
 │       ├── lobsters.py      # Lobste.rs JSON
 │       ├── rss.py           # RSS 피드
+│       ├── github_trending.py # GitHub Trending
+│       ├── huggingface.py   # Hugging Face API
 │       └── reddit.py        # (비활성화)
 ├── docs/                    # GitHub Pages (자동 생성)
 │   ├── index.html           # 리포트 목록

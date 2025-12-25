@@ -3,5 +3,14 @@ from .hackernews import HackerNewsCollector
 from .rss import RSSCollector
 from .devto import DevToCollector
 from .lobsters import LobstersCollector
+from .github_trending import GitHubTrendingCollector
+from .huggingface import HuggingFaceCollector
 
-__all__ = ['HackerNewsCollector', 'RSSCollector', 'DevToCollector', 'LobstersCollector']
+__all__ = [
+    'HackerNewsCollector',
+    'RSSCollector',
+    'DevToCollector',
+    'LobstersCollector',
+    'GitHubTrendingCollector',
+    'HuggingFaceCollector'
+]
