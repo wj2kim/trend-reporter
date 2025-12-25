@@ -6,9 +6,7 @@ on:
     - cron: '0 0 * * *'
     # KST 22:00 = UTC 13:00
     - cron: '0 13 * * *'
-    # KST 23:00 = UTC 14:00
-    - cron: '0 14 * * *'
-    # KST 00:00 (다음날) = UTC 15:00
+    # KST 24:00 (자정) = UTC 15:00
     - cron: '0 15 * * *'
 
   workflow_dispatch:
@@ -61,7 +59,6 @@ jobs:
           key: content-cache-${{ github.run_id }}-${{ github.run_attempt }}
 
       - name: Commit and push docs
-        if: github.event.schedule == '0 0 * * *' || github.event_name == 'workflow_dispatch'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

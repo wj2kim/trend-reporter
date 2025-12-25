@@ -27,7 +27,8 @@
 - `gemini-3-flash-preview` (src/analyzer.py)
 
 ### 실행 스케줄 (GitHub Actions)
-- `.github/workflows/` 에서 cron 설정 확인
+- KST 09:00, 22:00, 24:00 (하루 3회)
+- `.github/workflows/report.yml` 에서 cron 설정 확인
 
 ### 알림 & 배포
 - Discord 웹훅 (src/notifier.py)
@@ -35,34 +36,30 @@
 
 ## 리포트 구조
 
+**두 개의 분리된 리포트 생성:**
+
+### 1. 세계 정세 & 주식 리포트 (World)
 ```
 1. 세계 정세
    - 글로벌 핵심 이슈
-
 2. 시장 브리핑
    a. 오늘의 주식흐름 전망
    b. 오늘의 수혜주 분석
    c. 오늘의 주식 이벤트
-      - 미국: FOMC, CPI, PPI, 고용지표
-      - 글로벌: BOJ/ECB/PBOC 금리결정
-      - 지정학: 미중관계, 관세, 제재
-   d. Upcoming 이벤트
-      - 이번 주/다음 주 예정 이벤트
-
+   d. Upcoming 이벤트 (날짜/시간 포함)
 3. 오늘의 핫 토픽
+4. 인사이트
+```
 
-4. 오늘의 AI/기술 트렌드
-
-5. 개발 업데이트
-   a. Vibe Coding
-      - Claude Code (메인), Cursor, Windsurf, Copilot
-      - 프롬프트 엔지니어링 팁
+### 2. 개발 & AI 리포트 (Dev)
+```
+1. AI/기술 트렌드
+2. 개발 업데이트
+   a. Vibe Coding (AI 코딩 에이전트)
    b. AI 모델 & API
-      - GPT, Gemini, Grok, Claude 업데이트
    c. 개발 트렌드
-      - 언어, 프레임워크, 라이브러리
-
-6. 인사이트
+3. 오늘의 핫 레포
+4. 인사이트
 ```
 
 ## 파일 구조
@@ -100,7 +97,14 @@ trend-reporter/
 
 ## 변경 히스토리
 
-### 2024-12-26
+### 2024-12-26 (v2)
+- **두 개의 리포트로 분리**: 세계정세&주식 / 개발&AI
+- analyzer.py: `analyze_world_market()`, `analyze_dev_ai()` 분리
+- publisher.py: 카테고리별 저장 및 배지 표시
+- notifier.py: 두 리포트 연속 전송 (다른 색상)
+- 실행 스케줄 변경: 09:00, 22:00, 24:00 KST
+
+### 2024-12-26 (v1)
 - GitHub Pages 자동 배포 추가 (src/publisher.py)
 - 리포트를 HTML로 변환하여 docs/ 폴더에 저장
 - 워크플로우에서 자동으로 커밋 & 푸시

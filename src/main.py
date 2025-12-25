@@ -133,34 +133,52 @@ def main():
         notifier.send_simple("📊 트렌드 리포트: 새로운 업데이트가 거의 없습니다.")
         return 0
 
-    # Gemini로 분석
+    # Gemini로 분석 (두 개의 리포트 생성)
     print("\n[분석] Gemini API로 분석 중...")
     analyzer = TrendAnalyzer()
-    headline, report = analyzer.analyze(all_data)
     date_str = analyzer.create_report_header()
-    title = f"{headline} | {date_str}"
+
+    # 1. 세계 정세 & 주식 리포트
+    print("  - 세계 정세 & 주식 리포트 생성 중...")
+    world_headline, world_report = analyzer.analyze_world_market(all_data)
+    world_title = f"{world_headline} | {date_str}"
+
+    # 2. 개발 & AI 리포트
+    print("  - 개발 & AI 리포트 생성 중...")
+    dev_headline, dev_report = analyzer.analyze_dev_ai(all_data)
+    dev_title = f"{dev_headline} | {date_str}"
 
     print("\n" + "=" * 50)
-    print(title)
+    print("[세계정세] " + world_title)
     print("=" * 50)
-    print(report[:1000] + "..." if len(report) > 1000 else report)
+    print(world_report[:500] + "..." if len(world_report) > 500 else world_report)
 
-    # Discord로 전송
+    print("\n" + "=" * 50)
+    print("[개발/AI] " + dev_title)
+    print("=" * 50)
+    print(dev_report[:500] + "..." if len(dev_report) > 500 else dev_report)
+
+    # Discord로 전송 (두 리포트 함께)
     print("\n[전송] Discord로 리포트 전송 중...")
     notifier = DiscordNotifier()
-    discord_success = notifier.send(title, report)
+    discord_success = notifier.send_dual_reports(
+        world_title, world_report,
+        dev_title, dev_report
+    )
 
     if discord_success:
         print("✅ Discord 전송 완료!")
     else:
         print("❌ Discord 전송 실패")
 
-    # GitHub Pages로 저장
+    # GitHub Pages로 저장 (두 리포트 각각)
     print("\n[저장] GitHub Pages용 HTML 생성 중...")
     publisher = GitHubPagesPublisher()
-    publish_success = publisher.publish(title, report)
 
-    if publish_success:
+    world_success = publisher.publish(world_title, world_report, category="world")
+    dev_success = publisher.publish(dev_title, dev_report, category="dev")
+
+    if world_success and dev_success:
         print("✅ GitHub Pages 저장 완료!")
     else:
         print("❌ GitHub Pages 저장 실패")

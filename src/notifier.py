@@ -82,6 +82,73 @@ class DiscordNotifier:
 
         return messages
 
+    def send_dual_reports(
+        self,
+        world_title: str, world_content: str,
+        dev_title: str, dev_content: str
+    ) -> bool:
+        """두 개의 리포트를 연속으로 전송"""
+        if not self.webhook_url:
+            print("[Discord] Webhook URL이 설정되지 않았습니다.")
+            return False
+
+        success = True
+
+        # 1. 세계 정세 & 주식 리포트 (파란색)
+        print("[Discord] 세계 정세 리포트 전송 중...")
+        if not self._send_report(world_title, world_content, color=3447003, prefix="World"):
+            success = False
+
+        # 2. 개발 & AI 리포트 (녹색)
+        print("[Discord] 개발 & AI 리포트 전송 중...")
+        if not self._send_report(dev_title, dev_content, color=5763719, prefix="Dev"):
+            success = False
+
+        return success
+
+    def _send_report(self, title: str, content: str, color: int, prefix: str = "") -> bool:
+        """단일 리포트 전송 (내부용)"""
+        messages = self._split_message(content, 1900)
+
+        try:
+            # 첫 번째 메시지는 제목과 함께
+            display_title = f"[{prefix}] {title}" if prefix else title
+            first_payload = {
+                "embeds": [{
+                    "title": display_title,
+                    "description": messages[0] if messages else "내용 없음",
+                    "color": color
+                }]
+            }
+
+            response = requests.post(
+                self.webhook_url,
+                json=first_payload,
+                timeout=30
+            )
+            response.raise_for_status()
+
+            # 나머지 메시지들 전송
+            for msg in messages[1:]:
+                payload = {
+                    "embeds": [{
+                        "description": msg,
+                        "color": color
+                    }]
+                }
+                response = requests.post(
+                    self.webhook_url,
+                    json=payload,
+                    timeout=30
+                )
+                response.raise_for_status()
+
+            return True
+
+        except Exception as e:
+            print(f"[Discord] 리포트 전송 실패: {e}")
+            return False
+
     def send_simple(self, message: str) -> bool:
         """간단한 텍스트 메시지 전송"""
         if not self.webhook_url:

@@ -18,26 +18,32 @@ class GitHubPagesPublisher:
         self.index_file = self.docs_dir / "index.html"
         self.reports_json = self.docs_dir / "reports.json"
 
-    def publish(self, title: str, content: str) -> bool:
-        """리포트를 HTML로 저장"""
+    def publish(self, title: str, content: str, category: str = "general") -> bool:
+        """리포트를 HTML로 저장
+
+        Args:
+            title: 리포트 제목
+            content: 리포트 내용 (마크다운)
+            category: 카테고리 ("world" | "dev" | "general")
+        """
         try:
             # 디렉토리 생성
             self.docs_dir.mkdir(exist_ok=True)
             self.reports_dir.mkdir(exist_ok=True)
 
-            # 파일명 생성 (날짜 기반)
+            # 파일명 생성 (날짜 + 카테고리 기반)
             kst = pytz.timezone('Asia/Seoul')
             now = datetime.now(kst)
-            filename = now.strftime("%Y-%m-%d-%H%M") + ".html"
+            filename = now.strftime("%Y-%m-%d-%H%M") + f"-{category}.html"
             filepath = self.reports_dir / filename
 
             # HTML 생성
-            html = self._generate_html(title, content, now)
+            html = self._generate_html(title, content, now, category)
             filepath.write_text(html, encoding='utf-8')
             print(f"[Publisher] 리포트 저장: {filepath}")
 
             # 인덱스 업데이트
-            self._update_index(title, filename, now)
+            self._update_index(title, filename, now, category)
 
             return True
 
@@ -45,10 +51,11 @@ class GitHubPagesPublisher:
             print(f"[Publisher] 저장 실패: {e}")
             return False
 
-    def _generate_html(self, title: str, content: str, timestamp: datetime) -> str:
+    def _generate_html(self, title: str, content: str, timestamp: datetime, category: str = "general") -> str:
         """마크다운 컨텐츠를 HTML로 변환"""
         html_content = self._md_to_html(content)
         date_str = timestamp.strftime("%Y-%m-%d %H:%M")
+        category_label = "World & Market" if category == "world" else "Dev & AI" if category == "dev" else "Report"
 
         return f"""<!DOCTYPE html>
 <html lang="ko">
@@ -86,6 +93,19 @@ class GitHubPagesPublisher:
             transition: color 0.2s;
         }}
         .back-link:hover {{ color: #000; }}
+        .header-right {{
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }}
+        .category-badge {{
+            background: #f0f0f0;
+            color: #555;
+            font-size: 12px;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-weight: 500;
+        }}
         .timestamp {{
             color: #888;
             font-size: 13px;
@@ -154,7 +174,10 @@ class GitHubPagesPublisher:
     <div class="header">
         <div class="header-inner">
             <a href="../index.html" class="back-link">< Back</a>
-            <span class="timestamp">{date_str}</span>
+            <div class="header-right">
+                <span class="category-badge">{category_label}</span>
+                <span class="timestamp">{date_str}</span>
+            </div>
         </div>
     </div>
     <div class="container">
@@ -252,7 +275,7 @@ class GitHubPagesPublisher:
         text = re.sub(r'`(.+?)`', r'<code>\1</code>', text)
         return text
 
-    def _update_index(self, title: str, filename: str, timestamp: datetime):
+    def _update_index(self, title: str, filename: str, timestamp: datetime, category: str = "general"):
         """인덱스 페이지 업데이트"""
         # 기존 리포트 목록 로드
         reports = []
@@ -267,11 +290,12 @@ class GitHubPagesPublisher:
             "title": title,
             "filename": filename,
             "date": timestamp.strftime("%Y-%m-%d"),
-            "time": timestamp.strftime("%H:%M")
+            "time": timestamp.strftime("%H:%M"),
+            "category": category
         })
 
-        # 최근 30개만 유지
-        reports = reports[:30]
+        # 최근 50개만 유지 (두 카테고리이므로 넉넉하게)
+        reports = reports[:50]
 
         # JSON 저장
         self.reports_json.write_text(
@@ -287,12 +311,20 @@ class GitHubPagesPublisher:
         import re
         report_items = ""
         for r in reports:
-            # 제목 그대로 사용 (이모지는 이제 생성 안 됨)
             title = r['title']
             date_time = f"{r['date']} {r['time']}"
+            category = r.get('category', 'general')
+            category_label = "World" if category == "world" else "Dev" if category == "dev" else ""
+            category_class = f"category-{category}" if category in ["world", "dev"] else ""
+
+            badge_html = f'<span class="badge {category_class}">{category_label}</span>' if category_label else ""
+
             report_items += f"""
                 <a href="reports/{r['filename']}" class="report-item">
-                    <span class="title">{title}</span>
+                    <div class="item-left">
+                        {badge_html}
+                        <span class="title">{title}</span>
+                    </div>
                     <span class="date">{date_time}</span>
                 </a>"""
 
@@ -344,10 +376,34 @@ class GitHubPagesPublisher:
         .report-item:hover {{
             opacity: 0.6;
         }}
+        .item-left {{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            min-width: 0;
+        }}
+        .badge {{
+            font-size: 11px;
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-weight: 500;
+            flex-shrink: 0;
+        }}
+        .category-world {{
+            background: #e8f4fc;
+            color: #1a73e8;
+        }}
+        .category-dev {{
+            background: #e6f4ea;
+            color: #1e8e3e;
+        }}
         .title {{
             color: #000;
             font-size: 15px;
             font-weight: 500;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }}
         .date {{
             color: #888;
