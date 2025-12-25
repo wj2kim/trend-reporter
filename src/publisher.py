@@ -460,23 +460,39 @@ class GitHubPagesPublisher:
         </div>
     </div>
     <script>
+        function setFilter(filter) {{
+            document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
+            document.querySelector(`[data-filter="${{filter}}"]`).classList.add('active');
+            document.querySelectorAll('.report-item').forEach(item => {{
+                if (filter === 'all' || item.dataset.category === filter) {{
+                    item.classList.remove('hidden');
+                }} else {{
+                    item.classList.add('hidden');
+                }}
+            }});
+        }}
+
         document.querySelectorAll('.filter-tab').forEach(tab => {{
             tab.addEventListener('click', () => {{
-                document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
-                tab.classList.add('active');
                 const filter = tab.dataset.filter;
-                document.querySelectorAll('.report-item').forEach(item => {{
-                    if (filter === 'all' || item.dataset.category === filter) {{
-                        item.classList.remove('hidden');
-                    }} else {{
-                        item.classList.add('hidden');
-                    }}
-                }});
+                setFilter(filter);
+                history.pushState(null, '', filter === 'all' ? './' : filter);
             }});
         }});
+
+        // URL 경로에 따라 초기 필터 설정
+        const path = location.pathname.split('/').pop();
+        if (path === 'world' || path === 'dev') {{
+            setFilter(path);
+        }}
     </script>
 </body>
 </html>"""
 
         self.index_file.write_text(html, encoding='utf-8')
+
+        # world.html, dev.html 생성 (같은 내용, URL 라우팅용)
+        (self.docs_dir / "world.html").write_text(html, encoding='utf-8')
+        (self.docs_dir / "dev.html").write_text(html, encoding='utf-8')
+
         print(f"[Publisher] 인덱스 업데이트: {self.index_file}")
