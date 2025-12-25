@@ -7,6 +7,7 @@
 
 ```
 [데이터 수집] → [Gemini 분석] → [Discord 전송]
+                              → [GitHub Pages 저장]
      ↓
 ┌─────────────────────────────────────┐
 │ Collectors (src/collectors/)        │
@@ -26,8 +27,9 @@
 ### 실행 스케줄 (GitHub Actions)
 - `.github/workflows/` 에서 cron 설정 확인
 
-### 알림
+### 알림 & 배포
 - Discord 웹훅 (src/notifier.py)
+- GitHub Pages (src/publisher.py) - https://wj2kim.github.io/trend-reporter/
 
 ## 리포트 구조
 
@@ -69,6 +71,7 @@ trend-reporter/
 │   ├── main.py              # 메인 실행
 │   ├── analyzer.py          # Gemini 분석 (프롬프트 정의)
 │   ├── notifier.py          # Discord 웹훅
+│   ├── publisher.py         # GitHub Pages 저장
 │   ├── cache.py             # 중복 방지 캐시
 │   └── collectors/
 │       ├── hackernews.py    # HN API
@@ -76,6 +79,10 @@ trend-reporter/
 │       ├── lobsters.py      # Lobste.rs JSON
 │       ├── rss.py           # RSS 피드
 │       └── reddit.py        # (비활성화)
+├── docs/                    # GitHub Pages (자동 생성)
+│   ├── index.html           # 리포트 목록
+│   ├── reports.json         # 리포트 메타데이터
+│   └── reports/             # 개별 리포트 HTML
 ├── config/
 │   └── sources.yaml         # 수집 소스 설정
 ├── .github/workflows/       # GitHub Actions
@@ -88,6 +95,11 @@ trend-reporter/
 - `DISCORD_WEBHOOK_URL` - Discord 웹훅 URL
 
 ## 변경 히스토리
+
+### 2024-12-26
+- GitHub Pages 자동 배포 추가 (src/publisher.py)
+- 리포트를 HTML로 변환하여 docs/ 폴더에 저장
+- 워크플로우에서 자동으로 커밋 & 푸시
 
 ### 2024-12-19
 - DEV.to, Lobste.rs collector 추가 (Reddit 대안)

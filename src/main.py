@@ -17,6 +17,7 @@ from cache import ContentCache
 from collectors import HackerNewsCollector, RSSCollector, DevToCollector, LobstersCollector
 from analyzer import TrendAnalyzer
 from notifier import DiscordNotifier
+from publisher import GitHubPagesPublisher
 
 
 def load_config():
@@ -123,14 +124,24 @@ def main():
     # Discord로 전송
     print("\n[전송] Discord로 리포트 전송 중...")
     notifier = DiscordNotifier()
-    success = notifier.send(title, report)
+    discord_success = notifier.send(title, report)
 
-    if success:
-        print("\n✅ 리포트 전송 완료!")
+    if discord_success:
+        print("✅ Discord 전송 완료!")
     else:
-        print("\n❌ 리포트 전송 실패")
+        print("❌ Discord 전송 실패")
 
-    return 0 if success else 1
+    # GitHub Pages로 저장
+    print("\n[저장] GitHub Pages용 HTML 생성 중...")
+    publisher = GitHubPagesPublisher()
+    publish_success = publisher.publish(title, report)
+
+    if publish_success:
+        print("✅ GitHub Pages 저장 완료!")
+    else:
+        print("❌ GitHub Pages 저장 실패")
+
+    return 0 if discord_success else 1
 
 
 if __name__ == "__main__":
