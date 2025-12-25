@@ -47,8 +47,10 @@ class GitHubPagesPublisher:
 
     def _generate_html(self, title: str, content: str, timestamp: datetime) -> str:
         """마크다운 컨텐츠를 HTML로 변환"""
-        # 간단한 마크다운 → HTML 변환
         html_content = self._md_to_html(content)
+        weekdays = ['월', '화', '수', '목', '금', '토', '일']
+        weekday = weekdays[timestamp.weekday()]
+        date_str = f"{timestamp.month}월 {timestamp.day}일 ({weekday}) {timestamp.strftime('%H:%M')}"
 
         return f"""<!DOCTYPE html>
 <html lang="ko">
@@ -59,72 +61,106 @@ class GitHubPagesPublisher:
     <style>
         * {{ margin: 0; padding: 0; box-sizing: border-box; }}
         body {{
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: #f5f5f5;
-            padding: 20px;
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+            line-height: 1.7;
+            color: #1a1a1a;
+            background: #fafafa;
         }}
-        .container {{
-            max-width: 800px;
+        .header {{
+            background: #fff;
+            border-bottom: 1px solid #eee;
+            padding: 16px 24px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }}
+        .header-inner {{
+            max-width: 720px;
             margin: 0 auto;
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }}
-        h1 {{
-            color: #2c3e50;
-            border-bottom: 3px solid #3498db;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-        }}
-        h2 {{
-            color: #34495e;
-            margin-top: 25px;
-            margin-bottom: 15px;
-            padding-left: 10px;
-            border-left: 4px solid #3498db;
-        }}
-        h3 {{
-            color: #7f8c8d;
-            margin-top: 20px;
-            margin-bottom: 10px;
-        }}
-        p {{ margin-bottom: 15px; }}
-        ul, ol {{
-            margin-left: 20px;
-            margin-bottom: 15px;
-        }}
-        li {{ margin-bottom: 8px; }}
-        a {{ color: #3498db; text-decoration: none; }}
-        a:hover {{ text-decoration: underline; }}
-        .timestamp {{
-            color: #95a5a6;
-            font-size: 0.9em;
-            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }}
         .back-link {{
-            display: inline-block;
-            margin-bottom: 20px;
-            padding: 8px 16px;
-            background: #ecf0f1;
-            border-radius: 5px;
+            color: #666;
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.2s;
         }}
-        strong {{ color: #2c3e50; }}
+        .back-link:hover {{ color: #000; }}
+        .timestamp {{
+            color: #888;
+            font-size: 13px;
+        }}
+        .container {{
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 40px 24px 80px;
+        }}
+        h1 {{
+            font-size: 28px;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 48px;
+            letter-spacing: -0.5px;
+        }}
+        h2 {{
+            font-size: 18px;
+            font-weight: 600;
+            color: #000;
+            margin-top: 48px;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #eee;
+        }}
+        h3 {{
+            font-size: 15px;
+            font-weight: 600;
+            color: #444;
+            margin-top: 28px;
+            margin-bottom: 12px;
+        }}
+        p {{
+            margin-bottom: 16px;
+            color: #333;
+        }}
+        ul, ol {{
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }}
+        li {{
+            margin-bottom: 10px;
+            color: #333;
+        }}
+        a {{
+            color: #0066cc;
+            text-decoration: none;
+        }}
+        a:hover {{
+            text-decoration: underline;
+        }}
+        strong {{
+            font-weight: 600;
+            color: #000;
+        }}
         code {{
-            background: #f8f9fa;
+            background: #f4f4f4;
             padding: 2px 6px;
-            border-radius: 3px;
-            font-family: monospace;
+            border-radius: 4px;
+            font-size: 14px;
+            font-family: 'SF Mono', Consolas, monospace;
         }}
     </style>
 </head>
 <body>
+    <div class="header">
+        <div class="header-inner">
+            <a href="../index.html" class="back-link">< Back</a>
+            <span class="timestamp">{date_str}</span>
+        </div>
+    </div>
     <div class="container">
-        <a href="../index.html" class="back-link">&larr; 목록으로</a>
         <h1>{title}</h1>
-        <p class="timestamp">{timestamp.strftime("%Y년 %m월 %d일 %H:%M")} KST</p>
         <div class="content">
             {html_content}
         </div>
@@ -228,11 +264,14 @@ class GitHubPagesPublisher:
             except:
                 pass
 
+        weekdays = ['월', '화', '수', '목', '금', '토', '일']
+        weekday = weekdays[timestamp.weekday()]
+
         # 새 리포트 추가
         reports.insert(0, {
             "title": title,
             "filename": filename,
-            "date": timestamp.strftime("%Y-%m-%d"),
+            "date": f"{timestamp.month}월 {timestamp.day}일 ({weekday})",
             "time": timestamp.strftime("%H:%M")
         })
 
@@ -252,11 +291,15 @@ class GitHubPagesPublisher:
         """인덱스 HTML 생성"""
         report_items = ""
         for r in reports:
+            # 제목에서 이모지 제거
+            clean_title = r['title'].encode('ascii', 'ignore').decode('ascii').strip()
+            if not clean_title:
+                clean_title = r['title']
             report_items += f"""
-            <li>
-                <a href="reports/{r['filename']}">{r['title']}</a>
-                <span class="date">{r['date']} {r['time']}</span>
-            </li>"""
+                <a href="reports/{r['filename']}" class="report-item">
+                    <span class="title">{clean_title}</span>
+                    <span class="date">{r['date']}</span>
+                </a>"""
 
         html = f"""<!DOCTYPE html>
 <html lang="ko">
@@ -267,61 +310,60 @@ class GitHubPagesPublisher:
     <style>
         * {{ margin: 0; padding: 0; box-sizing: border-box; }}
         body {{
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
             line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #1a1a1a;
+            background: #fff;
             min-height: 100vh;
-            padding: 40px 20px;
         }}
         .container {{
-            max-width: 700px;
+            max-width: 640px;
             margin: 0 auto;
-            background: white;
-            padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            padding: 80px 24px;
         }}
         h1 {{
-            text-align: center;
-            color: #2c3e50;
-            margin-bottom: 10px;
-            font-size: 2em;
+            font-size: 32px;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
         }}
         .subtitle {{
-            text-align: center;
-            color: #7f8c8d;
-            margin-bottom: 30px;
+            color: #666;
+            font-size: 15px;
+            margin-bottom: 48px;
         }}
-        ul {{
-            list-style: none;
+        .report-list {{
+            display: flex;
+            flex-direction: column;
         }}
-        li {{
-            padding: 15px;
-            border-bottom: 1px solid #ecf0f1;
+        .report-item {{
             display: flex;
             justify-content: space-between;
             align-items: center;
-        }}
-        li:hover {{
-            background: #f8f9fa;
-        }}
-        a {{
-            color: #3498db;
+            padding: 20px 0;
+            border-bottom: 1px solid #eee;
             text-decoration: none;
+            transition: opacity 0.2s;
+        }}
+        .report-item:hover {{
+            opacity: 0.6;
+        }}
+        .title {{
+            color: #000;
+            font-size: 15px;
             font-weight: 500;
         }}
-        a:hover {{
-            text-decoration: underline;
-        }}
         .date {{
-            color: #95a5a6;
-            font-size: 0.9em;
+            color: #888;
+            font-size: 13px;
+            flex-shrink: 0;
+            margin-left: 16px;
         }}
         .empty {{
+            color: #888;
+            padding: 40px 0;
             text-align: center;
-            color: #95a5a6;
-            padding: 40px;
         }}
     </style>
 </head>
@@ -329,9 +371,9 @@ class GitHubPagesPublisher:
     <div class="container">
         <h1>Trend Reporter</h1>
         <p class="subtitle">Daily Tech & Market Trends</p>
-        <ul>
-            {report_items if report_items else '<li class="empty">아직 리포트가 없습니다.</li>'}
-        </ul>
+        <div class="report-list">
+            {report_items if report_items else '<p class="empty">No reports yet.</p>'}
+        </div>
     </div>
 </body>
 </html>"""

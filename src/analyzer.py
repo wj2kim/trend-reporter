@@ -141,4 +141,6 @@ class TrendAnalyzer:
         """리포트 헤더 생성"""
         kst = pytz.timezone('Asia/Seoul')
         now_kst = datetime.now(kst)
-        return f"📊 트렌드 리포트 | {now_kst.strftime('%Y-%m-%d %H:%M')} KST"
+        weekdays = ['월', '화', '수', '목', '금', '토', '일']
+        weekday = weekdays[now_kst.weekday()]
+        return f"트렌드 리포트 | {now_kst.month}월 {now_kst.day}일 ({weekday})"
