@@ -194,7 +194,20 @@ TITLE: Claude 업데이트, MCP 지원
 • [GitHub Trending, 인기 프로젝트]
 
 
-## 3. 주목할 만한 글
+## 3. AI Coding Assistant
+
+**Claude Code를 중심으로 AI 코딩 어시스턴트 관련 소식을 정리하세요:**
+
+• [Claude Code 업데이트, 새로운 기능, 팁]
+
+• [Cursor, Windsurf, GitHub Copilot 등 다른 AI 코딩 도구 소식]
+
+• [AI 코딩 관련 튜토리얼, 활용 사례]
+
+• [MCP(Model Context Protocol), 에이전트 관련 뉴스]
+
+
+## 4. 주목할 만한 글
 
 **AI/개발 분야 유명 인물들의 최신 글이나 트윗을 요약하세요:**
 
@@ -210,7 +223,7 @@ TITLE: Claude 업데이트, MCP 지원
 (해당 인물의 글이 없으면 이 섹션 생략)
 
 
-## 4. 인사이트
+## 5. 인사이트
 
 [개발과 AI 트렌드를 종합한 2-3문장 인사이트]
 
