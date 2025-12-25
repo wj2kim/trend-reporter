@@ -320,7 +320,7 @@ class GitHubPagesPublisher:
             badge_html = f'<span class="badge {category_class}">{category_label}</span>' if category_label else ""
 
             report_items += f"""
-                <a href="reports/{r['filename']}" class="report-item">
+                <a href="reports/{r['filename']}" class="report-item" data-category="{category}">
                     <div class="item-left">
                         {badge_html}
                         <span class="title">{title}</span>
@@ -358,7 +358,32 @@ class GitHubPagesPublisher:
         .subtitle {{
             color: #666;
             font-size: 15px;
-            margin-bottom: 48px;
+            margin-bottom: 32px;
+        }}
+        .filter-tabs {{
+            display: flex;
+            gap: 8px;
+            margin-bottom: 24px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 16px;
+        }}
+        .filter-tab {{
+            padding: 8px 16px;
+            border: none;
+            background: #f5f5f5;
+            color: #666;
+            font-size: 14px;
+            font-weight: 500;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }}
+        .filter-tab:hover {{
+            background: #eee;
+        }}
+        .filter-tab.active {{
+            background: #000;
+            color: #fff;
         }}
         .report-list {{
             display: flex;
@@ -372,6 +397,9 @@ class GitHubPagesPublisher:
             border-bottom: 1px solid #eee;
             text-decoration: none;
             transition: opacity 0.2s;
+        }}
+        .report-item.hidden {{
+            display: none;
         }}
         .report-item:hover {{
             opacity: 0.6;
@@ -422,10 +450,31 @@ class GitHubPagesPublisher:
     <div class="container">
         <h1>Trend Reporter</h1>
         <p class="subtitle">Daily Tech & Market Trends</p>
+        <div class="filter-tabs">
+            <button class="filter-tab active" data-filter="all">All</button>
+            <button class="filter-tab" data-filter="world">World</button>
+            <button class="filter-tab" data-filter="dev">Dev</button>
+        </div>
         <div class="report-list">
             {report_items if report_items else '<p class="empty">No reports yet.</p>'}
         </div>
     </div>
+    <script>
+        document.querySelectorAll('.filter-tab').forEach(tab => {{
+            tab.addEventListener('click', () => {{
+                document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                const filter = tab.dataset.filter;
+                document.querySelectorAll('.report-item').forEach(item => {{
+                    if (filter === 'all' || item.dataset.category === filter) {{
+                        item.classList.remove('hidden');
+                    }} else {{
+                        item.classList.add('hidden');
+                    }}
+                }});
+            }});
+        }});
+    </script>
 </body>
 </html>"""
 
