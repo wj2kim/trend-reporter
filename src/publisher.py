@@ -624,7 +624,7 @@ class GitHubPagesPublisher:
             min-height: 100vh;
         }}
         .container {{
-            max-width: 960px;
+            max-width: 760px;
             margin: 0 auto;
             padding: 60px 24px;
         }}
@@ -785,6 +785,32 @@ class GitHubPagesPublisher:
         }}
         footer a:hover {{
             text-decoration: underline;
+        }}
+        /* Mobile responsive */
+        @media (max-width: 640px) {{
+            .container {{
+                padding: 32px 16px;
+            }}
+            h1 {{
+                font-size: 24px;
+            }}
+            .report-item {{
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 8px;
+                padding: 16px 0;
+            }}
+            .item-left {{
+                flex-wrap: wrap;
+            }}
+            .tags {{
+                margin-left: 0;
+                margin-top: 4px;
+                width: 100%;
+            }}
+            .date {{
+                margin-left: 0;
+            }}
         }}
     </style>
 </head>
