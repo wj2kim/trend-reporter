@@ -497,13 +497,8 @@ class GitHubPagesPublisher:
             display_title = raw_title.split(" | ")[0] if " | " in raw_title else raw_title
             title = html.escape(display_title)
 
-            # 날짜 포맷 (Dec 26)
-            try:
-                from datetime import datetime as dt
-                date_obj = dt.strptime(r['date'], "%Y-%m-%d")
-                date_short = date_obj.strftime("%b %d")
-            except:
-                date_short = r['date']
+            # 날짜 포맷 (2025-12-26 15:47)
+            date_full = f"{r['date']} {r['time']}"
 
             category = r.get('category', 'general')
             category_label = "Market" if category == "market" else "Dev" if category == "dev" else ""
@@ -523,7 +518,7 @@ class GitHubPagesPublisher:
                         <span class="title">{title}</span>
                         <span class="tags">{keywords_html}</span>
                     </div>
-                    <time class="date" datetime="{r['date']}T{r['time']}:00+09:00">{date_short}</time>
+                    <time class="date" datetime="{r['date']}T{r['time']}:00+09:00">{date_full}</time>
                 </a>'''
 
             # JSON-LD ItemList용
