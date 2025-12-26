@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Fri, 26 Dec 2025 16:59:17 +0900</lastBuildDate>
-    <pubDate>Fri, 26 Dec 2025 16:59:17 +0900</pubDate>
+    <lastBuildDate>Fri, 26 Dec 2025 17:04:12 +0900</lastBuildDate>
+    <pubDate>Fri, 26 Dec 2025 17:04:12 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[AI 코딩 고도화와 RAG 최적화 | 2025-12-26 17:03]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1704-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1704-dev.html</guid>
+      <pubDate>Fri, 26 Dec 2025 17:04:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 GPT-5.2-Codex 발표: OpenAI가 장기 추론(Long-horizon reasoning)과 대규모 코드 변환, 강화된 사이버 보안 기능을 갖춘 최첨단 코딩 모델을 공개했습니다. MiniMax M2.1 출시: 실제 환경의 ... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[중국 기술 펀드 출범, 구리값 신고가 | 2025-12-26 17:03]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1704-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1704-market.html</guid>
+      <pubDate>Fri, 26 Dec 2025 17:04:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [중국, 기술 패권 자립을 위한 대규모 국가 펀드 가동] 중국 정부가 기술 스타트업 지원을 위해 수십억 달러 규모의 국가 주도 벤처 펀드와 3개의 대형 지역 펀드를 공식 출범시켰습니다. 이는 미국의 기술 압박에 대응하여 핵심 기술 자립도를 높이려는 전략적 행보로 풀... (읽기 시간: 3분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Ruby 4.0 출시와 코딩 AI 고도화 | 2025-12-26 16:58]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1659-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Fri, 26 Dec 2025 15:39:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프, 나이지리아 공습 영상 공개 및 공식화 트럼프 대통령이 나이지리아 북서부 ISIS 거점에 대한 공습 영상을 전격 공개하며 군사 개입을 공식화했습니다. 이는 기독교 보호를 명분으로 내세운 것으로, 향후 아프리카 지역 내 미국의 군사적 영향력 확대와 지정학적 긴... (읽기 시간: 3분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GPT-5.2 Codex, 개발 생산성 극대화 | 2025-12-26 15:33]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1533-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1533-dev.html</guid>
-      <pubDate>Fri, 26 Dec 2025 15:33:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 GPT-5.2-Codex 출시: OpenAI가 장기 추론(Long-horizon reasoning) 및 대규모 코드 변환 기능이 강화된 가장 진보된 코딩 모델을 발표했습니다. MiniMax M2.1 공개: 실제 환경의 복잡한 작업과... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[젤렌스키 평화안 진전, 신흥국 증시 상승 | 2025-12-26 15:33]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1533-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1533-market.html</guid>
-      <pubDate>Fri, 26 Dec 2025 15:33:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 우크라이나 종전 협상 &#x27;새로운 아이디어&#x27; 부상 젤렌스키 대통령이 미국 특사(스티브 위트코프, 재러드 쿠슈너)와의 회담 이후 평화 협상에 대한 새로운 아이디어들을 환영하며 낙관적인 전망을 제시했습니다. 이는 지루하게 이어지던 러시아-우크라이나 전쟁의 해결 실마리가 트... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
