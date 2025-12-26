@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Fri, 26 Dec 2025 22:46:12 +0900</lastBuildDate>
-    <pubDate>Fri, 26 Dec 2025 22:46:12 +0900</pubDate>
+    <lastBuildDate>Fri, 26 Dec 2025 23:15:19 +0900</lastBuildDate>
+    <pubDate>Fri, 26 Dec 2025 23:15:19 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[NVIDIA, Groq 인수 및 AI 코딩 진화 | 2025-12-26 23:14]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-2315-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-26-2315-dev.html</guid>
+      <pubDate>Fri, 26 Dec 2025 23:15:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, GPT-5.2-Codex 출시: 장기 추론(Long-horizon reasoning) 및 대규모 코드 변환 능력이 강화된 가장 진보된 코딩 모델을 발표했습니다. MiniMax M2.1 공개: 실제 복잡한 작업과 다국어... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[젤렌스키·트럼프 회동 및 금값 최고 | 2025-12-26 23:14]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-2315-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-26-2315-market.html</guid>
+      <pubDate>Fri, 26 Dec 2025 23:15:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [젤렌스키-트럼프 플로리다 회동 확정 우크라이나 종전 논의 가속화] 볼로디미르 젤렌스키 우크라이나 대통령이 오는 일요일 플로리다에서 도널드 트럼프 당선인과 만나 우크라이나 평화안과 안보 보장 방안을 논의할 예정입니다. 트럼프의 취임 전 실질적인 협상이 가시화되면서 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.2 및 Ruby 4.0 출시 | 2025-12-26 22:45]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-2246-dev.html</link>
