@@ -1,0 +1,11 @@
+# Trend Reporter - robots.txt
+# https://wj2kim.github.io/trend-reporter/
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://wj2kim.github.io/trend-reporter/sitemap.xml
+
+# Crawl-delay (optional, for polite crawlers)
+Crawl-delay: 1
