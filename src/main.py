@@ -226,7 +226,7 @@ def main():
     stock_community_data = []
 
     # 디시인사이드 주식갤러리
-    print("\n[Stock 1/2] 디시인사이드 주식갤러리 수집 중...")
+    print("\n[Stock 1/3] 디시인사이드 주식갤러리 수집 중...")
     try:
         dc_stock_posts = dc_collector.collect_stock_posts(limit_per_gallery=10)
         stock_community_data.append(dc_collector.format_stock_for_analysis(dc_stock_posts))
@@ -234,12 +234,20 @@ def main():
         print(f"[DCInside Stock] 수집 실패: {e}")
 
     # 뽐뿌 주식/코인
-    print("\n[Stock 2/2] 뽐뿌 주식/코인 수집 중...")
+    print("\n[Stock 2/3] 뽐뿌 주식/코인 수집 중...")
     try:
         ppomppu_stock_posts = ppomppu_collector.collect_stock_posts(limit_per_board=10)
         stock_community_data.append(ppomppu_collector.format_stock_for_analysis(ppomppu_stock_posts))
     except Exception as e:
         print(f"[Ppomppu Stock] 수집 실패: {e}")
+
+    # 에펨코리아 주식/코인
+    print("\n[Stock 3/3] 에펨코리아 주식/코인 수집 중...")
+    try:
+        fm_stock_posts = fm_collector.collect_stock_posts(limit_per_board=10)
+        stock_community_data.append(fm_collector.format_stock_for_analysis(fm_stock_posts))
+    except Exception as e:
+        print(f"[FMKorea Stock] 수집 실패: {e}")
 
     # 주식 커뮤니티 데이터를 메인 데이터에 추가 (Market 리포트용)
     if stock_community_data:

@@ -21,12 +21,19 @@ class FMPost:
     hit: int
     recommend: int
     comment_count: int
+    category: str = ""
 
 
 class FMKoreaCollector:
     """에펨코리아 인기글 수집"""
 
     BASE_URL = "https://www.fmkorea.com"
+
+    # 주식 관련 게시판
+    STOCK_BOARDS = [
+        ("stock", "주식"),
+        ("coin", "가상화폐"),
+    ]
 
     def __init__(self, cache: Optional[ContentCache] = None):
         self.session = requests.Session()
@@ -124,6 +131,104 @@ class FMKoreaCollector:
         for i, post in enumerate(posts[:15], 1):
             output.append(
                 f"{i}. {post.title}\n"
+                f"   조회: {post.hit} | 추천: {post.recommend} | 댓글: {post.comment_count}\n"
+                f"   URL: {post.url}\n"
+            )
+        return "\n".join(output)
+
+    def _parse_board(self, board_id: str, board_name: str, limit: int = 10) -> List[FMPost]:
+        """특정 게시판 파싱"""
+        posts = []
+
+        try:
+            resp = self.session.get(
+                f"{self.BASE_URL}/{board_id}",
+                timeout=15
+            )
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, 'html.parser')
+
+            for item in soup.select('.li'):
+                try:
+                    title_elem = item.select_one('.title a')
+                    if not title_elem:
+                        continue
+
+                    title = title_elem.get_text(strip=True)
+                    href = title_elem.get('href', '')
+
+                    match = re.search(r'/(\d+)', href)
+                    if not match:
+                        continue
+                    post_id = match.group(1)
+
+                    cache_id = f"fm_{board_id}_{post_id}"
+                    if self.cache and self.cache.is_seen(cache_id):
+                        continue
+
+                    hit = 0
+                    hit_elem = item.select_one('.count')
+                    if hit_elem:
+                        hit_text = hit_elem.get_text(strip=True).replace(',', '')
+                        hit = int(hit_text) if hit_text.isdigit() else 0
+
+                    recommend = 0
+                    rec_elem = item.select_one('.votes')
+                    if rec_elem:
+                        rec_text = rec_elem.get_text(strip=True).replace(',', '')
+                        recommend = int(rec_text) if rec_text.lstrip('-').isdigit() else 0
+
+                    comment_count = 0
+                    comment_elem = item.select_one('.comment_count')
+                    if comment_elem:
+                        comment_text = comment_elem.get_text(strip=True)
+                        comment_count = int(comment_text) if comment_text.isdigit() else 0
+
+                    full_url = href if href.startswith('http') else f"{self.BASE_URL}{href}"
+
+                    posts.append(FMPost(
+                        id=post_id,
+                        title=title,
+                        url=full_url,
+                        hit=hit,
+                        recommend=recommend,
+                        comment_count=comment_count,
+                        category=board_name
+                    ))
+
+                    if self.cache:
+                        self.cache.mark_seen(cache_id)
+
+                    if len(posts) >= limit:
+                        break
+
+                except Exception:
+                    continue
+
+        except Exception as e:
+            print(f"[FMKorea] {board_name} 수집 실패: {e}")
+
+        return posts
+
+    def collect_stock_posts(self, limit_per_board: int = 10) -> List[FMPost]:
+        """주식/코인 게시판 수집"""
+        all_posts = []
+        for board_id, board_name in self.STOCK_BOARDS:
+            posts = self._parse_board(board_id, board_name, limit_per_board)
+            all_posts.extend(posts)
+            print(f"[FMKorea] {board_name} {len(posts)}개 수집")
+        return all_posts
+
+    def format_stock_for_analysis(self, posts: List[FMPost]) -> str:
+        """주식 게시글 분석용 텍스트 포맷"""
+        if not posts:
+            return "[에펨코리아 주식/코인] 새로운 게시글 없음\n"
+
+        output = ["\n## 에펨코리아 주식/코인\n"]
+        for i, post in enumerate(posts[:20], 1):
+            cat_str = f"[{post.category}] " if post.category else ""
+            output.append(
+                f"{i}. {cat_str}{post.title}\n"
                 f"   조회: {post.hit} | 추천: {post.recommend} | 댓글: {post.comment_count}\n"
                 f"   URL: {post.url}\n"
             )
