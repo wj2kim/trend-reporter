@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Fri, 26 Dec 2025 15:55:12 +0900</lastBuildDate>
-    <pubDate>Fri, 26 Dec 2025 15:55:12 +0900</pubDate>
+    <lastBuildDate>Fri, 26 Dec 2025 15:59:58 +0900</lastBuildDate>
+    <pubDate>Fri, 26 Dec 2025 15:59:58 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[AI 에이전트와 시스템 최적화 | 2025-12-26 15:59]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1559-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1559-dev.html</guid>
+      <pubDate>Fri, 26 Dec 2025 15:59:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 MiniMax M2.1 출시: 실제 환경의 복잡한 작업과 다국어 프로그래밍에 특화된 성능을 제공하는 모델이 공개되었습니다. OpenAI 보안 및 모니터링 강화: ChatGPT Atlas의 프롬프트 인젝션 공격 방어 체계를 강화하고,... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[중국 국영 펀드 출범, 원화 강세 | 2025-12-26 15:59]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1559-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1559-market.html</guid>
+      <pubDate>Fri, 26 Dec 2025 15:59:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [중국의 기술 자립 가속화 국영 벤처 펀드 공식 출범] 중국 정부가 기술 스타트업 지원을 위해 수십억 달러 규모의 국가 주도 벤처 캐피털 펀드와 3개의 대형 지역 펀드를 공식 출범했습니다. 이는 미국의 기술 규제에 대응하여 반도체 및 핵심 기술 분야의 자급자족을 달... (읽기 시간: 3분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Ruby 4.0 및 시스템 개발 혁신 | 2025-12-26 15:54]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1555-dev.html</link>
