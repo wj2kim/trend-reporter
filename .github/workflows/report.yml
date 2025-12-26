@@ -19,7 +19,7 @@ permissions:
 jobs:
   generate-report:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
@@ -32,7 +32,7 @@ jobs:
           cache: 'pip'
 
       - name: Install dependencies
-        run: pip install -q google-generativeai requests feedparser python-dotenv pyyaml pytz
+        run: pip install -q google-generativeai requests feedparser python-dotenv pyyaml pytz beautifulsoup4
 
       - name: Create cache directory
         run: mkdir -p cache
