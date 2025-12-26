@@ -219,6 +219,33 @@ def main():
         print(f"[5ch] 수집 실패: {e}")
         community_data.append("[5ch] 수집 실패\n")
 
+    # 주식 커뮤니티 수집 (Market 리포트에 추가)
+    print("\n" + "=" * 50)
+    print("주식 커뮤니티 데이터 수집")
+    print("=" * 50)
+    stock_community_data = []
+
+    # 디시인사이드 주식갤러리
+    print("\n[Stock 1/2] 디시인사이드 주식갤러리 수집 중...")
+    try:
+        dc_stock_posts = dc_collector.collect_stock_posts(limit_per_gallery=10)
+        stock_community_data.append(dc_collector.format_stock_for_analysis(dc_stock_posts))
+    except Exception as e:
+        print(f"[DCInside Stock] 수집 실패: {e}")
+
+    # 뽐뿌 주식/코인
+    print("\n[Stock 2/2] 뽐뿌 주식/코인 수집 중...")
+    try:
+        ppomppu_stock_posts = ppomppu_collector.collect_stock_posts(limit_per_board=10)
+        stock_community_data.append(ppomppu_collector.format_stock_for_analysis(ppomppu_stock_posts))
+    except Exception as e:
+        print(f"[Ppomppu Stock] 수집 실패: {e}")
+
+    # 주식 커뮤니티 데이터를 메인 데이터에 추가 (Market 리포트용)
+    if stock_community_data:
+        collected_data.append("\n\n## 주식 커뮤니티 여론\n")
+        collected_data.extend(stock_community_data)
+
     # 캐시 저장
     cache.save()
 
