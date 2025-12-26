@@ -29,6 +29,7 @@ class GitHubPagesPublisher:
         self.reports_json = self.docs_dir / "reports.json"
         self.sitemap_file = self.docs_dir / "sitemap.xml"
         self.robots_file = self.docs_dir / "robots.txt"
+        self.feed_file = self.docs_dir / "feed.xml"
 
     def publish(self, title: str, content: str, category: str = "general") -> bool:
         """리포트를 HTML로 저장
@@ -52,13 +53,16 @@ class GitHubPagesPublisher:
             # 메타 설명 추출
             description = self._extract_description(content)
 
+            # 읽기 시간 계산
+            reading_time = self._calculate_reading_time(content)
+
             # HTML 생성
-            report_html = self._generate_html(title, content, now, category, filename, description)
+            report_html = self._generate_html(title, content, now, category, filename, description, reading_time)
             filepath.write_text(report_html, encoding='utf-8')
             print(f"[Publisher] 리포트 저장: {filepath}")
 
             # 인덱스 업데이트
-            self._update_index(title, filename, now, category, description)
+            self._update_index(title, filename, now, category, description, reading_time)
 
             # robots.txt 생성 (없으면)
             self._generate_robots()
@@ -68,6 +72,19 @@ class GitHubPagesPublisher:
         except Exception as e:
             print(f"[Publisher] 저장 실패: {e}")
             return False
+
+    def _calculate_reading_time(self, content: str) -> int:
+        """콘텐츠 읽기 시간 계산 (분 단위)"""
+        # 마크다운 제거
+        text = re.sub(r'#{1,6}\s+', '', content)
+        text = re.sub(r'\*\*(.+?)\*\*', r'\1', text)
+        text = re.sub(r'\[(.+?)\]\(.+?\)', r'\1', text)
+        text = re.sub(r'[•\-\*]\s+', '', text)
+
+        # 글자 수 기준 (한국어는 분당 약 500자)
+        char_count = len(text.replace(' ', '').replace('\n', ''))
+        reading_time = max(1, round(char_count / 500))
+        return reading_time
 
     def _extract_description(self, content: str, max_length: int = 160) -> str:
         """콘텐츠에서 메타 설명 추출"""
@@ -84,13 +101,15 @@ class GitHubPagesPublisher:
         return html.escape(text)
 
     def _generate_html(self, title: str, content: str, timestamp: datetime,
-                       category: str, filename: str, description: str) -> str:
+                       category: str, filename: str, description: str,
+                       reading_time: int = 1) -> str:
         """마크다운 컨텐츠를 SEO 최적화 HTML로 변환"""
         html_content = self._md_to_html(content)
         date_str = timestamp.strftime("%Y-%m-%d %H:%M")
         iso_date = timestamp.isoformat()
         category_label = "Market" if category == "market" else "Dev" if category == "dev" else "Report"
         category_full = "세계 정세 & 주식 시장" if category == "market" else "개발 & AI 트렌드" if category == "dev" else "트렌드 리포트"
+        reading_time_str = f"{reading_time}분"
 
         canonical_url = f"{self.SITE_URL}/reports/{filename}"
         escaped_title = html.escape(title)
@@ -154,6 +173,7 @@ class GitHubPagesPublisher:
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="keywords" content="{category_full}, 트렌드 리포트, {category_label}, AI 분석, 글로벌 트렌드, 한국어 리포트">
     <link rel="canonical" href="{canonical_url}">
+    <link rel="alternate" type="application/rss+xml" title="{self.SITE_NAME} RSS Feed" href="{self.SITE_URL}/feed.xml">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
@@ -227,6 +247,12 @@ class GitHubPagesPublisher:
             color: #888;
             font-size: 13px;
         }}
+        .reading-time {{
+            color: #888;
+            font-size: 13px;
+            padding-right: 12px;
+            border-right: 1px solid #ddd;
+        }}
         main {{
             max-width: 720px;
             margin: 0 auto;
@@ -294,6 +320,7 @@ class GitHubPagesPublisher:
             <a href="../index.html" class="back-link" aria-label="리포트 목록으로 돌아가기">&lt; Back</a>
             <div class="header-right">
                 <span class="category-badge">{category_label}</span>
+                <span class="reading-time">{reading_time_str} read</span>
                 <time datetime="{iso_date}">{date_str}</time>
             </div>
         </nav>
@@ -400,7 +427,8 @@ class GitHubPagesPublisher:
         return text
 
     def _update_index(self, title: str, filename: str, timestamp: datetime,
-                      category: str = "general", description: str = ""):
+                      category: str = "general", description: str = "",
+                      reading_time: int = 1):
         """인덱스 페이지 업데이트"""
         # 기존 리포트 목록 로드
         reports = []
@@ -417,7 +445,8 @@ class GitHubPagesPublisher:
             "date": timestamp.strftime("%Y-%m-%d"),
             "time": timestamp.strftime("%H:%M"),
             "category": category,
-            "description": description
+            "description": description,
+            "reading_time": reading_time
         })
 
         # 최근 50개만 유지 (두 카테고리이므로 넉넉하게)
@@ -434,6 +463,9 @@ class GitHubPagesPublisher:
 
         # sitemap.xml 생성
         self._generate_sitemap(reports)
+
+        # RSS feed 생성
+        self._generate_feed(reports)
 
     def _generate_index(self, reports: list):
         """SEO 최적화 인덱스 HTML 생성"""
@@ -526,6 +558,7 @@ class GitHubPagesPublisher:
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="keywords" content="트렌드 리포트, 세계 정세, 주식 시장, AI 트렌드, 개발 트렌드, 글로벌 뉴스, 한국어 리포트, AI 분석">
     <link rel="canonical" href="{self.SITE_URL}/">
+    <link rel="alternate" type="application/rss+xml" title="{self.SITE_NAME} RSS Feed" href="{self.SITE_URL}/feed.xml">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -734,7 +767,7 @@ class GitHubPagesPublisher:
         <div class="pagination" id="pagination"></div>
         <footer>
             <p>Powered by AI - 매일 자동으로 글로벌 트렌드를 수집하고 분석합니다.</p>
-            <p><a href="sitemap.xml">Sitemap</a></p>
+            <p><a href="feed.xml">RSS Feed</a> · <a href="sitemap.xml">Sitemap</a></p>
         </footer>
     </div>
     <script>
@@ -908,3 +941,57 @@ Crawl-delay: 1
 '''
         self.robots_file.write_text(robots, encoding='utf-8')
         print(f"[Publisher] robots.txt 생성: {self.robots_file}")
+
+    def _generate_feed(self, reports: list):
+        """RSS 2.0 피드 생성"""
+        kst = pytz.timezone('Asia/Seoul')
+        now = datetime.now(kst)
+        pub_date = now.strftime("%a, %d %b %Y %H:%M:%S +0900")
+
+        items = []
+        for r in reports[:20]:  # 최근 20개
+            report_url = f"{self.SITE_URL}/reports/{r['filename']}"
+            # RFC 822 날짜 형식
+            item_date = f"{r['date']}T{r['time']}:00+09:00"
+            try:
+                dt = datetime.fromisoformat(item_date.replace('+09:00', ''))
+                dt = kst.localize(dt)
+                rfc_date = dt.strftime("%a, %d %b %Y %H:%M:%S +0900")
+            except:
+                rfc_date = pub_date
+
+            description = r.get('description', '')
+            category_label = "Market" if r.get('category') == 'market' else "Dev"
+            reading_time = r.get('reading_time', 1)
+
+            items.append(f'''    <item>
+      <title><![CDATA[{r['title']}]]></title>
+      <link>{report_url}</link>
+      <guid isPermaLink="true">{report_url}</guid>
+      <pubDate>{rfc_date}</pubDate>
+      <category>{category_label}</category>
+      <description><![CDATA[{description} (읽기 시간: {reading_time}분)]]></description>
+    </item>''')
+
+        feed = f'''<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{self.SITE_NAME}</title>
+    <description>{self.SITE_DESCRIPTION}</description>
+    <link>{self.SITE_URL}/</link>
+    <atom:link href="{self.SITE_URL}/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>{self.SITE_LANGUAGE}</language>
+    <lastBuildDate>{pub_date}</lastBuildDate>
+    <pubDate>{pub_date}</pubDate>
+    <ttl>60</ttl>
+    <image>
+      <url>{self.SITE_LOGO}</url>
+      <title>{self.SITE_NAME}</title>
+      <link>{self.SITE_URL}/</link>
+    </image>
+{chr(10).join(items)}
+  </channel>
+</rss>'''
+
+        self.feed_file.write_text(feed, encoding='utf-8')
+        print(f"[Publisher] RSS Feed 업데이트: {self.feed_file}")
