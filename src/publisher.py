@@ -624,9 +624,9 @@ class GitHubPagesPublisher:
             min-height: 100vh;
         }}
         .container {{
-            max-width: 640px;
+            max-width: 960px;
             margin: 0 auto;
-            padding: 80px 24px;
+            padding: 60px 24px;
         }}
         header {{
             margin-bottom: 32px;
@@ -711,9 +711,6 @@ class GitHubPagesPublisher:
             color: #000;
             font-size: 15px;
             font-weight: 500;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
         }}
         .tags {{
             display: flex;
@@ -722,8 +719,8 @@ class GitHubPagesPublisher:
             margin-left: 8px;
         }}
         .tag {{
-            color: #888;
-            font-size: 12px;
+            color: #aaa;
+            font-size: 11px;
             font-weight: 400;
         }}
         .date {{
