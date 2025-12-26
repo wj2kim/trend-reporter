@@ -115,7 +115,9 @@ class GitHubPagesPublisher:
         date_en = timestamp.strftime("%b %d, %Y")
 
         canonical_url = f"{self.SITE_URL}/reports/{filename}"
-        escaped_title = html.escape(title)
+        # 타이틀에서 날짜 부분 제거 (예: "제목 | 2025-12-26 15:33" -> "제목")
+        display_title = title.split(" | ")[0] if " | " in title else title
+        escaped_title = html.escape(display_title)
         escaped_desc = html.escape(description)
 
         # JSON-LD 구조화 데이터 (NewsArticle)
