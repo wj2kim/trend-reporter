@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Fri, 26 Dec 2025 15:33:42 +0900</lastBuildDate>
-    <pubDate>Fri, 26 Dec 2025 15:33:42 +0900</pubDate>
+    <lastBuildDate>Fri, 26 Dec 2025 15:39:41 +0900</lastBuildDate>
+    <pubDate>Fri, 26 Dec 2025 15:39:41 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Python 3.15 가속 및 Zig 생태계 부상 | 2025-12-26 15:38]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1539-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1539-dev.html</guid>
+      <pubDate>Fri, 26 Dec 2025 15:39:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI GPT-5.2-Codex 출시: 장기 추론(Long-horizon reasoning)과 대규모 코드 변환 능력을 갖춘 가장 진화된 코딩 모델이 공개되었습니다. MiniMax M2.1 공개: 실제 환경의 복잡한 작업과 다... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[원화 최고치 경신, 우크라이나 협상 급물살 | 2025-12-26 15:38]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1539-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1539-market.html</guid>
+      <pubDate>Fri, 26 Dec 2025 15:39:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프, 나이지리아 공습 영상 공개 및 공식화 트럼프 대통령이 나이지리아 북서부 ISIS 거점에 대한 공습 영상을 전격 공개하며 군사 개입을 공식화했습니다. 이는 기독교 보호를 명분으로 내세운 것으로, 향후 아프리카 지역 내 미국의 군사적 영향력 확대와 지정학적 긴... (읽기 시간: 3분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.2 Codex, 개발 생산성 극대화 | 2025-12-26 15:33]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1533-dev.html</link>
