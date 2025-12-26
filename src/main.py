@@ -10,6 +10,7 @@ project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 sys.path.insert(0, str(project_root / "src"))
 
+import json
 import yaml
 from dotenv import load_dotenv
 
@@ -28,6 +29,33 @@ def load_config():
     config_path = project_root / "config" / "sources.yaml"
     with open(config_path, 'r', encoding='utf-8') as f:
         return yaml.safe_load(f)
+
+
+def load_previous_reports(limit: int = 10) -> dict:
+    """이전 리포트 제목 로드 (중복 방지용)"""
+    reports_json = project_root / "docs" / "reports.json"
+    previous = {"market": [], "dev": []}
+
+    if not reports_json.exists():
+        return previous
+
+    try:
+        with open(reports_json, 'r', encoding='utf-8') as f:
+            reports = json.load(f)
+
+        for r in reports[:limit * 2]:  # 각 카테고리별로 limit개씩
+            category = r.get("category", "")
+            title = r.get("title", "").split(" | ")[0]  # 날짜 부분 제거
+            if category == "market" and len(previous["market"]) < limit:
+                previous["market"].append(title)
+            elif category == "dev" and len(previous["dev"]) < limit:
+                previous["dev"].append(title)
+
+        print(f"[중복방지] 이전 리포트 로드: Market {len(previous['market'])}개, Dev {len(previous['dev'])}개")
+    except Exception as e:
+        print(f"[중복방지] 이전 리포트 로드 실패: {e}")
+
+    return previous
 
 
 def main():
@@ -133,6 +161,9 @@ def main():
         notifier.send_simple("📊 트렌드 리포트: 새로운 업데이트가 거의 없습니다.")
         return 0
 
+    # 이전 리포트 로드 (중복 방지)
+    previous_reports = load_previous_reports(limit=5)
+
     # Gemini로 분석 (두 개의 리포트 생성)
     print("\n[분석] Gemini API로 분석 중...")
     analyzer = TrendAnalyzer()
@@ -140,12 +171,18 @@ def main():
 
     # 1. 세계 정세 & 주식 리포트
     print("  - 세계 정세 & 주식 리포트 생성 중...")
-    world_headline, world_report = analyzer.analyze_world_market(all_data)
+    world_headline, world_report = analyzer.analyze_world_market(
+        all_data,
+        previous_titles=previous_reports["market"]
+    )
     world_title = f"{world_headline} | {date_str}"
 
     # 2. 개발 & AI 리포트
     print("  - 개발 & AI 리포트 생성 중...")
-    dev_headline, dev_report = analyzer.analyze_dev_ai(all_data)
+    dev_headline, dev_report = analyzer.analyze_dev_ai(
+        all_data,
+        previous_titles=previous_reports["dev"]
+    )
     dev_title = f"{dev_headline} | {date_str}"
 
     print("\n" + "=" * 50)

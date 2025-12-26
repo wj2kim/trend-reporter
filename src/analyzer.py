@@ -14,9 +14,9 @@ class TrendAnalyzer:
         self.model = genai.GenerativeModel('gemini-3-flash-preview')
         self.kst = pytz.timezone('Asia/Seoul')
 
-    def _get_base_rules(self) -> str:
+    def _get_base_rules(self, previous_titles: list = None) -> str:
         """공통 작성 규칙"""
-        return """
+        rules = """
 **[절대 규칙] 수집된 데이터에 없는 내용은 절대 작성하지 마세요!**
 - 위 "수집된 데이터" 섹션에 언급되지 않은 뉴스, 인수합병, 제품 출시 등을 만들어내지 마세요
 - 확인되지 않은 정보를 추측하거나 창작하지 마세요
@@ -29,8 +29,17 @@ class TrendAnalyzer:
 5. **가독성**: 각 항목 사이에 빈 줄을 넣어 읽기 쉽게 작성
 6. **사실만 작성**: 수집된 데이터에 있는 내용만 리포트에 포함
 """
+        if previous_titles:
+            rules += f"""
+**[중복 방지] 이전 리포트에서 다룬 내용은 피하세요!**
+아래는 최근 리포트 제목들입니다. 같은 주제를 반복하지 말고 새로운 내용에 집중하세요:
+{chr(10).join(f'- {t}' for t in previous_titles)}
 
-    def analyze_world_market(self, collected_data: str) -> tuple:
+만약 새로운 내용이 없다면, 기존 내용의 "후속 전개"나 "새로운 관점"을 제시하세요.
+"""
+        return rules
+
+    def analyze_world_market(self, collected_data: str, previous_titles: list = None) -> tuple:
         """세계 정세 & 주식 리포트 생성. (title, report) 튜플 반환"""
         now_kst = datetime.now(self.kst)
         timestamp = now_kst.strftime("%Y-%m-%d %H:%M KST")
@@ -52,7 +61,7 @@ TITLE: 중동 긴장 고조, 유가 급등
 {collected_data}
 
 ## 리포트 작성 지침
-{self._get_base_rules()}
+{self._get_base_rules(previous_titles)}
 
 ## 리포트 형식 (아래 형식을 정확히 따라주세요)
 
@@ -128,7 +137,7 @@ TITLE: 중동 긴장 고조, 유가 급등
 
         return self._generate_report(prompt)
 
-    def analyze_dev_ai(self, collected_data: str) -> tuple:
+    def analyze_dev_ai(self, collected_data: str, previous_titles: list = None) -> tuple:
         """개발 & AI 리포트 생성. (title, report) 튜플 반환"""
         now_kst = datetime.now(self.kst)
         timestamp = now_kst.strftime("%Y-%m-%d %H:%M KST")
@@ -150,7 +159,7 @@ TITLE: Claude 업데이트, MCP 지원
 {collected_data}
 
 ## 리포트 작성 지침
-{self._get_base_rules()}
+{self._get_base_rules(previous_titles)}
 
 ## 리포트 형식 (아래 형식을 정확히 따라주세요)
 
