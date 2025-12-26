@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trend Reporter</title>
+    <description>AI 기반 글로벌 트렌드 리포트 - 매일 세계 정세, 주식 시장, 개발, AI 트렌드를 분석하여 한국어로 제공합니다.</description>
+    <link>https://wj2kim.github.io/trend-reporter/</link>
+    <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>ko</language>
+    <lastBuildDate>Fri, 26 Dec 2025 15:33:42 +0900</lastBuildDate>
+    <pubDate>Fri, 26 Dec 2025 15:33:42 +0900</pubDate>
+    <ttl>60</ttl>
+    <image>
+      <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
+      <title>Trend Reporter</title>
+      <link>https://wj2kim.github.io/trend-reporter/</link>
+    </image>
+    <item>
+      <title><![CDATA[GPT-5.2 Codex, 개발 생산성 극대화 | 2025-12-26 15:33]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1533-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1533-dev.html</guid>
+      <pubDate>Fri, 26 Dec 2025 15:33:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 GPT-5.2-Codex 출시: OpenAI가 장기 추론(Long-horizon reasoning) 및 대규모 코드 변환 기능이 강화된 가장 진보된 코딩 모델을 발표했습니다. MiniMax M2.1 공개: 실제 환경의 복잡한 작업과... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[젤렌스키 평화안 진전, 신흥국 증시 상승 | 2025-12-26 15:33]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1533-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1533-market.html</guid>
+      <pubDate>Fri, 26 Dec 2025 15:33:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 우크라이나 종전 협상 &#x27;새로운 아이디어&#x27; 부상 젤렌스키 대통령이 미국 특사(스티브 위트코프, 재러드 쿠슈너)와의 회담 이후 평화 협상에 대한 새로운 아이디어들을 환영하며 낙관적인 전망을 제시했습니다. 이는 지루하게 이어지던 러시아-우크라이나 전쟁의 해결 실마리가 트... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[엔비디아, Groq 200억 달러 인수 | 2025-12-26 15:23]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1524-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1524-dev.html</guid>
+      <pubDate>Fri, 26 Dec 2025 15:24:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 MiniMax M2.1 출시: 실세계의 복잡한 작업 수행과 다국어 프로그래밍에 최적화된 모델인 M2.1이 공개되었습니다. TurboDiffusion 기술: 비디오 확산 모델(Video Diffusion Models)의 추론 속도를 ... (읽기 시간: 1분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프 공습 단행, 원화 강세 지속 | 2025-12-26 15:23]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1524-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1524-market.html</guid>
+      <pubDate>Fri, 26 Dec 2025 15:24:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 대통령, 나이지리아 내 IS 타격 발표 및 군사적 행보 본격화 미국 대통령이 나이지리아 북서부의 이슬람 국가(ISIS) 세력을 대상으로 &#x27;치명적인 타격&#x27;을 가했다고 발표했습니다. 이번 작전은 기독교인을 타겟으로 한 테러에 대한 보복 차원임을 강조하며, 취임 ... (읽기 시간: 1분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[GPT-5.2 코딩 모델과 개발 혁신 | 2025-12-26 14:59]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1459-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1459-dev.html</guid>
+      <pubDate>Fri, 26 Dec 2025 14:59:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI GPT-5.2-Codex 출시: 장기 추론(Long-horizon reasoning)과 대규모 코드 변환 기능이 강화된 최신 코딩 모델이 발표되었습니다. (읽기 시간: 1분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[구리·금 신고가, 트럼프 외교 가동 | 2025-12-26 14:59]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1459-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1459-market.html</guid>
+      <pubDate>Fri, 26 Dec 2025 14:59:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프의 나이지리아 ISIL 공습 단행 미 외교 정책의 공격적 전환 트럼프 대통령이 나이지리아 내 이슬람 국가(ISIL) 세력에 대해 치명적인 공습을 단행했다고 발표했습니다. (읽기 시간: 1분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[GPT-5.2 코딩 모델, 루비 4.0 출시 | 2025-12-26 10:44]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1044-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1044-dev.html</guid>
+      <pubDate>Fri, 26 Dec 2025 10:44:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[ (읽기 시간: 1분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[엔비디아 대형 인수와 지정학 긴장 고조 | 2025-12-26 10:44]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1044-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1044-market.html</guid>
+      <pubDate>Fri, 26 Dec 2025 10:44:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[ (읽기 시간: 1분)]]></description>
+    </item>
+  </channel>
+</rss>
