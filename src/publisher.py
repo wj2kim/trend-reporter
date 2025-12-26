@@ -435,8 +435,14 @@ class GitHubPagesPublisher:
         text = html.escape(text)
         # 볼드
         text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
-        # 링크
+        # 마크다운 링크 [텍스트](URL)
         text = re.sub(r'\[(.+?)\]\((.+?)\)', r'<a href="\2" target="_blank" rel="noopener noreferrer">\1</a>', text)
+        # Plain URL 자동 링크 (마크다운 링크로 변환되지 않은 URL)
+        text = re.sub(
+            r'(?<!href=")(?<!">)(https?://[^\s<>\[\]]+)',
+            r'<a href="\1" target="_blank" rel="noopener noreferrer">\1</a>',
+            text
+        )
         # 인라인 코드
         text = re.sub(r'`(.+?)`', r'<code>\1</code>', text)
         return text
