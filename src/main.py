@@ -19,7 +19,7 @@ from collectors import (
     HackerNewsCollector, RSSCollector, DevToCollector, LobstersCollector,
     GitHubTrendingCollector, HuggingFaceCollector,
     # 커뮤니티 수집기
-    ClienCollector, DCInsideCollector, FMKoreaCollector,
+    ClienCollector, DCInsideCollector,
     PpomppuCollector, RuliwebCollector, FiveChCollector
 )
 from analyzer import TrendAnalyzer
@@ -179,18 +179,8 @@ def main():
         print(f"[DCInside] 수집 실패: {e}")
         community_data.append("[디시인사이드] 수집 실패\n")
 
-    # 9. 에펨코리아
-    print("\n[Community 3/6] 에펨코리아 수집 중...")
-    try:
-        fm_collector = FMKoreaCollector(cache=cache)
-        fm_posts = fm_collector.collect_posts(limit=15)
-        community_data.append(fm_collector.format_for_analysis(fm_posts))
-    except Exception as e:
-        print(f"[FMKorea] 수집 실패: {e}")
-        community_data.append("[에펨코리아] 수집 실패\n")
-
-    # 10. 뽐뿌
-    print("\n[Community 4/6] 뽐뿌 수집 중...")
+    # 9. 뽐뿌
+    print("\n[Community 3/5] 뽐뿌 수집 중...")
     try:
         ppomppu_collector = PpomppuCollector(cache=cache)
         ppomppu_posts = ppomppu_collector.collect_posts(limit=15)
@@ -199,8 +189,8 @@ def main():
         print(f"[Ppomppu] 수집 실패: {e}")
         community_data.append("[뽐뿌] 수집 실패\n")
 
-    # 11. 루리웹
-    print("\n[Community 5/6] 루리웹 수집 중...")
+    # 10. 루리웹
+    print("\n[Community 4/5] 루리웹 수집 중...")
     try:
         ruliweb_collector = RuliwebCollector(cache=cache)
         ruliweb_posts = ruliweb_collector.collect_posts(limit=15)
@@ -209,8 +199,8 @@ def main():
         print(f"[Ruliweb] 수집 실패: {e}")
         community_data.append("[루리웹] 수집 실패\n")
 
-    # 12. 5ch
-    print("\n[Community 6/6] 5ch 수집 중...")
+    # 11. 5ch
+    print("\n[Community 5/5] 5ch 수집 중...")
     try:
         fivech_collector = FiveChCollector(cache=cache)
         fivech_posts = fivech_collector.collect_posts(limit=15)
@@ -226,7 +216,7 @@ def main():
     stock_community_data = []
 
     # 디시인사이드 주식갤러리
-    print("\n[Stock 1/3] 디시인사이드 주식갤러리 수집 중...")
+    print("\n[Stock 1/2] 디시인사이드 주식갤러리 수집 중...")
     try:
         dc_stock_posts = dc_collector.collect_stock_posts(limit_per_gallery=10)
         stock_community_data.append(dc_collector.format_stock_for_analysis(dc_stock_posts))
@@ -234,20 +224,12 @@ def main():
         print(f"[DCInside Stock] 수집 실패: {e}")
 
     # 뽐뿌 주식/코인
-    print("\n[Stock 2/3] 뽐뿌 주식/코인 수집 중...")
+    print("\n[Stock 2/2] 뽐뿌 주식/코인 수집 중...")
     try:
         ppomppu_stock_posts = ppomppu_collector.collect_stock_posts(limit_per_board=10)
         stock_community_data.append(ppomppu_collector.format_stock_for_analysis(ppomppu_stock_posts))
     except Exception as e:
         print(f"[Ppomppu Stock] 수집 실패: {e}")
-
-    # 에펨코리아 주식/코인
-    print("\n[Stock 3/3] 에펨코리아 주식/코인 수집 중...")
-    try:
-        fm_stock_posts = fm_collector.collect_stock_posts(limit_per_board=10)
-        stock_community_data.append(fm_collector.format_stock_for_analysis(fm_stock_posts))
-    except Exception as e:
-        print(f"[FMKorea Stock] 수집 실패: {e}")
 
     # 주식 커뮤니티 데이터를 메인 데이터에 추가 (Market 리포트용)
     if stock_community_data:
