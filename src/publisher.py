@@ -663,6 +663,43 @@ class GitHubPagesPublisher:
             padding: 40px 0;
             text-align: center;
         }}
+        .pagination {{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            margin-top: 32px;
+            padding-top: 24px;
+            border-top: 1px solid #eee;
+        }}
+        .pagination button {{
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            background: #fff;
+            color: #333;
+            font-size: 14px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }}
+        .pagination button:hover:not(:disabled) {{
+            background: #f5f5f5;
+            border-color: #ccc;
+        }}
+        .pagination button:disabled {{
+            opacity: 0.4;
+            cursor: not-allowed;
+        }}
+        .pagination button.active {{
+            background: #000;
+            color: #fff;
+            border-color: #000;
+        }}
+        .pagination .page-info {{
+            color: #888;
+            font-size: 13px;
+            margin: 0 8px;
+        }}
         footer {{
             margin-top: 48px;
             padding-top: 24px;
@@ -694,13 +731,76 @@ class GitHubPagesPublisher:
         <main role="feed" aria-label="트렌드 리포트 목록">
             {report_items if report_items else '<p class="empty">No reports yet.</p>'}
         </main>
+        <div class="pagination" id="pagination"></div>
         <footer>
             <p>Powered by AI - 매일 자동으로 글로벌 트렌드를 수집하고 분석합니다.</p>
             <p><a href="sitemap.xml">Sitemap</a></p>
         </footer>
     </div>
     <script>
+        const ITEMS_PER_PAGE = 20;
+        let currentPage = 1;
+        let currentFilter = 'all';
+
+        function getFilteredItems() {{
+            const items = Array.from(document.querySelectorAll('.report-item'));
+            if (currentFilter === 'all') return items;
+            return items.filter(item => item.dataset.category === currentFilter);
+        }}
+
+        function renderPage() {{
+            const allItems = Array.from(document.querySelectorAll('.report-item'));
+            const filteredItems = getFilteredItems();
+            const totalPages = Math.ceil(filteredItems.length / ITEMS_PER_PAGE);
+
+            if (currentPage > totalPages) currentPage = totalPages || 1;
+
+            const start = (currentPage - 1) * ITEMS_PER_PAGE;
+            const end = start + ITEMS_PER_PAGE;
+
+            allItems.forEach(item => item.classList.add('hidden'));
+            filteredItems.slice(start, end).forEach(item => item.classList.remove('hidden'));
+
+            renderPagination(totalPages);
+        }}
+
+        function renderPagination(totalPages) {{
+            const container = document.getElementById('pagination');
+            if (totalPages <= 1) {{
+                container.innerHTML = '';
+                return;
+            }}
+
+            let html = `<button onclick="goToPage(${{currentPage - 1}})" ${{currentPage === 1 ? 'disabled' : ''}}>&lt; Prev</button>`;
+
+            const maxButtons = 5;
+            let startPage = Math.max(1, currentPage - Math.floor(maxButtons / 2));
+            let endPage = Math.min(totalPages, startPage + maxButtons - 1);
+            if (endPage - startPage < maxButtons - 1) startPage = Math.max(1, endPage - maxButtons + 1);
+
+            if (startPage > 1) html += `<button onclick="goToPage(1)">1</button><span class="page-info">...</span>`;
+
+            for (let i = startPage; i <= endPage; i++) {{
+                html += `<button onclick="goToPage(${{i}})" class="${{i === currentPage ? 'active' : ''}}">${{i}}</button>`;
+            }}
+
+            if (endPage < totalPages) html += `<span class="page-info">...</span><button onclick="goToPage(${{totalPages}})">${{totalPages}}</button>`;
+
+            html += `<button onclick="goToPage(${{currentPage + 1}})" ${{currentPage === totalPages ? 'disabled' : ''}}">Next &gt;</button>`;
+
+            container.innerHTML = html;
+        }}
+
+        function goToPage(page) {{
+            currentPage = page;
+            renderPage();
+            window.scrollTo({{ top: 0, behavior: 'smooth' }});
+        }}
+
         function setFilter(filter) {{
+            currentFilter = filter;
+            currentPage = 1;
+
             document.querySelectorAll('.filter-tab').forEach(t => {{
                 t.classList.remove('active');
                 t.setAttribute('aria-pressed', 'false');
@@ -708,13 +808,8 @@ class GitHubPagesPublisher:
             const activeTab = document.querySelector(`[data-filter="${{filter}}"]`);
             activeTab.classList.add('active');
             activeTab.setAttribute('aria-pressed', 'true');
-            document.querySelectorAll('.report-item').forEach(item => {{
-                if (filter === 'all' || item.dataset.category === filter) {{
-                    item.classList.remove('hidden');
-                }} else {{
-                    item.classList.add('hidden');
-                }}
-            }});
+
+            renderPage();
         }}
 
         document.querySelectorAll('.filter-tab').forEach(tab => {{
@@ -728,8 +823,16 @@ class GitHubPagesPublisher:
         // URL 경로에 따라 초기 필터 설정
         const path = location.pathname.split('/').pop();
         if (path === 'market' || path === 'dev') {{
-            setFilter(path);
+            currentFilter = path;
+            document.querySelectorAll('.filter-tab').forEach(t => {{
+                t.classList.remove('active');
+                t.setAttribute('aria-pressed', 'false');
+            }});
+            document.querySelector(`[data-filter="${{path}}"]`).classList.add('active');
+            document.querySelector(`[data-filter="${{path}}"]`).setAttribute('aria-pressed', 'true');
         }}
+
+        renderPage();
     </script>
 </body>
 </html>'''
