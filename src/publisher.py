@@ -110,6 +110,9 @@ class GitHubPagesPublisher:
         category_label = "Market" if category == "market" else "Dev" if category == "dev" else "Report"
         category_full = "세계 정세 & 주식 시장" if category == "market" else "개발 & AI 트렌드" if category == "dev" else "트렌드 리포트"
         reading_time_str = f"{reading_time}분"
+        reading_time_en = f"{reading_time} min read"
+        # 영문 날짜 포맷 (Oct 20, 2025)
+        date_en = timestamp.strftime("%b %d, %Y")
 
         canonical_url = f"{self.SITE_URL}/reports/{filename}"
         escaped_title = html.escape(title)
@@ -263,8 +266,13 @@ class GitHubPagesPublisher:
             font-size: 28px;
             font-weight: 700;
             color: #000;
-            margin-bottom: 48px;
+            margin-bottom: 12px;
             letter-spacing: -0.5px;
+        }}
+        .article-meta {{
+            color: #888;
+            font-size: 14px;
+            margin-bottom: 48px;
         }}
         h2 {{
             font-size: 18px;
@@ -331,6 +339,7 @@ class GitHubPagesPublisher:
             <meta itemprop="dateModified" content="{iso_date}">
             <meta itemprop="author" content="{self.SITE_AUTHOR}">
             <h1 itemprop="headline">{escaped_title}</h1>
+            <p class="article-meta">{reading_time_en}  ·  {date_en}</p>
             <div class="content" itemprop="articleBody">
                 {html_content}
             </div>
