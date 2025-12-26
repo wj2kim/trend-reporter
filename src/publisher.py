@@ -133,6 +133,9 @@ class GitHubPagesPublisher:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Google Search Console -->
+    <meta name="google-site-verification" content="SoecC62RmfwaJ6jbdXplSnQFsHqZrjrt-q1vf_csCTI" />
+
     <!-- Primary Meta Tags -->
     <title>{escaped_title} | {self.SITE_NAME}</title>
     <meta name="title" content="{escaped_title} | {self.SITE_NAME}">
@@ -491,6 +494,9 @@ class GitHubPagesPublisher:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Search Console -->
+    <meta name="google-site-verification" content="SoecC62RmfwaJ6jbdXplSnQFsHqZrjrt-q1vf_csCTI" />
 
     <!-- Primary Meta Tags -->
     <title>{self.SITE_NAME} - AI 기반 글로벌 트렌드 리포트</title>
