@@ -487,47 +487,75 @@ class GitHubPagesPublisher:
         self._generate_feed(reports)
 
     def _generate_index(self, reports: list):
-        """SEO 최적화 인덱스 HTML 생성"""
+        """SEO 최적화 인덱스 HTML 생성 - 2컬럼 카드 레이아웃"""
+        # 타임스탬프별로 그룹핑
+        grouped = {}
+        for r in reports:
+            timestamp = f"{r['date']} {r['time']}"
+            if timestamp not in grouped:
+                grouped[timestamp] = {"dev": None, "market": None}
+            category = r.get('category', 'general')
+            if category in ['dev', 'market']:
+                grouped[timestamp][category] = r
+
         report_items = ""
         item_list_elements = []
+        position = 0
 
-        for i, r in enumerate(reports):
-            # 타이틀에서 날짜 부분 제거
-            raw_title = r['title']
-            display_title = raw_title.split(" | ")[0] if " | " in raw_title else raw_title
-            title = html.escape(display_title)
+        for timestamp in grouped:
+            group = grouped[timestamp]
+            dev_card = ""
+            market_card = ""
 
-            # 날짜 포맷 (2025-12-26 15:47)
-            date_full = f"{r['date']} {r['time']}"
+            for category in ['dev', 'market']:
+                r = group[category]
+                if r:
+                    position += 1
+                    raw_title = r['title']
+                    display_title = raw_title.split(" | ")[0] if " | " in raw_title else raw_title
+                    title = html.escape(display_title)
 
-            category = r.get('category', 'general')
-            category_label = "Market" if category == "market" else "Dev" if category == "dev" else ""
-            category_class = f"category-{category}" if category in ["market", "dev"] else ""
+                    keywords = r.get('keywords', [])
+                    keywords_html = ' '.join([f'<span class="tag">#{html.escape(k)}</span>' for k in keywords[:3]])
+                    reading_time = r.get('reading_time', 1)
 
-            # 키워드 태그 HTML
-            keywords = r.get('keywords', [])
-            keywords_html = ' '.join([f'<span class="tag">#{html.escape(k)}</span>' for k in keywords[:3]])
+                    report_url = f"{self.SITE_URL}/reports/{r['filename']}"
+                    category_label = "Dev" if category == "dev" else "Market"
+                    category_class = f"category-{category}"
 
-            badge_html = f'<span class="badge {category_class}">{category_label}</span>' if category_label else ""
-            report_url = f"{self.SITE_URL}/reports/{r['filename']}"
+                    card_html = f'''
+                    <a href="reports/{r['filename']}" class="card {category_class}" data-category="{category}">
+                        <div class="card-header">
+                            <span class="badge {category_class}">{category_label}</span>
+                            <span class="reading-time">{reading_time} min</span>
+                        </div>
+                        <h3 class="card-title">{title}</h3>
+                        <div class="card-tags">{keywords_html}</div>
+                    </a>'''
 
+                    if category == 'dev':
+                        dev_card = card_html
+                    else:
+                        market_card = card_html
+
+                    item_list_elements.append({
+                        "@type": "ListItem",
+                        "position": position,
+                        "url": report_url,
+                        "name": r['title']
+                    })
+
+            # 날짜 헤더와 카드 그룹
             report_items += f'''
-                <a href="reports/{r['filename']}" class="report-item" data-category="{category}">
-                    <div class="item-left">
-                        {badge_html}
-                        <span class="title">{title}</span>
-                        <span class="tags">{keywords_html}</span>
-                    </div>
-                    <time class="date" datetime="{r['date']}T{r['time']}:00+09:00">{date_full}</time>
-                </a>'''
-
-            # JSON-LD ItemList용
-            item_list_elements.append({
-                "@type": "ListItem",
-                "position": i + 1,
-                "url": report_url,
-                "name": r['title']
-            })
+            <div class="card-group" data-timestamp="{timestamp}">
+                <div class="group-header">
+                    <time datetime="{timestamp.replace(' ', 'T')}:00+09:00">{timestamp}</time>
+                </div>
+                <div class="card-row">
+                    {dev_card}
+                    {market_card}
+                </div>
+            </div>'''
 
         # JSON-LD 구조화 데이터 (WebSite + ItemList)
         json_ld_website = {
@@ -620,13 +648,13 @@ class GitHubPagesPublisher:
             font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
             line-height: 1.6;
             color: #1a1a1a;
-            background: #fff;
+            background: #f8f9fa;
             min-height: 100vh;
         }}
         .container {{
-            max-width: 640px;
+            max-width: 900px;
             margin: 0 auto;
-            padding: 80px 24px;
+            padding: 60px 24px;
         }}
         header {{
             margin-bottom: 32px;
@@ -646,68 +674,107 @@ class GitHubPagesPublisher:
             display: flex;
             gap: 8px;
             margin-bottom: 24px;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 16px;
         }}
         .filter-tab {{
             padding: 8px 16px;
             border: none;
-            background: #f5f5f5;
+            background: #fff;
             color: #666;
             font-size: 14px;
             font-weight: 500;
             border-radius: 20px;
             cursor: pointer;
             transition: all 0.2s;
+            border: 1px solid #e0e0e0;
         }}
         .filter-tab:hover {{
-            background: #eee;
+            background: #f5f5f5;
         }}
         .filter-tab.active {{
             background: #000;
             color: #fff;
+            border-color: #000;
         }}
         main {{
             display: flex;
             flex-direction: column;
+            gap: 24px;
         }}
-        .report-item {{
+        .card-group {{
+            background: #fff;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }}
+        .card-group.hidden {{
+            display: none;
+        }}
+        .group-header {{
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #eee;
+        }}
+        .group-header time {{
+            color: #666;
+            font-size: 14px;
+            font-weight: 500;
+        }}
+        .card-row {{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }}
+        @media (max-width: 640px) {{
+            .card-row {{
+                grid-template-columns: 1fr;
+            }}
+        }}
+        .card {{
+            display: block;
+            padding: 16px;
+            border-radius: 12px;
+            text-decoration: none;
+            transition: all 0.2s;
+            border: 1px solid #eee;
+            background: #fff;
+        }}
+        .card:hover {{
+            border-color: #ccc;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }}
+        .card.category-dev {{
+            border-left: 3px solid #1e8e3e;
+        }}
+        .card.category-market {{
+            border-left: 3px solid #1a73e8;
+        }}
+        .card-header {{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 20px 0;
-            border-bottom: 1px solid #eee;
-            text-decoration: none;
-            transition: opacity 0.2s;
-        }}
-        .report-item.hidden {{
-            display: none;
-        }}
-        .report-item:hover {{
-            opacity: 0.6;
-        }}
-        .item-left {{
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            min-width: 0;
+            margin-bottom: 10px;
         }}
         .badge {{
             font-size: 11px;
             padding: 3px 8px;
             border-radius: 10px;
             font-weight: 500;
-            flex-shrink: 0;
         }}
-        .category-market {{
+        .category-market .badge,
+        .badge.category-market {{
             background: #e8f4fc;
             color: #1a73e8;
         }}
-        .category-dev {{
+        .category-dev .badge,
+        .badge.category-dev {{
             background: #e6f4ea;
             color: #1e8e3e;
         }}
-        .title {{
+        .reading-time {{
+            color: #999;
+            font-size: 12px;
+        }}
+        .card-title {{
             color: #000;
             font-size: 15px;
             font-weight: 500;
@@ -715,22 +782,16 @@ class GitHubPagesPublisher:
             overflow: hidden;
             text-overflow: ellipsis;
         }}
-        .tags {{
+        .card-tags {{
             display: flex;
             gap: 6px;
-            flex-shrink: 0;
-            margin-left: 8px;
+            flex-wrap: wrap;
+            margin-top: 10px;
         }}
         .tag {{
             color: #888;
-            font-size: 12px;
+            font-size: 11px;
             font-weight: 400;
-        }}
-        .date {{
-            color: #888;
-            font-size: 13px;
-            flex-shrink: 0;
-            margin-left: 16px;
         }}
         .empty {{
             color: #888;
@@ -812,34 +873,59 @@ class GitHubPagesPublisher:
         </footer>
     </div>
     <script>
-        const ITEMS_PER_PAGE = 20;
+        const GROUPS_PER_PAGE = 10;
         let currentPage = 1;
         let currentFilter = 'all';
 
-        function getFilteredItems() {{
-            const items = Array.from(document.querySelectorAll('.report-item'));
-            if (currentFilter === 'all') return items;
-            return items.filter(item => item.dataset.category === currentFilter);
+        function applyFilter() {{
+            const groups = document.querySelectorAll('.card-group');
+            const cards = document.querySelectorAll('.card');
+
+            if (currentFilter === 'all') {{
+                // 모든 그룹과 카드 표시
+                groups.forEach(g => g.classList.remove('hidden'));
+                cards.forEach(c => c.style.display = '');
+            }} else {{
+                // 선택된 카테고리만 표시
+                groups.forEach(group => {{
+                    const devCard = group.querySelector('.card.category-dev');
+                    const marketCard = group.querySelector('.card.category-market');
+
+                    if (currentFilter === 'dev') {{
+                        if (devCard) devCard.style.display = '';
+                        if (marketCard) marketCard.style.display = 'none';
+                    }} else if (currentFilter === 'market') {{
+                        if (devCard) devCard.style.display = 'none';
+                        if (marketCard) marketCard.style.display = '';
+                    }}
+
+                    // 해당 카테고리 카드가 없으면 그룹 숨김
+                    const hasVisibleCard = (currentFilter === 'dev' && devCard) || (currentFilter === 'market' && marketCard);
+                    group.classList.toggle('hidden', !hasVisibleCard);
+                }});
+            }}
+
+            renderPagination();
         }}
 
-        function renderPage() {{
-            const allItems = Array.from(document.querySelectorAll('.report-item'));
-            const filteredItems = getFilteredItems();
-            const totalPages = Math.ceil(filteredItems.length / ITEMS_PER_PAGE);
+        function getVisibleGroups() {{
+            return Array.from(document.querySelectorAll('.card-group:not(.hidden)'));
+        }}
+
+        function renderPagination() {{
+            const visibleGroups = getVisibleGroups();
+            const totalPages = Math.ceil(visibleGroups.length / GROUPS_PER_PAGE);
+            const container = document.getElementById('pagination');
 
             if (currentPage > totalPages) currentPage = totalPages || 1;
 
-            const start = (currentPage - 1) * ITEMS_PER_PAGE;
-            const end = start + ITEMS_PER_PAGE;
+            // 페이지네이션 적용
+            visibleGroups.forEach((group, idx) => {{
+                const start = (currentPage - 1) * GROUPS_PER_PAGE;
+                const end = start + GROUPS_PER_PAGE;
+                group.style.display = (idx >= start && idx < end) ? '' : 'none';
+            }});
 
-            allItems.forEach(item => item.classList.add('hidden'));
-            filteredItems.slice(start, end).forEach(item => item.classList.remove('hidden'));
-
-            renderPagination(totalPages);
-        }}
-
-        function renderPagination(totalPages) {{
-            const container = document.getElementById('pagination');
             if (totalPages <= 1) {{
                 container.innerHTML = '';
                 return;
@@ -867,7 +953,7 @@ class GitHubPagesPublisher:
 
         function goToPage(page) {{
             currentPage = page;
-            renderPage();
+            renderPagination();
             window.scrollTo({{ top: 0, behavior: 'smooth' }});
         }}
 
@@ -883,7 +969,7 @@ class GitHubPagesPublisher:
             activeTab.classList.add('active');
             activeTab.setAttribute('aria-pressed', 'true');
 
-            renderPage();
+            applyFilter();
         }}
 
         document.querySelectorAll('.filter-tab').forEach(tab => {{
@@ -906,7 +992,7 @@ class GitHubPagesPublisher:
             document.querySelector(`[data-filter="${{path}}"]`).setAttribute('aria-pressed', 'true');
         }}
 
-        renderPage();
+        applyFilter();
     </script>
 </body>
 </html>'''
