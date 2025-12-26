@@ -487,75 +487,76 @@ class GitHubPagesPublisher:
         self._generate_feed(reports)
 
     def _generate_index(self, reports: list):
-        """SEO 최적화 인덱스 HTML 생성 - 2컬럼 카드 레이아웃"""
-        # 타임스탬프별로 그룹핑
-        grouped = {}
-        for r in reports:
-            timestamp = f"{r['date']} {r['time']}"
-            if timestamp not in grouped:
-                grouped[timestamp] = {"dev": None, "market": None}
-            category = r.get('category', 'general')
-            if category in ['dev', 'market']:
-                grouped[timestamp][category] = r
+        """SEO 최적화 인덱스 HTML 생성 - 2컬럼 고정 레이아웃"""
+        # 카테고리별로 분리
+        dev_reports = [r for r in reports if r.get('category') == 'dev']
+        market_reports = [r for r in reports if r.get('category') == 'market']
 
-        report_items = ""
         item_list_elements = []
         position = 0
 
-        for timestamp in grouped:
-            group = grouped[timestamp]
-            dev_card = ""
-            market_card = ""
+        def make_item_html(r):
+            raw_title = r['title']
+            display_title = raw_title.split(" | ")[0] if " | " in raw_title else raw_title
+            title = html.escape(display_title)
+            keywords = r.get('keywords', [])
+            keywords_html = ' '.join([f'<span class="tag">#{html.escape(k)}</span>' for k in keywords[:2]])
+            date_time = f"{r['date']} {r['time']}"
 
-            for category in ['dev', 'market']:
-                r = group[category]
-                if r:
-                    position += 1
-                    raw_title = r['title']
-                    display_title = raw_title.split(" | ")[0] if " | " in raw_title else raw_title
-                    title = html.escape(display_title)
+            return f'''
+                <a href="reports/{r['filename']}" class="list-item">
+                    <div class="item-title">{title}</div>
+                    <div class="item-meta">
+                        <time>{date_time}</time>
+                        <span class="item-tags">{keywords_html}</span>
+                    </div>
+                </a>'''
 
-                    keywords = r.get('keywords', [])
-                    keywords_html = ' '.join([f'<span class="tag">#{html.escape(k)}</span>' for k in keywords[:3]])
-                    reading_time = r.get('reading_time', 1)
+        # Dev 리스트
+        dev_items = ""
+        for r in dev_reports:
+            position += 1
+            dev_items += make_item_html(r)
+            item_list_elements.append({
+                "@type": "ListItem",
+                "position": position,
+                "url": f"{self.SITE_URL}/reports/{r['filename']}",
+                "name": r['title']
+            })
 
-                    report_url = f"{self.SITE_URL}/reports/{r['filename']}"
-                    category_label = "Dev" if category == "dev" else "Market"
-                    category_class = f"category-{category}"
+        # Market 리스트
+        market_items = ""
+        for r in market_reports:
+            position += 1
+            market_items += make_item_html(r)
+            item_list_elements.append({
+                "@type": "ListItem",
+                "position": position,
+                "url": f"{self.SITE_URL}/reports/{r['filename']}",
+                "name": r['title']
+            })
 
-                    card_html = f'''
-                    <a href="reports/{r['filename']}" class="card {category_class}" data-category="{category}">
-                        <div class="card-header">
-                            <span class="badge {category_class}">{category_label}</span>
-                            <span class="reading-time">{reading_time} min</span>
-                        </div>
-                        <h3 class="card-title">{title}</h3>
-                        <div class="card-tags">{keywords_html}</div>
-                    </a>'''
-
-                    if category == 'dev':
-                        dev_card = card_html
-                    else:
-                        market_card = card_html
-
-                    item_list_elements.append({
-                        "@type": "ListItem",
-                        "position": position,
-                        "url": report_url,
-                        "name": r['title']
-                    })
-
-            # 날짜 헤더와 카드 그룹
-            report_items += f'''
-            <div class="card-group" data-timestamp="{timestamp}">
-                <div class="group-header">
-                    <time datetime="{timestamp.replace(' ', 'T')}:00+09:00">{timestamp}</time>
+        report_items = f'''
+        <div class="columns">
+            <div class="column column-dev">
+                <div class="column-header">
+                    <span class="column-badge dev">Dev</span>
+                    <span class="column-desc">개발 & AI 트렌드</span>
                 </div>
-                <div class="card-row">
-                    {dev_card}
-                    {market_card}
+                <div class="column-list">
+                    {dev_items if dev_items else '<p class="empty">No reports yet.</p>'}
                 </div>
-            </div>'''
+            </div>
+            <div class="column column-market">
+                <div class="column-header">
+                    <span class="column-badge market">Market</span>
+                    <span class="column-desc">세계 정세 & 주식</span>
+                </div>
+                <div class="column-list">
+                    {market_items if market_items else '<p class="empty">No reports yet.</p>'}
+                </div>
+            </div>
+        </div>'''
 
         # JSON-LD 구조화 데이터 (WebSite + ItemList)
         json_ld_website = {
@@ -648,199 +649,121 @@ class GitHubPagesPublisher:
             font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
             line-height: 1.6;
             color: #1a1a1a;
-            background: #f8f9fa;
+            background: #fff;
             min-height: 100vh;
         }}
         .container {{
-            max-width: 900px;
+            max-width: 1100px;
             margin: 0 auto;
-            padding: 60px 24px;
+            padding: 48px 24px;
         }}
         header {{
             margin-bottom: 32px;
+            text-align: center;
         }}
         h1 {{
-            font-size: 32px;
+            font-size: 28px;
             font-weight: 700;
             color: #000;
-            margin-bottom: 8px;
+            margin-bottom: 6px;
             letter-spacing: -0.5px;
         }}
         .subtitle {{
-            color: #666;
-            font-size: 15px;
-        }}
-        nav {{
-            display: flex;
-            gap: 8px;
-            margin-bottom: 24px;
-        }}
-        .filter-tab {{
-            padding: 8px 16px;
-            border: none;
-            background: #fff;
-            color: #666;
+            color: #888;
             font-size: 14px;
-            font-weight: 500;
-            border-radius: 20px;
-            cursor: pointer;
-            transition: all 0.2s;
-            border: 1px solid #e0e0e0;
         }}
-        .filter-tab:hover {{
-            background: #f5f5f5;
-        }}
-        .filter-tab.active {{
-            background: #000;
-            color: #fff;
-            border-color: #000;
-        }}
-        main {{
-            display: flex;
-            flex-direction: column;
-            gap: 24px;
-        }}
-        .card-group {{
-            background: #fff;
-            border-radius: 16px;
-            padding: 20px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-        }}
-        .card-group.hidden {{
-            display: none;
-        }}
-        .group-header {{
-            margin-bottom: 16px;
-            padding-bottom: 12px;
-            border-bottom: 1px solid #eee;
-        }}
-        .group-header time {{
-            color: #666;
-            font-size: 14px;
-            font-weight: 500;
-        }}
-        .card-row {{
+        .columns {{
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 16px;
+            gap: 32px;
         }}
-        @media (max-width: 640px) {{
-            .card-row {{
+        @media (max-width: 768px) {{
+            .columns {{
                 grid-template-columns: 1fr;
+                gap: 24px;
             }}
         }}
-        .card {{
-            display: block;
-            padding: 16px;
+        .column {{
+            background: #fafafa;
             border-radius: 12px;
-            text-decoration: none;
-            transition: all 0.2s;
-            border: 1px solid #eee;
+            overflow: hidden;
+        }}
+        .column-header {{
+            padding: 16px 20px;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            align-items: center;
+            gap: 10px;
             background: #fff;
         }}
-        .card:hover {{
-            border-color: #ccc;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        .column-badge {{
+            font-size: 13px;
+            font-weight: 600;
+            padding: 4px 12px;
+            border-radius: 6px;
         }}
-        .card.category-dev {{
-            border-left: 3px solid #1e8e3e;
-        }}
-        .card.category-market {{
-            border-left: 3px solid #1a73e8;
-        }}
-        .card-header {{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 10px;
-        }}
-        .badge {{
-            font-size: 11px;
-            padding: 3px 8px;
-            border-radius: 10px;
-            font-weight: 500;
-        }}
-        .category-market .badge,
-        .badge.category-market {{
-            background: #e8f4fc;
-            color: #1a73e8;
-        }}
-        .category-dev .badge,
-        .badge.category-dev {{
+        .column-badge.dev {{
             background: #e6f4ea;
             color: #1e8e3e;
         }}
-        .reading-time {{
+        .column-badge.market {{
+            background: #e8f4fc;
+            color: #1a73e8;
+        }}
+        .column-desc {{
+            color: #888;
+            font-size: 13px;
+        }}
+        .column-list {{
+            padding: 8px;
+        }}
+        .list-item {{
+            display: block;
+            padding: 14px 16px;
+            margin: 4px 0;
+            border-radius: 8px;
+            text-decoration: none;
+            background: #fff;
+            transition: all 0.15s;
+        }}
+        .list-item:hover {{
+            background: #f5f5f5;
+        }}
+        .item-title {{
+            color: #000;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 1.4;
+            margin-bottom: 6px;
+        }}
+        .item-meta {{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }}
+        .item-meta time {{
             color: #999;
             font-size: 12px;
         }}
-        .card-title {{
-            color: #000;
-            font-size: 15px;
-            font-weight: 500;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }}
-        .card-tags {{
+        .item-tags {{
             display: flex;
             gap: 6px;
-            flex-wrap: wrap;
-            margin-top: 10px;
         }}
         .tag {{
             color: #888;
             font-size: 11px;
-            font-weight: 400;
         }}
         .empty {{
             color: #888;
             padding: 40px 0;
             text-align: center;
         }}
-        .pagination {{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 8px;
-            margin-top: 32px;
-            padding-top: 24px;
-            border-top: 1px solid #eee;
-        }}
-        .pagination button {{
-            padding: 8px 12px;
-            border: 1px solid #ddd;
-            background: #fff;
-            color: #333;
-            font-size: 14px;
-            border-radius: 6px;
-            cursor: pointer;
-            transition: all 0.2s;
-        }}
-        .pagination button:hover:not(:disabled) {{
-            background: #f5f5f5;
-            border-color: #ccc;
-        }}
-        .pagination button:disabled {{
-            opacity: 0.4;
-            cursor: not-allowed;
-        }}
-        .pagination button.active {{
-            background: #000;
-            color: #fff;
-            border-color: #000;
-        }}
-        .pagination .page-info {{
-            color: #888;
-            font-size: 13px;
-            margin: 0 8px;
-        }}
         footer {{
             margin-top: 48px;
             padding-top: 24px;
-            border-top: 1px solid #eee;
-            color: #888;
-            font-size: 13px;
+            color: #999;
+            font-size: 12px;
             text-align: center;
         }}
         footer a {{
@@ -856,144 +779,15 @@ class GitHubPagesPublisher:
     <div class="container">
         <header>
             <h1>{self.SITE_NAME}</h1>
-            <p class="subtitle">Daily Tech & Market Trends - AI가 분석하는 글로벌 트렌드</p>
+            <p class="subtitle">AI가 분석하는 글로벌 트렌드</p>
         </header>
-        <nav aria-label="리포트 카테고리 필터">
-            <button class="filter-tab active" data-filter="all" aria-pressed="true">All</button>
-            <button class="filter-tab" data-filter="market" aria-pressed="false">Market</button>
-            <button class="filter-tab" data-filter="dev" aria-pressed="false">Dev</button>
-        </nav>
         <main role="feed" aria-label="트렌드 리포트 목록">
             {report_items if report_items else '<p class="empty">No reports yet.</p>'}
         </main>
-        <div class="pagination" id="pagination"></div>
         <footer>
-            <p>Powered by AI - 매일 자동으로 글로벌 트렌드를 수집하고 분석합니다.</p>
             <p><a href="feed.xml">RSS Feed</a> · <a href="sitemap.xml">Sitemap</a></p>
         </footer>
     </div>
-    <script>
-        const GROUPS_PER_PAGE = 10;
-        let currentPage = 1;
-        let currentFilter = 'all';
-
-        function applyFilter() {{
-            const groups = document.querySelectorAll('.card-group');
-            const cards = document.querySelectorAll('.card');
-
-            if (currentFilter === 'all') {{
-                // 모든 그룹과 카드 표시
-                groups.forEach(g => g.classList.remove('hidden'));
-                cards.forEach(c => c.style.display = '');
-            }} else {{
-                // 선택된 카테고리만 표시
-                groups.forEach(group => {{
-                    const devCard = group.querySelector('.card.category-dev');
-                    const marketCard = group.querySelector('.card.category-market');
-
-                    if (currentFilter === 'dev') {{
-                        if (devCard) devCard.style.display = '';
-                        if (marketCard) marketCard.style.display = 'none';
-                    }} else if (currentFilter === 'market') {{
-                        if (devCard) devCard.style.display = 'none';
-                        if (marketCard) marketCard.style.display = '';
-                    }}
-
-                    // 해당 카테고리 카드가 없으면 그룹 숨김
-                    const hasVisibleCard = (currentFilter === 'dev' && devCard) || (currentFilter === 'market' && marketCard);
-                    group.classList.toggle('hidden', !hasVisibleCard);
-                }});
-            }}
-
-            renderPagination();
-        }}
-
-        function getVisibleGroups() {{
-            return Array.from(document.querySelectorAll('.card-group:not(.hidden)'));
-        }}
-
-        function renderPagination() {{
-            const visibleGroups = getVisibleGroups();
-            const totalPages = Math.ceil(visibleGroups.length / GROUPS_PER_PAGE);
-            const container = document.getElementById('pagination');
-
-            if (currentPage > totalPages) currentPage = totalPages || 1;
-
-            // 페이지네이션 적용
-            visibleGroups.forEach((group, idx) => {{
-                const start = (currentPage - 1) * GROUPS_PER_PAGE;
-                const end = start + GROUPS_PER_PAGE;
-                group.style.display = (idx >= start && idx < end) ? '' : 'none';
-            }});
-
-            if (totalPages <= 1) {{
-                container.innerHTML = '';
-                return;
-            }}
-
-            let html = `<button onclick="goToPage(${{currentPage - 1}})" ${{currentPage === 1 ? 'disabled' : ''}}>&lt; Prev</button>`;
-
-            const maxButtons = 5;
-            let startPage = Math.max(1, currentPage - Math.floor(maxButtons / 2));
-            let endPage = Math.min(totalPages, startPage + maxButtons - 1);
-            if (endPage - startPage < maxButtons - 1) startPage = Math.max(1, endPage - maxButtons + 1);
-
-            if (startPage > 1) html += `<button onclick="goToPage(1)">1</button><span class="page-info">...</span>`;
-
-            for (let i = startPage; i <= endPage; i++) {{
-                html += `<button onclick="goToPage(${{i}})" class="${{i === currentPage ? 'active' : ''}}">${{i}}</button>`;
-            }}
-
-            if (endPage < totalPages) html += `<span class="page-info">...</span><button onclick="goToPage(${{totalPages}})">${{totalPages}}</button>`;
-
-            html += `<button onclick="goToPage(${{currentPage + 1}})" ${{currentPage === totalPages ? 'disabled' : ''}}">Next &gt;</button>`;
-
-            container.innerHTML = html;
-        }}
-
-        function goToPage(page) {{
-            currentPage = page;
-            renderPagination();
-            window.scrollTo({{ top: 0, behavior: 'smooth' }});
-        }}
-
-        function setFilter(filter) {{
-            currentFilter = filter;
-            currentPage = 1;
-
-            document.querySelectorAll('.filter-tab').forEach(t => {{
-                t.classList.remove('active');
-                t.setAttribute('aria-pressed', 'false');
-            }});
-            const activeTab = document.querySelector(`[data-filter="${{filter}}"]`);
-            activeTab.classList.add('active');
-            activeTab.setAttribute('aria-pressed', 'true');
-
-            applyFilter();
-        }}
-
-        document.querySelectorAll('.filter-tab').forEach(tab => {{
-            tab.addEventListener('click', () => {{
-                const filter = tab.dataset.filter;
-                setFilter(filter);
-                history.pushState(null, '', filter === 'all' ? './' : filter);
-            }});
-        }});
-
-        // URL 경로에 따라 초기 필터 설정
-        const path = location.pathname.split('/').pop();
-        if (path === 'market' || path === 'dev') {{
-            currentFilter = path;
-            document.querySelectorAll('.filter-tab').forEach(t => {{
-                t.classList.remove('active');
-                t.setAttribute('aria-pressed', 'false');
-            }});
-            document.querySelector(`[data-filter="${{path}}"]`).classList.add('active');
-            document.querySelector(`[data-filter="${{path}}"]`).setAttribute('aria-pressed', 'true');
-        }}
-
-        applyFilter();
-    </script>
 </body>
 </html>'''
 
