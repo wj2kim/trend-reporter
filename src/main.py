@@ -171,7 +171,7 @@ def main():
 
     # 1. 세계 정세 & 주식 리포트
     print("  - 세계 정세 & 주식 리포트 생성 중...")
-    world_headline, world_report = analyzer.analyze_world_market(
+    world_headline, world_keywords, world_report = analyzer.analyze_world_market(
         all_data,
         previous_titles=previous_reports["market"]
     )
@@ -179,7 +179,7 @@ def main():
 
     # 2. 개발 & AI 리포트
     print("  - 개발 & AI 리포트 생성 중...")
-    dev_headline, dev_report = analyzer.analyze_dev_ai(
+    dev_headline, dev_keywords, dev_report = analyzer.analyze_dev_ai(
         all_data,
         previous_titles=previous_reports["dev"]
     )
@@ -212,8 +212,8 @@ def main():
     print("\n[저장] GitHub Pages용 HTML 생성 중...")
     publisher = GitHubPagesPublisher()
 
-    world_success = publisher.publish(world_title, world_report, category="market")
-    dev_success = publisher.publish(dev_title, dev_report, category="dev")
+    world_success = publisher.publish(world_title, world_report, category="market", keywords=world_keywords)
+    dev_success = publisher.publish(dev_title, dev_report, category="dev", keywords=dev_keywords)
 
     if world_success and dev_success:
         print("✅ GitHub Pages 저장 완료!")

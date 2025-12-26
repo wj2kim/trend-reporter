@@ -46,13 +46,19 @@ class TrendAnalyzer:
 
         prompt = f"""당신은 글로벌 정세 및 금융 시장 분석 전문가입니다. 아래 수집된 데이터에서 **세계 정세와 주식/경제 관련 내용만** 추출하여 한국어로 리포트를 작성해주세요.
 
-**중요: 리포트 맨 첫 줄에 반드시 아래 형식으로 제목을 작성하세요:**
+**중요: 리포트 맨 첫 줄에 반드시 아래 형식으로 제목과 키워드를 작성하세요:**
 TITLE: [오늘의 가장 중요한 세계정세/주식 뉴스 한 줄 요약 (15자 이내)]
+KEYWORDS: [핵심 키워드 2-3개, 쉼표로 구분]
 
 예시:
 TITLE: 연준 금리 동결, 증시 상승
+KEYWORDS: 연준, 금리, FOMC
+
 TITLE: 트럼프 관세 발표, 시장 급락
+KEYWORDS: 트럼프, 관세, 무역전쟁
+
 TITLE: 중동 긴장 고조, 유가 급등
+KEYWORDS: 중동, 유가, 지정학
 
 ## 수집 시간
 {timestamp}
@@ -144,13 +150,19 @@ TITLE: 중동 긴장 고조, 유가 급등
 
         prompt = f"""당신은 개발 및 AI 트렌드 분석 전문가입니다. 아래 수집된 데이터에서 **개발, 프로그래밍, AI 관련 내용만** 추출하여 한국어로 리포트를 작성해주세요.
 
-**중요: 리포트 맨 첫 줄에 반드시 아래 형식으로 제목을 작성하세요:**
+**중요: 리포트 맨 첫 줄에 반드시 아래 형식으로 제목과 키워드를 작성하세요:**
 TITLE: [오늘의 가장 중요한 개발/AI 뉴스 한 줄 요약 (15자 이내)]
+KEYWORDS: [핵심 키워드 2-3개, 쉼표로 구분]
 
 예시:
 TITLE: GPT-5 발표, 코딩 혁신
+KEYWORDS: GPT-5, OpenAI, AI
+
 TITLE: React 19 출시, 성능 향상
+KEYWORDS: React, 프론트엔드, 웹개발
+
 TITLE: Claude 업데이트, MCP 지원
+KEYWORDS: Claude, MCP, Anthropic
 
 ## 수집 시간
 {timestamp}
@@ -243,28 +255,33 @@ TITLE: Claude 업데이트, MCP 지원
         return self._generate_report(prompt)
 
     def _generate_report(self, prompt: str) -> tuple:
-        """Gemini API로 리포트 생성"""
+        """Gemini API로 리포트 생성. (title, keywords, report) 튜플 반환"""
         try:
             response = self.model.generate_content(prompt)
             text = response.text
-            title, report = self._extract_title(text)
-            return title, report
+            title, keywords, report = self._extract_title(text)
+            return title, keywords, report
         except Exception as e:
-            return "리포트", f"분석 실패: {e}"
+            return "리포트", [], f"분석 실패: {e}"
 
     def _extract_title(self, text: str) -> tuple:
-        """응답에서 제목과 본문 분리"""
+        """응답에서 제목, 키워드, 본문 분리. (title, keywords, report) 튜플 반환"""
         lines = text.strip().split('\n')
         title = "리포트"
+        keywords = []
         report_lines = []
 
         for line in lines:
-            if line.strip().startswith('TITLE:'):
-                title = line.replace('TITLE:', '').strip()
+            stripped = line.strip()
+            if stripped.startswith('TITLE:'):
+                title = stripped.replace('TITLE:', '').strip()
+            elif stripped.startswith('KEYWORDS:'):
+                kw_str = stripped.replace('KEYWORDS:', '').strip()
+                keywords = [k.strip() for k in kw_str.split(',') if k.strip()]
             else:
                 report_lines.append(line)
 
-        return title, '\n'.join(report_lines).strip()
+        return title, keywords, '\n'.join(report_lines).strip()
 
     def create_report_header(self) -> str:
         """리포트 헤더 생성 (날짜 부분만)"""

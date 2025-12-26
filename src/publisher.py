@@ -31,14 +31,18 @@ class GitHubPagesPublisher:
         self.robots_file = self.docs_dir / "robots.txt"
         self.feed_file = self.docs_dir / "feed.xml"
 
-    def publish(self, title: str, content: str, category: str = "general") -> bool:
+    def publish(self, title: str, content: str, category: str = "general",
+                keywords: list = None) -> bool:
         """리포트를 HTML로 저장
 
         Args:
             title: 리포트 제목
             content: 리포트 내용 (마크다운)
             category: 카테고리 ("market" | "dev" | "general")
+            keywords: 키워드 리스트
         """
+        if keywords is None:
+            keywords = []
         try:
             # 디렉토리 생성
             self.docs_dir.mkdir(exist_ok=True)
@@ -62,7 +66,7 @@ class GitHubPagesPublisher:
             print(f"[Publisher] 리포트 저장: {filepath}")
 
             # 인덱스 업데이트
-            self._update_index(title, filename, now, category, description, reading_time)
+            self._update_index(title, filename, now, category, description, reading_time, keywords)
 
             # robots.txt 생성 (없으면)
             self._generate_robots()
@@ -439,8 +443,11 @@ class GitHubPagesPublisher:
 
     def _update_index(self, title: str, filename: str, timestamp: datetime,
                       category: str = "general", description: str = "",
-                      reading_time: int = 1):
+                      reading_time: int = 1, keywords: list = None):
         """인덱스 페이지 업데이트"""
+        if keywords is None:
+            keywords = []
+
         # 기존 리포트 목록 로드
         reports = []
         if self.reports_json.exists():
@@ -457,7 +464,8 @@ class GitHubPagesPublisher:
             "time": timestamp.strftime("%H:%M"),
             "category": category,
             "description": description,
-            "reading_time": reading_time
+            "reading_time": reading_time,
+            "keywords": keywords
         })
 
         # 최근 50개만 유지 (두 카테고리이므로 넉넉하게)
@@ -484,11 +492,26 @@ class GitHubPagesPublisher:
         item_list_elements = []
 
         for i, r in enumerate(reports):
-            title = html.escape(r['title'])
-            date_time = f"{r['date']} {r['time']}"
+            # 타이틀에서 날짜 부분 제거
+            raw_title = r['title']
+            display_title = raw_title.split(" | ")[0] if " | " in raw_title else raw_title
+            title = html.escape(display_title)
+
+            # 날짜 포맷 (Dec 26)
+            try:
+                from datetime import datetime as dt
+                date_obj = dt.strptime(r['date'], "%Y-%m-%d")
+                date_short = date_obj.strftime("%b %d")
+            except:
+                date_short = r['date']
+
             category = r.get('category', 'general')
             category_label = "Market" if category == "market" else "Dev" if category == "dev" else ""
             category_class = f"category-{category}" if category in ["market", "dev"] else ""
+
+            # 키워드 태그 HTML
+            keywords = r.get('keywords', [])
+            keywords_html = ' '.join([f'<span class="tag">#{html.escape(k)}</span>' for k in keywords[:3]])
 
             badge_html = f'<span class="badge {category_class}">{category_label}</span>' if category_label else ""
             report_url = f"{self.SITE_URL}/reports/{r['filename']}"
@@ -498,8 +521,9 @@ class GitHubPagesPublisher:
                     <div class="item-left">
                         {badge_html}
                         <span class="title">{title}</span>
+                        <span class="tags">{keywords_html}</span>
                     </div>
-                    <time class="date" datetime="{r['date']}T{r['time']}:00+09:00">{date_time}</time>
+                    <time class="date" datetime="{r['date']}T{r['time']}:00+09:00">{date_short}</time>
                 </a>'''
 
             # JSON-LD ItemList용
@@ -695,6 +719,17 @@ class GitHubPagesPublisher:
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
+        }}
+        .tags {{
+            display: flex;
+            gap: 6px;
+            flex-shrink: 0;
+            margin-left: 8px;
+        }}
+        .tag {{
+            color: #888;
+            font-size: 12px;
+            font-weight: 400;
         }}
         .date {{
             color: #888;
