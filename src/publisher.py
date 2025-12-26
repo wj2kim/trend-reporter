@@ -630,7 +630,7 @@ class GitHubPagesPublisher:
             min-height: 100vh;
         }}
         .container {{
-            max-width: 760px;
+            max-width: 720px;
             margin: 0 auto;
             padding: 60px 24px;
         }}
