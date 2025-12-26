@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Fri, 26 Dec 2025 15:47:25 +0900</lastBuildDate>
-    <pubDate>Fri, 26 Dec 2025 15:47:25 +0900</pubDate>
+    <lastBuildDate>Fri, 26 Dec 2025 15:55:12 +0900</lastBuildDate>
+    <pubDate>Fri, 26 Dec 2025 15:55:12 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Ruby 4.0 및 시스템 개발 혁신 | 2025-12-26 15:54]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1555-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1555-dev.html</guid>
+      <pubDate>Fri, 26 Dec 2025 15:55:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 MiniMax M2.1 출시: 실제 환경의 복잡한 작업과 다국어 프로그래밍에 최적화된 성능을 제공합니다. TurboDiffusion 공개: 비디오 디퓨전 모델의 추론 속도를 100~200배 가속화하는 기술이 공유되었습니다. SQLi... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[엔비디아 200억불 인수, 원화 강세 | 2025-12-26 15:54]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1555-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1555-market.html</guid>
+      <pubDate>Fri, 26 Dec 2025 15:55:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [트럼프의 대테러 강공책과 나이지리아 공습] 트럼프 대통령이 나이지리아 내 ISIL(이슬람 국가) 세력을 대상으로 공동 공습을 단행했습니다. 이는 기독교인 살해에 대한 보복 차원이며, 트럼프 행정부의 강경한 대외 군사 개입 의지를 다시 한번 확인시켜 지정학적 긴장감... (읽기 시간: 3분)]]></description>
+    </item>
     <item>
       <title><![CDATA[OpenAI-DOE 협력 및 AI 보안 강화 | 2025-12-26 15:46]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-1547-dev.html</link>
