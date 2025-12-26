@@ -1012,6 +1012,26 @@ Crawl-delay: 1
         self.robots_file.write_text(robots, encoding='utf-8')
         print(f"[Publisher] robots.txt 생성: {self.robots_file}")
 
+    def regenerate_index(self):
+        """reports.json을 기반으로 index.html, sitemap, feed 재생성
+
+        리포트 삭제 후 index.html 동기화에 사용
+        """
+        if not self.reports_json.exists():
+            print("[Publisher] reports.json이 없습니다.")
+            return False
+
+        try:
+            reports = json.loads(self.reports_json.read_text(encoding='utf-8'))
+            self._generate_index(reports)
+            self._generate_sitemap(reports)
+            self._generate_feed(reports)
+            print(f"[Publisher] 인덱스 재생성 완료 ({len(reports)}개 리포트)")
+            return True
+        except Exception as e:
+            print(f"[Publisher] 재생성 실패: {e}")
+            return False
+
     def _generate_feed(self, reports: list):
         """RSS 2.0 피드 생성"""
         kst = pytz.timezone('Asia/Seoul')
