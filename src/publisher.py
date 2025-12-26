@@ -487,76 +487,47 @@ class GitHubPagesPublisher:
         self._generate_feed(reports)
 
     def _generate_index(self, reports: list):
-        """SEO 최적화 인덱스 HTML 생성 - 2컬럼 고정 레이아웃"""
-        # 카테고리별로 분리
-        dev_reports = [r for r in reports if r.get('category') == 'dev']
-        market_reports = [r for r in reports if r.get('category') == 'market']
-
+        """SEO 최적화 인덱스 HTML 생성"""
+        report_items = ""
         item_list_elements = []
-        position = 0
 
-        def make_item_html(r):
+        for i, r in enumerate(reports):
+            # 타이틀에서 날짜 부분 제거
             raw_title = r['title']
             display_title = raw_title.split(" | ")[0] if " | " in raw_title else raw_title
             title = html.escape(display_title)
-            keywords = r.get('keywords', [])
-            keywords_html = ' '.join([f'<span class="tag">#{html.escape(k)}</span>' for k in keywords[:2]])
-            date_time = f"{r['date']} {r['time']}"
 
-            return f'''
-                <a href="reports/{r['filename']}" class="list-item">
-                    <div class="item-title">{title}</div>
-                    <div class="item-meta">
-                        <time>{date_time}</time>
-                        <span class="item-tags">{keywords_html}</span>
+            # 날짜 포맷 (2025-12-26 15:47)
+            date_full = f"{r['date']} {r['time']}"
+
+            category = r.get('category', 'general')
+            category_label = "Market" if category == "market" else "Dev" if category == "dev" else ""
+            category_class = f"category-{category}" if category in ["market", "dev"] else ""
+
+            # 키워드 태그 HTML
+            keywords = r.get('keywords', [])
+            keywords_html = ' '.join([f'<span class="tag">#{html.escape(k)}</span>' for k in keywords[:3]])
+
+            badge_html = f'<span class="badge {category_class}">{category_label}</span>' if category_label else ""
+            report_url = f"{self.SITE_URL}/reports/{r['filename']}"
+
+            report_items += f'''
+                <a href="reports/{r['filename']}" class="report-item" data-category="{category}">
+                    <div class="item-left">
+                        {badge_html}
+                        <span class="title">{title}</span>
+                        <span class="tags">{keywords_html}</span>
                     </div>
+                    <time class="date" datetime="{r['date']}T{r['time']}:00+09:00">{date_full}</time>
                 </a>'''
 
-        # Dev 리스트
-        dev_items = ""
-        for r in dev_reports:
-            position += 1
-            dev_items += make_item_html(r)
+            # JSON-LD ItemList용
             item_list_elements.append({
                 "@type": "ListItem",
-                "position": position,
-                "url": f"{self.SITE_URL}/reports/{r['filename']}",
+                "position": i + 1,
+                "url": report_url,
                 "name": r['title']
             })
-
-        # Market 리스트
-        market_items = ""
-        for r in market_reports:
-            position += 1
-            market_items += make_item_html(r)
-            item_list_elements.append({
-                "@type": "ListItem",
-                "position": position,
-                "url": f"{self.SITE_URL}/reports/{r['filename']}",
-                "name": r['title']
-            })
-
-        report_items = f'''
-        <div class="columns">
-            <div class="column column-dev">
-                <div class="column-header">
-                    <span class="column-badge dev">Dev</span>
-                    <span class="column-desc">개발 & AI 트렌드</span>
-                </div>
-                <div class="column-list">
-                    {dev_items if dev_items else '<p class="empty">No reports yet.</p>'}
-                </div>
-            </div>
-            <div class="column column-market">
-                <div class="column-header">
-                    <span class="column-badge market">Market</span>
-                    <span class="column-desc">세계 정세 & 주식</span>
-                </div>
-                <div class="column-list">
-                    {market_items if market_items else '<p class="empty">No reports yet.</p>'}
-                </div>
-            </div>
-        </div>'''
 
         # JSON-LD 구조화 데이터 (WebSite + ItemList)
         json_ld_website = {
@@ -653,117 +624,162 @@ class GitHubPagesPublisher:
             min-height: 100vh;
         }}
         .container {{
-            max-width: 1100px;
+            max-width: 640px;
             margin: 0 auto;
-            padding: 48px 24px;
+            padding: 80px 24px;
         }}
         header {{
             margin-bottom: 32px;
-            text-align: center;
         }}
         h1 {{
-            font-size: 28px;
+            font-size: 32px;
             font-weight: 700;
             color: #000;
-            margin-bottom: 6px;
+            margin-bottom: 8px;
             letter-spacing: -0.5px;
         }}
         .subtitle {{
-            color: #888;
-            font-size: 14px;
+            color: #666;
+            font-size: 15px;
         }}
-        .columns {{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 32px;
-        }}
-        @media (max-width: 768px) {{
-            .columns {{
-                grid-template-columns: 1fr;
-                gap: 24px;
-            }}
-        }}
-        .column {{
-            background: #fafafa;
-            border-radius: 12px;
-            overflow: hidden;
-        }}
-        .column-header {{
-            padding: 16px 20px;
+        nav {{
+            display: flex;
+            gap: 8px;
+            margin-bottom: 24px;
             border-bottom: 1px solid #eee;
+            padding-bottom: 16px;
+        }}
+        .filter-tab {{
+            padding: 8px 16px;
+            border: none;
+            background: #f5f5f5;
+            color: #666;
+            font-size: 14px;
+            font-weight: 500;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }}
+        .filter-tab:hover {{
+            background: #eee;
+        }}
+        .filter-tab.active {{
+            background: #000;
+            color: #fff;
+        }}
+        main {{
+            display: flex;
+            flex-direction: column;
+        }}
+        .report-item {{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            border-bottom: 1px solid #eee;
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }}
+        .report-item.hidden {{
+            display: none;
+        }}
+        .report-item:hover {{
+            opacity: 0.6;
+        }}
+        .item-left {{
             display: flex;
             align-items: center;
             gap: 10px;
-            background: #fff;
+            min-width: 0;
         }}
-        .column-badge {{
-            font-size: 13px;
-            font-weight: 600;
-            padding: 4px 12px;
-            border-radius: 6px;
+        .badge {{
+            font-size: 11px;
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-weight: 500;
+            flex-shrink: 0;
         }}
-        .column-badge.dev {{
-            background: #e6f4ea;
-            color: #1e8e3e;
-        }}
-        .column-badge.market {{
+        .category-market {{
             background: #e8f4fc;
             color: #1a73e8;
         }}
-        .column-desc {{
-            color: #888;
-            font-size: 13px;
+        .category-dev {{
+            background: #e6f4ea;
+            color: #1e8e3e;
         }}
-        .column-list {{
-            padding: 8px;
-        }}
-        .list-item {{
-            display: block;
-            padding: 14px 16px;
-            margin: 4px 0;
-            border-radius: 8px;
-            text-decoration: none;
-            background: #fff;
-            transition: all 0.15s;
-        }}
-        .list-item:hover {{
-            background: #f5f5f5;
-        }}
-        .item-title {{
+        .title {{
             color: #000;
-            font-size: 14px;
+            font-size: 15px;
             font-weight: 500;
-            line-height: 1.4;
-            margin-bottom: 6px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }}
-        .item-meta {{
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            flex-wrap: wrap;
-        }}
-        .item-meta time {{
-            color: #999;
-            font-size: 12px;
-        }}
-        .item-tags {{
+        .tags {{
             display: flex;
             gap: 6px;
+            flex-shrink: 0;
+            margin-left: 8px;
         }}
         .tag {{
             color: #888;
-            font-size: 11px;
+            font-size: 12px;
+            font-weight: 400;
+        }}
+        .date {{
+            color: #888;
+            font-size: 13px;
+            flex-shrink: 0;
+            margin-left: 16px;
         }}
         .empty {{
             color: #888;
             padding: 40px 0;
             text-align: center;
         }}
+        .pagination {{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            margin-top: 32px;
+            padding-top: 24px;
+            border-top: 1px solid #eee;
+        }}
+        .pagination button {{
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            background: #fff;
+            color: #333;
+            font-size: 14px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }}
+        .pagination button:hover:not(:disabled) {{
+            background: #f5f5f5;
+            border-color: #ccc;
+        }}
+        .pagination button:disabled {{
+            opacity: 0.4;
+            cursor: not-allowed;
+        }}
+        .pagination button.active {{
+            background: #000;
+            color: #fff;
+            border-color: #000;
+        }}
+        .pagination .page-info {{
+            color: #888;
+            font-size: 13px;
+            margin: 0 8px;
+        }}
         footer {{
             margin-top: 48px;
             padding-top: 24px;
-            color: #999;
-            font-size: 12px;
+            border-top: 1px solid #eee;
+            color: #888;
+            font-size: 13px;
             text-align: center;
         }}
         footer a {{
@@ -779,15 +795,119 @@ class GitHubPagesPublisher:
     <div class="container">
         <header>
             <h1>{self.SITE_NAME}</h1>
-            <p class="subtitle">AI가 분석하는 글로벌 트렌드</p>
+            <p class="subtitle">Daily Tech & Market Trends - AI가 분석하는 글로벌 트렌드</p>
         </header>
+        <nav aria-label="리포트 카테고리 필터">
+            <button class="filter-tab active" data-filter="all" aria-pressed="true">All</button>
+            <button class="filter-tab" data-filter="market" aria-pressed="false">Market</button>
+            <button class="filter-tab" data-filter="dev" aria-pressed="false">Dev</button>
+        </nav>
         <main role="feed" aria-label="트렌드 리포트 목록">
             {report_items if report_items else '<p class="empty">No reports yet.</p>'}
         </main>
+        <div class="pagination" id="pagination"></div>
         <footer>
+            <p>Powered by AI - 매일 자동으로 글로벌 트렌드를 수집하고 분석합니다.</p>
             <p><a href="feed.xml">RSS Feed</a> · <a href="sitemap.xml">Sitemap</a></p>
         </footer>
     </div>
+    <script>
+        const ITEMS_PER_PAGE = 20;
+        let currentPage = 1;
+        let currentFilter = 'all';
+
+        function getFilteredItems() {{
+            const items = Array.from(document.querySelectorAll('.report-item'));
+            if (currentFilter === 'all') return items;
+            return items.filter(item => item.dataset.category === currentFilter);
+        }}
+
+        function renderPage() {{
+            const allItems = Array.from(document.querySelectorAll('.report-item'));
+            const filteredItems = getFilteredItems();
+            const totalPages = Math.ceil(filteredItems.length / ITEMS_PER_PAGE);
+
+            if (currentPage > totalPages) currentPage = totalPages || 1;
+
+            const start = (currentPage - 1) * ITEMS_PER_PAGE;
+            const end = start + ITEMS_PER_PAGE;
+
+            allItems.forEach(item => item.classList.add('hidden'));
+            filteredItems.slice(start, end).forEach(item => item.classList.remove('hidden'));
+
+            renderPagination(totalPages);
+        }}
+
+        function renderPagination(totalPages) {{
+            const container = document.getElementById('pagination');
+            if (totalPages <= 1) {{
+                container.innerHTML = '';
+                return;
+            }}
+
+            let html = `<button onclick="goToPage(${{currentPage - 1}})" ${{currentPage === 1 ? 'disabled' : ''}}>&lt; Prev</button>`;
+
+            const maxButtons = 5;
+            let startPage = Math.max(1, currentPage - Math.floor(maxButtons / 2));
+            let endPage = Math.min(totalPages, startPage + maxButtons - 1);
+            if (endPage - startPage < maxButtons - 1) startPage = Math.max(1, endPage - maxButtons + 1);
+
+            if (startPage > 1) html += `<button onclick="goToPage(1)">1</button><span class="page-info">...</span>`;
+
+            for (let i = startPage; i <= endPage; i++) {{
+                html += `<button onclick="goToPage(${{i}})" class="${{i === currentPage ? 'active' : ''}}">${{i}}</button>`;
+            }}
+
+            if (endPage < totalPages) html += `<span class="page-info">...</span><button onclick="goToPage(${{totalPages}})">${{totalPages}}</button>`;
+
+            html += `<button onclick="goToPage(${{currentPage + 1}})" ${{currentPage === totalPages ? 'disabled' : ''}}">Next &gt;</button>`;
+
+            container.innerHTML = html;
+        }}
+
+        function goToPage(page) {{
+            currentPage = page;
+            renderPage();
+            window.scrollTo({{ top: 0, behavior: 'smooth' }});
+        }}
+
+        function setFilter(filter) {{
+            currentFilter = filter;
+            currentPage = 1;
+
+            document.querySelectorAll('.filter-tab').forEach(t => {{
+                t.classList.remove('active');
+                t.setAttribute('aria-pressed', 'false');
+            }});
+            const activeTab = document.querySelector(`[data-filter="${{filter}}"]`);
+            activeTab.classList.add('active');
+            activeTab.setAttribute('aria-pressed', 'true');
+
+            renderPage();
+        }}
+
+        document.querySelectorAll('.filter-tab').forEach(tab => {{
+            tab.addEventListener('click', () => {{
+                const filter = tab.dataset.filter;
+                setFilter(filter);
+                history.pushState(null, '', filter === 'all' ? './' : filter);
+            }});
+        }});
+
+        // URL 경로에 따라 초기 필터 설정
+        const path = location.pathname.split('/').pop();
+        if (path === 'market' || path === 'dev') {{
+            currentFilter = path;
+            document.querySelectorAll('.filter-tab').forEach(t => {{
+                t.classList.remove('active');
+                t.setAttribute('aria-pressed', 'false');
+            }});
+            document.querySelector(`[data-filter="${{path}}"]`).classList.add('active');
+            document.querySelector(`[data-filter="${{path}}"]`).setAttribute('aria-pressed', 'true');
+        }}
+
+        renderPage();
+    </script>
 </body>
 </html>'''
 
