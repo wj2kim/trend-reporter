@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sun, 28 Dec 2025 00:13:56 +0900</lastBuildDate>
-    <pubDate>Sun, 28 Dec 2025 00:13:56 +0900</pubDate>
+    <lastBuildDate>Sun, 28 Dec 2025 10:55:56 +0900</lastBuildDate>
+    <pubDate>Sun, 28 Dec 2025 10:55:56 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[OpenAI 앱 생태계 개방과 개발 도구 혁신 | 2025-12-28 10:55]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-28-1055-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-28-1055-dev.html</guid>
+      <pubDate>Sun, 28 Dec 2025 10:55:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Apple, 2D 사진의 3D 변환 모델 공개: 2D 이미지를 즉시 3D 뷰로 변환하는 오픈소스 모델 &#x27;ml-sharp&#x27;를 GitHub에 공개했습니다. OpenAI, ChatGPT 이미지 기능 강화: 플래그십 이미지 생성 모델을 통... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[키이우 대공습, 트럼프 회담 전 긴장 고조 | 2025-12-28 10:55]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-28-1055-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-28-1055-market.html</guid>
+      <pubDate>Sun, 28 Dec 2025 10:55:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 러시아, 트럼프-젤렌스키 회담 앞두고 키이우 10시간 대공습 러시아가 우크라이나 수도 키이우에 10시간 동안 미사일과 드론 공격을 퍼부었습니다. 이는 플로리다에서 예정된 트럼프 전 대통령과 젤렌스키 대통령의 회담을 앞둔 무력 시위로 분석되며, 평화 협상 주도권을 잡... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.2 Codex와 AI 앱 출시 | 2025-12-28 00:13]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-28-0013-dev.html</link>
