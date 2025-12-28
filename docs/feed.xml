@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sun, 28 Dec 2025 21:29:55 +0900</lastBuildDate>
-    <pubDate>Sun, 28 Dec 2025 21:29:55 +0900</pubDate>
+    <lastBuildDate>Sun, 28 Dec 2025 21:35:59 +0900</lastBuildDate>
+    <pubDate>Sun, 28 Dec 2025 21:35:59 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[OpenAI 앱 제출 기능 및 AI 개발 가속 | 2025-12-28 21:35]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-28-2135-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-28-2135-dev.html</guid>
+      <pubDate>Sun, 28 Dec 2025 21:35:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, ChatGPT 내 개발자 앱 제출 허용: 개발자가 직접 만든 앱을 ChatGPT에 제출하고 게시할 수 있는 디렉토리가 출시되어, 사용자가 승인된 앱을 쉽게 발견할 수 있게 되었습니다. 새로운 ChatGPT Images... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[우크라이나 평화협상과 중국 재정 부양 | 2025-12-28 21:35]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-28-2135-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-28-2135-market.html</guid>
+      <pubDate>Sun, 28 Dec 2025 21:35:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [젤렌스키-트럼프 마라라고 회동 및 평화안 제시] 젤렌스키 우크라이나 대통령이 트럼프 당선인과 만나기 위해 수정된 &#x27;20개 조항 평화안&#x27;을 들고 마라라고를 방문했습니다. 이는 러시아와의 전쟁 종식을 위한 구체적인 협상 테이블을 마련하려는 시도로, 트럼프의 중재 역량... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.2 Codex 및 AI 개발 혁신 | 2025-12-27 10:42]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-27-1043-dev.html</link>

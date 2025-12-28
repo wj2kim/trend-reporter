@@ -1,5 +1,33 @@
 [
   {
+    "title": "OpenAI 앱 제출 기능 및 AI 개발 가속 | 2025-12-28 21:35",
+    "filename": "2025-12-28-2135-dev.html",
+    "date": "2025-12-28",
+    "time": "21:35",
+    "category": "dev",
+    "description": "1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, ChatGPT 내 개발자 앱 제출 허용: 개발자가 직접 만든 앱을 ChatGPT에 제출하고 게시할 수 있는 디렉토리가 출시되어, 사용자가 승인된 앱을 쉽게 발견할 수 있게 되었습니다. 새로운 ChatGPT Images...",
+    "reading_time": 4,
+    "keywords": [
+      "OpenAI",
+      "AI 에이전트",
+      "개발 트렌드"
+    ]
+  },
+  {
+    "title": "우크라이나 평화협상과 중국 재정 부양 | 2025-12-28 21:35",
+    "filename": "2025-12-28-2135-market.html",
+    "date": "2025-12-28",
+    "time": "21:35",
+    "category": "market",
+    "description": "1. 세계 정세 [젤렌스키-트럼프 마라라고 회동 및 평화안 제시] 젤렌스키 우크라이나 대통령이 트럼프 당선인과 만나기 위해 수정된 &#x27;20개 조항 평화안&#x27;을 들고 마라라고를 방문했습니다. 이는 러시아와의 전쟁 종식을 위한 구체적인 협상 테이블을 마련하려는 시도로, 트럼프의 중재 역량...",
+    "reading_time": 4,
+    "keywords": [
+      "젤렌스키",
+      "중국 부양책",
+      "푸틴"
+    ]
+  },
+  {
     "title": "GPT-5.2 Codex 및 AI 개발 혁신 | 2025-12-27 10:42",
     "filename": "2025-12-27-1043-dev.html",
     "date": "2025-12-27",
@@ -7,7 +35,11 @@
     "category": "dev",
     "description": "1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.2-Codex 시스템 카드 공개: 모델 수준의 완화 조치 및 전문화된 안전 교육을 포함한 GPT-5.2-Codex의 포괄적인 안전 조치 세부 사항이 발표되었습니다...",
     "reading_time": 4,
-    "keywords": ["GPT-5.2", "OpenAI", "AI 개발 도구"]
+    "keywords": [
+      "GPT-5.2",
+      "OpenAI",
+      "AI 개발 도구"
+    ]
   },
   {
     "title": "S&P500 신고가, 정세 불안 지속 | 2025-12-27 10:42",
@@ -17,7 +49,11 @@
     "category": "market",
     "description": "1. 세계 정세 트럼프 행정부의 나이지리아 공습 개입 트럼프 대통령이 나이지리아 내 ISIS 캠프 공습을 명령하며 기독교 보호를 명분으로 내세웠습니다...",
     "reading_time": 3,
-    "keywords": ["S&P500", "지정학적리스크", "안전자산"]
+    "keywords": [
+      "S&P500",
+      "지정학적리스크",
+      "안전자산"
+    ]
   },
   {
     "title": "NVIDIA, Groq 인수 및 AI 코딩 진화 | 2025-12-26 23:14",
@@ -27,7 +63,11 @@
     "category": "dev",
     "description": "1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.2-Codex 출시: 장기 추론(Long-horizon reasoning) 및 대규모 코드 변환 능력이 강화된 가장 진보된 코딩 모델을 발표했습니다...",
     "reading_time": 4,
-    "keywords": ["NVIDIA", "Groq", "GPT-5.2"]
+    "keywords": [
+      "NVIDIA",
+      "Groq",
+      "GPT-5.2"
+    ]
   },
   {
     "title": "젤렌스키·트럼프 회동 및 금값 최고 | 2025-12-26 23:14",
@@ -37,6 +77,10 @@
     "category": "market",
     "description": "1. 세계 정세 [젤렌스키-트럼프 플로리다 회동 확정 우크라이나 종전 논의 가속화] 볼로디미르 젤렌스키 우크라이나 대통령이 오는 일요일 플로리다에서 도널드 트럼프 당선인과 만나...",
     "reading_time": 4,
-    "keywords": ["젤렌스키", "트럼프", "금값"]
+    "keywords": [
+      "젤렌스키",
+      "트럼프",
+      "금값"
+    ]
   }
 ]
