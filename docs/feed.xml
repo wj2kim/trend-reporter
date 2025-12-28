@@ -6,8 +6,8 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sun, 28 Dec 2025 10:55:56 +0900</lastBuildDate>
-    <pubDate>Sun, 28 Dec 2025 10:55:56 +0900</pubDate>
+    <lastBuildDate>Sun, 28 Dec 2025 21:29:55 +0900</lastBuildDate>
+    <pubDate>Sun, 28 Dec 2025 21:29:55 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
@@ -15,60 +15,12 @@
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
     <item>
-      <title><![CDATA[OpenAI 앱 생태계 개방과 개발 도구 혁신 | 2025-12-28 10:55]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-28-1055-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-28-1055-dev.html</guid>
-      <pubDate>Sun, 28 Dec 2025 10:55:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Apple, 2D 사진의 3D 변환 모델 공개: 2D 이미지를 즉시 3D 뷰로 변환하는 오픈소스 모델 &#x27;ml-sharp&#x27;를 GitHub에 공개했습니다. OpenAI, ChatGPT 이미지 기능 강화: 플래그십 이미지 생성 모델을 통... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[키이우 대공습, 트럼프 회담 전 긴장 고조 | 2025-12-28 10:55]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-28-1055-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-28-1055-market.html</guid>
-      <pubDate>Sun, 28 Dec 2025 10:55:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 러시아, 트럼프-젤렌스키 회담 앞두고 키이우 10시간 대공습 러시아가 우크라이나 수도 키이우에 10시간 동안 미사일과 드론 공격을 퍼부었습니다. 이는 플로리다에서 예정된 트럼프 전 대통령과 젤렌스키 대통령의 회담을 앞둔 무력 시위로 분석되며, 평화 협상 주도권을 잡... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GPT-5.2 Codex와 AI 앱 출시 | 2025-12-28 00:13]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-28-0013-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-28-0013-dev.html</guid>
-      <pubDate>Sun, 28 Dec 2025 00:13:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, GPT-5.2-Codex 시스템 카드 공개: 모델 수준의 완화 조치 및 안전 조치를 상세히 기술한 시스템 카드를 발표했습니다. 새로운 ChatGPT 이미지 기능: 플래그십 이미지 생성 모델을 통해 정교한 편집, 일관된... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프 회동 앞두고 우크라 긴장 고조 | 2025-12-28 00:13]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-28-0013-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-28-0013-market.html</guid>
-      <pubDate>Sun, 28 Dec 2025 00:13:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 러시아, 트럼프-젤렌스키 회동 직전 키이우 대규모 공습 러시아가 드론과 미사일을 동원해 키이우의 에너지 및 난방 인프라를 집중 공격했습니다. 이는 플로리다에서 예정된 트럼프-젤렌스키 회동을 앞두고 협상 우위를 점하기 위한 푸틴의 압박 카드로 풀이되며, 우크라이나 시... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI 에이전트와 도구화의 가속 | 2025-12-27 22:23]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-27-2224-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-27-2224-dev.html</guid>
-      <pubDate>Sat, 27 Dec 2025 22:24:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, ChatGPT 내 앱 제출 허용: 개발자가 직접 만든 앱을 ChatGPT에 제출하고 게시할 수 있는 디렉토리가 출시되어 에코시스템 확장이 본격화되었습니다. 새로운 ChatGPT Images 출시: 플래그십 이미지 생성... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[러시아 공습, 2026 성장주 주목 | 2025-12-27 22:23]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-27-2224-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-27-2224-market.html</guid>
-      <pubDate>Sat, 27 Dec 2025 22:24:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [러시아의 키이우 대규모 공습 트럼프·젤렌스키 회담 전 압박] 러시아가 트럼프 전 대통령과 젤렌스키 대통령의 회동을 앞두고 키이우에 10시간 동안 미사일과 드론 공격을 퍼부었습니다. 이는 협상 테이블에서 유리한 고지를 점하기 위한 무력 시위로 분석되며, 젤렌스키 대... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
       <title><![CDATA[GPT-5.2 Codex 및 AI 개발 혁신 | 2025-12-27 10:42]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-27-1043-dev.html</link>
       <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-27-1043-dev.html</guid>
       <pubDate>Sat, 27 Dec 2025 10:43:00 +0900</pubDate>
       <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, GPT-5.2-Codex 시스템 카드 공개: 모델 수준의 완화 조치 및 전문화된 안전 교육을 포함한 GPT-5.2-Codex의 포괄적인 안전 조치 세부 사항이 발표되었습니다. ChatGPT 이미지 편집 기능 강화: 플... (읽기 시간: 4분)]]></description>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.2-Codex 시스템 카드 공개: 모델 수준의 완화 조치 및 전문화된 안전 교육을 포함한 GPT-5.2-Codex의 포괄적인 안전 조치 세부 사항이 발표되었습니다... (읽기 시간: 4분)]]></description>
     </item>
     <item>
       <title><![CDATA[S&P500 신고가, 정세 불안 지속 | 2025-12-27 10:42]]></title>
@@ -76,7 +28,7 @@
       <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-27-1043-market.html</guid>
       <pubDate>Sat, 27 Dec 2025 10:43:00 +0900</pubDate>
       <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프 행정부의 나이지리아 공습 개입 트럼프 대통령이 나이지리아 내 ISIS 캠프 공습을 명령하며 기독교 보호를 명분으로 내세웠습니다. 이는 미국의 아프리카 내 정세 개입 본격화를 의미하며, 전문가들 사이에서는 현지의 복잡한 종교·정치적 갈등에 미국이 깊숙이 연루될... (읽기 시간: 3분)]]></description>
+      <description><![CDATA[1. 세계 정세 트럼프 행정부의 나이지리아 공습 개입 트럼프 대통령이 나이지리아 내 ISIS 캠프 공습을 명령하며 기독교 보호를 명분으로 내세웠습니다... (읽기 시간: 3분)]]></description>
     </item>
     <item>
       <title><![CDATA[NVIDIA, Groq 인수 및 AI 코딩 진화 | 2025-12-26 23:14]]></title>
@@ -84,7 +36,7 @@
       <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-26-2315-dev.html</guid>
       <pubDate>Fri, 26 Dec 2025 23:15:00 +0900</pubDate>
       <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.2-Codex 출시: 장기 추론(Long-horizon reasoning) 및 대규모 코드 변환 능력이 강화된 가장 진보된 코딩 모델을 발표했습니다. MiniMax M2.1 공개: 실제 복잡한 작업과 다국어... (읽기 시간: 4분)]]></description>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.2-Codex 출시: 장기 추론(Long-horizon reasoning) 및 대규모 코드 변환 능력이 강화된 가장 진보된 코딩 모델을 발표했습니다... (읽기 시간: 4분)]]></description>
     </item>
     <item>
       <title><![CDATA[젤렌스키·트럼프 회동 및 금값 최고 | 2025-12-26 23:14]]></title>
@@ -92,7 +44,7 @@
       <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-26-2315-market.html</guid>
       <pubDate>Fri, 26 Dec 2025 23:15:00 +0900</pubDate>
       <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [젤렌스키-트럼프 플로리다 회동 확정 우크라이나 종전 논의 가속화] 볼로디미르 젤렌스키 우크라이나 대통령이 오는 일요일 플로리다에서 도널드 트럼프 당선인과 만나 우크라이나 평화안과 안보 보장 방안을 논의할 예정입니다. 트럼프의 취임 전 실질적인 협상이 가시화되면서 ... (읽기 시간: 4분)]]></description>
+      <description><![CDATA[1. 세계 정세 [젤렌스키-트럼프 플로리다 회동 확정 우크라이나 종전 논의 가속화] 볼로디미르 젤렌스키 우크라이나 대통령이 오는 일요일 플로리다에서 도널드 트럼프 당선인과 만나... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
