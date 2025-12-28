@@ -49,6 +49,8 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          # 오전 09:00 KST 또는 수동 실행일 때만 GitHub Pages 저장
+          PUBLISH_PAGES: ${{ github.event.schedule == '0 0 * * *' || github.event_name == 'workflow_dispatch' }}
         run: python src/main.py
 
       - name: Save content cache
@@ -59,6 +61,8 @@ jobs:
           key: content-cache-${{ github.run_id }}-${{ github.run_attempt }}
 
       - name: Commit and push docs
+        # 오전 09:00 KST (UTC 00:00) 또는 수동 실행일 때만 GitHub Pages 업데이트
+        if: github.event.schedule == '0 0 * * *' || github.event_name == 'workflow_dispatch'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

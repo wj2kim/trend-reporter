@@ -331,17 +331,22 @@ def main():
     else:
         print("❌ Discord 전송 실패")
 
-    # GitHub Pages로 저장 (Market, Dev만 - 커뮤니티는 제외)
-    print("\n[저장] GitHub Pages용 HTML 생성 중...")
-    publisher = GitHubPagesPublisher()
+    # GitHub Pages로 저장 (오전 실행 또는 수동 실행일 때만)
+    publish_pages = os.getenv("PUBLISH_PAGES", "true").lower() == "true"
 
-    world_success = publisher.publish(world_title, world_report, category="market", keywords=world_keywords)
-    dev_success = publisher.publish(dev_title, dev_report, category="dev", keywords=dev_keywords)
+    if publish_pages:
+        print("\n[저장] GitHub Pages용 HTML 생성 중...")
+        publisher = GitHubPagesPublisher()
 
-    if world_success and dev_success:
-        print("✅ GitHub Pages 저장 완료!")
+        world_success = publisher.publish(world_title, world_report, category="market", keywords=world_keywords)
+        dev_success = publisher.publish(dev_title, dev_report, category="dev", keywords=dev_keywords)
+
+        if world_success and dev_success:
+            print("✅ GitHub Pages 저장 완료!")
+        else:
+            print("❌ GitHub Pages 저장 실패")
     else:
-        print("❌ GitHub Pages 저장 실패")
+        print("\n[저장] GitHub Pages 저장 건너뜀 (오전 실행에서만 저장)")
 
     return 0 if discord_success else 1
 
