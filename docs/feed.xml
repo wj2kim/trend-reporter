@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sun, 28 Dec 2025 21:35:59 +0900</lastBuildDate>
-    <pubDate>Sun, 28 Dec 2025 21:35:59 +0900</pubDate>
+    <lastBuildDate>Mon, 29 Dec 2025 10:54:08 +0900</lastBuildDate>
+    <pubDate>Mon, 29 Dec 2025 10:54:08 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Sora 안드로이드, AI로 28일 만에 구축 | 2025-12-29 10:53]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-29-1054-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-29-1054-dev.html</guid>
+      <pubDate>Mon, 29 Dec 2025 10:54:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI Sora 안드로이드 앱 출시: Codex를 활용한 AI 협업 워크플로우를 통해 단 28일 만에 안드로이드용 Sora 앱을 개발 및 출시했습니다. Apple &#x27;ml-sharp&#x27; 공개: 2D 사진을 즉시 3D 뷰로 변환하는... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프-젤렌스키 회동, 평화 협상 난항 | 2025-12-29 10:53]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-29-1054-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-29-1054-market.html</guid>
+      <pubDate>Mon, 29 Dec 2025 10:54:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프-젤렌스키 마라라고 회동, &#x27;난제&#x27; 확인 도널드 트럼프 당선인과 볼로디미르 젤렌스키 우크라이나 대통령이 마라라고에서 만났으나, 영토 문제 등 &#x27;가시 돋친 이슈(Thorny issues)&#x27;들이 여전함을 확인했습니다. 1월 중 미국 주도의 러시아-우크라이나 회담을... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[OpenAI 앱 제출 기능 및 AI 개발 가속 | 2025-12-28 21:35]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-28-2135-dev.html</link>
