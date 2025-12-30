@@ -509,11 +509,16 @@ class GitHubPagesPublisher:
             category_class = f"category-{category}" if category in ["market", "dev"] else ""
             badge_html = f'<span class="badge {category_class}">{category_label}</span>' if category_label else ""
 
+            # 키워드 태그
+            keywords = r.get('keywords', [])
+            keywords_html = ' '.join([f'<span class="tag">#{html.escape(k)}</span>' for k in keywords[:3]])
+
             return f'''
                 <a href="reports/{r['filename']}" class="report-item" data-category="{category}">
                     <div class="item-left">
                         {badge_html}
                         <span class="title">{title}</span>
+                        <span class="tags">{keywords_html}</span>
                     </div>
                     <time class="date" datetime="{r['date']}">{r['date']}</time>
                 </a>'''
@@ -755,6 +760,16 @@ class GitHubPagesPublisher:
         }}
         .tags {{
             display: none;
+            gap: 6px;
+            margin-left: 8px;
+        }}
+        .tag {{
+            color: #999;
+            font-size: 11px;
+        }}
+        /* 단일 컬럼(필터) 모드에서 태그 표시 */
+        main.single-column .tags {{
+            display: flex;
         }}
         .date {{
             color: #888;

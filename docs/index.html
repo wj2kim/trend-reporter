@@ -286,6 +286,16 @@
         }
         .tags {
             display: none;
+            gap: 6px;
+            margin-left: 8px;
+        }
+        .tag {
+            color: #999;
+            font-size: 11px;
+        }
+        /* 단일 컬럼(필터) 모드에서 태그 표시 */
+        main.single-column .tags {
+            display: flex;
         }
         .date {
             color: #888;
@@ -398,6 +408,7 @@
                     <div class="item-left">
                         <span class="badge category-market">Market</span>
                         <span class="title">미·중 파나마 갈등과 테슬라 인도량 우려</span>
+                        <span class="tags"><span class="tag">#테슬라</span> <span class="tag">#파나마 운하</span> <span class="tag">#지정학적 리스크</span></span>
                     </div>
                     <time class="date" datetime="2025-12-30">2025-12-30</time>
                 </a>
@@ -405,6 +416,7 @@
                     <div class="item-left">
                         <span class="badge category-market">Market</span>
                         <span class="title">트럼프-네타냐후 회동, 중동 긴장 고조</span>
+                        <span class="tags"><span class="tag">#트럼프</span> <span class="tag">#이스라엘</span> <span class="tag">#중동 정세</span></span>
                     </div>
                     <time class="date" datetime="2025-12-30">2025-12-30</time>
                 </a>
@@ -412,6 +424,7 @@
                     <div class="item-left">
                         <span class="badge category-market">Market</span>
                         <span class="title">트럼프-젤렌스키 회동, 평화 협상 난항</span>
+                        <span class="tags"><span class="tag">#트럼프</span> <span class="tag">#우크라이나</span> <span class="tag">#평화협상</span></span>
                     </div>
                     <time class="date" datetime="2025-12-29">2025-12-29</time>
                 </a>
@@ -419,6 +432,7 @@
                     <div class="item-left">
                         <span class="badge category-market">Market</span>
                         <span class="title">우크라이나 평화협상과 중국 재정 부양</span>
+                        <span class="tags"><span class="tag">#젤렌스키</span> <span class="tag">#중국 부양책</span> <span class="tag">#푸틴</span></span>
                     </div>
                     <time class="date" datetime="2025-12-28">2025-12-28</time>
                 </a>
@@ -426,6 +440,7 @@
                     <div class="item-left">
                         <span class="badge category-market">Market</span>
                         <span class="title">S&amp;P500 신고가, 정세 불안 지속</span>
+                        <span class="tags"><span class="tag">#S&amp;P500</span> <span class="tag">#지정학적리스크</span> <span class="tag">#안전자산</span></span>
                     </div>
                     <time class="date" datetime="2025-12-27">2025-12-27</time>
                 </a>
@@ -433,6 +448,7 @@
                     <div class="item-left">
                         <span class="badge category-market">Market</span>
                         <span class="title">젤렌스키·트럼프 회동 및 금값 최고</span>
+                        <span class="tags"><span class="tag">#젤렌스키</span> <span class="tag">#트럼프</span> <span class="tag">#금값</span></span>
                     </div>
                     <time class="date" datetime="2025-12-26">2025-12-26</time>
                 </a>
@@ -446,6 +462,7 @@
                     <div class="item-left">
                         <span class="badge category-dev">Dev</span>
                         <span class="title">AI 에이전트 확산과 바이브 코딩</span>
+                        <span class="tags"><span class="tag">#Meta</span> <span class="tag">#Manus</span> <span class="tag">#Andrej Karpathy</span></span>
                     </div>
                     <time class="date" datetime="2025-12-30">2025-12-30</time>
                 </a>
@@ -453,6 +470,7 @@
                     <div class="item-left">
                         <span class="badge category-dev">Dev</span>
                         <span class="title">ChatGPT 앱 장터 및 AI 코딩 도구 확산</span>
+                        <span class="tags"><span class="tag">#OpenAI</span> <span class="tag">#Claude Code</span> <span class="tag">#AI 에이전트</span></span>
                     </div>
                     <time class="date" datetime="2025-12-30">2025-12-30</time>
                 </a>
@@ -460,6 +478,7 @@
                     <div class="item-left">
                         <span class="badge category-dev">Dev</span>
                         <span class="title">Sora 안드로이드, AI로 28일 만에 구축</span>
+                        <span class="tags"><span class="tag">#Sora</span> <span class="tag">#OpenAI</span> <span class="tag">#Codex</span></span>
                     </div>
                     <time class="date" datetime="2025-12-29">2025-12-29</time>
                 </a>
@@ -467,6 +486,7 @@
                     <div class="item-left">
                         <span class="badge category-dev">Dev</span>
                         <span class="title">OpenAI 앱 제출 기능 및 AI 개발 가속</span>
+                        <span class="tags"><span class="tag">#OpenAI</span> <span class="tag">#AI 에이전트</span> <span class="tag">#개발 트렌드</span></span>
                     </div>
                     <time class="date" datetime="2025-12-28">2025-12-28</time>
                 </a>
@@ -474,6 +494,7 @@
                     <div class="item-left">
                         <span class="badge category-dev">Dev</span>
                         <span class="title">GPT-5.2 Codex 및 AI 개발 혁신</span>
+                        <span class="tags"><span class="tag">#GPT-5.2</span> <span class="tag">#OpenAI</span> <span class="tag">#AI 개발 도구</span></span>
                     </div>
                     <time class="date" datetime="2025-12-27">2025-12-27</time>
                 </a>
@@ -481,6 +502,7 @@
                     <div class="item-left">
                         <span class="badge category-dev">Dev</span>
                         <span class="title">NVIDIA, Groq 인수 및 AI 코딩 진화</span>
+                        <span class="tags"><span class="tag">#NVIDIA</span> <span class="tag">#Groq</span> <span class="tag">#GPT-5.2</span></span>
                     </div>
                     <time class="date" datetime="2025-12-26">2025-12-26</time>
                 </a>
