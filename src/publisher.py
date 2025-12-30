@@ -860,19 +860,13 @@ class GitHubPagesPublisher:
         </nav>
         <main id="main" class="two-column" role="feed" aria-label="트렌드 리포트 목록">
             <section class="column column-market" id="column-market">
-                <div class="column-header">
-                    <span class="badge category-market">Market</span>
-                    <span>세계 정세 & 주식</span>
-                </div>
+                <div class="column-header">세계 정세 & 주식</div>
                 <div class="column-items">
                     {market_items if market_items else '<p class="empty">No market reports yet.</p>'}
                 </div>
             </section>
             <section class="column column-dev" id="column-dev">
-                <div class="column-header">
-                    <span class="badge category-dev">Dev</span>
-                    <span>개발 & AI</span>
-                </div>
+                <div class="column-header">개발 & AI</div>
                 <div class="column-items">
                     {dev_items if dev_items else '<p class="empty">No dev reports yet.</p>'}
                 </div>
