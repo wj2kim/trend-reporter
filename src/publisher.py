@@ -498,31 +498,24 @@ class GitHubPagesPublisher:
         market_reports = [r for r in reports if r.get('category') == 'market']
         dev_reports = [r for r in reports if r.get('category') == 'dev']
 
-        def generate_report_item(r, show_badge=False):
+        def generate_report_item(r):
             raw_title = r['title']
             display_title = raw_title.split(" | ")[0] if " | " in raw_title else raw_title
             title = html.escape(display_title)
-            date_full = f"{r['date']} {r['time']}"
             category = r.get('category', 'general')
 
-            # 키워드 태그 HTML
-            keywords = r.get('keywords', [])
-            keywords_html = ' '.join([f'<span class="tag">#{html.escape(k)}</span>' for k in keywords[:3]])
-
-            badge_html = ""
-            if show_badge:
-                category_label = "Market" if category == "market" else "Dev" if category == "dev" else ""
-                category_class = f"category-{category}" if category in ["market", "dev"] else ""
-                badge_html = f'<span class="badge {category_class}">{category_label}</span>' if category_label else ""
+            # 카테고리 배지
+            category_label = "Market" if category == "market" else "Dev" if category == "dev" else ""
+            category_class = f"category-{category}" if category in ["market", "dev"] else ""
+            badge_html = f'<span class="badge {category_class}">{category_label}</span>' if category_label else ""
 
             return f'''
                 <a href="reports/{r['filename']}" class="report-item" data-category="{category}">
                     <div class="item-left">
                         {badge_html}
                         <span class="title">{title}</span>
-                        <span class="tags">{keywords_html}</span>
                     </div>
-                    <time class="date" datetime="{r['date']}T{r['time']}:00+09:00">{date_full}</time>
+                    <time class="date" datetime="{r['date']}">{r['date']}</time>
                 </a>'''
 
         # Market 컬럼 아이템
