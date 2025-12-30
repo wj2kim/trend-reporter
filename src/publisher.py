@@ -637,7 +637,7 @@ class GitHubPagesPublisher:
             min-height: 100vh;
         }}
         .container {{
-            max-width: 1100px;
+            max-width: 900px;
             margin: 0 auto;
             padding: 60px 24px;
         }}
@@ -827,10 +827,7 @@ class GitHubPagesPublisher:
             text-decoration: underline;
         }}
         /* Mobile responsive */
-        @media (max-width: 900px) {{
-            .container {{
-                max-width: 720px;
-            }}
+        @media (max-width: 768px) {{
             main.two-column {{
                 display: block;
             }}
