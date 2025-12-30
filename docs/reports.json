@@ -28,62 +28,6 @@
     ]
   },
   {
-    "title": "AI 에이전트 확산과 바이브 코딩 | 2025-12-30 20:38",
-    "filename": "2025-12-30-2039-dev.html",
-    "date": "2025-12-30",
-    "time": "20:39",
-    "category": "dev",
-    "description": "1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI FrontierScience 발표: 물리, 화학, 생물학 분야에서 AI의 과학적 추론 능력을 측정하는 새로운 벤치마크를 도입했습니다. ChatGPT 이미지 기능 업데이트: 자사 플래그십 모델을 통해 더욱 정밀한 편집과 ...",
-    "reading_time": 4,
-    "keywords": [
-      "Meta",
-      "Manus",
-      "Andrej Karpathy"
-    ]
-  },
-  {
-    "title": "미·중 파나마 갈등과 테슬라 인도량 우려 | 2025-12-30 20:38",
-    "filename": "2025-12-30-2039-market.html",
-    "date": "2025-12-30",
-    "time": "20:39",
-    "category": "market",
-    "description": "1. 세계 정세 파나마 운하를 둘러싼 미·중 영향력 충돌 고조 트럼프 행정부와 중국 간의 파나마 운하 주도권 경쟁이 심화되는 가운데, 운하 인근의 중국 기념비가 철거되었습니다. 이는 전략적 요충지인 파나마 내 중국의 영향력을 억제하려는 미국 측의 의중이 반영된 것으로 해석되며 향후...",
-    "reading_time": 4,
-    "keywords": [
-      "테슬라",
-      "파나마 운하",
-      "지정학적 리스크"
-    ]
-  },
-  {
-    "title": "ChatGPT 앱 장터 및 AI 코딩 도구 확산 | 2025-12-30 10:45",
-    "filename": "2025-12-30-1046-dev.html",
-    "date": "2025-12-30",
-    "time": "10:46",
-    "category": "dev",
-    "description": "1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI ChatGPT 앱 제출 기능 오픈: 개발자가 직접 만든 앱을 ChatGPT에 제출하고 검토를 거쳐 공개할 수 있는 디렉토리가 출시되어 사용자 발견성이 높아졌습니다. 새로운 ChatGPT Images: 플래그십 이미지 생...",
-    "reading_time": 4,
-    "keywords": [
-      "OpenAI",
-      "Claude Code",
-      "AI 에이전트"
-    ]
-  },
-  {
-    "title": "트럼프-네타냐후 회동, 중동 긴장 고조 | 2025-12-30 10:45",
-    "filename": "2025-12-30-1046-market.html",
-    "date": "2025-12-30",
-    "time": "10:46",
-    "category": "market",
-    "description": "1. 세계 정세 [트럼프-네타냐후 밀착과 이란 압박 중동 질서 재편] 트럼프 당선인과 네타냐후 이스라엘 총리가 플로리다에서 회동하며 이란에 대한 강력한 군사적 경고를 보냈습니다. 트럼프는 이란이 핵무기를 개발할 경우 &quot;박살을 내겠다(knock the hell out)&quot;고 위협하는 ...",
-    "reading_time": 4,
-    "keywords": [
-      "트럼프",
-      "이스라엘",
-      "중동 정세"
-    ]
-  },
-  {
     "title": "Sora 안드로이드, AI로 28일 만에 구축 | 2025-12-29 10:53",
     "filename": "2025-12-29-1054-dev.html",
     "date": "2025-12-29",
