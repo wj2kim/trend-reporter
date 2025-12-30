@@ -493,31 +493,29 @@ class GitHubPagesPublisher:
         self._generate_feed(reports)
 
     def _generate_index(self, reports: list):
-        """SEO 최적화 인덱스 HTML 생성"""
-        report_items = ""
-        item_list_elements = []
+        """SEO 최적화 인덱스 HTML 생성 (2컬럼 레이아웃)"""
+        # Market과 Dev 리포트 분리
+        market_reports = [r for r in reports if r.get('category') == 'market']
+        dev_reports = [r for r in reports if r.get('category') == 'dev']
 
-        for i, r in enumerate(reports):
-            # 타이틀에서 날짜 부분 제거
+        def generate_report_item(r, show_badge=False):
             raw_title = r['title']
             display_title = raw_title.split(" | ")[0] if " | " in raw_title else raw_title
             title = html.escape(display_title)
-
-            # 날짜 포맷 (2025-12-26 15:47)
             date_full = f"{r['date']} {r['time']}"
-
             category = r.get('category', 'general')
-            category_label = "Market" if category == "market" else "Dev" if category == "dev" else ""
-            category_class = f"category-{category}" if category in ["market", "dev"] else ""
 
             # 키워드 태그 HTML
             keywords = r.get('keywords', [])
             keywords_html = ' '.join([f'<span class="tag">#{html.escape(k)}</span>' for k in keywords[:3]])
 
-            badge_html = f'<span class="badge {category_class}">{category_label}</span>' if category_label else ""
-            report_url = f"{self.SITE_URL}/reports/{r['filename']}"
+            badge_html = ""
+            if show_badge:
+                category_label = "Market" if category == "market" else "Dev" if category == "dev" else ""
+                category_class = f"category-{category}" if category in ["market", "dev"] else ""
+                badge_html = f'<span class="badge {category_class}">{category_label}</span>' if category_label else ""
 
-            report_items += f'''
+            return f'''
                 <a href="reports/{r['filename']}" class="report-item" data-category="{category}">
                     <div class="item-left">
                         {badge_html}
@@ -527,7 +525,16 @@ class GitHubPagesPublisher:
                     <time class="date" datetime="{r['date']}T{r['time']}:00+09:00">{date_full}</time>
                 </a>'''
 
-            # JSON-LD ItemList용
+        # Market 컬럼 아이템
+        market_items = ''.join([generate_report_item(r) for r in market_reports])
+
+        # Dev 컬럼 아이템
+        dev_items = ''.join([generate_report_item(r) for r in dev_reports])
+
+        # JSON-LD용 아이템 리스트
+        item_list_elements = []
+        for i, r in enumerate(reports):
+            report_url = f"{self.SITE_URL}/reports/{r['filename']}"
             item_list_elements.append({
                 "@type": "ListItem",
                 "position": i + 1,
@@ -630,7 +637,7 @@ class GitHubPagesPublisher:
             min-height: 100vh;
         }}
         .container {{
-            max-width: 720px;
+            max-width: 1100px;
             margin: 0 auto;
             padding: 60px 24px;
         }}
@@ -673,15 +680,46 @@ class GitHubPagesPublisher:
             background: #000;
             color: #fff;
         }}
-        main {{
+        /* 2컬럼 레이아웃 */
+        main.two-column {{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+        }}
+        main.single-column {{
+            display: block;
+            max-width: 720px;
+            margin: 0 auto;
+        }}
+        .column {{
             display: flex;
             flex-direction: column;
+        }}
+        .column.hidden {{
+            display: none;
+        }}
+        .column-header {{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #666;
+            margin-bottom: 12px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #eee;
+        }}
+        .column-header .badge {{
+            font-size: 11px;
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-weight: 500;
         }}
         .report-item {{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 20px 0;
+            padding: 16px 0;
             border-bottom: 1px solid #eee;
             text-decoration: none;
             transition: opacity 0.2s;
@@ -695,8 +733,9 @@ class GitHubPagesPublisher:
         .item-left {{
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 8px;
             min-width: 0;
+            flex: 1;
         }}
         .badge {{
             font-size: 11px;
@@ -715,25 +754,20 @@ class GitHubPagesPublisher:
         }}
         .title {{
             color: #000;
-            font-size: 15px;
+            font-size: 14px;
             font-weight: 500;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
         }}
         .tags {{
-            display: flex;
-            gap: 6px;
-            flex-shrink: 0;
-            margin-left: 8px;
-        }}
-        .tag {{
-            color: #aaa;
-            font-size: 11px;
-            font-weight: 400;
+            display: none;
         }}
         .date {{
             color: #888;
-            font-size: 13px;
+            font-size: 12px;
             flex-shrink: 0;
-            margin-left: 16px;
+            margin-left: 12px;
         }}
         .empty {{
             color: #888;
@@ -793,6 +827,17 @@ class GitHubPagesPublisher:
             text-decoration: underline;
         }}
         /* Mobile responsive */
+        @media (max-width: 900px) {{
+            .container {{
+                max-width: 720px;
+            }}
+            main.two-column {{
+                display: block;
+            }}
+            .column + .column {{
+                margin-top: 32px;
+            }}
+        }}
         @media (max-width: 640px) {{
             .container {{
                 padding: 32px 16px;
@@ -803,16 +848,8 @@ class GitHubPagesPublisher:
             .report-item {{
                 flex-direction: column;
                 align-items: flex-start;
-                gap: 8px;
-                padding: 16px 0;
-            }}
-            .item-left {{
-                flex-wrap: wrap;
-            }}
-            .tags {{
-                margin-left: 0;
-                margin-top: 4px;
-                width: 100%;
+                gap: 6px;
+                padding: 14px 0;
             }}
             .date {{
                 margin-left: 0;
@@ -831,8 +868,25 @@ class GitHubPagesPublisher:
             <button class="filter-tab" data-filter="market" aria-pressed="false">Market</button>
             <button class="filter-tab" data-filter="dev" aria-pressed="false">Dev</button>
         </nav>
-        <main role="feed" aria-label="트렌드 리포트 목록">
-            {report_items if report_items else '<p class="empty">No reports yet.</p>'}
+        <main id="main" class="two-column" role="feed" aria-label="트렌드 리포트 목록">
+            <section class="column column-market" id="column-market">
+                <div class="column-header">
+                    <span class="badge category-market">Market</span>
+                    <span>세계 정세 & 주식</span>
+                </div>
+                <div class="column-items">
+                    {market_items if market_items else '<p class="empty">No market reports yet.</p>'}
+                </div>
+            </section>
+            <section class="column column-dev" id="column-dev">
+                <div class="column-header">
+                    <span class="badge category-dev">Dev</span>
+                    <span>개발 & AI</span>
+                </div>
+                <div class="column-items">
+                    {dev_items if dev_items else '<p class="empty">No dev reports yet.</p>'}
+                </div>
+            </section>
         </main>
         <div class="pagination" id="pagination"></div>
         <footer>
@@ -841,28 +895,38 @@ class GitHubPagesPublisher:
         </footer>
     </div>
     <script>
-        const ITEMS_PER_PAGE = 20;
+        const ITEMS_PER_PAGE = 10;  // 각 컬럼당 아이템 수
         let currentPage = 1;
         let currentFilter = 'all';
 
-        function getFilteredItems() {{
-            const items = Array.from(document.querySelectorAll('.report-item'));
-            if (currentFilter === 'all') return items;
-            return items.filter(item => item.dataset.category === currentFilter);
+        const mainEl = document.getElementById('main');
+        const marketColumn = document.getElementById('column-market');
+        const devColumn = document.getElementById('column-dev');
+
+        function getColumnItems(column) {{
+            return Array.from(column.querySelectorAll('.report-item'));
         }}
 
         function renderPage() {{
-            const allItems = Array.from(document.querySelectorAll('.report-item'));
-            const filteredItems = getFilteredItems();
-            const totalPages = Math.ceil(filteredItems.length / ITEMS_PER_PAGE);
+            const marketItems = getColumnItems(marketColumn);
+            const devItems = getColumnItems(devColumn);
+
+            // 페이지 계산 (가장 긴 컬럼 기준)
+            const maxItems = Math.max(marketItems.length, devItems.length);
+            const totalPages = Math.ceil(maxItems / ITEMS_PER_PAGE);
 
             if (currentPage > totalPages) currentPage = totalPages || 1;
 
             const start = (currentPage - 1) * ITEMS_PER_PAGE;
             const end = start + ITEMS_PER_PAGE;
 
-            allItems.forEach(item => item.classList.add('hidden'));
-            filteredItems.slice(start, end).forEach(item => item.classList.remove('hidden'));
+            // 각 컬럼의 아이템 표시/숨김
+            marketItems.forEach((item, i) => {{
+                item.classList.toggle('hidden', i < start || i >= end);
+            }});
+            devItems.forEach((item, i) => {{
+                item.classList.toggle('hidden', i < start || i >= end);
+            }});
 
             renderPagination(totalPages);
         }}
@@ -904,6 +968,7 @@ class GitHubPagesPublisher:
             currentFilter = filter;
             currentPage = 1;
 
+            // 탭 UI 업데이트
             document.querySelectorAll('.filter-tab').forEach(t => {{
                 t.classList.remove('active');
                 t.setAttribute('aria-pressed', 'false');
@@ -911,6 +976,24 @@ class GitHubPagesPublisher:
             const activeTab = document.querySelector(`[data-filter="${{filter}}"]`);
             activeTab.classList.add('active');
             activeTab.setAttribute('aria-pressed', 'true');
+
+            // 컬럼 표시/숨김 및 레이아웃 변경
+            if (filter === 'all') {{
+                mainEl.classList.remove('single-column');
+                mainEl.classList.add('two-column');
+                marketColumn.classList.remove('hidden');
+                devColumn.classList.remove('hidden');
+            }} else if (filter === 'market') {{
+                mainEl.classList.remove('two-column');
+                mainEl.classList.add('single-column');
+                marketColumn.classList.remove('hidden');
+                devColumn.classList.add('hidden');
+            }} else if (filter === 'dev') {{
+                mainEl.classList.remove('two-column');
+                mainEl.classList.add('single-column');
+                marketColumn.classList.add('hidden');
+                devColumn.classList.remove('hidden');
+            }}
 
             renderPage();
         }}
@@ -926,13 +1009,7 @@ class GitHubPagesPublisher:
         // URL 경로에 따라 초기 필터 설정
         const path = location.pathname.split('/').pop();
         if (path === 'market' || path === 'dev') {{
-            currentFilter = path;
-            document.querySelectorAll('.filter-tab').forEach(t => {{
-                t.classList.remove('active');
-                t.setAttribute('aria-pressed', 'false');
-            }});
-            document.querySelector(`[data-filter="${{path}}"]`).classList.add('active');
-            document.querySelector(`[data-filter="${{path}}"]`).setAttribute('aria-pressed', 'true');
+            setFilter(path);
         }}
 
         renderPage();
