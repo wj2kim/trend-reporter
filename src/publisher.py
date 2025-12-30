@@ -520,7 +520,7 @@ class GitHubPagesPublisher:
                         <span class="title">{title}</span>
                         <span class="tags">{keywords_html}</span>
                     </div>
-                    <time class="date" datetime="{r['date']}">{r['date']}</time>
+                    <time class="date" datetime="{r['date']}T{r['time']}:00+09:00">{r['date']}<span class="time"> {r['time']}</span></time>
                 </a>'''
 
         # Market 컬럼 아이템
@@ -767,9 +767,15 @@ class GitHubPagesPublisher:
             color: #999;
             font-size: 11px;
         }}
-        /* 단일 컬럼(필터) 모드에서 태그 표시 */
+        .time {{
+            display: none;
+        }}
+        /* 단일 컬럼(필터) 모드에서 태그, 시간 표시 */
         main.single-column .tags {{
             display: flex;
+        }}
+        main.single-column .time {{
+            display: inline;
         }}
         .date {{
             color: #888;
