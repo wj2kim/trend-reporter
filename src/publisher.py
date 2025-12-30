@@ -245,12 +245,18 @@ class GitHubPagesPublisher:
             gap: 12px;
         }}
         .category-badge {{
-            background: #f0f0f0;
-            color: #555;
             font-size: 12px;
             padding: 4px 10px;
             border-radius: 12px;
             font-weight: 500;
+        }}
+        .category-badge.market {{
+            background: #e8f4fc;
+            color: #1a73e8;
+        }}
+        .category-badge.dev {{
+            background: #e6f4ea;
+            color: #1e8e3e;
         }}
         time {{
             color: #888;
@@ -333,7 +339,7 @@ class GitHubPagesPublisher:
         <nav class="header-inner" aria-label="breadcrumb">
             <a href="../index.html" class="back-link" aria-label="리포트 목록으로 돌아가기">&lt; Back</a>
             <div class="header-right">
-                <span class="category-badge">{category_label}</span>
+                <span class="category-badge {category}">{category_label}</span>
                 <span class="reading-time">{reading_time_str} read</span>
                 <time datetime="{iso_date}">{date_str}</time>
             </div>
