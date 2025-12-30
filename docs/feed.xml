@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Tue, 30 Dec 2025 10:46:27 +0900</lastBuildDate>
-    <pubDate>Tue, 30 Dec 2025 10:46:27 +0900</pubDate>
+    <lastBuildDate>Tue, 30 Dec 2025 20:39:09 +0900</lastBuildDate>
+    <pubDate>Tue, 30 Dec 2025 20:39:09 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[AI 에이전트 확산과 바이브 코딩 | 2025-12-30 20:38]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-30-2039-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-30-2039-dev.html</guid>
+      <pubDate>Tue, 30 Dec 2025 20:39:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI FrontierScience 발표: 물리, 화학, 생물학 분야에서 AI의 과학적 추론 능력을 측정하는 새로운 벤치마크를 도입했습니다. ChatGPT 이미지 기능 업데이트: 자사 플래그십 모델을 통해 더욱 정밀한 편집과 ... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미·중 파나마 갈등과 테슬라 인도량 우려 | 2025-12-30 20:38]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-30-2039-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-30-2039-market.html</guid>
+      <pubDate>Tue, 30 Dec 2025 20:39:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 파나마 운하를 둘러싼 미·중 영향력 충돌 고조 트럼프 행정부와 중국 간의 파나마 운하 주도권 경쟁이 심화되는 가운데, 운하 인근의 중국 기념비가 철거되었습니다. 이는 전략적 요충지인 파나마 내 중국의 영향력을 억제하려는 미국 측의 의중이 반영된 것으로 해석되며 향후... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[ChatGPT 앱 장터 및 AI 코딩 도구 확산 | 2025-12-30 10:45]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-30-1046-dev.html</link>

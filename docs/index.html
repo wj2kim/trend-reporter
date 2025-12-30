@@ -73,65 +73,77 @@
     "@type": "ItemList",
     "name": "최신 트렌드 리포트",
     "description": "AI가 분석한 최신 글로벌 트렌드 리포트 목록",
-    "numberOfItems": 10,
+    "numberOfItems": 12,
     "itemListElement": [
         {
             "@type": "ListItem",
             "position": 1,
+            "url": "https://wj2kim.github.io/trend-reporter/reports/2025-12-30-2039-dev.html",
+            "name": "AI 에이전트 확산과 바이브 코딩 | 2025-12-30 20:38"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "url": "https://wj2kim.github.io/trend-reporter/reports/2025-12-30-2039-market.html",
+            "name": "미·중 파나마 갈등과 테슬라 인도량 우려 | 2025-12-30 20:38"
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
             "url": "https://wj2kim.github.io/trend-reporter/reports/2025-12-30-1046-dev.html",
             "name": "ChatGPT 앱 장터 및 AI 코딩 도구 확산 | 2025-12-30 10:45"
         },
         {
             "@type": "ListItem",
-            "position": 2,
+            "position": 4,
             "url": "https://wj2kim.github.io/trend-reporter/reports/2025-12-30-1046-market.html",
             "name": "트럼프-네타냐후 회동, 중동 긴장 고조 | 2025-12-30 10:45"
         },
         {
             "@type": "ListItem",
-            "position": 3,
+            "position": 5,
             "url": "https://wj2kim.github.io/trend-reporter/reports/2025-12-29-1054-dev.html",
             "name": "Sora 안드로이드, AI로 28일 만에 구축 | 2025-12-29 10:53"
         },
         {
             "@type": "ListItem",
-            "position": 4,
+            "position": 6,
             "url": "https://wj2kim.github.io/trend-reporter/reports/2025-12-29-1054-market.html",
             "name": "트럼프-젤렌스키 회동, 평화 협상 난항 | 2025-12-29 10:53"
         },
         {
             "@type": "ListItem",
-            "position": 5,
+            "position": 7,
             "url": "https://wj2kim.github.io/trend-reporter/reports/2025-12-28-2135-dev.html",
             "name": "OpenAI 앱 제출 기능 및 AI 개발 가속 | 2025-12-28 21:35"
         },
         {
             "@type": "ListItem",
-            "position": 6,
+            "position": 8,
             "url": "https://wj2kim.github.io/trend-reporter/reports/2025-12-28-2135-market.html",
             "name": "우크라이나 평화협상과 중국 재정 부양 | 2025-12-28 21:35"
         },
         {
             "@type": "ListItem",
-            "position": 7,
+            "position": 9,
             "url": "https://wj2kim.github.io/trend-reporter/reports/2025-12-27-1043-dev.html",
             "name": "GPT-5.2 Codex 및 AI 개발 혁신 | 2025-12-27 10:42"
         },
         {
             "@type": "ListItem",
-            "position": 8,
+            "position": 10,
             "url": "https://wj2kim.github.io/trend-reporter/reports/2025-12-27-1043-market.html",
             "name": "S&P500 신고가, 정세 불안 지속 | 2025-12-27 10:42"
         },
         {
             "@type": "ListItem",
-            "position": 9,
+            "position": 11,
             "url": "https://wj2kim.github.io/trend-reporter/reports/2025-12-26-2315-dev.html",
             "name": "NVIDIA, Groq 인수 및 AI 코딩 진화 | 2025-12-26 23:14"
         },
         {
             "@type": "ListItem",
-            "position": 10,
+            "position": 12,
             "url": "https://wj2kim.github.io/trend-reporter/reports/2025-12-26-2315-market.html",
             "name": "젤렌스키·트럼프 회동 및 금값 최고 | 2025-12-26 23:14"
         }
@@ -149,7 +161,7 @@
             min-height: 100vh;
         }
         .container {
-            max-width: 720px;
+            max-width: 1100px;
             margin: 0 auto;
             padding: 60px 24px;
         }
@@ -192,15 +204,46 @@
             background: #000;
             color: #fff;
         }
-        main {
+        /* 2컬럼 레이아웃 */
+        main.two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+        }
+        main.single-column {
+            display: block;
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        .column {
             display: flex;
             flex-direction: column;
+        }
+        .column.hidden {
+            display: none;
+        }
+        .column-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #666;
+            margin-bottom: 12px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #eee;
+        }
+        .column-header .badge {
+            font-size: 11px;
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-weight: 500;
         }
         .report-item {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 20px 0;
+            padding: 16px 0;
             border-bottom: 1px solid #eee;
             text-decoration: none;
             transition: opacity 0.2s;
@@ -214,8 +257,9 @@
         .item-left {
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 8px;
             min-width: 0;
+            flex: 1;
         }
         .badge {
             font-size: 11px;
@@ -234,25 +278,20 @@
         }
         .title {
             color: #000;
-            font-size: 15px;
+            font-size: 14px;
             font-weight: 500;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
         }
         .tags {
-            display: flex;
-            gap: 6px;
-            flex-shrink: 0;
-            margin-left: 8px;
-        }
-        .tag {
-            color: #aaa;
-            font-size: 11px;
-            font-weight: 400;
+            display: none;
         }
         .date {
             color: #888;
-            font-size: 13px;
+            font-size: 12px;
             flex-shrink: 0;
-            margin-left: 16px;
+            margin-left: 12px;
         }
         .empty {
             color: #888;
@@ -312,6 +351,17 @@
             text-decoration: underline;
         }
         /* Mobile responsive */
+        @media (max-width: 900px) {
+            .container {
+                max-width: 720px;
+            }
+            main.two-column {
+                display: block;
+            }
+            .column + .column {
+                margin-top: 32px;
+            }
+        }
         @media (max-width: 640px) {
             .container {
                 padding: 32px 16px;
@@ -322,16 +372,8 @@
             .report-item {
                 flex-direction: column;
                 align-items: flex-start;
-                gap: 8px;
-                padding: 16px 0;
-            }
-            .item-left {
-                flex-wrap: wrap;
-            }
-            .tags {
-                margin-left: 0;
-                margin-top: 4px;
-                width: 100%;
+                gap: 6px;
+                padding: 14px 0;
             }
             .date {
                 margin-left: 0;
@@ -350,88 +392,121 @@
             <button class="filter-tab" data-filter="market" aria-pressed="false">Market</button>
             <button class="filter-tab" data-filter="dev" aria-pressed="false">Dev</button>
         </nav>
-        <main role="feed" aria-label="트렌드 리포트 목록">
-            
-                <a href="reports/2025-12-30-1046-dev.html" class="report-item" data-category="dev">
+        <main id="main" class="two-column" role="feed" aria-label="트렌드 리포트 목록">
+            <section class="column column-market" id="column-market">
+                <div class="column-header">
+                    <span class="badge category-market">Market</span>
+                    <span>세계 정세 & 주식</span>
+                </div>
+                <div class="column-items">
+                    
+                <a href="reports/2025-12-30-2039-market.html" class="report-item" data-category="market">
                     <div class="item-left">
-                        <span class="badge category-dev">Dev</span>
-                        <span class="title">ChatGPT 앱 장터 및 AI 코딩 도구 확산</span>
-                        <span class="tags"><span class="tag">#OpenAI</span> <span class="tag">#Claude Code</span> <span class="tag">#AI 에이전트</span></span>
+                        
+                        <span class="title">미·중 파나마 갈등과 테슬라 인도량 우려</span>
+                        <span class="tags"><span class="tag">#테슬라</span> <span class="tag">#파나마 운하</span> <span class="tag">#지정학적 리스크</span></span>
                     </div>
-                    <time class="date" datetime="2025-12-30T10:46:00+09:00">2025-12-30 10:46</time>
+                    <time class="date" datetime="2025-12-30T20:39:00+09:00">2025-12-30 20:39</time>
                 </a>
                 <a href="reports/2025-12-30-1046-market.html" class="report-item" data-category="market">
                     <div class="item-left">
-                        <span class="badge category-market">Market</span>
+                        
                         <span class="title">트럼프-네타냐후 회동, 중동 긴장 고조</span>
                         <span class="tags"><span class="tag">#트럼프</span> <span class="tag">#이스라엘</span> <span class="tag">#중동 정세</span></span>
                     </div>
                     <time class="date" datetime="2025-12-30T10:46:00+09:00">2025-12-30 10:46</time>
                 </a>
-                <a href="reports/2025-12-29-1054-dev.html" class="report-item" data-category="dev">
-                    <div class="item-left">
-                        <span class="badge category-dev">Dev</span>
-                        <span class="title">Sora 안드로이드, AI로 28일 만에 구축</span>
-                        <span class="tags"><span class="tag">#Sora</span> <span class="tag">#OpenAI</span> <span class="tag">#Codex</span></span>
-                    </div>
-                    <time class="date" datetime="2025-12-29T10:54:00+09:00">2025-12-29 10:54</time>
-                </a>
                 <a href="reports/2025-12-29-1054-market.html" class="report-item" data-category="market">
                     <div class="item-left">
-                        <span class="badge category-market">Market</span>
+                        
                         <span class="title">트럼프-젤렌스키 회동, 평화 협상 난항</span>
                         <span class="tags"><span class="tag">#트럼프</span> <span class="tag">#우크라이나</span> <span class="tag">#평화협상</span></span>
                     </div>
                     <time class="date" datetime="2025-12-29T10:54:00+09:00">2025-12-29 10:54</time>
                 </a>
-                <a href="reports/2025-12-28-2135-dev.html" class="report-item" data-category="dev">
-                    <div class="item-left">
-                        <span class="badge category-dev">Dev</span>
-                        <span class="title">OpenAI 앱 제출 기능 및 AI 개발 가속</span>
-                        <span class="tags"><span class="tag">#OpenAI</span> <span class="tag">#AI 에이전트</span> <span class="tag">#개발 트렌드</span></span>
-                    </div>
-                    <time class="date" datetime="2025-12-28T21:35:00+09:00">2025-12-28 21:35</time>
-                </a>
                 <a href="reports/2025-12-28-2135-market.html" class="report-item" data-category="market">
                     <div class="item-left">
-                        <span class="badge category-market">Market</span>
+                        
                         <span class="title">우크라이나 평화협상과 중국 재정 부양</span>
                         <span class="tags"><span class="tag">#젤렌스키</span> <span class="tag">#중국 부양책</span> <span class="tag">#푸틴</span></span>
                     </div>
                     <time class="date" datetime="2025-12-28T21:35:00+09:00">2025-12-28 21:35</time>
                 </a>
-                <a href="reports/2025-12-27-1043-dev.html" class="report-item" data-category="dev">
-                    <div class="item-left">
-                        <span class="badge category-dev">Dev</span>
-                        <span class="title">GPT-5.2 Codex 및 AI 개발 혁신</span>
-                        <span class="tags"><span class="tag">#GPT-5.2</span> <span class="tag">#OpenAI</span> <span class="tag">#AI 개발 도구</span></span>
-                    </div>
-                    <time class="date" datetime="2025-12-27T10:43:00+09:00">2025-12-27 10:43</time>
-                </a>
                 <a href="reports/2025-12-27-1043-market.html" class="report-item" data-category="market">
                     <div class="item-left">
-                        <span class="badge category-market">Market</span>
+                        
                         <span class="title">S&amp;P500 신고가, 정세 불안 지속</span>
                         <span class="tags"><span class="tag">#S&amp;P500</span> <span class="tag">#지정학적리스크</span> <span class="tag">#안전자산</span></span>
                     </div>
                     <time class="date" datetime="2025-12-27T10:43:00+09:00">2025-12-27 10:43</time>
                 </a>
-                <a href="reports/2025-12-26-2315-dev.html" class="report-item" data-category="dev">
-                    <div class="item-left">
-                        <span class="badge category-dev">Dev</span>
-                        <span class="title">NVIDIA, Groq 인수 및 AI 코딩 진화</span>
-                        <span class="tags"><span class="tag">#NVIDIA</span> <span class="tag">#Groq</span> <span class="tag">#GPT-5.2</span></span>
-                    </div>
-                    <time class="date" datetime="2025-12-26T23:15:00+09:00">2025-12-26 23:15</time>
-                </a>
                 <a href="reports/2025-12-26-2315-market.html" class="report-item" data-category="market">
                     <div class="item-left">
-                        <span class="badge category-market">Market</span>
+                        
                         <span class="title">젤렌스키·트럼프 회동 및 금값 최고</span>
                         <span class="tags"><span class="tag">#젤렌스키</span> <span class="tag">#트럼프</span> <span class="tag">#금값</span></span>
                     </div>
                     <time class="date" datetime="2025-12-26T23:15:00+09:00">2025-12-26 23:15</time>
                 </a>
+                </div>
+            </section>
+            <section class="column column-dev" id="column-dev">
+                <div class="column-header">
+                    <span class="badge category-dev">Dev</span>
+                    <span>개발 & AI</span>
+                </div>
+                <div class="column-items">
+                    
+                <a href="reports/2025-12-30-2039-dev.html" class="report-item" data-category="dev">
+                    <div class="item-left">
+                        
+                        <span class="title">AI 에이전트 확산과 바이브 코딩</span>
+                        <span class="tags"><span class="tag">#Meta</span> <span class="tag">#Manus</span> <span class="tag">#Andrej Karpathy</span></span>
+                    </div>
+                    <time class="date" datetime="2025-12-30T20:39:00+09:00">2025-12-30 20:39</time>
+                </a>
+                <a href="reports/2025-12-30-1046-dev.html" class="report-item" data-category="dev">
+                    <div class="item-left">
+                        
+                        <span class="title">ChatGPT 앱 장터 및 AI 코딩 도구 확산</span>
+                        <span class="tags"><span class="tag">#OpenAI</span> <span class="tag">#Claude Code</span> <span class="tag">#AI 에이전트</span></span>
+                    </div>
+                    <time class="date" datetime="2025-12-30T10:46:00+09:00">2025-12-30 10:46</time>
+                </a>
+                <a href="reports/2025-12-29-1054-dev.html" class="report-item" data-category="dev">
+                    <div class="item-left">
+                        
+                        <span class="title">Sora 안드로이드, AI로 28일 만에 구축</span>
+                        <span class="tags"><span class="tag">#Sora</span> <span class="tag">#OpenAI</span> <span class="tag">#Codex</span></span>
+                    </div>
+                    <time class="date" datetime="2025-12-29T10:54:00+09:00">2025-12-29 10:54</time>
+                </a>
+                <a href="reports/2025-12-28-2135-dev.html" class="report-item" data-category="dev">
+                    <div class="item-left">
+                        
+                        <span class="title">OpenAI 앱 제출 기능 및 AI 개발 가속</span>
+                        <span class="tags"><span class="tag">#OpenAI</span> <span class="tag">#AI 에이전트</span> <span class="tag">#개발 트렌드</span></span>
+                    </div>
+                    <time class="date" datetime="2025-12-28T21:35:00+09:00">2025-12-28 21:35</time>
+                </a>
+                <a href="reports/2025-12-27-1043-dev.html" class="report-item" data-category="dev">
+                    <div class="item-left">
+                        
+                        <span class="title">GPT-5.2 Codex 및 AI 개발 혁신</span>
+                        <span class="tags"><span class="tag">#GPT-5.2</span> <span class="tag">#OpenAI</span> <span class="tag">#AI 개발 도구</span></span>
+                    </div>
+                    <time class="date" datetime="2025-12-27T10:43:00+09:00">2025-12-27 10:43</time>
+                </a>
+                <a href="reports/2025-12-26-2315-dev.html" class="report-item" data-category="dev">
+                    <div class="item-left">
+                        
+                        <span class="title">NVIDIA, Groq 인수 및 AI 코딩 진화</span>
+                        <span class="tags"><span class="tag">#NVIDIA</span> <span class="tag">#Groq</span> <span class="tag">#GPT-5.2</span></span>
+                    </div>
+                    <time class="date" datetime="2025-12-26T23:15:00+09:00">2025-12-26 23:15</time>
+                </a>
+                </div>
+            </section>
         </main>
         <div class="pagination" id="pagination"></div>
         <footer>
@@ -440,28 +515,38 @@
         </footer>
     </div>
     <script>
-        const ITEMS_PER_PAGE = 20;
+        const ITEMS_PER_PAGE = 10;  // 각 컬럼당 아이템 수
         let currentPage = 1;
         let currentFilter = 'all';
 
-        function getFilteredItems() {
-            const items = Array.from(document.querySelectorAll('.report-item'));
-            if (currentFilter === 'all') return items;
-            return items.filter(item => item.dataset.category === currentFilter);
+        const mainEl = document.getElementById('main');
+        const marketColumn = document.getElementById('column-market');
+        const devColumn = document.getElementById('column-dev');
+
+        function getColumnItems(column) {
+            return Array.from(column.querySelectorAll('.report-item'));
         }
 
         function renderPage() {
-            const allItems = Array.from(document.querySelectorAll('.report-item'));
-            const filteredItems = getFilteredItems();
-            const totalPages = Math.ceil(filteredItems.length / ITEMS_PER_PAGE);
+            const marketItems = getColumnItems(marketColumn);
+            const devItems = getColumnItems(devColumn);
+
+            // 페이지 계산 (가장 긴 컬럼 기준)
+            const maxItems = Math.max(marketItems.length, devItems.length);
+            const totalPages = Math.ceil(maxItems / ITEMS_PER_PAGE);
 
             if (currentPage > totalPages) currentPage = totalPages || 1;
 
             const start = (currentPage - 1) * ITEMS_PER_PAGE;
             const end = start + ITEMS_PER_PAGE;
 
-            allItems.forEach(item => item.classList.add('hidden'));
-            filteredItems.slice(start, end).forEach(item => item.classList.remove('hidden'));
+            // 각 컬럼의 아이템 표시/숨김
+            marketItems.forEach((item, i) => {
+                item.classList.toggle('hidden', i < start || i >= end);
+            });
+            devItems.forEach((item, i) => {
+                item.classList.toggle('hidden', i < start || i >= end);
+            });
 
             renderPagination(totalPages);
         }
@@ -503,6 +588,7 @@
             currentFilter = filter;
             currentPage = 1;
 
+            // 탭 UI 업데이트
             document.querySelectorAll('.filter-tab').forEach(t => {
                 t.classList.remove('active');
                 t.setAttribute('aria-pressed', 'false');
@@ -510,6 +596,24 @@
             const activeTab = document.querySelector(`[data-filter="${filter}"]`);
             activeTab.classList.add('active');
             activeTab.setAttribute('aria-pressed', 'true');
+
+            // 컬럼 표시/숨김 및 레이아웃 변경
+            if (filter === 'all') {
+                mainEl.classList.remove('single-column');
+                mainEl.classList.add('two-column');
+                marketColumn.classList.remove('hidden');
+                devColumn.classList.remove('hidden');
+            } else if (filter === 'market') {
+                mainEl.classList.remove('two-column');
+                mainEl.classList.add('single-column');
+                marketColumn.classList.remove('hidden');
+                devColumn.classList.add('hidden');
+            } else if (filter === 'dev') {
+                mainEl.classList.remove('two-column');
+                mainEl.classList.add('single-column');
+                marketColumn.classList.add('hidden');
+                devColumn.classList.remove('hidden');
+            }
 
             renderPage();
         }
@@ -525,13 +629,7 @@
         // URL 경로에 따라 초기 필터 설정
         const path = location.pathname.split('/').pop();
         if (path === 'market' || path === 'dev') {
-            currentFilter = path;
-            document.querySelectorAll('.filter-tab').forEach(t => {
-                t.classList.remove('active');
-                t.setAttribute('aria-pressed', 'false');
-            });
-            document.querySelector(`[data-filter="${path}"]`).classList.add('active');
-            document.querySelector(`[data-filter="${path}"]`).setAttribute('aria-pressed', 'true');
+            setFilter(path);
         }
 
         renderPage();
