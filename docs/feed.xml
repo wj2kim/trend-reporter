@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Tue, 30 Dec 2025 21:15:11 +0900</lastBuildDate>
-    <pubDate>Tue, 30 Dec 2025 21:15:11 +0900</pubDate>
+    <lastBuildDate>Wed, 31 Dec 2025 10:47:20 +0900</lastBuildDate>
+    <pubDate>Wed, 31 Dec 2025 10:47:20 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[AI 에이전트 시대, 개발자의 통제력 | 2025-12-31 10:46]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-31-1047-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-31-1047-dev.html</guid>
+      <pubDate>Wed, 31 Dec 2025 10:47:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, ChatGPT Images 업데이트: 자사 플래그십 이미지 모델을 통해 정밀한 편집, 일관된 세부 묘사 및 최대 4K 해상도 생성을 지원하는 새로운 기능을 출시했습니다. 과학 연구용 AI 벤치마크 도입: OpenAI는... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[중동 동맹 균열, 테슬라 실적 비관 | 2025-12-31 10:46]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-31-1047-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-31-1047-market.html</guid>
+      <pubDate>Wed, 31 Dec 2025 10:47:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 사우디-UAE 갈등 격화 및 UAE 예멘 철수 사우디 주도 연합군이 예멘 내 UAE 무기 수송로를 공습하면서 오랜 동맹이었던 양국 관계가 급격히 악화되었습니다. 이에 대응해 UAE는 예멘 내 대테러 부대 전면 철수를 발표하며 걸프 지역의 지정학적 지형이 재편되고 있... (읽기 시간: 3분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Meta, AI 에이전트 Manus 인수 | 2025-12-30 21:00]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-30-2101-dev.html</link>
