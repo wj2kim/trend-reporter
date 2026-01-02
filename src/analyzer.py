@@ -252,7 +252,8 @@ KEYWORDS: Claude, MCP, Anthropic
 
 수집된 데이터에서 다음과 같은 인물들의 글을 찾아 요약하세요:
 - AI 리더: Sam Altman, Dario Amodei, Demis Hassabis, Yann LeCun, Andrej Karpathy
-- 개발자: DHH, ThePrimeagen, Theo, Fireship, Kent C. Dodds
+- Anthropic/Claude: Amanda Askell, Alex Albert, Boris Power, Michael Gerstenhaber
+- 개발자: DHH, ThePrimeagen, Theo, Fireship, Kent C. Dodds, Dan Abramov
 - 기타 영향력 있는 기술 인물
 
 ### [저자명] - [글 제목/주제]
