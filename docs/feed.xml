@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Thu, 01 Jan 2026 10:56:38 +0900</lastBuildDate>
-    <pubDate>Thu, 01 Jan 2026 10:56:38 +0900</pubDate>
+    <lastBuildDate>Fri, 02 Jan 2026 10:48:18 +0900</lastBuildDate>
+    <pubDate>Fri, 02 Jan 2026 10:48:18 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GPT-5.2와 AI 코딩 에이전트 | 2026-01-02 10:47]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-02-1048-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-02-1048-dev.html</guid>
+      <pubDate>Fri, 02 Jan 2026 10:48:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 GPT-5.2-Codex 시스템 카드 공개: OpenAI가 코딩에 최적화된 GPT-5.2-Codex의 안전 조치와 모델 수준의 위험 완화 전략을 담은 시스템 카드를 추가 발표했습니다. 새로운 ChatGPT Images 출시: 플래그... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[코스피 최고치 경신 및 AI발 금융권 구조조정 | 2026-01-02 10:47]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-02-1048-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-02-1048-market.html</guid>
+      <pubDate>Fri, 02 Jan 2026 10:48:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 이란 경제난에 따른 반정부 시위 확산 및 유혈 사태 이란의 화폐 가치 급락과 경제적 압박으로 인해 전국적인 시위가 5일째 이어지고 있으며, 최소 1명 이상의 사망자가 발생했습니다. 이는 중동 지역의 정세 불안을 가중시켜 에너지 시장의 변동성을 키울 수 있는 요인입니... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[AI 앱 생태계와 과학 연구 AI의 도약 | 2026-01-01 10:55]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-01-1056-dev.html</link>
