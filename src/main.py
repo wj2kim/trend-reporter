@@ -153,88 +153,17 @@ def main():
         print(f"[HuggingFace] 수집 실패: {e}")
         collected_data.append("[HuggingFace] 수집 실패\n")
 
-    # 커뮤니티 수집 (별도 데이터)
-    print("\n" + "=" * 50)
-    print("커뮤니티 데이터 수집")
-    print("=" * 50)
+    # 7. Google Trends (한국 실시간 트렌드)
+    print("\n[7/7] Google Trends 수집 중...")
     community_data = []
-
-    # 7. 클리앙
-    print("\n[Community 1/6] 클리앙 수집 중...")
     try:
-        clien_collector = ClienCollector(cache=cache)
-        clien_posts = clien_collector.collect_posts(limit=15)
-        community_data.append(clien_collector.format_for_analysis(clien_posts))
+        from collectors.google_trends import GoogleTrendsCollector
+        trends_collector = GoogleTrendsCollector(geo="KR")
+        trends = trends_collector.collect_realtime_trends(limit=15)
+        community_data.append(trends_collector.format_for_report(trends))
     except Exception as e:
-        print(f"[Clien] 수집 실패: {e}")
-        community_data.append("[클리앙] 수집 실패\n")
-
-    # 8. 디시인사이드
-    print("\n[Community 2/6] 디시인사이드 수집 중...")
-    try:
-        dc_collector = DCInsideCollector(cache=cache)
-        dc_posts = dc_collector.collect_posts(limit=15)
-        community_data.append(dc_collector.format_for_analysis(dc_posts))
-    except Exception as e:
-        print(f"[DCInside] 수집 실패: {e}")
-        community_data.append("[디시인사이드] 수집 실패\n")
-
-    # 9. 뽐뿌
-    print("\n[Community 3/5] 뽐뿌 수집 중...")
-    try:
-        ppomppu_collector = PpomppuCollector(cache=cache)
-        ppomppu_posts = ppomppu_collector.collect_posts(limit=15)
-        community_data.append(ppomppu_collector.format_for_analysis(ppomppu_posts))
-    except Exception as e:
-        print(f"[Ppomppu] 수집 실패: {e}")
-        community_data.append("[뽐뿌] 수집 실패\n")
-
-    # 10. 루리웹
-    print("\n[Community 4/5] 루리웹 수집 중...")
-    try:
-        ruliweb_collector = RuliwebCollector(cache=cache)
-        ruliweb_posts = ruliweb_collector.collect_posts(limit=15)
-        community_data.append(ruliweb_collector.format_for_analysis(ruliweb_posts))
-    except Exception as e:
-        print(f"[Ruliweb] 수집 실패: {e}")
-        community_data.append("[루리웹] 수집 실패\n")
-
-    # 11. 5ch
-    print("\n[Community 5/5] 5ch 수집 중...")
-    try:
-        fivech_collector = FiveChCollector(cache=cache)
-        fivech_posts = fivech_collector.collect_posts(limit=15)
-        community_data.append(fivech_collector.format_for_analysis(fivech_posts))
-    except Exception as e:
-        print(f"[5ch] 수집 실패: {e}")
-        community_data.append("[5ch] 수집 실패\n")
-
-    # 주식 커뮤니티 수집 (Market 리포트에 추가)
-    print("\n" + "=" * 50)
-    print("주식 커뮤니티 데이터 수집")
-    print("=" * 50)
-    stock_community_data = []
-
-    # 디시인사이드 주식갤러리
-    print("\n[Stock 1/2] 디시인사이드 주식갤러리 수집 중...")
-    try:
-        dc_stock_posts = dc_collector.collect_stock_posts(limit_per_gallery=10)
-        stock_community_data.append(dc_collector.format_stock_for_analysis(dc_stock_posts))
-    except Exception as e:
-        print(f"[DCInside Stock] 수집 실패: {e}")
-
-    # 뽐뿌 주식/코인
-    print("\n[Stock 2/2] 뽐뿌 주식/코인 수집 중...")
-    try:
-        ppomppu_stock_posts = ppomppu_collector.collect_stock_posts(limit_per_board=10)
-        stock_community_data.append(ppomppu_collector.format_stock_for_analysis(ppomppu_stock_posts))
-    except Exception as e:
-        print(f"[Ppomppu Stock] 수집 실패: {e}")
-
-    # 주식 커뮤니티 데이터를 메인 데이터에 추가 (Market 리포트용)
-    if stock_community_data:
-        collected_data.append("\n\n## 주식 커뮤니티 여론\n")
-        collected_data.extend(stock_community_data)
+        print(f"[Google Trends] 수집 실패: {e}")
+        community_data.append("[Google Trends] 수집 실패\n")
 
     # 캐시 저장
     cache.save()
@@ -275,20 +204,21 @@ def main():
     )
     dev_title = f"{dev_headline} | {date_str}"
 
-    # 3. 커뮤니티 리포트 (별도 데이터 사용)
+    # 3. 커뮤니티/트렌드 리포트 (Google Trends + RSS 커뮤니티 데이터)
     all_community_data = "\n".join(community_data)
     community_title = ""
     community_report = ""
 
-    if all_community_data.count("수집 실패") < 4:  # 최소 3개 이상 성공
-        print("  - 커뮤니티 리포트 생성 중...")
+    # Google Trends 데이터가 있으면 리포트 생성
+    if "Google Trends" in all_community_data and "수집 실패" not in all_community_data:
+        print("  - 트렌드 리포트 생성 중...")
         community_headline, community_keywords, community_report = analyzer.analyze_community(
             all_community_data,
             previous_titles=previous_reports.get("community", [])
         )
         community_title = f"{community_headline} | {date_str}"
     else:
-        print("  - 커뮤니티 데이터 부족, 리포트 생략")
+        print("  - 트렌드 데이터 부족, 리포트 생략")
 
     print("\n" + "=" * 50)
     print("[세계정세] " + world_title)

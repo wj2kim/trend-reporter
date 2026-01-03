@@ -129,4 +129,24 @@ rss:
       url: https://openai.com/blog/rss.xml
       category: ai
 
+    # 한국 커뮤니티
+    - name: 클리앙 Hot
+      url: http://feeds.feedburner.com/clien_hot10_rss
+      category: community
+
+    - name: 루리웹 뉴스
+      url: http://bbs.ruliweb.com/news/rss
+      category: community
+
+    - name: 루리웹 유머게시판
+      url: http://bbs.ruliweb.com/community/board/300143/rss
+      category: community
+
   items_per_feed: 8
+
+# Google Trends 설정
+google_trends:
+  enabled: true
+  geo: "KR"  # 한국
+  timeframe: "now 1-d"  # 최근 1일
+  top_charts: 10

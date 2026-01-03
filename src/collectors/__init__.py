@@ -5,8 +5,9 @@ from .devto import DevToCollector
 from .lobsters import LobstersCollector
 from .github_trending import GitHubTrendingCollector
 from .huggingface import HuggingFaceCollector
+from .google_trends import GoogleTrendsCollector
 
-# 커뮤니티 수집기
+# 커뮤니티 수집기 (레거시 - RSS로 대체 예정)
 from .clien import ClienCollector
 from .dcinside import DCInsideCollector
 from .fmkorea import FMKoreaCollector
@@ -21,7 +22,8 @@ __all__ = [
     'LobstersCollector',
     'GitHubTrendingCollector',
     'HuggingFaceCollector',
-    # 커뮤니티
+    'GoogleTrendsCollector',
+    # 커뮤니티 (레거시)
     'ClienCollector',
     'DCInsideCollector',
     'FMKoreaCollector',
