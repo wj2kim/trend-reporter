@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Fri, 02 Jan 2026 10:48:18 +0900</lastBuildDate>
-    <pubDate>Fri, 02 Jan 2026 10:48:18 +0900</pubDate>
+    <lastBuildDate>Sat, 03 Jan 2026 10:42:29 +0900</lastBuildDate>
+    <pubDate>Sat, 03 Jan 2026 10:42:29 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[2026년 리눅스 데스크톱과 오디오 AI의 해 | 2026-01-03 10:41]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-03-1042-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-03-1042-dev.html</guid>
+      <pubDate>Sat, 03 Jan 2026 10:42:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI GPT-5.2 Codex 업데이트: GPT-5.2 시스템 카드에 Codex 모델의 안전 조치와 완화 전략이 추가되었습니다. 새로운 ChatGPT Images 출시: 플래그십 이미지 생성 모델을 기반으로 더욱 정교한 편집... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[테슬라 1위 피탈, 이란 긴장 고조 | 2026-01-03 10:41]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-03-1042-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-03-1042-market.html</guid>
+      <pubDate>Sat, 03 Jan 2026 10:42:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 이란 반정부 시위 격화 및 트럼프 개입 경고 경제난으로 촉발된 이란 시위에서 사망자가 발생하며 유혈 사태로 번지고 있습니다. 도널드 트럼프 대통령은 이란 당국이 시위를 폭력적으로 진압할 경우 미국이 개입할 것이라고 강력 경고했으며, 이에 이란은 UN에 서한을 보내 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.2와 AI 코딩 에이전트 | 2026-01-02 10:47]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-02-1048-dev.html</link>
