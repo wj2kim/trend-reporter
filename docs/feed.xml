@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sat, 03 Jan 2026 19:47:09 +0900</lastBuildDate>
-    <pubDate>Sat, 03 Jan 2026 19:47:09 +0900</pubDate>
+    <lastBuildDate>Sat, 03 Jan 2026 20:43:28 +0900</lastBuildDate>
+    <pubDate>Sat, 03 Jan 2026 20:43:28 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GPT-5.2-Codex 출시, 코딩 혁신 | 2026-01-03 20:42]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-03-2043-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-03-2043-dev.html</guid>
+      <pubDate>Sat, 03 Jan 2026 20:43:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, GPT-5.2-Codex 공식 발표: 장기 추론(long-horizon reasoning)과 대규모 코드 변환 기능이 강화된 최첨단 코딩 모델입니다. 강화된 사이버 보안 성능을 포함하며 시스템 카드를 통해 안전 조치를... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[마두로 체포, 유가 하락 및 EV 시장 격변 | 2026-01-03 20:42]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-03-2043-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-03-2043-market.html</guid>
+      <pubDate>Sat, 03 Jan 2026 20:43:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [미국의 베네수엘라 대통령 체포 및 카라카스 공습] 트럼프 행정부가 베네수엘라 수도 카라카스에 대규모 공습을 단행하고 니콜라스 마두로 대통령과 그 부인을 체포했습니다. 이는 국제법 위반 논란과 함께 남미 정세를 근본적으로 뒤흔드는 사건이며, 미국의 강력한 대외 개입... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[IQuest-Coder와 에이전틱 개발 | 2026-01-03 19:46]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-03-1947-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sat, 27 Dec 2025 10:43:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프 행정부의 나이지리아 공습 개입 트럼프 대통령이 나이지리아 내 ISIS 캠프 공습을 명령하며 기독교 보호를 명분으로 내세웠습니다... (읽기 시간: 3분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[NVIDIA, Groq 인수 및 AI 코딩 진화 | 2025-12-26 23:14]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-2315-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-26-2315-dev.html</guid>
-      <pubDate>Fri, 26 Dec 2025 23:15:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.2-Codex 출시: 장기 추론(Long-horizon reasoning) 및 대규모 코드 변환 능력이 강화된 가장 진보된 코딩 모델을 발표했습니다... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[젤렌스키·트럼프 회동 및 금값 최고 | 2025-12-26 23:14]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-26-2315-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-26-2315-market.html</guid>
-      <pubDate>Fri, 26 Dec 2025 23:15:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [젤렌스키-트럼프 플로리다 회동 확정 우크라이나 종전 논의 가속화] 볼로디미르 젤렌스키 우크라이나 대통령이 오는 일요일 플로리다에서 도널드 트럼프 당선인과 만나... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
