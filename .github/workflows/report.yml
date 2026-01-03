@@ -32,7 +32,7 @@ jobs:
           cache: 'pip'
 
       - name: Install dependencies
-        run: pip install -q google-generativeai requests feedparser python-dotenv pyyaml pytz beautifulsoup4 cloudscraper
+        run: pip install -q google-generativeai requests feedparser python-dotenv pyyaml pytz beautifulsoup4 cloudscraper pytrends
 
       - name: Create cache directory
         run: mkdir -p cache
