@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sat, 03 Jan 2026 10:42:29 +0900</lastBuildDate>
-    <pubDate>Sat, 03 Jan 2026 10:42:29 +0900</pubDate>
+    <lastBuildDate>Sat, 03 Jan 2026 19:47:09 +0900</lastBuildDate>
+    <pubDate>Sat, 03 Jan 2026 19:47:09 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[IQuest-Coder와 에이전틱 개발 | 2026-01-03 19:46]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-03-1947-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-03-1947-dev.html</guid>
+      <pubDate>Sat, 03 Jan 2026 19:47:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 IQuest-Coder 공개: Claude 4.5 및 GPT 5.1의 성능을 능가한다고 주장하는 새로운 오픈소스 코드 모델이 기술 보고서와 함께 공개되었습니다. OpenAI CoT 모니터링 프레임워크: OpenAI가 &#x27;생각의 사슬(... (읽기 시간: 3분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프, 마두로 체포 및 증시 변동 | 2026-01-03 19:46]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-03-1947-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-03-1947-market.html</guid>
+      <pubDate>Sat, 03 Jan 2026 19:47:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 대통령, 베네수엘라 마두로 대통령 생포 발표 트럼프 대통령은 미군이 베네수엘라를 대규모로 공습하여 니콜라스 마두로 대통령과 그의 부인을 생포하고 국외로 이송했다고 발표했습니다. 카라카스에서 폭발음과 저공비행기가 목격되는 등 군사적 긴장이 최고조에 달했으며, ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[2026년 리눅스 데스크톱과 오디오 AI의 해 | 2026-01-03 10:41]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-03-1042-dev.html</link>
