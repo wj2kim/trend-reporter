@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Thu, 08 Jan 2026 10:48:16 +0900</lastBuildDate>
-    <pubDate>Thu, 08 Jan 2026 10:48:16 +0900</pubDate>
+    <lastBuildDate>Fri, 09 Jan 2026 10:48:43 +0900</lastBuildDate>
+    <pubDate>Fri, 09 Jan 2026 10:48:43 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Tailwind 감원과 Claude Code의 부상 | 2026-01-09 10:47]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-09-1048-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-09-1048-dev.html</guid>
+      <pubDate>Fri, 09 Jan 2026 10:48:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI 서비스 확장: GPT-5.1 기반의 보이스 전용 AI &#x27;Tolan&#x27;과 건강 데이터를 안전하게 연결하는 &#x27;ChatGPT Health&#x27;가 새롭게 공개되었습니다. GPT-5.2-Codex 시스템 카드: 개발 전용 모델인 GP... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미, 베네수엘라 석유 통제 시동 | 2026-01-09 10:47]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-09-1048-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-09-1048-market.html</guid>
+      <pubDate>Fri, 09 Jan 2026 10:48:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미 행정부의 베네수엘라 석유 장악 및 유가 통제 시도 트럼프 행정부가 베네수엘라 석유 자원에 대한 무기한 통제권을 확보하려 하며, 목표 유가를 배럴당 50달러로 설정했습니다. 셰브론 외에 다른 미 에너지 기업들의 경쟁을 유도하고 있으며, 이는 글로벌 에너지 공급망의... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.2 코덱스와 코딩 에이전트 | 2026-01-08 10:47]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-08-1048-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Wed, 31 Dec 2025 10:47:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 사우디-UAE 갈등 격화 및 UAE 예멘 철수 사우디 주도 연합군이 예멘 내 UAE 무기 수송로를 공습하면서 오랜 동맹이었던 양국 관계가 급격히 악화되었습니다. 이에 대응해 UAE는 예멘 내 대테러 부대 전면 철수를 발표하며 걸프 지역의 지정학적 지형이 재편되고 있... (읽기 시간: 3분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Meta, AI 에이전트 Manus 인수 | 2025-12-30 21:00]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-30-2101-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-30-2101-dev.html</guid>
-      <pubDate>Tue, 30 Dec 2025 21:01:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI GPT-5.2 업데이트: GPT-5.2-Codex 시스템 카드가 추가되어 코딩 특화 모델의 안전 조치 및 완화 정책이 공개되었습니다. ChatGPT 기능 확장: 개발자가 직접 앱을 제출하고 디렉토리에 노출할 수 있는 기... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[대만 긴장 고조, 테슬라 공급망 위기 | 2025-12-30 21:00]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-30-2101-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-30-2101-market.html</guid>
-      <pubDate>Tue, 30 Dec 2025 21:01:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 중국, 대만 포위 군사 훈련 실시로 긴장 고조 중국군이 대만 섬을 완전히 에워싸는 대규모 군사 훈련을 전개하며 대만 봉쇄 능력을 과시했습니다. 이는 대만 해협의 지정학적 리스크를 최고조로 끌어올리고 있습니다. 트럼프-네타냐후, 가자지구 휴전 2단계 논의 트럼프 당선... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
