@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Fri, 09 Jan 2026 10:48:43 +0900</lastBuildDate>
-    <pubDate>Fri, 09 Jan 2026 10:48:43 +0900</pubDate>
+    <lastBuildDate>Sat, 10 Jan 2026 10:45:12 +0900</lastBuildDate>
+    <pubDate>Sat, 10 Jan 2026 10:45:12 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[AI 수학 정복과 코딩 생태계 변화 | 2026-01-10 10:44]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-10-1045-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-10-1045-dev.html</guid>
+      <pubDate>Sat, 10 Jan 2026 10:45:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI 모델 라인업 확장: GPT-5.1(음성 기반 AI용), GPT-5.2(에이전트 시스템용) 등이 실제 서비스(Tolan, Netomi 등)에 적용되며 멀티스텝 추론과 낮은 지연시간을 강조하고 있습니다. ChatGPT He... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프 시장 개입과 정유사 투자 거부 | 2026-01-10 10:44]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-10-1045-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-10-1045-market.html</guid>
+      <pubDate>Sat, 10 Jan 2026 10:45:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [트럼프의 베네수엘라 석유 투자 압박과 업계의 냉대] 트럼프 대통령이 엑손모빌, 쉐브론 등 주요 석유 기업 CEO들을 만나 베네수엘라에 1,000억 달러 규모의 투자를 촉구했으나, 업계는 과거 자산 몰수 사례를 들며 &#x27;투자 불가(Uninvestable)&#x27; 입장을 고... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Tailwind 감원과 Claude Code의 부상 | 2026-01-09 10:47]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-09-1048-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Thu, 01 Jan 2026 10:56:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 불가리아 유로존 공식 합류 유럽 경제 블록의 변화 불가리아가 우여곡절 끝에 유로화를 공식 도입하며 유로존의 새로운 구성원이 되었습니다. 이는 국가적 도약이라는 낙관론과 물가 상승 및 경제 정체에 대한 우려가 교차하며 동유럽 금융 시장의 변동성을 키우고 있습니다. 베... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI 에이전트 시대, 개발자의 통제력 | 2025-12-31 10:46]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-31-1047-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-31-1047-dev.html</guid>
-      <pubDate>Wed, 31 Dec 2025 10:47:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, ChatGPT Images 업데이트: 자사 플래그십 이미지 모델을 통해 정밀한 편집, 일관된 세부 묘사 및 최대 4K 해상도 생성을 지원하는 새로운 기능을 출시했습니다. 과학 연구용 AI 벤치마크 도입: OpenAI는... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[중동 동맹 균열, 테슬라 실적 비관 | 2025-12-31 10:46]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2025-12-31-1047-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2025-12-31-1047-market.html</guid>
-      <pubDate>Wed, 31 Dec 2025 10:47:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 사우디-UAE 갈등 격화 및 UAE 예멘 철수 사우디 주도 연합군이 예멘 내 UAE 무기 수송로를 공습하면서 오랜 동맹이었던 양국 관계가 급격히 악화되었습니다. 이에 대응해 UAE는 예멘 내 대테러 부대 전면 철수를 발표하며 걸프 지역의 지정학적 지형이 재편되고 있... (읽기 시간: 3분)]]></description>
     </item>
   </channel>
 </rss>
