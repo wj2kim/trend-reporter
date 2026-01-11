@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sat, 10 Jan 2026 10:45:12 +0900</lastBuildDate>
-    <pubDate>Sat, 10 Jan 2026 10:45:12 +0900</pubDate>
+    <lastBuildDate>Sun, 11 Jan 2026 10:57:15 +0900</lastBuildDate>
+    <pubDate>Sun, 11 Jan 2026 10:57:15 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Claude Code 정책 변화와 MCP 확산 | 2026-01-11 10:56]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-11-1057-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-11-1057-dev.html</guid>
+      <pubDate>Sun, 11 Jan 2026 10:57:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI Healthcare 및 ChatGPT Health 출시: 개인 건강 데이터를 안전하게 연결하여 의료진의 행정 부담을 줄이고 임상 워크플로우를 지원하는 전용 서비스가 공개되었습니다. GPT-5.1 및 5.2 실무 적용: ... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프의 전방위 압박과 에너지 재편 | 2026-01-11 10:56]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-11-1057-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-11-1057-market.html</guid>
+      <pubDate>Sun, 11 Jan 2026 10:57:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미군의 시리아 내 ISIS 대규모 공습 명령 트럼프 대통령의 지시에 따라 미 중부사령부가 시리아 내 이슬람 국가(ISIS) 표적에 대규모 공습을 감행했습니다. 이는 지난달 미군 사망 사건에 대한 강력한 보복 조치로, 중동 지역의 긴장감을 다시 고조시키고 있습니다. ... (읽기 시간: 5분)]]></description>
+    </item>
     <item>
       <title><![CDATA[AI 수학 정복과 코딩 생태계 변화 | 2026-01-10 10:44]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-10-1045-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Fri, 02 Jan 2026 10:48:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 이란 경제난에 따른 반정부 시위 확산 및 유혈 사태 이란의 화폐 가치 급락과 경제적 압박으로 인해 전국적인 시위가 5일째 이어지고 있으며, 최소 1명 이상의 사망자가 발생했습니다. 이는 중동 지역의 정세 불안을 가중시켜 에너지 시장의 변동성을 키울 수 있는 요인입니... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI 앱 생태계와 과학 연구 AI의 도약 | 2026-01-01 10:55]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-01-1056-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-01-1056-dev.html</guid>
-      <pubDate>Thu, 01 Jan 2026 10:56:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, ChatGPT 내 앱 디렉토리 런칭: 개발자들이 직접 제작한 AI 앱을 ChatGPT 내부 디렉토리에 제출하고 승인받아 게시할 수 있는 시스템이 구축되었습니다. GPT-5.2-Codex 시스템 카드 공개: OpenAI... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[워런 버핏 사임, 2026년 시장 변동성 예고 | 2026-01-01 10:55]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-01-1056-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-01-1056-market.html</guid>
-      <pubDate>Thu, 01 Jan 2026 10:56:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 불가리아 유로존 공식 합류 유럽 경제 블록의 변화 불가리아가 우여곡절 끝에 유로화를 공식 도입하며 유로존의 새로운 구성원이 되었습니다. 이는 국가적 도약이라는 낙관론과 물가 상승 및 경제 정체에 대한 우려가 교차하며 동유럽 금융 시장의 변동성을 키우고 있습니다. 베... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
