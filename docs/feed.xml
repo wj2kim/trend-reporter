@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sun, 11 Jan 2026 10:57:15 +0900</lastBuildDate>
-    <pubDate>Sun, 11 Jan 2026 10:57:15 +0900</pubDate>
+    <lastBuildDate>Mon, 12 Jan 2026 10:53:24 +0900</lastBuildDate>
+    <pubDate>Mon, 12 Jan 2026 10:53:24 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Claude Code 생태계 확장과 GPT-5 사례 | 2026-01-12 10:52]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-12-1053-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-12-1053-dev.html</guid>
+      <pubDate>Mon, 12 Jan 2026 10:53:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI 실전 배치: GPT-5.1 및 5.2 모델이 실제 서비스에 적용되기 시작했습니다. Tolan은 GPT-5.1을 통해 저지연 음성 AI를, Netomi는 GPT-5.2를 활용해 기업용 멀티스텝 추론 에이전트를 구축했습니다... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프, 파월 조사… 시장 충격과 금값 급등 | 2026-01-12 10:52]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-12-1053-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-12-1053-market.html</guid>
+      <pubDate>Mon, 12 Jan 2026 10:53:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 행정부의 연준 의장 형사 조사 착수 중앙은행 독립성 위기 트럼프 행정부가 금리 인하 속도에 불만을 품고 제롬 파월 연준 의장에 대한 형사 조사를 시작하며 대배심 소환장을 발부했습니다. 파월 의장은 이를 &#x27;위협&#x27;으로 규정하고 굴복하지 않겠다는 의지를 밝혀, 미... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Code 정책 변화와 MCP 확산 | 2026-01-11 10:56]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-11-1057-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sat, 03 Jan 2026 20:43:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [미국의 베네수엘라 대통령 체포 및 카라카스 공습] 트럼프 행정부가 베네수엘라 수도 카라카스에 대규모 공습을 단행하고 니콜라스 마두로 대통령과 그 부인을 체포했습니다. 이는 국제법 위반 논란과 함께 남미 정세를 근본적으로 뒤흔드는 사건이며, 미국의 강력한 대외 개입... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GPT-5.2와 AI 코딩 에이전트 | 2026-01-02 10:47]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-02-1048-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-02-1048-dev.html</guid>
-      <pubDate>Fri, 02 Jan 2026 10:48:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 GPT-5.2-Codex 시스템 카드 공개: OpenAI가 코딩에 최적화된 GPT-5.2-Codex의 안전 조치와 모델 수준의 위험 완화 전략을 담은 시스템 카드를 추가 발표했습니다. 새로운 ChatGPT Images 출시: 플래그... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[코스피 최고치 경신 및 AI발 금융권 구조조정 | 2026-01-02 10:47]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-02-1048-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-02-1048-market.html</guid>
-      <pubDate>Fri, 02 Jan 2026 10:48:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 이란 경제난에 따른 반정부 시위 확산 및 유혈 사태 이란의 화폐 가치 급락과 경제적 압박으로 인해 전국적인 시위가 5일째 이어지고 있으며, 최소 1명 이상의 사망자가 발생했습니다. 이는 중동 지역의 정세 불안을 가중시켜 에너지 시장의 변동성을 키울 수 있는 요인입니... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
