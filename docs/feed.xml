@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Tue, 13 Jan 2026 10:45:08 +0900</lastBuildDate>
-    <pubDate>Tue, 13 Jan 2026 10:45:08 +0900</pubDate>
+    <lastBuildDate>Wed, 14 Jan 2026 10:52:27 +0900</lastBuildDate>
+    <pubDate>Wed, 14 Jan 2026 10:52:27 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Claude Cowork 출시, 에이전트 확장 | 2026-01-14 10:51]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-14-1052-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-14-1052-dev.html</guid>
+      <pubDate>Wed, 14 Jan 2026 10:52:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Anthropic &#x27;Cowork&#x27; 연구 프리뷰 공개: 비기술직 사용자도 Claude Desktop을 통해 파일 작업 및 업무 자동화를 수행할 수 있는 AI 에이전트 기능을 발표했습니다. Apple, Siri에 Google Gemin... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프 이란 개입 암시, 유가 급등 | 2026-01-14 10:51]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-14-1052-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-14-1052-market.html</guid>
+      <pubDate>Wed, 14 Jan 2026 10:52:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 대통령의 이란 시위 개입 암시와 군사적 긴장 고조 트럼프 대통령이 이란 내 반정부 시위대를 향해 &quot;도움이 가고 있다(HELP IS ON ITS WAY)&quot;고 언급하며 군사적 개입 가능성을 시사했습니다. 백악관 국가안보회의(NSC)가 타격 옵션을 준비 중인 것으... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[애플 제미나이 채택 및 클로드 확장 | 2026-01-13 10:44]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-13-1045-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Mon, 05 Jan 2026 10:56:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 베네수엘라 권력 공백과 트럼프의 추가 압박 미국에 의한 마두로 체포 이후, 부통령 델시 로드리게스가 새로운 지도자로 부상했으나 트럼프 대통령은 &quot;옳은 일을 하지 않으면 큰 대가를 치를 것&quot;이라며 즉각적인 압박을 가하고 있습니다. 미국 내부에서도 베네수엘라 관리 계획... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GPT-5.2 Codex 및 AI 앱 생태계 확장 | 2026-01-04 10:56]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-04-1057-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-04-1057-dev.html</guid>
-      <pubDate>Sun, 04 Jan 2026 10:57:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI GPT-5.2-Codex 출시: 대규모 코드 변환, 장기 추론(Long-horizon reasoning), 강화된 사이버 보안 기능을 갖춘 코딩 특화 모델이 발표되었습니다. ChatGPT 앱 디렉토리 오픈: 개발자가 직... (읽기 시간: 3분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[美 베네수엘라 관리 및 자원 무기화 | 2026-01-04 10:56]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-04-1057-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-04-1057-market.html</guid>
-      <pubDate>Sun, 04 Jan 2026 10:57:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [미국의 베네수엘라 직접 관리 선언과 후속 파장] 미국 특수부대에 의해 체포된 마두로 대통령이 뉴욕으로 이송되어 마약 및 무기 밀매 혐의로 구금되었습니다. 트럼프 대통령은 적절한 정권 이양 전까지 미국이 베네수엘라를 직접 관리(Run)하겠다고 발표하며 라틴 아메리카... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>

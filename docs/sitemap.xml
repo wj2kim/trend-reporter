@@ -2,21 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://wj2kim.github.io/trend-reporter/</loc>
-    <lastmod>2026-01-13</lastmod>
+    <lastmod>2026-01-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://wj2kim.github.io/trend-reporter/market</loc>
-    <lastmod>2026-01-13</lastmod>
+    <lastmod>2026-01-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://wj2kim.github.io/trend-reporter/dev</loc>
-    <lastmod>2026-01-13</lastmod>
+    <lastmod>2026-01-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://wj2kim.github.io/trend-reporter/reports/2026-01-14-1052-dev.html</loc>
+    <lastmod>2026-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wj2kim.github.io/trend-reporter/reports/2026-01-14-1052-market.html</loc>
+    <lastmod>2026-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://wj2kim.github.io/trend-reporter/reports/2026-01-13-1045-dev.html</loc>
@@ -183,18 +195,6 @@
   <url>
     <loc>https://wj2kim.github.io/trend-reporter/reports/2025-12-31-1047-market.html</loc>
     <lastmod>2025-12-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wj2kim.github.io/trend-reporter/reports/2025-12-30-2101-dev.html</loc>
-    <lastmod>2025-12-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://wj2kim.github.io/trend-reporter/reports/2025-12-30-2101-market.html</loc>
-    <lastmod>2025-12-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
