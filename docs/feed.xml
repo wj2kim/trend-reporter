@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Thu, 15 Jan 2026 10:47:53 +0900</lastBuildDate>
-    <pubDate>Thu, 15 Jan 2026 10:47:53 +0900</pubDate>
+    <lastBuildDate>Fri, 16 Jan 2026 10:49:40 +0900</lastBuildDate>
+    <pubDate>Fri, 16 Jan 2026 10:49:40 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[AI 에이전트 보안 위협과 인프라 확장 | 2026-01-16 10:48]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-16-1049-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-16-1049-dev.html</guid>
+      <pubDate>Fri, 16 Jan 2026 10:49:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Claude Cowork 보안 취약점 발견: Anthropic의 새로운 에이전트 서비스인 Claude Cowork에서 사용자의 파일을 외부로 유출(Exfiltration)할 수 있는 보안 허점이 보고되어 주의가 요구됩니다. Chat... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미중 무역 휴전과 이란 긴장 완화 | 2026-01-16 10:48]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-16-1049-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-16-1049-market.html</guid>
+      <pubDate>Fri, 16 Jan 2026 10:49:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [그린란드 영유권 갈등 격화 미·유럽 군사 대치 우려] 트럼프 행정부와 덴마크/그린란드 측의 면담이 합의 없이 종료된 가운데, 프랑스를 포함한 유럽 군사 인력이 그린란드에 도착하며 긴장이 고조되고 있습니다. 미국의 영토 확장 의지와 유럽의 방어권이 충돌하며 북극권의... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[AI 투자 가속 및 에이전트 경쟁 | 2026-01-15 10:47]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-15-1047-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Wed, 07 Jan 2026 10:47:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [트럼프의 베네수엘라 석유 직접 통제 선언] 트럼프 대통령이 베네수엘라로부터 최대 5,000만 배럴의 원유를 인도받아 미국이 직접 판매하고 수익금을 통제하겠다고 밝혔습니다. 이는 에너지 자원을 외교적 압박 수단이자 미국의 경제적 이익으로 즉각 환수하려는 강력한 &#x27;자... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GPT-5.2-Codex 및 에이전트 도약 | 2026-01-06 10:47]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-06-1048-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-06-1048-dev.html</guid>
-      <pubDate>Tue, 06 Jan 2026 10:48:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, GPT-5.2-Codex 출시: 장기 추론, 대규모 코드 변환 및 사이버 보안 능력이 강화된 가장 진보된 코딩 모델을 공개했습니다. ChatGPT 앱 제출 개방: 개발자들이 직접 만든 앱을 ChatGPT 내 제품 디렉... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[베네수엘라 실권 장악, 다우 최고치 | 2026-01-06 10:47]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-06-1048-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-06-1048-market.html</guid>
-      <pubDate>Tue, 06 Jan 2026 10:48:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [트럼프의 베네수엘라 실권 장악 선언 지정학적 에너지 패권 변화] 트럼프 대통령이 베네수엘라를 직접 통제하고 있다고 공식 선언하며, 축출된 마두로 대통령은 미국 법정에서 무죄를 주장하고 있습니다. 미국이 베네수엘라의 실질적인 통제권을 행사하면서 남미 정세가 급변하고... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
