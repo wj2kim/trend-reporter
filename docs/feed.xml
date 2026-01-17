@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Fri, 16 Jan 2026 10:49:40 +0900</lastBuildDate>
-    <pubDate>Fri, 16 Jan 2026 10:49:40 +0900</pubDate>
+    <lastBuildDate>Sat, 17 Jan 2026 10:43:50 +0900</lastBuildDate>
+    <pubDate>Sat, 17 Jan 2026 10:43:50 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[ChatGPT Go 출시 및 에이전트 표준화 | 2026-01-17 10:43]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-17-1043-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-17-1043-dev.html</guid>
+      <pubDate>Sat, 17 Jan 2026 10:43:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, &#x27;ChatGPT Go&#x27; 글로벌 출시: GPT-5.2 Instant 모델을 탑재하고 더 높은 사용 한도와 확장된 메모리 기능을 제공하는 새로운 티어를 전 세계에 공개했습니다. FLUX.2 [Klein] 발표: 대화형 시... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프 그린란드 관세 위협과 중소형주 랠리 | 2026-01-17 10:43]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-17-1043-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-17-1043-market.html</guid>
+      <pubDate>Sat, 17 Jan 2026 10:43:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프, 그린란드 인수 반대국에 &#x27;추가 관세&#x27; 위협 미국 트럼프 대통령이 그린란드 인수에 반대하는 국가들을 대상으로 새로운 관세를 부과하겠다고 위협했습니다. 이는 미국 우선주의를 넘어선 영토 확장 및 자원 확보 의지로 풀이되며, 북유럽 국가들과의 지정학적 긴장을 고... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[AI 에이전트 보안 위협과 인프라 확장 | 2026-01-16 10:48]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-16-1049-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Thu, 08 Jan 2026 10:48:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 미국, 66개 국제기구 전격 탈퇴 서명 트럼프 대통령이 유엔(UN) 산하기관을 포함한 수십 개의 국제기구에서 탈퇴하는 행정명령에 서명했습니다. 이는 &#x27;미국 우선주의&#x27;의 극단적 실행으로, 기후 정책 및 글로벌 거버넌스가 미국의 주권과 경제를 침해한다는 판단에 따른 것... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GPT-5.2 코딩 혁신과 AI 스토어 | 2026-01-07 10:47]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-07-1047-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-07-1047-dev.html</guid>
-      <pubDate>Wed, 07 Jan 2026 10:47:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI GPT-5.2-Codex 출시: 대규모 코드 변환, 장기 추론(long-horizon reasoning) 및 향상된 사이버 보안 능력을 갖춘 가장 진보된 코딩 모델을 발표했습니다. ChatGPT 앱 제출 시작: 개발자들... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[베네수엘라 석유 통제, 유가 하락 | 2026-01-07 10:47]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-07-1047-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-07-1047-market.html</guid>
-      <pubDate>Wed, 07 Jan 2026 10:47:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [트럼프의 베네수엘라 석유 직접 통제 선언] 트럼프 대통령이 베네수엘라로부터 최대 5,000만 배럴의 원유를 인도받아 미국이 직접 판매하고 수익금을 통제하겠다고 밝혔습니다. 이는 에너지 자원을 외교적 압박 수단이자 미국의 경제적 이익으로 즉각 환수하려는 강력한 &#x27;자... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
