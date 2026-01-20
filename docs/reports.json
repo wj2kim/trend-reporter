@@ -1,5 +1,33 @@
 [
   {
+    "title": "ChatGPT Go 출시 및 광고 도입 | 2026-01-20 10:48",
+    "filename": "2026-01-20-1049-dev.html",
+    "date": "2026-01-20",
+    "time": "10:49",
+    "category": "dev",
+    "description": "1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 ChatGPT Go 글로벌 출시: GPT-5.2 Instant 모델을 탑재한 &#x27;ChatGPT Go&#x27;가 전 세계에 출시되었습니다. 더 높은 사용 한도와 확장된 메모리 기능을 제공하며 모바일 환경에서의 접근성을 강화했습니다. VoxCP...",
+    "reading_time": 5,
+    "keywords": [
+      "OpenAI",
+      "MCP",
+      "jQuery 4"
+    ]
+  },
+  {
+    "title": "트럼프 그린란드 관세 위협, 증시 급락 | 2026-01-20 10:48",
+    "filename": "2026-01-20-1049-market.html",
+    "date": "2026-01-20",
+    "time": "10:49",
+    "category": "market",
+    "description": "1. 세계 정세 트럼프의 그린란드 인수 압박과 &#x27;100% 관세&#x27; 위협 현실화 도널드 트럼프 대통령이 그린란드 인수를 거부하는 유럽 국가들을 향해 100% 관세를 부과하겠다고 공언하며 대서양 동맹이 붕괴 위기에 직면했습니다. 트럼프는 노르웨이 총리에게 보낸 메시지에서 노벨 평화상을 ...",
+    "reading_time": 4,
+    "keywords": [
+      "그린란드",
+      "관세",
+      "무역전쟁"
+    ]
+  },
+  {
     "title": "ChatGPT Go 출시와 GPT-5.2 확대 | 2026-01-19 10:53",
     "filename": "2026-01-19-1053-dev.html",
     "date": "2026-01-19",
@@ -671,34 +699,6 @@
       "S&P500",
       "지정학적리스크",
       "안전자산"
-    ]
-  },
-  {
-    "title": "NVIDIA, Groq 인수 및 AI 코딩 진화 | 2025-12-26 23:14",
-    "filename": "2025-12-26-2315-dev.html",
-    "date": "2025-12-26",
-    "time": "23:15",
-    "category": "dev",
-    "description": "1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.2-Codex 출시: 장기 추론(Long-horizon reasoning) 및 대규모 코드 변환 능력이 강화된 가장 진보된 코딩 모델을 발표했습니다...",
-    "reading_time": 4,
-    "keywords": [
-      "NVIDIA",
-      "Groq",
-      "GPT-5.2"
-    ]
-  },
-  {
-    "title": "젤렌스키·트럼프 회동 및 금값 최고 | 2025-12-26 23:14",
-    "filename": "2025-12-26-2315-market.html",
-    "date": "2025-12-26",
-    "time": "23:15",
-    "category": "market",
-    "description": "1. 세계 정세 [젤렌스키-트럼프 플로리다 회동 확정 우크라이나 종전 논의 가속화] 볼로디미르 젤렌스키 우크라이나 대통령이 오는 일요일 플로리다에서 도널드 트럼프 당선인과 만나...",
-    "reading_time": 4,
-    "keywords": [
-      "젤렌스키",
-      "트럼프",
-      "금값"
     ]
   }
 ]

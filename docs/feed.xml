@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Mon, 19 Jan 2026 10:53:54 +0900</lastBuildDate>
-    <pubDate>Mon, 19 Jan 2026 10:53:54 +0900</pubDate>
+    <lastBuildDate>Tue, 20 Jan 2026 10:49:06 +0900</lastBuildDate>
+    <pubDate>Tue, 20 Jan 2026 10:49:06 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[ChatGPT Go 출시 및 광고 도입 | 2026-01-20 10:48]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-20-1049-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-20-1049-dev.html</guid>
+      <pubDate>Tue, 20 Jan 2026 10:49:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 ChatGPT Go 글로벌 출시: GPT-5.2 Instant 모델을 탑재한 &#x27;ChatGPT Go&#x27;가 전 세계에 출시되었습니다. 더 높은 사용 한도와 확장된 메모리 기능을 제공하며 모바일 환경에서의 접근성을 강화했습니다. VoxCP... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프 그린란드 관세 위협, 증시 급락 | 2026-01-20 10:48]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-20-1049-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-20-1049-market.html</guid>
+      <pubDate>Tue, 20 Jan 2026 10:49:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프의 그린란드 인수 압박과 &#x27;100% 관세&#x27; 위협 현실화 도널드 트럼프 대통령이 그린란드 인수를 거부하는 유럽 국가들을 향해 100% 관세를 부과하겠다고 공언하며 대서양 동맹이 붕괴 위기에 직면했습니다. 트럼프는 노르웨이 총리에게 보낸 메시지에서 노벨 평화상을 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[ChatGPT Go 출시와 GPT-5.2 확대 | 2026-01-19 10:53]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-19-1053-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sun, 11 Jan 2026 10:57:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 미군의 시리아 내 ISIS 대규모 공습 명령 트럼프 대통령의 지시에 따라 미 중부사령부가 시리아 내 이슬람 국가(ISIS) 표적에 대규모 공습을 감행했습니다. 이는 지난달 미군 사망 사건에 대한 강력한 보복 조치로, 중동 지역의 긴장감을 다시 고조시키고 있습니다. ... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI 수학 정복과 코딩 생태계 변화 | 2026-01-10 10:44]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-10-1045-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-10-1045-dev.html</guid>
-      <pubDate>Sat, 10 Jan 2026 10:45:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI 모델 라인업 확장: GPT-5.1(음성 기반 AI용), GPT-5.2(에이전트 시스템용) 등이 실제 서비스(Tolan, Netomi 등)에 적용되며 멀티스텝 추론과 낮은 지연시간을 강조하고 있습니다. ChatGPT He... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프 시장 개입과 정유사 투자 거부 | 2026-01-10 10:44]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-10-1045-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-10-1045-market.html</guid>
-      <pubDate>Sat, 10 Jan 2026 10:45:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [트럼프의 베네수엘라 석유 투자 압박과 업계의 냉대] 트럼프 대통령이 엑손모빌, 쉐브론 등 주요 석유 기업 CEO들을 만나 베네수엘라에 1,000억 달러 규모의 투자를 촉구했으나, 업계는 과거 자산 몰수 사례를 들며 &#x27;투자 불가(Uninvestable)&#x27; 입장을 고... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
