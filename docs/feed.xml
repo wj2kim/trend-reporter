@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Tue, 20 Jan 2026 10:49:06 +0900</lastBuildDate>
-    <pubDate>Tue, 20 Jan 2026 10:49:06 +0900</pubDate>
+    <lastBuildDate>Wed, 21 Jan 2026 10:52:06 +0900</lastBuildDate>
+    <pubDate>Wed, 21 Jan 2026 10:52:06 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[에이전트 생태계 경쟁과 실행형 AI | 2026-01-21 10:51]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-21-1052-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-21-1052-dev.html</guid>
+      <pubDate>Wed, 21 Jan 2026 10:52:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI 연령 예측 도입: 청소년 보호를 위해 ChatGPT 사용자의 연령을 예측하는 기능을 배포하고, 18세 미만에게 부적절한 콘텐츠 노출을 차단합니다. OpenAI 하드웨어 출시 예고: OpenAI 경영진은 2026년 말에 ... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[그린란드 갈등 고조, 미 국채 매각 확산 | 2026-01-21 10:51]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-21-1052-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-21-1052-market.html</guid>
+      <pubDate>Wed, 21 Jan 2026 10:52:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프의 그린란드 영토 분쟁 및 군사 행동 가능성 도널드 트럼프 미국 대통령이 그린란드 매입 의사를 재차 강조하며 군사적 수단까지 시사하자, 그린란드 총리는 이에 대비할 것을 주문했습니다. 이는 단순한 외교적 수사를 넘어 NATO 동맹의 균열과 북극권 지정학적 위기... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[ChatGPT Go 출시 및 광고 도입 | 2026-01-20 10:48]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-20-1049-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Mon, 12 Jan 2026 10:53:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프 행정부의 연준 의장 형사 조사 착수 중앙은행 독립성 위기 트럼프 행정부가 금리 인하 속도에 불만을 품고 제롬 파월 연준 의장에 대한 형사 조사를 시작하며 대배심 소환장을 발부했습니다. 파월 의장은 이를 &#x27;위협&#x27;으로 규정하고 굴복하지 않겠다는 의지를 밝혀, 미... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code 정책 변화와 MCP 확산 | 2026-01-11 10:56]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-11-1057-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-11-1057-dev.html</guid>
-      <pubDate>Sun, 11 Jan 2026 10:57:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI Healthcare 및 ChatGPT Health 출시: 개인 건강 데이터를 안전하게 연결하여 의료진의 행정 부담을 줄이고 임상 워크플로우를 지원하는 전용 서비스가 공개되었습니다. GPT-5.1 및 5.2 실무 적용: ... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프의 전방위 압박과 에너지 재편 | 2026-01-11 10:56]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-11-1057-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-11-1057-market.html</guid>
-      <pubDate>Sun, 11 Jan 2026 10:57:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 미군의 시리아 내 ISIS 대규모 공습 명령 트럼프 대통령의 지시에 따라 미 중부사령부가 시리아 내 이슬람 국가(ISIS) 표적에 대규모 공습을 감행했습니다. 이는 지난달 미군 사망 사건에 대한 강력한 보복 조치로, 중동 지역의 긴장감을 다시 고조시키고 있습니다. ... (읽기 시간: 5분)]]></description>
     </item>
   </channel>
 </rss>
