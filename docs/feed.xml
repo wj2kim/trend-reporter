@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Wed, 21 Jan 2026 10:52:06 +0900</lastBuildDate>
-    <pubDate>Wed, 21 Jan 2026 10:52:06 +0900</pubDate>
+    <lastBuildDate>Thu, 22 Jan 2026 10:52:13 +0900</lastBuildDate>
+    <pubDate>Thu, 22 Jan 2026 10:52:13 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Claude 신규 헌법과 에이전트 생태계 | 2026-01-22 10:51]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-22-1052-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-22-1052-dev.html</guid>
+      <pubDate>Thu, 22 Jan 2026 10:52:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Anthropic, &#x27;Claude의 새로운 헌법&#x27; 발표: 모델의 안전성과 윤리적 가이드라인을 강화한 새로운 헌법(Constitution)을 공개하며, AI 답변의 신뢰성을 높이기 위한 가드레일을 업데이트했습니다. OpenAI의 대규... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프 관세 철회 시사, 코스피 5000 돌파 | 2026-01-22 10:51]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-22-1052-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-22-1052-market.html</guid>
+      <pubDate>Thu, 22 Jan 2026 10:52:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [트럼프의 관세 위협 철회 및 그린란드 관련 발언] 다보스 포럼에서 트럼프 대통령은 유럽에 대한 새로운 관세 부과 계획을 철회할 의사를 내비쳤습니다. 또한 그린란드 인수와 관련해 무력을 사용하지 않을 것이며 &#x27;미래 거래의 프레임워크&#x27;를 논의 중이라고 밝혀, 극한으로... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[에이전트 생태계 경쟁과 실행형 AI | 2026-01-21 10:51]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-21-1052-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Tue, 13 Jan 2026 10:45:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [트럼프의 대이란 25% 관세 위협 글로벌 공급망 긴장 고조] 트럼프 대통령이 이란과 거래하는 모든 국가에 25% 관세를 부과하겠다고 발표했습니다. 이는 이란 내 반정부 시위에 대한 탄압을 억제하려는 조치이나, 실질적으로는 이란의 주요 무역 파트너들을 겨냥한 &#x27;세컨... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code 생태계 확장과 GPT-5 사례 | 2026-01-12 10:52]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-12-1053-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-12-1053-dev.html</guid>
-      <pubDate>Mon, 12 Jan 2026 10:53:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI 실전 배치: GPT-5.1 및 5.2 모델이 실제 서비스에 적용되기 시작했습니다. Tolan은 GPT-5.1을 통해 저지연 음성 AI를, Netomi는 GPT-5.2를 활용해 기업용 멀티스텝 추론 에이전트를 구축했습니다... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프, 파월 조사… 시장 충격과 금값 급등 | 2026-01-12 10:52]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-12-1053-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-12-1053-market.html</guid>
-      <pubDate>Mon, 12 Jan 2026 10:53:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프 행정부의 연준 의장 형사 조사 착수 중앙은행 독립성 위기 트럼프 행정부가 금리 인하 속도에 불만을 품고 제롬 파월 연준 의장에 대한 형사 조사를 시작하며 대배심 소환장을 발부했습니다. 파월 의장은 이를 &#x27;위협&#x27;으로 규정하고 굴복하지 않겠다는 의지를 밝혀, 미... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
