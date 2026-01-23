@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Thu, 22 Jan 2026 10:52:13 +0900</lastBuildDate>
-    <pubDate>Thu, 22 Jan 2026 10:52:13 +0900</pubDate>
+    <lastBuildDate>Fri, 23 Jan 2026 10:49:11 +0900</lastBuildDate>
+    <pubDate>Fri, 23 Jan 2026 10:49:11 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GPT-5.2 기반 에이전트와 오픈 생태계 확장 | 2026-01-23 10:48]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-23-1049-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-23-1049-dev.html</guid>
+      <pubDate>Fri, 23 Jan 2026 10:49:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 GPT-5.2 및 4.1 실전 적용: Praktika(언어 학습)와 Higgsfield(비디오 생성) 등이 OpenAI의 차세대 모델(GPT-5.2, GPT-5, Sora 2)을 활용하여 개인화된 튜터링과 시네마틱 영상 제작 서비스... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[틱톡 생존과 위안화 강세 전환 | 2026-01-23 10:48]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-23-1049-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-23-1049-market.html</guid>
+      <pubDate>Fri, 23 Jan 2026 10:49:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [젤렌스키의 다보스 최후통첩 유럽의 결단 촉구] 젤렌스키 우크라이나 대통령이 다보스 포럼에서 유럽 동맹국들을 향해 &quot;더 강력히 행동하지 않으면 역사의 뒤편으로 밀려날 것&quot;이라며 강도 높게 비판했습니다. 이는 트럼프 행정부의 종전 압박 속에서 유럽의 독자적인 지원 강... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude 신규 헌법과 에이전트 생태계 | 2026-01-22 10:51]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-22-1052-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Wed, 14 Jan 2026 10:52:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프 대통령의 이란 시위 개입 암시와 군사적 긴장 고조 트럼프 대통령이 이란 내 반정부 시위대를 향해 &quot;도움이 가고 있다(HELP IS ON ITS WAY)&quot;고 언급하며 군사적 개입 가능성을 시사했습니다. 백악관 국가안보회의(NSC)가 타격 옵션을 준비 중인 것으... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[애플 제미나이 채택 및 클로드 확장 | 2026-01-13 10:44]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-13-1045-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-13-1045-dev.html</guid>
-      <pubDate>Tue, 13 Jan 2026 10:45:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 애플-구글 파트너십: 애플이 시리(Siri)의 AI 기능을 강화하기 위해 구글의 제미나이(Gemini)를 도입하기로 결정했습니다. Anthropic &#x27;Cowork&#x27; 출시: 클로드 코드(Claude Code)의 기술을 비개발 직군으로... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프 이란 관세와 파월 조사 충격 | 2026-01-13 10:44]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-13-1045-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-13-1045-market.html</guid>
-      <pubDate>Tue, 13 Jan 2026 10:45:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [트럼프의 대이란 25% 관세 위협 글로벌 공급망 긴장 고조] 트럼프 대통령이 이란과 거래하는 모든 국가에 25% 관세를 부과하겠다고 발표했습니다. 이는 이란 내 반정부 시위에 대한 탄압을 억제하려는 조치이나, 실질적으로는 이란의 주요 무역 파트너들을 겨냥한 &#x27;세컨... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
