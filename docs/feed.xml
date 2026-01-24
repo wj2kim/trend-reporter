@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Fri, 23 Jan 2026 10:49:11 +0900</lastBuildDate>
-    <pubDate>Fri, 23 Jan 2026 10:49:11 +0900</pubDate>
+    <lastBuildDate>Sat, 24 Jan 2026 10:45:56 +0900</lastBuildDate>
+    <pubDate>Sat, 24 Jan 2026 10:45:56 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[AI 에이전트 실행력 강화와 기술 검증 | 2026-01-24 10:45]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-24-1045-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-24-1045-dev.html</guid>
+      <pubDate>Sat, 24 Jan 2026 10:45:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Qwen3-TTS 오픈소스 출시: 알리바바의 Qwen 팀이 음성 디자인, 클론 및 생성을 지원하는 Qwen3-TTS 제품군을 오픈소스로 공개했습니다. OpenAI Codex 에이전트 루프 분석: OpenAI가 Codex CLI가 모... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프 '함대' 언급에 유가·엔화 요동 | 2026-01-24 10:45]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-24-1045-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-24-1045-market.html</guid>
+      <pubDate>Sat, 24 Jan 2026 10:45:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프의 중동 군사 압박과 에너지 시장 긴장 트럼프 대통령이 이란을 향해 &#x27;함대(Armada)&#x27;가 이동 중이라고 발언하며 지정학적 리스크를 고조시켰습니다. 이에 따라 하락세를 보이던 국제 유가가 즉각 반등하며 에너지 시장의 불확실성을 증폭시키고 있습니다. 미국의 국... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.2 기반 에이전트와 오픈 생태계 확장 | 2026-01-23 10:48]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-23-1049-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Thu, 15 Jan 2026 10:47:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [트럼프의 이란 공격 자제 암시와 유가 하락] 도널드 트럼프 대통령이 이란 내 시위대 처형이 중단되었다는 보고를 받았다고 밝히며 공격 위협을 완화하는 신호를 보냈습니다. 이에 따라 전쟁 공포로 급등했던 국제유가가 시간 외 거래에서 급락하며 시장에 안도감을 주고 있습... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Cowork 출시, 에이전트 확장 | 2026-01-14 10:51]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-14-1052-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-14-1052-dev.html</guid>
-      <pubDate>Wed, 14 Jan 2026 10:52:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Anthropic &#x27;Cowork&#x27; 연구 프리뷰 공개: 비기술직 사용자도 Claude Desktop을 통해 파일 작업 및 업무 자동화를 수행할 수 있는 AI 에이전트 기능을 발표했습니다. Apple, Siri에 Google Gemin... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프 이란 개입 암시, 유가 급등 | 2026-01-14 10:51]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-14-1052-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-14-1052-market.html</guid>
-      <pubDate>Wed, 14 Jan 2026 10:52:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프 대통령의 이란 시위 개입 암시와 군사적 긴장 고조 트럼프 대통령이 이란 내 반정부 시위대를 향해 &quot;도움이 가고 있다(HELP IS ON ITS WAY)&quot;고 언급하며 군사적 개입 가능성을 시사했습니다. 백악관 국가안보회의(NSC)가 타격 옵션을 준비 중인 것으... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
