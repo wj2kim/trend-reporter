@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sat, 24 Jan 2026 10:45:56 +0900</lastBuildDate>
-    <pubDate>Sat, 24 Jan 2026 10:45:56 +0900</pubDate>
+    <lastBuildDate>Sun, 25 Jan 2026 10:59:00 +0900</lastBuildDate>
+    <pubDate>Sun, 25 Jan 2026 10:59:00 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[AI 에이전트 루프와 스웜의 등장 | 2026-01-25 10:58]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-25-1059-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-25-1059-dev.html</guid>
+      <pubDate>Sun, 25 Jan 2026 10:59:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI Codex 에이전트 루프 분석: Codex CLI가 모델, 도구, 프롬프트를 오케스트레이션하는 기술적 상세 구조(Responses API 활용)를 공개하여 에이전트의 실행 효율성을 강조했습니다. GPT-5 기반 비즈니스... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[러-우 협상 난항 및 트럼프 관세 위협 | 2026-01-25 10:58]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-25-1059-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-25-1059-market.html</guid>
+      <pubDate>Sun, 25 Jan 2026 10:59:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 러시아-우크라이나 평화 협상, 돌파구 없이 종료 아부다비에서 열린 미-러-우 3자 회담이 성과 없이 끝났습니다. 젤렌스키 대통령은 대화 자체를 긍정적으로 평가했으나, 현장에서는 러시아의 키이우 에너지 시설 공격이 지속되며 긴장이 여전합니다. 다음 달 재개될 협상이 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[AI 에이전트 실행력 강화와 기술 검증 | 2026-01-24 10:45]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-24-1045-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Fri, 16 Jan 2026 10:49:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [그린란드 영유권 갈등 격화 미·유럽 군사 대치 우려] 트럼프 행정부와 덴마크/그린란드 측의 면담이 합의 없이 종료된 가운데, 프랑스를 포함한 유럽 군사 인력이 그린란드에 도착하며 긴장이 고조되고 있습니다. 미국의 영토 확장 의지와 유럽의 방어권이 충돌하며 북극권의... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI 투자 가속 및 에이전트 경쟁 | 2026-01-15 10:47]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-15-1047-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-15-1047-dev.html</guid>
-      <pubDate>Thu, 15 Jan 2026 10:47:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI-Cerebras 대규모 파트너십: OpenAI가 Cerebras와 100억 달러 규모의 계약을 체결하고 750MW급 AI 연산 자원을 확보하여 ChatGPT의 추론 속도를 대폭 개선할 예정입니다. Anthropic &#x27;C... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프 이란 공격 자제, 유가 급락 | 2026-01-15 10:47]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-15-1047-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-15-1047-market.html</guid>
-      <pubDate>Thu, 15 Jan 2026 10:47:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [트럼프의 이란 공격 자제 암시와 유가 하락] 도널드 트럼프 대통령이 이란 내 시위대 처형이 중단되었다는 보고를 받았다고 밝히며 공격 위협을 완화하는 신호를 보냈습니다. 이에 따라 전쟁 공포로 급등했던 국제유가가 시간 외 거래에서 급락하며 시장에 안도감을 주고 있습... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
