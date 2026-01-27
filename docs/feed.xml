@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Mon, 26 Jan 2026 10:58:27 +0900</lastBuildDate>
-    <pubDate>Mon, 26 Jan 2026 10:58:27 +0900</pubDate>
+    <lastBuildDate>Tue, 27 Jan 2026 10:55:08 +0900</lastBuildDate>
+    <pubDate>Tue, 27 Jan 2026 10:55:08 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[OpenAI 에이전트 루프와 GPT-5 활용 분석 | 2026-01-27 10:54]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-27-1055-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-27-1055-dev.html</guid>
+      <pubDate>Tue, 27 Jan 2026 10:55:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Qwen3-Max-Thinking 출시: Qwen AI가 추론 능력을 극대화한 신규 모델 &#x27;Thinking&#x27; 버전을 블로그를 통해 공개했습니다. ChatGPT 컨테이너 기능 강화: 이제 ChatGPT 내 환경에서 bash 실행, p... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프, 한국 관세 25% 인상 발표 | 2026-01-27 10:54]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-27-1055-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-27-1055-market.html</guid>
+      <pubDate>Tue, 27 Jan 2026 10:55:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 대통령, 한국산 수입품 관세 25% 인상 선언 트럼프 미 대통령이 한국산 수입품에 대한 관세를 기존 15%에서 25%로 인상하겠다고 발표했습니다. 이는 서울 측이 지난해 합의된 무역 협정을 제대로 비준하지 않았다는 이유로, 한국 수출 기업들에 상당한 타격이 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Apple-Gemini 결합과 OpenAI의 인프라 확장 | 2026-01-26 10:57]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-26-1058-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sun, 18 Jan 2026 10:55:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프의 그린란드 인수 압박과 유럽 8개국 대상 관세 위협 상향 미국 도널드 트럼프 대통령이 그린란드 매각을 반대하는 덴마크를 포함한 유럽 8개국에 대해 관세를 최대 25%까지 인상하겠다고 위협했습니다. 이는 기존 10% 위협에서 한층 강화된 수치로, NATO 동맹... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ChatGPT Go 출시 및 에이전트 표준화 | 2026-01-17 10:43]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-17-1043-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-17-1043-dev.html</guid>
-      <pubDate>Sat, 17 Jan 2026 10:43:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, &#x27;ChatGPT Go&#x27; 글로벌 출시: GPT-5.2 Instant 모델을 탑재하고 더 높은 사용 한도와 확장된 메모리 기능을 제공하는 새로운 티어를 전 세계에 공개했습니다. FLUX.2 [Klein] 발표: 대화형 시... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프 그린란드 관세 위협과 중소형주 랠리 | 2026-01-17 10:43]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-17-1043-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-17-1043-market.html</guid>
-      <pubDate>Sat, 17 Jan 2026 10:43:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프, 그린란드 인수 반대국에 &#x27;추가 관세&#x27; 위협 미국 트럼프 대통령이 그린란드 인수에 반대하는 국가들을 대상으로 새로운 관세를 부과하겠다고 위협했습니다. 이는 미국 우선주의를 넘어선 영토 확장 및 자원 확보 의지로 풀이되며, 북유럽 국가들과의 지정학적 긴장을 고... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>

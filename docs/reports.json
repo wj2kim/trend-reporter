@@ -1,5 +1,33 @@
 [
   {
+    "title": "OpenAI 에이전트 루프와 GPT-5 활용 분석 | 2026-01-27 10:54",
+    "filename": "2026-01-27-1055-dev.html",
+    "date": "2026-01-27",
+    "time": "10:55",
+    "category": "dev",
+    "description": "1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Qwen3-Max-Thinking 출시: Qwen AI가 추론 능력을 극대화한 신규 모델 &#x27;Thinking&#x27; 버전을 블로그를 통해 공개했습니다. ChatGPT 컨테이너 기능 강화: 이제 ChatGPT 내 환경에서 bash 실행, p...",
+    "reading_time": 5,
+    "keywords": [
+      "OpenAI",
+      "AI 에이전트",
+      "GPT-5"
+    ]
+  },
+  {
+    "title": "트럼프, 한국 관세 25% 인상 발표 | 2026-01-27 10:54",
+    "filename": "2026-01-27-1055-market.html",
+    "date": "2026-01-27",
+    "time": "10:55",
+    "category": "market",
+    "description": "1. 세계 정세 트럼프 대통령, 한국산 수입품 관세 25% 인상 선언 트럼프 미 대통령이 한국산 수입품에 대한 관세를 기존 15%에서 25%로 인상하겠다고 발표했습니다. 이는 서울 측이 지난해 합의된 무역 협정을 제대로 비준하지 않았다는 이유로, 한국 수출 기업들에 상당한 타격이 ...",
+    "reading_time": 4,
+    "keywords": [
+      "트럼프",
+      "관세",
+      "한국 경제"
+    ]
+  },
+  {
     "title": "Apple-Gemini 결합과 OpenAI의 인프라 확장 | 2026-01-26 10:57",
     "filename": "2026-01-26-1058-dev.html",
     "date": "2026-01-26",
@@ -670,34 +698,6 @@
       "베네수엘라",
       "국제유가",
       "BYD"
-    ]
-  },
-  {
-    "title": "GPT-5.2와 AI 코딩 에이전트 | 2026-01-02 10:47",
-    "filename": "2026-01-02-1048-dev.html",
-    "date": "2026-01-02",
-    "time": "10:48",
-    "category": "dev",
-    "description": "1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 GPT-5.2-Codex 시스템 카드 공개: OpenAI가 코딩에 최적화된 GPT-5.2-Codex의 안전 조치와 모델 수준의 위험 완화 전략을 담은 시스템 카드를 추가 발표했습니다. 새로운 ChatGPT Images 출시: 플래그...",
-    "reading_time": 4,
-    "keywords": [
-      "GPT-5.2",
-      "Claude Code",
-      "AI 에이전트"
-    ]
-  },
-  {
-    "title": "코스피 최고치 경신 및 AI발 금융권 구조조정 | 2026-01-02 10:47",
-    "filename": "2026-01-02-1048-market.html",
-    "date": "2026-01-02",
-    "time": "10:48",
-    "category": "market",
-    "description": "1. 세계 정세 이란 경제난에 따른 반정부 시위 확산 및 유혈 사태 이란의 화폐 가치 급락과 경제적 압박으로 인해 전국적인 시위가 5일째 이어지고 있으며, 최소 1명 이상의 사망자가 발생했습니다. 이는 중동 지역의 정세 불안을 가중시켜 에너지 시장의 변동성을 키울 수 있는 요인입니...",
-    "reading_time": 4,
-    "keywords": [
-      "코스피",
-      "AI 감원",
-      "워런 버핏"
     ]
   }
 ]
