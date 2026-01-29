@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Wed, 28 Jan 2026 10:51:28 +0900</lastBuildDate>
-    <pubDate>Wed, 28 Jan 2026 10:51:28 +0900</pubDate>
+    <lastBuildDate>Thu, 29 Jan 2026 11:04:45 +0900</lastBuildDate>
+    <pubDate>Thu, 29 Jan 2026 11:04:45 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[2026 AI 에이전트와 MCP 표준화 | 2026-01-29 11:03]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-29-1104-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-29-1104-dev.html</guid>
+      <pubDate>Thu, 29 Jan 2026 11:04:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI Prism 출시: 과학자들을 위한 LaTeX 네이티브 워크스페이스로, GPT-5.2가 내장되어 연구, 협업, 추론을 한 곳에서 지원합니다. Moonshot AI, Kimi K2.5 공개: 시각 인지 능력이 강화된 오픈소... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[빅테크 AI 투자 명암과 트럼프발 관세 리스크 | 2026-01-29 11:03]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-29-1104-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-29-1104-market.html</guid>
+      <pubDate>Thu, 29 Jan 2026 11:04:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미국 우방국들의 대중국 경제 밀착 가속화 트럼프 행정부의 보편 관세 위협과 강경한 수사로 인해, 전통적인 미국의 우방국들이 무역 창구를 다변화하기 위해 중국과의 협력을 모색하고 있습니다. 이는 미국의 글로벌 경제 영향력 변화와 공급망 재편에 중대한 변곡점이 될 수 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.2 탑재 Prism과 AI 에이전트 | 2026-01-28 10:50]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-28-1051-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Tue, 20 Jan 2026 10:49:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프의 그린란드 인수 압박과 &#x27;100% 관세&#x27; 위협 현실화 도널드 트럼프 대통령이 그린란드 인수를 거부하는 유럽 국가들을 향해 100% 관세를 부과하겠다고 공언하며 대서양 동맹이 붕괴 위기에 직면했습니다. 트럼프는 노르웨이 총리에게 보낸 메시지에서 노벨 평화상을 ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ChatGPT Go 출시와 GPT-5.2 확대 | 2026-01-19 10:53]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-19-1053-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-19-1053-dev.html</guid>
-      <pubDate>Mon, 19 Jan 2026 10:53:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 ChatGPT Go 전 세계 출시: GPT-5.2 Instant 모델을 탑재한 &#x27;ChatGPT Go&#x27;가 글로벌 시장에 출시되었으며, 더 긴 메모리와 높은 사용 한도를 제공합니다. Moxie Marlinspike의 &#x27;Confer&#x27;: ... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프 관세 위협 속 금값 사상 최고 | 2026-01-19 10:53]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-19-1053-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-19-1053-market.html</guid>
-      <pubDate>Mon, 19 Jan 2026 10:53:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프발 &#x27;그린란드 관세&#x27; 위협 가시화와 유럽의 대응 트럼프 당선인이 그린란드 인수를 반대하는 유럽 8개국에 10% 관세를 부과하겠다고 경고하며 무역 긴장이 고조되고 있습니다. 덴마크 총리는 &quot;협박에 굴하지 않겠다&quot;고 강경한 입장을 보였으나, EU 대사들은 긴급 회... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
