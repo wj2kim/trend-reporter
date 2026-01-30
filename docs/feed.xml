@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Thu, 29 Jan 2026 11:04:45 +0900</lastBuildDate>
-    <pubDate>Thu, 29 Jan 2026 11:04:45 +0900</pubDate>
+    <lastBuildDate>Fri, 30 Jan 2026 11:05:35 +0900</lastBuildDate>
+    <pubDate>Fri, 30 Jan 2026 11:05:35 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GPT-5 기반 에이전트와 모델 세대교체 | 2026-01-30 11:04]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-30-1105-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-30-1105-dev.html</guid>
+      <pubDate>Fri, 30 Jan 2026 11:05:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI 구형 모델 은퇴: 2026년 2월 13일, GPT-5(Instant, Thinking, Pro) 출시와 함께 GPT-4o, GPT-4.1 및 mini 모델들을 ChatGPT에서 공식 은퇴시킬 예정입니다. Google &#x27;... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[연준 의장 교체와 관세 위협 고조 | 2026-01-30 11:04]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-30-1105-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-30-1105-market.html</guid>
+      <pubDate>Fri, 30 Jan 2026 11:05:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [연준 의장 교체 임박 통화 정책 불확실성 증폭] 트럼프 대통령이 제롬 파월 연준 의장의 후임자를 현지시간 금요일 오전에 발표하겠다고 예고했습니다. 중앙은행의 독립성 훼손 우려와 함께 차기 의장의 성향에 따라 금리 경로가 급격히 변할 수 있어 전 세계 금융 시장이 ... (읽기 시간: 5분)]]></description>
+    </item>
     <item>
       <title><![CDATA[2026 AI 에이전트와 MCP 표준화 | 2026-01-29 11:03]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-29-1104-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Wed, 21 Jan 2026 10:52:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프의 그린란드 영토 분쟁 및 군사 행동 가능성 도널드 트럼프 미국 대통령이 그린란드 매입 의사를 재차 강조하며 군사적 수단까지 시사하자, 그린란드 총리는 이에 대비할 것을 주문했습니다. 이는 단순한 외교적 수사를 넘어 NATO 동맹의 균열과 북극권 지정학적 위기... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[ChatGPT Go 출시 및 광고 도입 | 2026-01-20 10:48]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-20-1049-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-20-1049-dev.html</guid>
-      <pubDate>Tue, 20 Jan 2026 10:49:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 ChatGPT Go 글로벌 출시: GPT-5.2 Instant 모델을 탑재한 &#x27;ChatGPT Go&#x27;가 전 세계에 출시되었습니다. 더 높은 사용 한도와 확장된 메모리 기능을 제공하며 모바일 환경에서의 접근성을 강화했습니다. VoxCP... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프 그린란드 관세 위협, 증시 급락 | 2026-01-20 10:48]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-20-1049-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-20-1049-market.html</guid>
-      <pubDate>Tue, 20 Jan 2026 10:49:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프의 그린란드 인수 압박과 &#x27;100% 관세&#x27; 위협 현실화 도널드 트럼프 대통령이 그린란드 인수를 거부하는 유럽 국가들을 향해 100% 관세를 부과하겠다고 공언하며 대서양 동맹이 붕괴 위기에 직면했습니다. 트럼프는 노르웨이 총리에게 보낸 메시지에서 노벨 평화상을 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
