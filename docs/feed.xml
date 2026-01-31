@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Fri, 30 Jan 2026 11:05:35 +0900</lastBuildDate>
-    <pubDate>Fri, 30 Jan 2026 11:05:35 +0900</pubDate>
+    <lastBuildDate>Sat, 31 Jan 2026 11:01:02 +0900</lastBuildDate>
+    <pubDate>Sat, 31 Jan 2026 11:01:02 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[OpenAI 모델 세대교체와 OpenClaw | 2026-01-31 11:00]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-31-1101-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-31-1101-dev.html</guid>
+      <pubDate>Sat, 31 Jan 2026 11:01:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI 모델 대규모 은퇴: 2026년 2월 13일, GPT-5(Instant, Thinking, Pro) 출시와 함께 GPT-4o, GPT-4.1 등 기존 모델들을 은퇴시키며 본격적인 세대교체를 예고했습니다. Google De... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프 관세 위협과 셧다운 공포 | 2026-01-31 11:00]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-31-1101-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-31-1101-market.html</guid>
+      <pubDate>Sat, 31 Jan 2026 11:01:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프, 캐나다 항공기에 50% 관세 및 인증 취소 위협 트럼프 당선인이 캐나다가 미국산 걸프스트림 항공기 판매를 차단하고 있다고 비난하며, 캐나다산 항공기에 대한 50% 관세 부과와 인증 취소를 예고했습니다. 이는 농산물과 에너지를 넘어 고부가가치 제조업 전반으로... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5 기반 에이전트와 모델 세대교체 | 2026-01-30 11:04]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-30-1105-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Thu, 22 Jan 2026 10:52:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [트럼프의 관세 위협 철회 및 그린란드 관련 발언] 다보스 포럼에서 트럼프 대통령은 유럽에 대한 새로운 관세 부과 계획을 철회할 의사를 내비쳤습니다. 또한 그린란드 인수와 관련해 무력을 사용하지 않을 것이며 &#x27;미래 거래의 프레임워크&#x27;를 논의 중이라고 밝혀, 극한으로... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[에이전트 생태계 경쟁과 실행형 AI | 2026-01-21 10:51]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-21-1052-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-21-1052-dev.html</guid>
-      <pubDate>Wed, 21 Jan 2026 10:52:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI 연령 예측 도입: 청소년 보호를 위해 ChatGPT 사용자의 연령을 예측하는 기능을 배포하고, 18세 미만에게 부적절한 콘텐츠 노출을 차단합니다. OpenAI 하드웨어 출시 예고: OpenAI 경영진은 2026년 말에 ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[그린란드 갈등 고조, 미 국채 매각 확산 | 2026-01-21 10:51]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-21-1052-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-21-1052-market.html</guid>
-      <pubDate>Wed, 21 Jan 2026 10:52:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프의 그린란드 영토 분쟁 및 군사 행동 가능성 도널드 트럼프 미국 대통령이 그린란드 매입 의사를 재차 강조하며 군사적 수단까지 시사하자, 그린란드 총리는 이에 대비할 것을 주문했습니다. 이는 단순한 외교적 수사를 넘어 NATO 동맹의 균열과 북극권 지정학적 위기... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
