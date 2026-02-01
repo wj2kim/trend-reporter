@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sat, 31 Jan 2026 11:01:02 +0900</lastBuildDate>
-    <pubDate>Sat, 31 Jan 2026 11:01:02 +0900</pubDate>
+    <lastBuildDate>Sun, 01 Feb 2026 11:29:37 +0900</lastBuildDate>
+    <pubDate>Sun, 01 Feb 2026 11:29:37 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[OpenAI 모델 은퇴와 에이전트 | 2026-02-01 11:28]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-01-1129-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-01-1129-dev.html</guid>
+      <pubDate>Sun, 01 Feb 2026 11:29:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI 모델 대규모 은퇴 예정: 2026년 2월 13일, GPT-5(초기 버전들)와 함께 GPT-4o, GPT-4.1, GPT-4.1 mini 등 기존 주요 모델들이 대거 은퇴할 예정입니다. Qwen2.5 시리즈 강세: Hug... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프 인사와 경제 정책 여파 | 2026-02-01 11:28]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-01-1129-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-01-1129-market.html</guid>
+      <pubDate>Sun, 01 Feb 2026 11:29:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [트럼프의 이민 단속과 민주당 도시의 경제 위축] 트럼프 행정부의 강력한 이민 단속(ICE)으로 인해 시카고 등 주요 민주당 강세 도시의 지역 상권이 심각한 타격을 입고 있습니다. 비판이 거세지자 트럼프는 연방 요원의 철수를 명령했으나, 법원에서는 구금된 이민자의 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[OpenAI 모델 세대교체와 OpenClaw | 2026-01-31 11:00]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-31-1101-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Fri, 23 Jan 2026 10:49:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [젤렌스키의 다보스 최후통첩 유럽의 결단 촉구] 젤렌스키 우크라이나 대통령이 다보스 포럼에서 유럽 동맹국들을 향해 &quot;더 강력히 행동하지 않으면 역사의 뒤편으로 밀려날 것&quot;이라며 강도 높게 비판했습니다. 이는 트럼프 행정부의 종전 압박 속에서 유럽의 독자적인 지원 강... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude 신규 헌법과 에이전트 생태계 | 2026-01-22 10:51]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-22-1052-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-22-1052-dev.html</guid>
-      <pubDate>Thu, 22 Jan 2026 10:52:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Anthropic, &#x27;Claude의 새로운 헌법&#x27; 발표: 모델의 안전성과 윤리적 가이드라인을 강화한 새로운 헌법(Constitution)을 공개하며, AI 답변의 신뢰성을 높이기 위한 가드레일을 업데이트했습니다. OpenAI의 대규... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프 관세 철회 시사, 코스피 5000 돌파 | 2026-01-22 10:51]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-22-1052-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-22-1052-market.html</guid>
-      <pubDate>Thu, 22 Jan 2026 10:52:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [트럼프의 관세 위협 철회 및 그린란드 관련 발언] 다보스 포럼에서 트럼프 대통령은 유럽에 대한 새로운 관세 부과 계획을 철회할 의사를 내비쳤습니다. 또한 그린란드 인수와 관련해 무력을 사용하지 않을 것이며 &#x27;미래 거래의 프레임워크&#x27;를 논의 중이라고 밝혀, 극한으로... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
