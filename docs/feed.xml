@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sun, 01 Feb 2026 11:29:37 +0900</lastBuildDate>
-    <pubDate>Sun, 01 Feb 2026 11:29:37 +0900</pubDate>
+    <lastBuildDate>Mon, 02 Feb 2026 11:13:12 +0900</lastBuildDate>
+    <pubDate>Mon, 02 Feb 2026 11:13:12 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[OpenAI 모델 세대교체와 AI 에이전트 확산 | 2026-02-02 11:12]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-02-1113-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-02-1113-dev.html</guid>
+      <pubDate>Mon, 02 Feb 2026 11:13:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI 모델 세대교체 가속화: 오는 2월 13일, GPT-5 시리즈 출시와 맞물려 GPT-4o, GPT-4.1 등 구형 모델들이 대거 은퇴할 예정입니다. Google Genie 3 출시: AI Ultra 구독자를 대상으로 텍스... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[금·은·비트코인 급락, 오라클 AI 투자 확대 | 2026-02-02 11:12]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-02-1113-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-02-1113-market.html</guid>
+      <pubDate>Mon, 02 Feb 2026 11:13:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [우크라이나-러시아 긴장 고조 및 에너지 위기] 트럼프 행정부의 휴전 압박 직후, 러시아가 우크라이나 에너지 시설과 석탄 광산을 공격하여 최소 12명의 광부가 사망했습니다. 이는 휴전 협상을 앞두고 유리한 고지를 점하려는 러시아의 전략적 공세로 분석되며, 유럽 에너... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[OpenAI 모델 은퇴와 에이전트 | 2026-02-01 11:28]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-01-1129-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sat, 24 Jan 2026 10:45:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프의 중동 군사 압박과 에너지 시장 긴장 트럼프 대통령이 이란을 향해 &#x27;함대(Armada)&#x27;가 이동 중이라고 발언하며 지정학적 리스크를 고조시켰습니다. 이에 따라 하락세를 보이던 국제 유가가 즉각 반등하며 에너지 시장의 불확실성을 증폭시키고 있습니다. 미국의 국... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GPT-5.2 기반 에이전트와 오픈 생태계 확장 | 2026-01-23 10:48]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-23-1049-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-23-1049-dev.html</guid>
-      <pubDate>Fri, 23 Jan 2026 10:49:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 GPT-5.2 및 4.1 실전 적용: Praktika(언어 학습)와 Higgsfield(비디오 생성) 등이 OpenAI의 차세대 모델(GPT-5.2, GPT-5, Sora 2)을 활용하여 개인화된 튜터링과 시네마틱 영상 제작 서비스... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[틱톡 생존과 위안화 강세 전환 | 2026-01-23 10:48]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-23-1049-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-23-1049-market.html</guid>
-      <pubDate>Fri, 23 Jan 2026 10:49:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [젤렌스키의 다보스 최후통첩 유럽의 결단 촉구] 젤렌스키 우크라이나 대통령이 다보스 포럼에서 유럽 동맹국들을 향해 &quot;더 강력히 행동하지 않으면 역사의 뒤편으로 밀려날 것&quot;이라며 강도 높게 비판했습니다. 이는 트럼프 행정부의 종전 압박 속에서 유럽의 독자적인 지원 강... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
