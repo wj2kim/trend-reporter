@@ -6,8 +6,6 @@ on:
     - cron: '0 0 * * *'
     # KST 22:00 = UTC 13:00
     - cron: '0 13 * * *'
-    # KST 24:00 (자정) = UTC 15:00
-    - cron: '0 15 * * *'
 
   workflow_dispatch:
 

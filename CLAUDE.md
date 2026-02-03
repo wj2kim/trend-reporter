@@ -27,7 +27,7 @@
 - `gemini-3-flash-preview` (src/analyzer.py)
 
 ### 실행 스케줄 (GitHub Actions)
-- KST 09:00, 22:00, 24:00 (하루 3회)
+- KST 09:00, 22:00 (하루 2회)
 - `.github/workflows/report.yml` 에서 cron 설정 확인
 
 ### 알림 & 배포
@@ -36,7 +36,7 @@
 
 ## 리포트 구조
 
-**두 개의 분리된 리포트 생성:**
+**두 개의 리포트 생성:**
 
 ### 1. 세계 정세 & 주식 리포트 (Market)
 ```
@@ -96,6 +96,15 @@ trend-reporter/
 - `DISCORD_WEBHOOK_URL` - Discord 웹훅 URL
 
 ## 변경 히스토리
+
+### 2026-02-03
+- **커뮤니티 트렌드 리포트 제거**
+- Google Trends 수집 및 분석 코드 제거
+- analyzer.py: `analyze_community()` 메소드 제거
+- notifier.py: `send_community_report()` 메소드 제거
+- main.py: 커뮤니티 수집 및 리포트 생성 로직 제거
+- **실행 스케줄 변경**: 하루 3회 → 2회 (24:00 KST 제거)
+- Gemini API 호출: 사이클당 3회 → 2회, 하루 총 9회 → 4회
 
 ### 2024-12-26 (v2)
 - **두 개의 리포트로 분리**: 세계정세&주식 / 개발&AI

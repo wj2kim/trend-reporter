@@ -17,10 +17,7 @@ from dotenv import load_dotenv
 from cache import ContentCache
 from collectors import (
     HackerNewsCollector, RSSCollector, DevToCollector, LobstersCollector,
-    GitHubTrendingCollector, HuggingFaceCollector,
-    # 커뮤니티 수집기
-    ClienCollector, DCInsideCollector,
-    PpomppuCollector, RuliwebCollector, FiveChCollector
+    GitHubTrendingCollector, HuggingFaceCollector
 )
 from analyzer import TrendAnalyzer
 from notifier import DiscordNotifier
@@ -37,7 +34,7 @@ def load_config():
 def load_previous_reports(limit: int = 10) -> dict:
     """이전 리포트 제목 로드 (중복 방지용)"""
     reports_json = project_root / "docs" / "reports.json"
-    previous = {"market": [], "dev": [], "community": []}
+    previous = {"market": [], "dev": []}
 
     if not reports_json.exists():
         return previous
@@ -46,17 +43,15 @@ def load_previous_reports(limit: int = 10) -> dict:
         with open(reports_json, 'r', encoding='utf-8') as f:
             reports = json.load(f)
 
-        for r in reports[:limit * 3]:  # 각 카테고리별로 limit개씩
+        for r in reports[:limit * 2]:  # 각 카테고리별로 limit개씩
             category = r.get("category", "")
             title = r.get("title", "").split(" | ")[0]  # 날짜 부분 제거
             if category == "market" and len(previous["market"]) < limit:
                 previous["market"].append(title)
             elif category == "dev" and len(previous["dev"]) < limit:
                 previous["dev"].append(title)
-            elif category == "community" and len(previous["community"]) < limit:
-                previous["community"].append(title)
 
-        print(f"[중복방지] 이전 리포트 로드: Market {len(previous['market'])}개, Dev {len(previous['dev'])}개, Community {len(previous['community'])}개")
+        print(f"[중복방지] 이전 리포트 로드: Market {len(previous['market'])}개, Dev {len(previous['dev'])}개")
     except Exception as e:
         print(f"[중복방지] 이전 리포트 로드 실패: {e}")
 
@@ -153,18 +148,6 @@ def main():
         print(f"[HuggingFace] 수집 실패: {e}")
         collected_data.append("[HuggingFace] 수집 실패\n")
 
-    # 7. Google Trends (한국 실시간 트렌드)
-    print("\n[7/7] Google Trends 수집 중...")
-    community_data = []
-    try:
-        from collectors.google_trends import GoogleTrendsCollector
-        trends_collector = GoogleTrendsCollector(geo="KR")
-        trends = trends_collector.collect_realtime_trends(limit=15)
-        community_data.append(trends_collector.format_for_report(trends))
-    except Exception as e:
-        print(f"[Google Trends] 수집 실패: {e}")
-        community_data.append("[Google Trends] 수집 실패\n")
-
     # 캐시 저장
     cache.save()
 
@@ -204,22 +187,6 @@ def main():
     )
     dev_title = f"{dev_headline} | {date_str}"
 
-    # 3. 커뮤니티/트렌드 리포트 (Google Trends + RSS 커뮤니티 데이터)
-    all_community_data = "\n".join(community_data)
-    community_title = ""
-    community_report = ""
-
-    # Google Trends 데이터가 있으면 리포트 생성
-    if "Google Trends" in all_community_data and "수집 실패" not in all_community_data:
-        print("  - 트렌드 리포트 생성 중...")
-        community_headline, community_keywords, community_report = analyzer.analyze_community(
-            all_community_data,
-            previous_titles=previous_reports.get("community", [])
-        )
-        community_title = f"{community_headline} | {date_str}"
-    else:
-        print("  - 트렌드 데이터 부족, 리포트 생략")
-
     print("\n" + "=" * 50)
     print("[세계정세] " + world_title)
     print("=" * 50)
@@ -230,12 +197,6 @@ def main():
     print("=" * 50)
     print(dev_report[:500] + "..." if len(dev_report) > 500 else dev_report)
 
-    if community_report:
-        print("\n" + "=" * 50)
-        print("[커뮤니티] " + community_title)
-        print("=" * 50)
-        print(community_report[:500] + "..." if len(community_report) > 500 else community_report)
-
     # Discord로 전송
     print("\n[전송] Discord로 리포트 전송 중...")
     notifier = DiscordNotifier()
@@ -245,16 +206,6 @@ def main():
         world_title, world_report,
         dev_title, dev_report
     )
-
-    # 커뮤니티 리포트 별도 전송 (있을 경우)
-    if community_report:
-        community_discord_success = notifier.send_community_report(
-            community_title, community_report
-        )
-        if community_discord_success:
-            print("✅ 커뮤니티 리포트 Discord 전송 완료!")
-        else:
-            print("❌ 커뮤니티 리포트 Discord 전송 실패")
 
     if discord_success:
         print("✅ Discord 전송 완료!")

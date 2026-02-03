@@ -149,16 +149,6 @@ class DiscordNotifier:
             print(f"[Discord] 리포트 전송 실패: {e}")
             return False
 
-    def send_community_report(self, title: str, content: str) -> bool:
-        """커뮤니티 리포트 전송 (보라색)"""
-        if not self.webhook_url:
-            print("[Discord] Webhook URL이 설정되지 않았습니다.")
-            return False
-
-        print("[Discord] 커뮤니티 리포트 전송 중...")
-        # 보라색 (0x9B59B6 = 10181046)
-        return self._send_report(title, content, color=10181046, prefix="Community")
-
     def send_simple(self, message: str) -> bool:
         """간단한 텍스트 메시지 전송"""
         if not self.webhook_url:
