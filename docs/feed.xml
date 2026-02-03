@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Mon, 02 Feb 2026 11:13:12 +0900</lastBuildDate>
-    <pubDate>Mon, 02 Feb 2026 11:13:12 +0900</pubDate>
+    <lastBuildDate>Tue, 03 Feb 2026 11:11:14 +0900</lastBuildDate>
+    <pubDate>Tue, 03 Feb 2026 11:11:14 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Codex 앱 출시, AI 코딩 가속 | 2026-02-03 11:10]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-03-1111-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-03-1111-dev.html</guid>
+      <pubDate>Tue, 03 Feb 2026 11:11:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, macOS용 &#x27;Codex 앱&#x27; 출시: 여러 에이전트와 병렬 워크플로우를 관리할 수 있는 AI 코딩 및 소프트웨어 개발 커맨드 센터입니다. Google AI Pro/Ultra 전용 개발자 도구: 구독자를 위한 새로운 개... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미·이란 회담 기대와 반도체 반등 | 2026-02-03 11:10]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-03-1111-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-03-1111-market.html</guid>
+      <pubDate>Tue, 03 Feb 2026 11:11:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [미·이란 이스탄불 회담 추진 지정학적 긴장 완화 기대] 트럼프 행정부의 압박과 경고 속에서 미국과 이란이 핵 협상을 위해 이스탄불에서 만날 계획입니다. 이는 중동 지역의 전쟁 확산을 방지하고 에너지 시장의 불안정성을 해소하려는 전략적 움직임으로 풀이됩니다. [가자... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[OpenAI 모델 세대교체와 AI 에이전트 확산 | 2026-02-02 11:12]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-02-1113-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sun, 25 Jan 2026 10:59:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 러시아-우크라이나 평화 협상, 돌파구 없이 종료 아부다비에서 열린 미-러-우 3자 회담이 성과 없이 끝났습니다. 젤렌스키 대통령은 대화 자체를 긍정적으로 평가했으나, 현장에서는 러시아의 키이우 에너지 시설 공격이 지속되며 긴장이 여전합니다. 다음 달 재개될 협상이 ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI 에이전트 실행력 강화와 기술 검증 | 2026-01-24 10:45]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-24-1045-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-24-1045-dev.html</guid>
-      <pubDate>Sat, 24 Jan 2026 10:45:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Qwen3-TTS 오픈소스 출시: 알리바바의 Qwen 팀이 음성 디자인, 클론 및 생성을 지원하는 Qwen3-TTS 제품군을 오픈소스로 공개했습니다. OpenAI Codex 에이전트 루프 분석: OpenAI가 Codex CLI가 모... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프 '함대' 언급에 유가·엔화 요동 | 2026-01-24 10:45]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-24-1045-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-24-1045-market.html</guid>
-      <pubDate>Sat, 24 Jan 2026 10:45:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프의 중동 군사 압박과 에너지 시장 긴장 트럼프 대통령이 이란을 향해 &#x27;함대(Armada)&#x27;가 이동 중이라고 발언하며 지정학적 리스크를 고조시켰습니다. 이에 따라 하락세를 보이던 국제 유가가 즉각 반등하며 에너지 시장의 불확실성을 증폭시키고 있습니다. 미국의 국... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
