@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Tue, 03 Feb 2026 11:11:14 +0900</lastBuildDate>
-    <pubDate>Tue, 03 Feb 2026 11:11:14 +0900</pubDate>
+    <lastBuildDate>Wed, 04 Feb 2026 11:06:29 +0900</lastBuildDate>
+    <pubDate>Wed, 04 Feb 2026 11:06:29 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[AI 코딩 에이전트와 도구의 진화 | 2026-02-04 11:05]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-04-1106-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-04-1106-dev.html</guid>
+      <pubDate>Wed, 04 Feb 2026 11:06:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI Codex App 출시: macOS용 커맨드 센터로, 멀티 에이전트 워크플로우와 병렬 실행을 지원하며 개발 환경의 중앙 집중화를 목표로 합니다. Qwen3-Coder-Next 발표: 알리바바의 차세대 코딩 특화 모델로,... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[금 5,000불 돌파, 미 예산안 통과 | 2026-02-04 11:05]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-04-1106-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-04-1106-market.html</guid>
+      <pubDate>Wed, 04 Feb 2026 11:06:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미국 하원, 1.2조 달러 규모 지출 패키지 가결로 셧다운 회피 미국 하원이 정부 셧다운을 종료하기 위한 1.2조 달러 규모의 예산안을 통과시켰습니다. 다만, 국토안보부(DHS) 예산은 2월 13일까지만 유효한 2주짜리 임시 예산으로, 단기적 봉합에 그쳐 향후 재충... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Codex 앱 출시, AI 코딩 가속 | 2026-02-03 11:10]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-03-1111-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Mon, 26 Jan 2026 10:58:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 미국 내 이민 정책 갈등 심화 연방과 지방의 충돌 민네소타 주지사 팀 월즈가 트럼프 행정부의 연방 이민세관집행국(ICE) 요원 철수를 강력히 요구했습니다. 최근 미니애폴리스에서 발생한 연이은 총격 사망 사건으로 인해 중앙정부의 강경한 이민 단속 정책과 지방 정부 간... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI 에이전트 루프와 스웜의 등장 | 2026-01-25 10:58]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-25-1059-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-25-1059-dev.html</guid>
-      <pubDate>Sun, 25 Jan 2026 10:59:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI Codex 에이전트 루프 분석: Codex CLI가 모델, 도구, 프롬프트를 오케스트레이션하는 기술적 상세 구조(Responses API 활용)를 공개하여 에이전트의 실행 효율성을 강조했습니다. GPT-5 기반 비즈니스... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[러-우 협상 난항 및 트럼프 관세 위협 | 2026-01-25 10:58]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-25-1059-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-25-1059-market.html</guid>
-      <pubDate>Sun, 25 Jan 2026 10:59:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 러시아-우크라이나 평화 협상, 돌파구 없이 종료 아부다비에서 열린 미-러-우 3자 회담이 성과 없이 끝났습니다. 젤렌스키 대통령은 대화 자체를 긍정적으로 평가했으나, 현장에서는 러시아의 키이우 에너지 시설 공격이 지속되며 긴장이 여전합니다. 다음 달 재개될 협상이 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
