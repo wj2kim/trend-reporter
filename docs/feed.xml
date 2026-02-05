@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Wed, 04 Feb 2026 11:06:29 +0900</lastBuildDate>
-    <pubDate>Wed, 04 Feb 2026 11:06:29 +0900</pubDate>
+    <lastBuildDate>Thu, 05 Feb 2026 11:07:25 +0900</lastBuildDate>
+    <pubDate>Thu, 05 Feb 2026 11:07:25 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[AI 에이전트의 진화와 코딩 도구의 확장 | 2026-02-05 11:06]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-05-1107-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-05-1107-dev.html</guid>
+      <pubDate>Thu, 05 Feb 2026 11:07:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Qwen3-Coder-Next 및 Qwen2.5-VL 출시: 알리바바가 3B 파라미터의 효율적인 코딩 모델 Qwen3-Coder-Next를 공개했습니다. 또한 시각-언어 모델인 Qwen2.5-VL-3B가 허깅페이스 상위권을 기록하며... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미중 소통과 테크주 실적 부담 | 2026-02-05 11:06]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-05-1107-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-05-1107-market.html</guid>
+      <pubDate>Thu, 05 Feb 2026 11:07:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [미·중 정상 통화 및 트럼프 방중 계획 지정학적 긴장 완화 시도] 트럼프 대통령과 시진핑 주석이 통화를 통해 대만 무기 공급 문제 등 민감한 현안을 논의했습니다. 트럼프의 4월 방중 계획이 언급되며 양국 간의 직접 소통 채널이 가동되고 있으나, 중국 측은 미국의 ... (읽기 시간: 5분)]]></description>
+    </item>
     <item>
       <title><![CDATA[AI 코딩 에이전트와 도구의 진화 | 2026-02-04 11:05]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-04-1106-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Tue, 27 Jan 2026 10:55:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프 대통령, 한국산 수입품 관세 25% 인상 선언 트럼프 미 대통령이 한국산 수입품에 대한 관세를 기존 15%에서 25%로 인상하겠다고 발표했습니다. 이는 서울 측이 지난해 합의된 무역 협정을 제대로 비준하지 않았다는 이유로, 한국 수출 기업들에 상당한 타격이 ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Apple-Gemini 결합과 OpenAI의 인프라 확장 | 2026-01-26 10:57]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-26-1058-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-26-1058-dev.html</guid>
-      <pubDate>Mon, 26 Jan 2026 10:58:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Apple-Gemini 기반 Siri 공개 임박: Apple이 Google Gemini를 탑재한 새로운 Siri를 2월에 공개할 예정입니다. 이는 양사의 AI 파트너십 결과가 실제 제품에 반영되는 첫 사례가 될 전망입니다. GPT-... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[금값 5천불 돌파, 셧다운 공포 확산 | 2026-01-26 10:57]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-26-1058-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-26-1058-market.html</guid>
-      <pubDate>Mon, 26 Jan 2026 10:58:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 미국 내 이민 정책 갈등 심화 연방과 지방의 충돌 민네소타 주지사 팀 월즈가 트럼프 행정부의 연방 이민세관집행국(ICE) 요원 철수를 강력히 요구했습니다. 최근 미니애폴리스에서 발생한 연이은 총격 사망 사건으로 인해 중앙정부의 강경한 이민 단속 정책과 지방 정부 간... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>

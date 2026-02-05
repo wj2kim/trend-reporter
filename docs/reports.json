@@ -1,5 +1,33 @@
 [
   {
+    "title": "AI 에이전트의 진화와 코딩 도구의 확장 | 2026-02-05 11:06",
+    "filename": "2026-02-05-1107-dev.html",
+    "date": "2026-02-05",
+    "time": "11:07",
+    "category": "dev",
+    "description": "1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Qwen3-Coder-Next 및 Qwen2.5-VL 출시: 알리바바가 3B 파라미터의 효율적인 코딩 모델 Qwen3-Coder-Next를 공개했습니다. 또한 시각-언어 모델인 Qwen2.5-VL-3B가 허깅페이스 상위권을 기록하며...",
+    "reading_time": 5,
+    "keywords": [
+      "Claude Code",
+      "Qwen3-Coder",
+      "AI 에이전트"
+    ]
+  },
+  {
+    "title": "미중 소통과 테크주 실적 부담 | 2026-02-05 11:06",
+    "filename": "2026-02-05-1107-market.html",
+    "date": "2026-02-05",
+    "time": "11:07",
+    "category": "market",
+    "description": "1. 세계 정세 [미·중 정상 통화 및 트럼프 방중 계획 지정학적 긴장 완화 시도] 트럼프 대통령과 시진핑 주석이 통화를 통해 대만 무기 공급 문제 등 민감한 현안을 논의했습니다. 트럼프의 4월 방중 계획이 언급되며 양국 간의 직접 소통 채널이 가동되고 있으나, 중국 측은 미국의 ...",
+    "reading_time": 5,
+    "keywords": [
+      "미중관계",
+      "테크주",
+      "실적발표"
+    ]
+  },
+  {
     "title": "AI 코딩 에이전트와 도구의 진화 | 2026-02-04 11:05",
     "filename": "2026-02-04-1106-dev.html",
     "date": "2026-02-04",
@@ -669,34 +697,6 @@
       "제롬 파월",
       "트럼프",
       "안전자산"
-    ]
-  },
-  {
-    "title": "Claude Code 정책 변화와 MCP 확산 | 2026-01-11 10:56",
-    "filename": "2026-01-11-1057-dev.html",
-    "date": "2026-01-11",
-    "time": "10:57",
-    "category": "dev",
-    "description": "1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI Healthcare 및 ChatGPT Health 출시: 개인 건강 데이터를 안전하게 연결하여 의료진의 행정 부담을 줄이고 임상 워크플로우를 지원하는 전용 서비스가 공개되었습니다. GPT-5.1 및 5.2 실무 적용: ...",
-    "reading_time": 5,
-    "keywords": [
-      "Claude Code",
-      "MCP",
-      "OpenAI Health"
-    ]
-  },
-  {
-    "title": "트럼프의 전방위 압박과 에너지 재편 | 2026-01-11 10:56",
-    "filename": "2026-01-11-1057-market.html",
-    "date": "2026-01-11",
-    "time": "10:57",
-    "category": "market",
-    "description": "1. 세계 정세 미군의 시리아 내 ISIS 대규모 공습 명령 트럼프 대통령의 지시에 따라 미 중부사령부가 시리아 내 이슬람 국가(ISIS) 표적에 대규모 공습을 감행했습니다. 이는 지난달 미군 사망 사건에 대한 강력한 보복 조치로, 중동 지역의 긴장감을 다시 고조시키고 있습니다. ...",
-    "reading_time": 5,
-    "keywords": [
-      "트럼프",
-      "베네수엘라",
-      "인플레이션"
     ]
   }
 ]
