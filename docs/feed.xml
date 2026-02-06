@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Thu, 05 Feb 2026 11:07:25 +0900</lastBuildDate>
-    <pubDate>Thu, 05 Feb 2026 11:07:25 +0900</pubDate>
+    <lastBuildDate>Fri, 06 Feb 2026 11:07:37 +0900</lastBuildDate>
+    <pubDate>Fri, 06 Feb 2026 11:07:37 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Claude 4.6 및 GPT-5.3 출시, 에이전트 시대 개막 | 2026-02-06 11:06]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-06-1107-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-06-1107-dev.html</guid>
+      <pubDate>Fri, 06 Feb 2026 11:07:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Claude Opus 4.6 및 GPT-5.3-Codex 동시 출시: Anthropic과 OpenAI가 각각 차세대 모델을 발표하며 에이전틱(Agentic) 기능 경쟁에 돌입했습니다. GPT-5.3-Codex: 단순 코드 작성을 넘... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미·러 핵조약 만료, 아시아 증시 급락 | 2026-02-06 11:06]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-06-1107-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-06-1107-market.html</guid>
+      <pubDate>Fri, 06 Feb 2026 11:07:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [미·러 핵군비 제한 조약 만료 및 긴장 고조] 미국과 러시아 간의 전략핵무기 감축 협정인 &#x27;뉴 스타트(New START)&#x27;가 만료되었습니다. 트럼프 대통령은 푸틴 대통령의 연장 제안을 거부하며, 장기적으로 지속 가능한 현대화된 새 조약 협상을 원한다고 밝혀 글로벌... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[AI 에이전트의 진화와 코딩 도구의 확장 | 2026-02-05 11:06]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-05-1107-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Wed, 28 Jan 2026 10:51:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프 대통령의 한국 추가 관세 위협 트럼프 대통령이 한미 무역 합의 이행 속도가 느리다며 한국에 대해 더 높은 관세를 부과하겠다고 예고했습니다. 이는 기존 관세 발표에 이은 추가 압박으로, 한국 기업들의 미국 내 투자 이행을 강하게 압박하려는 의도로 풀이됩니다. ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenAI 에이전트 루프와 GPT-5 활용 분석 | 2026-01-27 10:54]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-27-1055-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-27-1055-dev.html</guid>
-      <pubDate>Tue, 27 Jan 2026 10:55:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Qwen3-Max-Thinking 출시: Qwen AI가 추론 능력을 극대화한 신규 모델 &#x27;Thinking&#x27; 버전을 블로그를 통해 공개했습니다. ChatGPT 컨테이너 기능 강화: 이제 ChatGPT 내 환경에서 bash 실행, p... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프, 한국 관세 25% 인상 발표 | 2026-01-27 10:54]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-27-1055-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-27-1055-market.html</guid>
-      <pubDate>Tue, 27 Jan 2026 10:55:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프 대통령, 한국산 수입품 관세 25% 인상 선언 트럼프 미 대통령이 한국산 수입품에 대한 관세를 기존 15%에서 25%로 인상하겠다고 발표했습니다. 이는 서울 측이 지난해 합의된 무역 협정을 제대로 비준하지 않았다는 이유로, 한국 수출 기업들에 상당한 타격이 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
