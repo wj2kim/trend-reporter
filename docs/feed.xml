@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sat, 07 Feb 2026 11:03:33 +0900</lastBuildDate>
-    <pubDate>Sat, 07 Feb 2026 11:03:33 +0900</pubDate>
+    <lastBuildDate>Sun, 08 Feb 2026 11:36:14 +0900</lastBuildDate>
+    <pubDate>Sun, 08 Feb 2026 11:36:14 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GPT-5.3 출시, 에이전트 가속 | 2026-02-08 11:35]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-08-1136-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-08-1136-dev.html</guid>
+      <pubDate>Sun, 08 Feb 2026 11:36:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, GPT-5.3-Codex 및 시스템 카드 공개: 최신 에이전틱 코딩 모델인 GPT-5.3-Codex가 발표되었습니다. 추론 능력과 숙련도를 결합하여 장기적이고 복잡한 기술 작업을 지원하며, 관련 시스템 카드도 함께 공... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[일본·태국 총선 및 미 고용·물가 발표 대기 | 2026-02-08 11:35]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-08-1136-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-08-1136-market.html</guid>
+      <pubDate>Sun, 08 Feb 2026 11:36:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 일본 조기 총선 실시 다카이치 보수 정권 입지 강화 일본에서 조기 총선이 치러지는 가운데, 다카이치 사나에 총리가 이끄는 보수 연합이 전체 465석 중 300석 이상을 확보하며 압승할 것으로 전망됩니다. 이는 일본 내 보수적 경제 및 안보 정책이 추진력을 얻는 계기... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[AI 에이전트, C 컴파일러 직접 구축 | 2026-02-07 11:02]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-07-1103-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Fri, 30 Jan 2026 11:05:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [연준 의장 교체 임박 통화 정책 불확실성 증폭] 트럼프 대통령이 제롬 파월 연준 의장의 후임자를 현지시간 금요일 오전에 발표하겠다고 예고했습니다. 중앙은행의 독립성 훼손 우려와 함께 차기 의장의 성향에 따라 금리 경로가 급격히 변할 수 있어 전 세계 금융 시장이 ... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[2026 AI 에이전트와 MCP 표준화 | 2026-01-29 11:03]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-29-1104-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-29-1104-dev.html</guid>
-      <pubDate>Thu, 29 Jan 2026 11:04:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI Prism 출시: 과학자들을 위한 LaTeX 네이티브 워크스페이스로, GPT-5.2가 내장되어 연구, 협업, 추론을 한 곳에서 지원합니다. Moonshot AI, Kimi K2.5 공개: 시각 인지 능력이 강화된 오픈소... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[빅테크 AI 투자 명암과 트럼프발 관세 리스크 | 2026-01-29 11:03]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-29-1104-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-29-1104-market.html</guid>
-      <pubDate>Thu, 29 Jan 2026 11:04:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 미국 우방국들의 대중국 경제 밀착 가속화 트럼프 행정부의 보편 관세 위협과 강경한 수사로 인해, 전통적인 미국의 우방국들이 무역 창구를 다변화하기 위해 중국과의 협력을 모색하고 있습니다. 이는 미국의 글로벌 경제 영향력 변화와 공급망 재편에 중대한 변곡점이 될 수 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
