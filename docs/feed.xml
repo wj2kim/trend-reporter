@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sun, 08 Feb 2026 11:36:14 +0900</lastBuildDate>
-    <pubDate>Sun, 08 Feb 2026 11:36:14 +0900</pubDate>
+    <lastBuildDate>Mon, 09 Feb 2026 11:14:35 +0900</lastBuildDate>
+    <pubDate>Mon, 09 Feb 2026 11:14:35 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GPT-5.3 코덱스 및 에이전트 진화 | 2026-02-09 11:13]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-09-1114-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-09-1114-dev.html</guid>
+      <pubDate>Mon, 09 Feb 2026 11:14:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, GPT-5.3-Codex 출시: 에이전트 기능을 내장한 역대 가장 강력한 코딩 모델로, 장기적인 추론과 실제 기술 업무 수행 능력이 대폭 강화되었습니다. OpenAI Frontier 플랫폼 공개: 기업용 AI 에이전트... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[일본 증시 급등, 다카이치 압승 | 2026-02-09 11:13]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-09-1114-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-09-1114-market.html</guid>
+      <pubDate>Mon, 09 Feb 2026 11:14:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 일본 다카이치 사나에 총리, 조기 총선 압승 및 &#x27;재팬 퍼스트&#x27; 가속화 일본 다카이치 사나에 총리가 이끄는 자민당 연합이 하원 3분의 2를 확보하며 압도적 승리를 거두었습니다. 이는 그녀의 적극적인 재정 지출 확대와 대중국 강경 노선, 이민 억제 등 자국 우선주의 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.3 출시, 에이전트 가속 | 2026-02-08 11:35]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-08-1136-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sat, 31 Jan 2026 11:01:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프, 캐나다 항공기에 50% 관세 및 인증 취소 위협 트럼프 당선인이 캐나다가 미국산 걸프스트림 항공기 판매를 차단하고 있다고 비난하며, 캐나다산 항공기에 대한 50% 관세 부과와 인증 취소를 예고했습니다. 이는 농산물과 에너지를 넘어 고부가가치 제조업 전반으로... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GPT-5 기반 에이전트와 모델 세대교체 | 2026-01-30 11:04]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-30-1105-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-30-1105-dev.html</guid>
-      <pubDate>Fri, 30 Jan 2026 11:05:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI 구형 모델 은퇴: 2026년 2월 13일, GPT-5(Instant, Thinking, Pro) 출시와 함께 GPT-4o, GPT-4.1 및 mini 모델들을 ChatGPT에서 공식 은퇴시킬 예정입니다. Google &#x27;... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[연준 의장 교체와 관세 위협 고조 | 2026-01-30 11:04]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-30-1105-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-30-1105-market.html</guid>
-      <pubDate>Fri, 30 Jan 2026 11:05:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [연준 의장 교체 임박 통화 정책 불확실성 증폭] 트럼프 대통령이 제롬 파월 연준 의장의 후임자를 현지시간 금요일 오전에 발표하겠다고 예고했습니다. 중앙은행의 독립성 훼손 우려와 함께 차기 의장의 성향에 따라 금리 경로가 급격히 변할 수 있어 전 세계 금융 시장이 ... (읽기 시간: 5분)]]></description>
     </item>
   </channel>
 </rss>
