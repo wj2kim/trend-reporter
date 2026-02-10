@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Mon, 09 Feb 2026 11:14:35 +0900</lastBuildDate>
-    <pubDate>Mon, 09 Feb 2026 11:14:35 +0900</pubDate>
+    <lastBuildDate>Tue, 10 Feb 2026 11:30:35 +0900</lastBuildDate>
+    <pubDate>Tue, 10 Feb 2026 11:30:35 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GPT-5 기반 에이전트와 보안 혁신 | 2026-02-10 11:29]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-10-1130-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-10-1130-dev.html</guid>
+      <pubDate>Tue, 10 Feb 2026 11:30:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI GPT-5 실질적 성과 공개: GPT-5를 활용한 자율 실험실 시스템이 단백질 합성 비용을 40% 절감하며 바이오 분야의 실질적 효율성을 입증했습니다. ChatGPT 광고 도입: OpenAI가 무료 사용자들을 대상으로 ... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[일 증시 최고치, 위안화 강세 | 2026-02-10 11:29]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-10-1130-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-10-1130-market.html</guid>
+      <pubDate>Tue, 10 Feb 2026 11:30:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미국의 중동 정책 불확실성 해소 시도 트럼프 행정부가 이스라엘의 서안지구 합병에 반대한다는 입장을 공식화했습니다. 이는 지역 안정을 최우선 목표로 삼아 중동 평화를 달성하려는 의도로 풀이되며, 이스라엘의 독자적인 영토 확장 시도에 제동을 걸었습니다. 호르무즈 해협 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.3 코덱스 및 에이전트 진화 | 2026-02-09 11:13]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-09-1114-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sun, 01 Feb 2026 11:29:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [트럼프의 이민 단속과 민주당 도시의 경제 위축] 트럼프 행정부의 강력한 이민 단속(ICE)으로 인해 시카고 등 주요 민주당 강세 도시의 지역 상권이 심각한 타격을 입고 있습니다. 비판이 거세지자 트럼프는 연방 요원의 철수를 명령했으나, 법원에서는 구금된 이민자의 ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenAI 모델 세대교체와 OpenClaw | 2026-01-31 11:00]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-31-1101-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-31-1101-dev.html</guid>
-      <pubDate>Sat, 31 Jan 2026 11:01:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI 모델 대규모 은퇴: 2026년 2월 13일, GPT-5(Instant, Thinking, Pro) 출시와 함께 GPT-4o, GPT-4.1 등 기존 모델들을 은퇴시키며 본격적인 세대교체를 예고했습니다. Google De... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프 관세 위협과 셧다운 공포 | 2026-01-31 11:00]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-01-31-1101-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-01-31-1101-market.html</guid>
-      <pubDate>Sat, 31 Jan 2026 11:01:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프, 캐나다 항공기에 50% 관세 및 인증 취소 위협 트럼프 당선인이 캐나다가 미국산 걸프스트림 항공기 판매를 차단하고 있다고 비난하며, 캐나다산 항공기에 대한 50% 관세 부과와 인증 취소를 예고했습니다. 이는 농산물과 에너지를 넘어 고부가가치 제조업 전반으로... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
