@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Tue, 10 Feb 2026 11:30:35 +0900</lastBuildDate>
-    <pubDate>Tue, 10 Feb 2026 11:30:35 +0900</pubDate>
+    <lastBuildDate>Wed, 11 Feb 2026 11:27:33 +0900</lastBuildDate>
+    <pubDate>Wed, 11 Feb 2026 11:27:33 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[에이전트 중심 개발 생태계 확장 | 2026-02-11 11:26]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-11-1127-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-11-1127-dev.html</guid>
+      <pubDate>Wed, 11 Feb 2026 11:27:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI GPT-5.3-Codex 공개: 에이전트 중심의 코딩 모델로, 이전 버전 대비 추론 능력과 전문성이 대폭 향상된 시스템 카드를 발표했습니다. ChatGPT Deep Research 업데이트: 분석 보고서를 전체 화면으로... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프 무역 압박 및 중국 디플레 우려 | 2026-02-11 11:26]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-11-1127-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-11-1127-market.html</guid>
+      <pubDate>Wed, 11 Feb 2026 11:27:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 대통령의 대캐나다 무역 압박 강화 트럼프 대통령이 미국과 캐나다를 잇는 &#x27;고디 하우(Gordie Howe) 브리지&#x27;의 개통 차단을 위협하며 캐나다에 강한 압박을 가하고 있습니다. 이는 단순한 기반 시설 문제를 넘어, 트럼프 행정부의 자국 우선주의 무역 정책이... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5 기반 에이전트와 보안 혁신 | 2026-02-10 11:29]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-10-1130-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Mon, 02 Feb 2026 11:13:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [우크라이나-러시아 긴장 고조 및 에너지 위기] 트럼프 행정부의 휴전 압박 직후, 러시아가 우크라이나 에너지 시설과 석탄 광산을 공격하여 최소 12명의 광부가 사망했습니다. 이는 휴전 협상을 앞두고 유리한 고지를 점하려는 러시아의 전략적 공세로 분석되며, 유럽 에너... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenAI 모델 은퇴와 에이전트 | 2026-02-01 11:28]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-01-1129-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-01-1129-dev.html</guid>
-      <pubDate>Sun, 01 Feb 2026 11:29:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI 모델 대규모 은퇴 예정: 2026년 2월 13일, GPT-5(초기 버전들)와 함께 GPT-4o, GPT-4.1, GPT-4.1 mini 등 기존 주요 모델들이 대거 은퇴할 예정입니다. Qwen2.5 시리즈 강세: Hug... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프 인사와 경제 정책 여파 | 2026-02-01 11:28]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-01-1129-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-01-1129-market.html</guid>
-      <pubDate>Sun, 01 Feb 2026 11:29:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [트럼프의 이민 단속과 민주당 도시의 경제 위축] 트럼프 행정부의 강력한 이민 단속(ICE)으로 인해 시카고 등 주요 민주당 강세 도시의 지역 상권이 심각한 타격을 입고 있습니다. 비판이 거세지자 트럼프는 연방 요원의 철수를 명령했으나, 법원에서는 구금된 이민자의 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
