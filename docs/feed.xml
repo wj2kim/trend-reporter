@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Wed, 11 Feb 2026 11:27:33 +0900</lastBuildDate>
-    <pubDate>Wed, 11 Feb 2026 11:27:33 +0900</pubDate>
+    <lastBuildDate>Thu, 12 Feb 2026 11:14:32 +0900</lastBuildDate>
+    <pubDate>Thu, 12 Feb 2026 11:14:32 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GPT-5 성능 증명과 에이전트 진화 | 2026-02-12 11:13]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-12-1114-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-12-1114-dev.html</guid>
+      <pubDate>Thu, 12 Feb 2026 11:14:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 GPT-5, 법적 추론 및 과학적 성과 증명: 최근 실험에서 GPT-5는 법적 추론 분야에서 현직 연방 판사(52%)를 압도하는 100%의 정확도를 기록했으며, 단백질 합성 비용을 40% 절감하는 등 실질적인 산업 성과를 보이고 있... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미 하원 관세 반대, 일 증시 5.8만 돌파 | 2026-02-12 11:13]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-12-1114-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-12-1114-market.html</guid>
+      <pubDate>Thu, 12 Feb 2026 11:14:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미 하원, 트럼프의 캐나다 관세 철회 가결 미국 하원이 공화당 주도임에도 불구하고 트럼프 대통령이 캐나다에 부과한 관세를 종료하는 법안을 통과시켰습니다. 이는 중간선거를 앞둔 의원들이 자국 경제 타격을 우려해 대통령의 정책에 반기를 든 이례적인 사례로, 향후 트럼프... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[에이전트 중심 개발 생태계 확장 | 2026-02-11 11:26]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-11-1127-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Tue, 03 Feb 2026 11:11:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [미·이란 이스탄불 회담 추진 지정학적 긴장 완화 기대] 트럼프 행정부의 압박과 경고 속에서 미국과 이란이 핵 협상을 위해 이스탄불에서 만날 계획입니다. 이는 중동 지역의 전쟁 확산을 방지하고 에너지 시장의 불안정성을 해소하려는 전략적 움직임으로 풀이됩니다. [가자... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenAI 모델 세대교체와 AI 에이전트 확산 | 2026-02-02 11:12]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-02-1113-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-02-1113-dev.html</guid>
-      <pubDate>Mon, 02 Feb 2026 11:13:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI 모델 세대교체 가속화: 오는 2월 13일, GPT-5 시리즈 출시와 맞물려 GPT-4o, GPT-4.1 등 구형 모델들이 대거 은퇴할 예정입니다. Google Genie 3 출시: AI Ultra 구독자를 대상으로 텍스... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[금·은·비트코인 급락, 오라클 AI 투자 확대 | 2026-02-02 11:12]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-02-1113-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-02-1113-market.html</guid>
-      <pubDate>Mon, 02 Feb 2026 11:13:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [우크라이나-러시아 긴장 고조 및 에너지 위기] 트럼프 행정부의 휴전 압박 직후, 러시아가 우크라이나 에너지 시설과 석탄 광산을 공격하여 최소 12명의 광부가 사망했습니다. 이는 휴전 협상을 앞두고 유리한 고지를 점하려는 러시아의 전략적 공세로 분석되며, 유럽 에너... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
