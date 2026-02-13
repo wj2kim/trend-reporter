@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Thu, 12 Feb 2026 11:14:32 +0900</lastBuildDate>
-    <pubDate>Thu, 12 Feb 2026 11:14:32 +0900</pubDate>
+    <lastBuildDate>Fri, 13 Feb 2026 11:24:16 +0900</lastBuildDate>
+    <pubDate>Fri, 13 Feb 2026 11:24:16 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GPT-5.3 코덱스 및 개발 도구 혁신 | 2026-02-13 11:23]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-13-1124-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-13-1124-dev.html</guid>
+      <pubDate>Fri, 13 Feb 2026 11:24:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, GPT-5.3-Codex-Spark 공개: 이전 모델 대비 코딩 생성 속도가 15배 빨라졌으며, 128k 컨텍스트 창을 지원합니다. 특히 엔비디아 칩을 우회하는 효율적인 연산 방식을 적용했습니다. Google, Gem... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미-대만 무역협정, 트럼프 기후규제 철회 | 2026-02-13 11:23]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-13-1124-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-13-1124-market.html</guid>
+      <pubDate>Fri, 13 Feb 2026 11:24:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미국-대만 무역 협정 체결 및 관세 인하 미국과 대만이 관세를 15%로 낮추는 무역 협정에 공식 서명했습니다. 이에 따라 대만은 에너지와 항공 제품을 포함한 약 840억 달러 규모의 미국산 물품을 구매하기로 약속했습니다. 이는 미-중 갈등 속에서 공급망 결속을 강화... (읽기 시간: 6분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5 성능 증명과 에이전트 진화 | 2026-02-12 11:13]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-12-1114-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Wed, 04 Feb 2026 11:06:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 미국 하원, 1.2조 달러 규모 지출 패키지 가결로 셧다운 회피 미국 하원이 정부 셧다운을 종료하기 위한 1.2조 달러 규모의 예산안을 통과시켰습니다. 다만, 국토안보부(DHS) 예산은 2월 13일까지만 유효한 2주짜리 임시 예산으로, 단기적 봉합에 그쳐 향후 재충... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Codex 앱 출시, AI 코딩 가속 | 2026-02-03 11:10]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-03-1111-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-03-1111-dev.html</guid>
-      <pubDate>Tue, 03 Feb 2026 11:11:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, macOS용 &#x27;Codex 앱&#x27; 출시: 여러 에이전트와 병렬 워크플로우를 관리할 수 있는 AI 코딩 및 소프트웨어 개발 커맨드 센터입니다. Google AI Pro/Ultra 전용 개발자 도구: 구독자를 위한 새로운 개... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미·이란 회담 기대와 반도체 반등 | 2026-02-03 11:10]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-03-1111-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-03-1111-market.html</guid>
-      <pubDate>Tue, 03 Feb 2026 11:11:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [미·이란 이스탄불 회담 추진 지정학적 긴장 완화 기대] 트럼프 행정부의 압박과 경고 속에서 미국과 이란이 핵 협상을 위해 이스탄불에서 만날 계획입니다. 이는 중동 지역의 전쟁 확산을 방지하고 에너지 시장의 불안정성을 해소하려는 전략적 움직임으로 풀이됩니다. [가자... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
