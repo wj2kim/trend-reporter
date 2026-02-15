@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sat, 14 Feb 2026 11:05:10 +0900</lastBuildDate>
-    <pubDate>Sat, 14 Feb 2026 11:05:10 +0900</pubDate>
+    <lastBuildDate>Sun, 15 Feb 2026 11:23:41 +0900</lastBuildDate>
+    <pubDate>Sun, 15 Feb 2026 11:23:41 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GPT-5 물리학 성과와 실시간 코딩 모델 | 2026-02-15 11:22]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-15-1123-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-15-1123-dev.html</guid>
+      <pubDate>Sun, 15 Feb 2026 11:23:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 GPT-5.2의 과학적 성과: OpenAI가 GPT-5.2 모델을 통해 이론 물리학의 새로운 결과(글루온 진폭 공식)를 도출했으며, 이는 학계와의 협업을 통해 공식적으로 증명되었습니다. GPT-5.3-Codex-Spark 발표: 실... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[루비오 "미-유럽 동맹" 재확인 | 2026-02-15 11:22]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-15-1123-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-15-1123-market.html</guid>
+      <pubDate>Sun, 15 Feb 2026 11:23:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 뮌헨 안보 회의, 미-유럽 동맹의 미묘한 재확인 마르코 루비오 미 국무장관이 뮌헨 안보 회의에서 유럽을 &#x27;친구&#x27;로 지칭하며 대서양 동맹의 중요성을 강조했습니다. 하지만 동시에 유럽의 변화를 촉구하며 트럼프 행정부의 요구사항이 반영된 새로운 관계 설정을 시사해 향후 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.3 출시와 에이전트 윤리 논란 | 2026-02-14 11:04]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-14-1105-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Fri, 06 Feb 2026 11:07:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [미·러 핵군비 제한 조약 만료 및 긴장 고조] 미국과 러시아 간의 전략핵무기 감축 협정인 &#x27;뉴 스타트(New START)&#x27;가 만료되었습니다. 트럼프 대통령은 푸틴 대통령의 연장 제안을 거부하며, 장기적으로 지속 가능한 현대화된 새 조약 협상을 원한다고 밝혀 글로벌... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI 에이전트의 진화와 코딩 도구의 확장 | 2026-02-05 11:06]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-05-1107-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-05-1107-dev.html</guid>
-      <pubDate>Thu, 05 Feb 2026 11:07:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Qwen3-Coder-Next 및 Qwen2.5-VL 출시: 알리바바가 3B 파라미터의 효율적인 코딩 모델 Qwen3-Coder-Next를 공개했습니다. 또한 시각-언어 모델인 Qwen2.5-VL-3B가 허깅페이스 상위권을 기록하며... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미중 소통과 테크주 실적 부담 | 2026-02-05 11:06]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-05-1107-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-05-1107-market.html</guid>
-      <pubDate>Thu, 05 Feb 2026 11:07:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [미·중 정상 통화 및 트럼프 방중 계획 지정학적 긴장 완화 시도] 트럼프 대통령과 시진핑 주석이 통화를 통해 대만 무기 공급 문제 등 민감한 현안을 논의했습니다. 트럼프의 4월 방중 계획이 언급되며 양국 간의 직접 소통 채널이 가동되고 있으나, 중국 측은 미국의 ... (읽기 시간: 5분)]]></description>
     </item>
   </channel>
 </rss>
