@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Mon, 16 Feb 2026 11:12:10 +0900</lastBuildDate>
-    <pubDate>Mon, 16 Feb 2026 11:12:10 +0900</pubDate>
+    <lastBuildDate>Tue, 17 Feb 2026 11:09:33 +0900</lastBuildDate>
+    <pubDate>Tue, 17 Feb 2026 11:09:33 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GPT-5.3 코덱스, 실시간 코딩 혁신 | 2026-02-17 11:08]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-17-1109-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-17-1109-dev.html</guid>
+      <pubDate>Tue, 17 Feb 2026 11:09:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, GPT-5.3-Codex-Spark 공개: 기존 모델 대비 15배 빠른 실시간 코드 생성 성능을 갖춘 &#x27;리서치 프리뷰&#x27; 모델을 ChatGPT Pro 사용자에게 출시했습니다. Qwen3.5 및 Qwen2.5-VL 도약:... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[금값 5천 불 육박, 미 증시 보합세 | 2026-02-17 11:08]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-17-1109-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-17-1109-market.html</guid>
+      <pubDate>Tue, 17 Feb 2026 11:09:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미 국무장관의 헝가리 밀착과 유럽 내 분열 심화 마르코 루비오 미국 국무장관이 헝가리를 방문하여 빅토르 오르반 총리에 대한 지지를 공식화했습니다. 이는 트럼프 행정부의 대유럽 외교 기조가 기존 동맹국들보다는 보수적 권위주의 성향의 국가들과의 결속에 집중될 것임을 시... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[OpenAI의 에이전트 전략 강화 | 2026-02-16 11:11]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-16-1112-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sun, 08 Feb 2026 11:36:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 일본 조기 총선 실시 다카이치 보수 정권 입지 강화 일본에서 조기 총선이 치러지는 가운데, 다카이치 사나에 총리가 이끄는 보수 연합이 전체 465석 중 300석 이상을 확보하며 압승할 것으로 전망됩니다. 이는 일본 내 보수적 경제 및 안보 정책이 추진력을 얻는 계기... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI 에이전트, C 컴파일러 직접 구축 | 2026-02-07 11:02]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-07-1103-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-07-1103-dev.html</guid>
-      <pubDate>Sat, 07 Feb 2026 11:03:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Claude Opus 4.6 &amp; GPT-5.3-Codex 공개: Anthropic과 OpenAI가 각각 최신 모델을 발표하며 에이전트 기능을 강화했습니다. 특히 GPT-5.3-Codex는 복잡한 기술적 과업을 수행하는 &#x27;Codex-... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프 관세 위협, 비트코인 급락 | 2026-02-07 11:02]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-07-1103-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-07-1103-market.html</guid>
-      <pubDate>Sat, 07 Feb 2026 11:03:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [트럼프, 이란 거래 국가에 &#x27;25% 관세&#x27; 위협 행정명령 서명] 트럼프 대통령이 이란과 거래하는 국가들에 대해 보복 관세를 부과할 수 있는 행정명령에 서명했습니다. 예시로 25%의 세율을 언급하며 강력한 압박을 가하고 있어, 향후 글로벌 무역 질서에 상당한 파급력... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
