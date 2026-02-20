@@ -1,5 +1,33 @@
 [
   {
+    "title": "GPT-5.3과 Gemini 3.1 출시 | 2026-02-20 11:07",
+    "filename": "2026-02-20-1107-dev.html",
+    "date": "2026-02-20",
+    "time": "11:07",
+    "category": "dev",
+    "description": "1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Google Gemini 3.1 Pro 출시: 복잡한 작업 수행 능력이 대폭 강화된 모델로, 벤치마크 기록을 경신하며 NotebookLM 등 주요 서비스에 즉시 적용되었습니다. GPT-5.3-Codex-Spark 공개: OpenAI...",
+    "reading_time": 5,
+    "keywords": [
+      "Gemini 3.1",
+      "GPT-5.3",
+      "AI 코딩"
+    ]
+  },
+  {
+    "title": "미-이란 긴장 고조, 아시아 증시 하락 | 2026-02-20 11:07",
+    "filename": "2026-02-20-1107-market.html",
+    "date": "2026-02-20",
+    "time": "11:07",
+    "category": "market",
+    "description": "1. 세계 정세 [트럼프 행정부의 이란 공격 임박설 중동 긴장 최고조] 트럼프 대통령이 이란에 대한 군사 공격을 준비 중이며, 미국 타격 부대(Strike Force)가 구체화되고 있다는 보도가 나왔습니다. 이스라엘과 미국의 군사적 우위에도 불구하고 이란의 보복 가능성이 제기되면서...",
+    "reading_time": 4,
+    "keywords": [
+      "트럼프",
+      "이란",
+      "엔비디아"
+    ]
+  },
+  {
     "title": "Claude 4.6과 GPT-5.3 코딩 혁신 | 2026-02-19 11:11",
     "filename": "2026-02-19-1111-dev.html",
     "date": "2026-02-19",
@@ -669,34 +697,6 @@
       "트럼프",
       "관세",
       "한국 경제"
-    ]
-  },
-  {
-    "title": "Apple-Gemini 결합과 OpenAI의 인프라 확장 | 2026-01-26 10:57",
-    "filename": "2026-01-26-1058-dev.html",
-    "date": "2026-01-26",
-    "time": "10:58",
-    "category": "dev",
-    "description": "1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Apple-Gemini 기반 Siri 공개 임박: Apple이 Google Gemini를 탑재한 새로운 Siri를 2월에 공개할 예정입니다. 이는 양사의 AI 파트너십 결과가 실제 제품에 반영되는 첫 사례가 될 전망입니다. GPT-...",
-    "reading_time": 4,
-    "keywords": [
-      "Apple",
-      "OpenAI",
-      "Claude"
-    ]
-  },
-  {
-    "title": "금값 5천불 돌파, 셧다운 공포 확산 | 2026-01-26 10:57",
-    "filename": "2026-01-26-1058-market.html",
-    "date": "2026-01-26",
-    "time": "10:58",
-    "category": "market",
-    "description": "1. 세계 정세 미국 내 이민 정책 갈등 심화 연방과 지방의 충돌 민네소타 주지사 팀 월즈가 트럼프 행정부의 연방 이민세관집행국(ICE) 요원 철수를 강력히 요구했습니다. 최근 미니애폴리스에서 발생한 연이은 총격 사망 사건으로 인해 중앙정부의 강경한 이민 단속 정책과 지방 정부 간...",
-    "reading_time": 4,
-    "keywords": [
-      "금",
-      "셧다운",
-      "FOMC"
     ]
   }
 ]
