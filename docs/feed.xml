@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sat, 21 Feb 2026 11:02:40 +0900</lastBuildDate>
-    <pubDate>Sat, 21 Feb 2026 11:02:40 +0900</pubDate>
+    <lastBuildDate>Sun, 22 Feb 2026 11:12:16 +0900</lastBuildDate>
+    <pubDate>Sun, 22 Feb 2026 11:12:16 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Claude Code와 로컬 AI 기술의 진화 | 2026-02-22 11:11]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-22-1112-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-22-1112-dev.html</guid>
+      <pubDate>Sun, 22 Feb 2026 11:12:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Google Gemini 3.1 Pro 출시: 100만 토큰의 컨텍스트 창을 지원하며, 개발자의 PR(Pull Request) 워크플로우를 혁신할 수 있는 성능을 갖추었습니다. Google Deepmind &#x27;Lyria 3&#x27;: 사진이... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프 관세 기각, 무역 불확실성 증폭 | 2026-02-22 11:11]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-22-1112-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-22-1112-market.html</guid>
+      <pubDate>Sun, 22 Feb 2026 11:12:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [미 연방법원, 트럼프 보편 관세 정책 무효화 무역 정책의 큰 혼선] 미국 대법원이 도널드 트럼프 대통령의 핵심 공약인 보편 관세 정책에 대해 위법 판결을 내렸습니다. 이는 행정부의 독자적인 관세 부과 권한에 제동을 건 것으로, 향후 미국의 대외 무역 전략 및 동맹... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.2 물리학 성과 및 Gemini 3.1 | 2026-02-21 11:01]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-21-1102-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Fri, 13 Feb 2026 11:24:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 미국-대만 무역 협정 체결 및 관세 인하 미국과 대만이 관세를 15%로 낮추는 무역 협정에 공식 서명했습니다. 이에 따라 대만은 에너지와 항공 제품을 포함한 약 840억 달러 규모의 미국산 물품을 구매하기로 약속했습니다. 이는 미-중 갈등 속에서 공급망 결속을 강화... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GPT-5 성능 증명과 에이전트 진화 | 2026-02-12 11:13]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-12-1114-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-12-1114-dev.html</guid>
-      <pubDate>Thu, 12 Feb 2026 11:14:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 GPT-5, 법적 추론 및 과학적 성과 증명: 최근 실험에서 GPT-5는 법적 추론 분야에서 현직 연방 판사(52%)를 압도하는 100%의 정확도를 기록했으며, 단백질 합성 비용을 40% 절감하는 등 실질적인 산업 성과를 보이고 있... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미 하원 관세 반대, 일 증시 5.8만 돌파 | 2026-02-12 11:13]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-12-1114-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-12-1114-market.html</guid>
-      <pubDate>Thu, 12 Feb 2026 11:14:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 미 하원, 트럼프의 캐나다 관세 철회 가결 미국 하원이 공화당 주도임에도 불구하고 트럼프 대통령이 캐나다에 부과한 관세를 종료하는 법안을 통과시켰습니다. 이는 중간선거를 앞둔 의원들이 자국 경제 타격을 우려해 대통령의 정책에 반기를 든 이례적인 사례로, 향후 트럼프... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
