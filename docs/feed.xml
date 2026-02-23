@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sun, 22 Feb 2026 11:12:16 +0900</lastBuildDate>
-    <pubDate>Sun, 22 Feb 2026 11:12:16 +0900</pubDate>
+    <lastBuildDate>Mon, 23 Feb 2026 11:12:58 +0900</lastBuildDate>
+    <pubDate>Mon, 23 Feb 2026 11:12:58 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GPT-5.2 물리 증명 및 삼성 AI 협업 | 2026-02-23 11:12]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-23-1112-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-23-1112-dev.html</guid>
+      <pubDate>Mon, 23 Feb 2026 11:12:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 GPT-5.2의 이론 물리학 성과: OpenAI의 GPT-5.2 모델이 이론 물리학의 글루온 진폭(gluon amplitude)에 대한 새로운 공식을 제안했으며, 이는 학계와의 협업을 통해 공식적으로 증명 및 검증되었습니다. 삼성 ... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프 15% 관세 예고, 코스피 신고가 | 2026-02-23 11:12]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-23-1112-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-23-1112-market.html</guid>
+      <pubDate>Mon, 23 Feb 2026 11:12:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 대통령의 전격적인 &#x27;15% 글로벌 관세&#x27; 인상 예고 미 연방대법원이 기존 관세 조치를 무효화하자, 트럼프 대통령은 즉각 전 세계를 대상으로 한 15% 보편 관세 계획을 발표했습니다. 이는 글로벌 무역 전쟁의 2라운드 시작을 의미하며, 비트코인 등 위험 자산에... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Code와 로컬 AI 기술의 진화 | 2026-02-22 11:11]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-22-1112-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sat, 14 Feb 2026 11:05:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [트럼프 대통령의 중동 압박 가속화 지정학적 리스크 재점화] 트럼프 대통령이 이란과의 협상을 압박하며 중동에 두 번째 항공모함인 &#x27;USS 제럴드 R. 포드&#x27;를 파견하겠다고 밝혔습니다. 해군이 정비가 필요하다고 경고했음에도 불구하고 강행하는 이번 배치는 중동 내 군사... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GPT-5.3 코덱스 및 개발 도구 혁신 | 2026-02-13 11:23]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-13-1124-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-13-1124-dev.html</guid>
-      <pubDate>Fri, 13 Feb 2026 11:24:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, GPT-5.3-Codex-Spark 공개: 이전 모델 대비 코딩 생성 속도가 15배 빨라졌으며, 128k 컨텍스트 창을 지원합니다. 특히 엔비디아 칩을 우회하는 효율적인 연산 방식을 적용했습니다. Google, Gem... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미-대만 무역협정, 트럼프 기후규제 철회 | 2026-02-13 11:23]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-13-1124-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-13-1124-market.html</guid>
-      <pubDate>Fri, 13 Feb 2026 11:24:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 미국-대만 무역 협정 체결 및 관세 인하 미국과 대만이 관세를 15%로 낮추는 무역 협정에 공식 서명했습니다. 이에 따라 대만은 에너지와 항공 제품을 포함한 약 840억 달러 규모의 미국산 물품을 구매하기로 약속했습니다. 이는 미-중 갈등 속에서 공급망 결속을 강화... (읽기 시간: 6분)]]></description>
     </item>
   </channel>
 </rss>
