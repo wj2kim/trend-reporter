@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Mon, 23 Feb 2026 11:12:58 +0900</lastBuildDate>
-    <pubDate>Mon, 23 Feb 2026 11:12:58 +0900</pubDate>
+    <lastBuildDate>Tue, 24 Feb 2026 11:09:50 +0900</lastBuildDate>
+    <pubDate>Tue, 24 Feb 2026 11:09:50 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Ladybird의 Rust 전환과 AI 협업 | 2026-02-24 11:08]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-24-1109-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-24-1109-dev.html</guid>
+      <pubDate>Tue, 24 Feb 2026 11:09:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, SWE-bench Verified 평가 중단: 테스트 데이터 오염 및 훈련 데이터 유출 이슈로 인해 더 이상 해당 벤치마크로 성능을 측정하지 않기로 결정했습니다. GPT-5.2의 물리학적 성과: GPT-5.2가 이론 ... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프 국정연설, 자산 고평가 경고 | 2026-02-24 11:08]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-24-1109-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-24-1109-market.html</guid>
+      <pubDate>Tue, 24 Feb 2026 11:09:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 2기 첫 국정연설 임박 정책 불확실성 증폭 트럼프 대통령이 두 번째 임기 첫 국정연설을 앞두고 있습니다. 관세 및 이란 제재 등 편향된 정책이 11월 중간선거에 미칠 영향과 유권자들의 반발 가능성이 시장의 주요 관전 포인트입니다. 미-이란 긴장 고조 및 제재... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.2 물리 증명 및 삼성 AI 협업 | 2026-02-23 11:12]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-23-1112-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sun, 15 Feb 2026 11:23:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 뮌헨 안보 회의, 미-유럽 동맹의 미묘한 재확인 마르코 루비오 미 국무장관이 뮌헨 안보 회의에서 유럽을 &#x27;친구&#x27;로 지칭하며 대서양 동맹의 중요성을 강조했습니다. 하지만 동시에 유럽의 변화를 촉구하며 트럼프 행정부의 요구사항이 반영된 새로운 관계 설정을 시사해 향후 ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GPT-5.3 출시와 에이전트 윤리 논란 | 2026-02-14 11:04]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-14-1105-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-14-1105-dev.html</guid>
-      <pubDate>Sat, 14 Feb 2026 11:05:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, GPT-5.3-Codex-Spark 공개: 실시간 코딩에 최적화된 초고속 모델로, 이전 대비 15배 빠른 생성 속도와 128k 컨텍스트 창을 제공하며 ChatGPT Pro 사용자에게 프리뷰로 제공됩니다. Google ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[중동 긴장 고조와 미 셧다운 위기 | 2026-02-14 11:04]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-14-1105-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-14-1105-market.html</guid>
-      <pubDate>Sat, 14 Feb 2026 11:05:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [트럼프 대통령의 중동 압박 가속화 지정학적 리스크 재점화] 트럼프 대통령이 이란과의 협상을 압박하며 중동에 두 번째 항공모함인 &#x27;USS 제럴드 R. 포드&#x27;를 파견하겠다고 밝혔습니다. 해군이 정비가 필요하다고 경고했음에도 불구하고 강행하는 이번 배치는 중동 내 군사... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
