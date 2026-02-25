@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Tue, 24 Feb 2026 11:09:50 +0900</lastBuildDate>
-    <pubDate>Tue, 24 Feb 2026 11:09:50 +0900</pubDate>
+    <lastBuildDate>Wed, 25 Feb 2026 11:11:20 +0900</lastBuildDate>
+    <pubDate>Wed, 25 Feb 2026 11:11:20 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[OpenAI, SWE-bench 측정 중단 | 2026-02-25 11:10]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-25-1111-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-25-1111-dev.html</guid>
+      <pubDate>Wed, 25 Feb 2026 11:11:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Mercury 2 출시: Inception Labs에서 디퓨전(Diffusion) 기술을 활용한 가장 빠른 추론(Reasoning)형 LLM인 Mercury 2를 발표했습니다. Multiverse Computing 모델 공개: 스페... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[국정연설 앞둔 시장, 코스피 6000 돌파 | 2026-02-25 11:10]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-25-1111-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-25-1111-market.html</guid>
+      <pubDate>Wed, 25 Feb 2026 11:11:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 대통령의 첫 국정연설(State of the Union) 임박 트럼프 대통령은 미 의회에서 취임 후 첫 국정연설을 가질 예정입니다. 주요 의제는 경제 회복, 물가 안정, 그리고 최근 논란이 된 관세 정책과 이란과의 긴장 완화가 될 것으로 보입니다. 이는 향후... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Ladybird의 Rust 전환과 AI 협업 | 2026-02-24 11:08]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-24-1109-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Mon, 16 Feb 2026 11:12:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [뮌헨 안보 회의 종료와 유럽의 홀로서기 미국 의존도 탈피 가속화] 뮌헨 안보 회의가 종료되면서 유럽 지도자들 사이에서 미국에 대한 안보 의존도를 낮춰야 한다는 위기감이 고조되었습니다. 마르코 루비오 미 국무장관의 공동 가치 강조에도 불구하고, 유럽은 미국의 정책 ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GPT-5 물리학 성과와 실시간 코딩 모델 | 2026-02-15 11:22]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-15-1123-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-15-1123-dev.html</guid>
-      <pubDate>Sun, 15 Feb 2026 11:23:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 GPT-5.2의 과학적 성과: OpenAI가 GPT-5.2 모델을 통해 이론 물리학의 새로운 결과(글루온 진폭 공식)를 도출했으며, 이는 학계와의 협업을 통해 공식적으로 증명되었습니다. GPT-5.3-Codex-Spark 발표: 실... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[루비오 "미-유럽 동맹" 재확인 | 2026-02-15 11:22]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-15-1123-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-15-1123-market.html</guid>
-      <pubDate>Sun, 15 Feb 2026 11:23:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 뮌헨 안보 회의, 미-유럽 동맹의 미묘한 재확인 마르코 루비오 미 국무장관이 뮌헨 안보 회의에서 유럽을 &#x27;친구&#x27;로 지칭하며 대서양 동맹의 중요성을 강조했습니다. 하지만 동시에 유럽의 변화를 촉구하며 트럼프 행정부의 요구사항이 반영된 새로운 관계 설정을 시사해 향후 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
