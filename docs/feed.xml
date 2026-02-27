@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Thu, 26 Feb 2026 11:07:22 +0900</lastBuildDate>
-    <pubDate>Thu, 26 Feb 2026 11:07:22 +0900</pubDate>
+    <lastBuildDate>Fri, 27 Feb 2026 11:06:01 +0900</lastBuildDate>
+    <pubDate>Fri, 27 Feb 2026 11:06:01 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Anthropic 서약 폐기 및 에이전트 가속 | 2026-02-27 11:05]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-27-1106-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-27-1106-dev.html</guid>
+      <pubDate>Fri, 27 Feb 2026 11:06:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI gpt-realtime-1.5 출시: 음성 에이전트의 지시 준수 능력을 강화한 새로운 모델이 공개되었습니다. Google Nano Banana 2 공개: 강력한 이미지 편집 기능을 갖춘 최신 이미지 생성 모델로, 현실적... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[엔비디아 쇼크 속 기술주 희비 교차 | 2026-02-27 11:05]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-27-1106-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-27-1106-market.html</guid>
+      <pubDate>Fri, 27 Feb 2026 11:06:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미-이란 핵 협상과 군사적 긴장 고조 트럼프 행정부의 강력한 군사적 위협과 병력 증강 속에서 미국과 이란의 핵 협상이 제네바와 오만에서 진행 중입니다. 이란은 협상을 통해 실리를 챙기려 하나, 미국의 군사적 압박이 거세지며 중동 내 불확실성이 극에 달하고 있습니다.... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[AI 에이전트 혁신과 생산성 논란 | 2026-02-26 11:06]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-26-1107-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Wed, 18 Feb 2026 11:13:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [미-이란 핵 협상 &#x27;원칙적 합의&#x27; 도출 지정학적 긴장 완화 기대] 제네바에서 열린 미국과 이란의 회담에서 양측이 &#x27;일련의 지도 원칙&#x27;에 합의하며 긍정적인 진전을 보였습니다. 트럼프 대통령이 즉각적인 합의를 촉구하는 가운데, 중동의 핵 갈등이 외교적 해결 국면으로 ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GPT-5.3 코덱스, 실시간 코딩 혁신 | 2026-02-17 11:08]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-17-1109-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-17-1109-dev.html</guid>
-      <pubDate>Tue, 17 Feb 2026 11:09:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, GPT-5.3-Codex-Spark 공개: 기존 모델 대비 15배 빠른 실시간 코드 생성 성능을 갖춘 &#x27;리서치 프리뷰&#x27; 모델을 ChatGPT Pro 사용자에게 출시했습니다. Qwen3.5 및 Qwen2.5-VL 도약:... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[금값 5천 불 육박, 미 증시 보합세 | 2026-02-17 11:08]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-17-1109-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-17-1109-market.html</guid>
-      <pubDate>Tue, 17 Feb 2026 11:09:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 미 국무장관의 헝가리 밀착과 유럽 내 분열 심화 마르코 루비오 미국 국무장관이 헝가리를 방문하여 빅토르 오르반 총리에 대한 지지를 공식화했습니다. 이는 트럼프 행정부의 대유럽 외교 기조가 기존 동맹국들보다는 보수적 권위주의 성향의 국가들과의 결속에 집중될 것임을 시... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
