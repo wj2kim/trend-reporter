@@ -1,5 +1,33 @@
 [
   {
+    "title": "OpenAI 거액 펀딩 및 Anthropic 규제 | 2026-02-28 10:55",
+    "filename": "2026-02-28-1056-dev.html",
+    "date": "2026-02-28",
+    "time": "10:56",
+    "category": "dev",
+    "description": "1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Google &#x27;Nano Banana 2&#x27; 출시: 구글이 최신 AI 이미지 생성 모델인 Nano Banana 2를 발표했습니다. 프로급 성능과 빠른 생성 속도를 결합한 것이 특징입니다. OpenAI-Amazon 전략적 파트너십: Op...",
+    "reading_time": 4,
+    "keywords": [
+      "OpenAI",
+      "Anthropic",
+      "AI 에이전트"
+    ]
+  },
+  {
+    "title": "트럼프 AI 제재·중동 전쟁 위기 고조 | 2026-02-28 10:55",
+    "filename": "2026-02-28-1056-market.html",
+    "date": "2026-02-28",
+    "time": "10:56",
+    "category": "market",
+    "description": "1. 세계 정세 [트럼프 행정부의 AI 기업 ‘앤트로픽’ 블랙리스트 지정] 트럼프 대통령이 AI 기업 앤트로픽(Anthropic)을 &#x27;공급망 리스크&#x27;로 규정하고 연방 기구의 사용 금지를 명령했습니다. 이는 국방부(Department of War)와의 AI 군사적 활용 갈등에서 비롯...",
+    "reading_time": 4,
+    "keywords": [
+      "트럼프",
+      "AI 규제",
+      "중동 리스크"
+    ]
+  },
+  {
     "title": "Anthropic 서약 폐기 및 에이전트 가속 | 2026-02-27 11:05",
     "filename": "2026-02-27-1106-dev.html",
     "date": "2026-02-27",
@@ -669,34 +697,6 @@
       "금값",
       "미국 셧다운",
       "리비아 정세"
-    ]
-  },
-  {
-    "title": "Codex 앱 출시, AI 코딩 가속 | 2026-02-03 11:10",
-    "filename": "2026-02-03-1111-dev.html",
-    "date": "2026-02-03",
-    "time": "11:11",
-    "category": "dev",
-    "description": "1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, macOS용 &#x27;Codex 앱&#x27; 출시: 여러 에이전트와 병렬 워크플로우를 관리할 수 있는 AI 코딩 및 소프트웨어 개발 커맨드 센터입니다. Google AI Pro/Ultra 전용 개발자 도구: 구독자를 위한 새로운 개...",
-    "reading_time": 4,
-    "keywords": [
-      "Codex",
-      "AI 에이전트",
-      "OpenAI"
-    ]
-  },
-  {
-    "title": "미·이란 회담 기대와 반도체 반등 | 2026-02-03 11:10",
-    "filename": "2026-02-03-1111-market.html",
-    "date": "2026-02-03",
-    "time": "11:11",
-    "category": "market",
-    "description": "1. 세계 정세 [미·이란 이스탄불 회담 추진 지정학적 긴장 완화 기대] 트럼프 행정부의 압박과 경고 속에서 미국과 이란이 핵 협상을 위해 이스탄불에서 만날 계획입니다. 이는 중동 지역의 전쟁 확산을 방지하고 에너지 시장의 불안정성을 해소하려는 전략적 움직임으로 풀이됩니다. [가자...",
-    "reading_time": 4,
-    "keywords": [
-      "미·이란 협상",
-      "팔란티어",
-      "반도체"
     ]
   }
 ]
