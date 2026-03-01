@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sat, 28 Feb 2026 10:56:11 +0900</lastBuildDate>
-    <pubDate>Sat, 28 Feb 2026 10:56:11 +0900</pubDate>
+    <lastBuildDate>Sun, 01 Mar 2026 11:25:58 +0900</lastBuildDate>
+    <pubDate>Sun, 01 Mar 2026 11:25:58 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Claude Code와 국방 AI 논란 | 2026-03-01 11:25]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-01-1125-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-01-1125-dev.html</guid>
+      <pubDate>Sun, 01 Mar 2026 11:25:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Alibaba Qwen 3.5 모델 출시: 122B 및 35B 모델이 공개되었으며, 로컬 환경에서 Claude 3.5 Sonnet 수준의 성능을 제공하는 것으로 평가받음. Claude 앱 스토어 점유율 상승: Anthropic의 C... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미·이 공습에 하메네이 사망, 유가 요동 | 2026-03-01 11:25]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-01-1125-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-01-1125-market.html</guid>
+      <pubDate>Sun, 01 Mar 2026 11:25:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [미국·이스라엘의 이란 대공습 및 하메네이 사망 중동 정세의 근본적 변화] 2026년 2월 28일, 미국과 이스라엘이 이란에 대해 대규모 공습을 단행하여 이란의 최고 지도자 아야톨라 알리 하메네이가 사망했습니다. 37년간 이어진 하메네이 통치가 종식되면서 이란 내 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[OpenAI 거액 펀딩 및 Anthropic 규제 | 2026-02-28 10:55]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-28-1056-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Fri, 20 Feb 2026 11:07:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [트럼프 행정부의 이란 공격 임박설 중동 긴장 최고조] 트럼프 대통령이 이란에 대한 군사 공격을 준비 중이며, 미국 타격 부대(Strike Force)가 구체화되고 있다는 보도가 나왔습니다. 이스라엘과 미국의 군사적 우위에도 불구하고 이란의 보복 가능성이 제기되면서... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude 4.6과 GPT-5.3 코딩 혁신 | 2026-02-19 11:11]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-19-1111-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-19-1111-dev.html</guid>
-      <pubDate>Thu, 19 Feb 2026 11:11:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Anthropic, Claude Sonnet 4.6 출시: 역대 가장 강력한 성능을 갖춘 Sonnet 모델로 평가받으며, 해커뉴스 등 주요 커뮤니티에서 폭발적인 관심을 받고 있습니다. OpenAI, GPT-5.3-Codex-Spar... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미 시리아 철수, 저커버그 법정행 | 2026-02-19 11:11]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-19-1111-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-19-1111-market.html</guid>
-      <pubDate>Thu, 19 Feb 2026 11:11:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [미군 시리아 전격 철수 결정 중동 긴장 고조] 트럼프 행정부가 시리아에 주둔 중인 1,000명의 미군을 2개월 내 완전 철수하기로 결정했습니다. 이는 이란에 대한 군사적 압박을 강화하는 과정에서 나온 조치로, 시리아 내 영향력 공백이 이란 및 러시아의 입지를 강화... (읽기 시간: 5분)]]></description>
     </item>
   </channel>
 </rss>
