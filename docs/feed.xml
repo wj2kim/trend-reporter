@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sun, 01 Mar 2026 11:25:58 +0900</lastBuildDate>
-    <pubDate>Sun, 01 Mar 2026 11:25:58 +0900</pubDate>
+    <lastBuildDate>Mon, 02 Mar 2026 11:09:43 +0900</lastBuildDate>
+    <pubDate>Mon, 02 Mar 2026 11:09:43 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[OpenAI 군사 협력 및 730조 가치 | 2026-03-02 11:08]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-02-1109-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-02-1109-dev.html</guid>
+      <pubDate>Mon, 02 Mar 2026 11:09:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Claude의 약진과 ChatGPT 반발: OpenAI의 국방부 협력 소식 이후, Anthropic의 Claude가 앱스토어 차트 1위를 차지하며 ChatGPT 사용자의 이탈 및 전환 현상이 관찰됨. Claude 메모리 가져오기: ... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미·이 전면전 확산, 유가 폭등 | 2026-03-02 11:08]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-02-1109-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-02-1109-market.html</guid>
+      <pubDate>Mon, 02 Mar 2026 11:09:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [미·이 보복의 악순환 전면전 돌입 위기] 미국과 이스라엘의 이란 내 1,000개 목표 타격에 이어, 이란의 보복 미사일이 이스라엘 방공망을 돌파하며 긴장이 최고조에 달했습니다. 특히 미군 3명이 전사하면서 트럼프 대통령이 &#x27;보복(Avenge)&#x27;을 선언, 작전명 &#x27;... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Code와 국방 AI 논란 | 2026-03-01 11:25]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-01-1125-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sat, 21 Feb 2026 11:02:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 미 대법원의 트럼프 글로벌 관세 기각과 즉각적인 재반격 미국 연방법원이 트럼프 대통령이 의회 승인 없이 부과한 광범위한 글로벌 관세에 대해 위헌 판결을 내렸습니다. 그러나 트럼프 대통령은 즉각 대법관들을 비판하며 새로운 &#x27;10% 글로벌 관세&#x27; 도입을 선언, 글로벌 ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GPT-5.3과 Gemini 3.1 출시 | 2026-02-20 11:07]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-20-1107-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-20-1107-dev.html</guid>
-      <pubDate>Fri, 20 Feb 2026 11:07:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Google Gemini 3.1 Pro 출시: 복잡한 작업 수행 능력이 대폭 강화된 모델로, 벤치마크 기록을 경신하며 NotebookLM 등 주요 서비스에 즉시 적용되었습니다. GPT-5.3-Codex-Spark 공개: OpenAI... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미-이란 긴장 고조, 아시아 증시 하락 | 2026-02-20 11:07]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-20-1107-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-20-1107-market.html</guid>
-      <pubDate>Fri, 20 Feb 2026 11:07:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [트럼프 행정부의 이란 공격 임박설 중동 긴장 최고조] 트럼프 대통령이 이란에 대한 군사 공격을 준비 중이며, 미국 타격 부대(Strike Force)가 구체화되고 있다는 보도가 나왔습니다. 이스라엘과 미국의 군사적 우위에도 불구하고 이란의 보복 가능성이 제기되면서... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
