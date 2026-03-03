@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Mon, 02 Mar 2026 11:09:43 +0900</lastBuildDate>
-    <pubDate>Mon, 02 Mar 2026 11:09:43 +0900</pubDate>
+    <lastBuildDate>Tue, 03 Mar 2026 11:11:10 +0900</lastBuildDate>
+    <pubDate>Tue, 03 Mar 2026 11:11:10 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Cursor 매출 폭발, Karpathy의 Microgpt | 2026-03-03 11:10]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-03-1111-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-03-1111-dev.html</guid>
+      <pubDate>Tue, 03 Mar 2026 11:11:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Claude &#x27;메모리 가져오기&#x27; 기능: 사용자가 기존 서비스에서 Claude로 전환할 때 이전의 대화 맥락과 기억을 유지할 수 있는 데이터 임포트 기능을 지원합니다. ElevenLabs AI 음성 비서 상용화: 도이치텔레콤과 협력하... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[중동 전쟁 확산, 에너지·방산주 요동 | 2026-03-03 11:10]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-03-1111-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-03-1111-market.html</guid>
+      <pubDate>Tue, 03 Mar 2026 11:11:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미·이란 전쟁의 전방위적 확산 및 대사관 피습 이란이 미국과 이스라엘의 공격에 대한 보복으로 레바논, UAE에 이어 사우디아라비아 리야드 주재 미국 대사관을 드론으로 공격하여 화재가 발생했습니다. 트럼프 대통령은 필요시 지상군 투입 가능성까지 시사하며 중동 전역이 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[OpenAI 군사 협력 및 730조 가치 | 2026-03-02 11:08]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-02-1109-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sun, 22 Feb 2026 11:12:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [미 연방법원, 트럼프 보편 관세 정책 무효화 무역 정책의 큰 혼선] 미국 대법원이 도널드 트럼프 대통령의 핵심 공약인 보편 관세 정책에 대해 위법 판결을 내렸습니다. 이는 행정부의 독자적인 관세 부과 권한에 제동을 건 것으로, 향후 미국의 대외 무역 전략 및 동맹... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GPT-5.2 물리학 성과 및 Gemini 3.1 | 2026-02-21 11:01]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-21-1102-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-21-1102-dev.html</guid>
-      <pubDate>Sat, 21 Feb 2026 11:02:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI GPT-5.2 성과 발표: 새로운 이론 물리학 공식(gluon amplitude)을 도출하고 학계와 협력하여 검증에 성공하며 연구용 추론 능력을 입증했습니다. Google Gemini 3.1 Pro 출시: 구글 딥마인드... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프 관세 기각 및 재발표, 시장 혼조 | 2026-02-21 11:01]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-21-1102-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-21-1102-market.html</guid>
-      <pubDate>Sat, 21 Feb 2026 11:02:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 미 대법원의 트럼프 글로벌 관세 기각과 즉각적인 재반격 미국 연방법원이 트럼프 대통령이 의회 승인 없이 부과한 광범위한 글로벌 관세에 대해 위헌 판결을 내렸습니다. 그러나 트럼프 대통령은 즉각 대법관들을 비판하며 새로운 &#x27;10% 글로벌 관세&#x27; 도입을 선언, 글로벌 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
