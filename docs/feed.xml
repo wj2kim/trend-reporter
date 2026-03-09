@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sun, 08 Mar 2026 11:09:54 +0900</lastBuildDate>
-    <pubDate>Sun, 08 Mar 2026 11:09:54 +0900</pubDate>
+    <lastBuildDate>Mon, 09 Mar 2026 11:11:21 +0900</lastBuildDate>
+    <pubDate>Mon, 09 Mar 2026 11:11:21 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GPT-5.4 공식 출시와 AI 에이전트 혁신 | 2026-03-09 11:10]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-09-1111-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-09-1111-dev.html</guid>
+      <pubDate>Mon, 09 Mar 2026 11:11:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, GPT-5.4 공식 출시: 코딩, 컴퓨터 제어, 도구 사용 능력이 극대화된 전문가용 모델로, 대규모 모델 평가에서 최첨단 성능을 기록했습니다. Codex Security 연구 프리뷰 공개: 프로젝트 컨텍스트를 분석하여... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[이란 권력승계, 유가 폭등 증시 급락 | 2026-03-09 11:10]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-09-1111-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-09-1111-market.html</guid>
+      <pubDate>Mon, 09 Mar 2026 11:11:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [이란 지도부 교체 및 강경 노선 고착화] 이스라엘의 공격으로 사망한 아야톨라 알리 하메네이의 뒤를 이어 그의 아들 모지타바 하메네이가 새 최고 지도자로 선출되었습니다. 이는 도널드 트럼프 행정부와 이스라엘에 대한 정면 돌파 의지로 풀이되며, 중동 내 지정학적 긴장... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.4 출시 및 AI 보안 에이전트 | 2026-03-08 11:09]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-08-1109-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sat, 28 Feb 2026 10:56:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [트럼프 행정부의 AI 기업 ‘앤트로픽’ 블랙리스트 지정] 트럼프 대통령이 AI 기업 앤트로픽(Anthropic)을 &#x27;공급망 리스크&#x27;로 규정하고 연방 기구의 사용 금지를 명령했습니다. 이는 국방부(Department of War)와의 AI 군사적 활용 갈등에서 비롯... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Anthropic 서약 폐기 및 에이전트 가속 | 2026-02-27 11:05]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-27-1106-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-27-1106-dev.html</guid>
-      <pubDate>Fri, 27 Feb 2026 11:06:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI gpt-realtime-1.5 출시: 음성 에이전트의 지시 준수 능력을 강화한 새로운 모델이 공개되었습니다. Google Nano Banana 2 공개: 강력한 이미지 편집 기능을 갖춘 최신 이미지 생성 모델로, 현실적... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[엔비디아 쇼크 속 기술주 희비 교차 | 2026-02-27 11:05]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-27-1106-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-27-1106-market.html</guid>
-      <pubDate>Fri, 27 Feb 2026 11:06:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 미-이란 핵 협상과 군사적 긴장 고조 트럼프 행정부의 강력한 군사적 위협과 병력 증강 속에서 미국과 이란의 핵 협상이 제네바와 오만에서 진행 중입니다. 이란은 협상을 통해 실리를 챙기려 하나, 미국의 군사적 압박이 거세지며 중동 내 불확실성이 극에 달하고 있습니다.... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
