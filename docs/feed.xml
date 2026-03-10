@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Mon, 09 Mar 2026 11:11:21 +0900</lastBuildDate>
-    <pubDate>Mon, 09 Mar 2026 11:11:21 +0900</pubDate>
+    <lastBuildDate>Tue, 10 Mar 2026 11:04:00 +0900</lastBuildDate>
+    <pubDate>Tue, 10 Mar 2026 11:04:00 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[AI 에이전트 보안 및 로컬 환경 강화 | 2026-03-10 11:03]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-10-1104-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-10-1104-dev.html</guid>
+      <pubDate>Tue, 10 Mar 2026 11:04:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, GPT-5.4 &#x27;Thinking&#x27; 시스템 카드 공개: 추론 모델의 사고 과정(Chain of Thought) 제어 능력을 분석한 보고서를 발표했으며, 모델이 스스로 사고 과정을 통제하기 어려워하는 특성이 오히려 모니터... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프 종전 시사, 유가 급락 | 2026-03-10 11:03]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-10-1104-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-10-1104-market.html</guid>
+      <pubDate>Tue, 10 Mar 2026 11:04:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프의 중동 전쟁 조기 종결 시사 및 경고 트럼프 대통령이 이란과의 전쟁이 &quot;매우 곧&quot; 끝날 것이라고 발언하며 시장에 안정감을 주는 동시에, 호르무즈 해협 봉쇄 시 20배 더 강력한 타격을 가할 것이라고 경고했습니다. 이는 유가 급락과 증시 반등의 직접적인 도화선... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.4 공식 출시와 AI 에이전트 혁신 | 2026-03-09 11:10]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-09-1111-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sun, 01 Mar 2026 11:25:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [미국·이스라엘의 이란 대공습 및 하메네이 사망 중동 정세의 근본적 변화] 2026년 2월 28일, 미국과 이스라엘이 이란에 대해 대규모 공습을 단행하여 이란의 최고 지도자 아야톨라 알리 하메네이가 사망했습니다. 37년간 이어진 하메네이 통치가 종식되면서 이란 내 ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenAI 거액 펀딩 및 Anthropic 규제 | 2026-02-28 10:55]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-28-1056-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-28-1056-dev.html</guid>
-      <pubDate>Sat, 28 Feb 2026 10:56:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Google &#x27;Nano Banana 2&#x27; 출시: 구글이 최신 AI 이미지 생성 모델인 Nano Banana 2를 발표했습니다. 프로급 성능과 빠른 생성 속도를 결합한 것이 특징입니다. OpenAI-Amazon 전략적 파트너십: Op... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프 AI 제재·중동 전쟁 위기 고조 | 2026-02-28 10:55]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-02-28-1056-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-02-28-1056-market.html</guid>
-      <pubDate>Sat, 28 Feb 2026 10:56:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [트럼프 행정부의 AI 기업 ‘앤트로픽’ 블랙리스트 지정] 트럼프 대통령이 AI 기업 앤트로픽(Anthropic)을 &#x27;공급망 리스크&#x27;로 규정하고 연방 기구의 사용 금지를 명령했습니다. 이는 국방부(Department of War)와의 AI 군사적 활용 갈등에서 비롯... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
