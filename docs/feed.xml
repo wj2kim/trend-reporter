@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Tue, 10 Mar 2026 11:04:00 +0900</lastBuildDate>
-    <pubDate>Tue, 10 Mar 2026 11:04:00 +0900</pubDate>
+    <lastBuildDate>Wed, 11 Mar 2026 11:03:26 +0900</lastBuildDate>
+    <pubDate>Wed, 11 Mar 2026 11:03:26 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[AI 에이전트 보안 및 개발 생태계 재편 | 2026-03-11 11:02]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-11-1103-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-11-1103-dev.html</guid>
+      <pubDate>Wed, 11 Mar 2026 11:03:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI 보안 및 제어 기술 발표: 모델이 신뢰할 수 있는 지침을 우선시하도록 하는 &#x27;명령 계층 구조(Instruction Hierarchy)&#x27; 개선 및 사고 과정의 모니터링 가능성을 높이는 &#x27;CoT-Control&#x27; 기술을 공개... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[이란전 장기화 우려 속 유가 진정 | 2026-03-11 11:02]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-11-1103-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-11-1103-market.html</guid>
+      <pubDate>Wed, 11 Mar 2026 11:03:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미-이란 전쟁 11일째, 해상 봉쇄 차단 작전 본격화 미군이 호르무즈 해협 인근에서 이란의 기뢰 부설함 16척을 타격하며 에너지 수송로 확보에 나섰습니다. 이란은 이에 맞서 다탄두 미사일을 발사하고 미국과 이스라엘이 민간 시설을 공격하고 있다고 주장하며 정면 충돌하... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[AI 에이전트 보안 및 로컬 환경 강화 | 2026-03-10 11:03]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-10-1104-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Mon, 02 Mar 2026 11:09:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [미·이 보복의 악순환 전면전 돌입 위기] 미국과 이스라엘의 이란 내 1,000개 목표 타격에 이어, 이란의 보복 미사일이 이스라엘 방공망을 돌파하며 긴장이 최고조에 달했습니다. 특히 미군 3명이 전사하면서 트럼프 대통령이 &#x27;보복(Avenge)&#x27;을 선언, 작전명 &#x27;... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code와 국방 AI 논란 | 2026-03-01 11:25]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-01-1125-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-01-1125-dev.html</guid>
-      <pubDate>Sun, 01 Mar 2026 11:25:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Alibaba Qwen 3.5 모델 출시: 122B 및 35B 모델이 공개되었으며, 로컬 환경에서 Claude 3.5 Sonnet 수준의 성능을 제공하는 것으로 평가받음. Claude 앱 스토어 점유율 상승: Anthropic의 C... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미·이 공습에 하메네이 사망, 유가 요동 | 2026-03-01 11:25]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-01-1125-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-01-1125-market.html</guid>
-      <pubDate>Sun, 01 Mar 2026 11:25:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [미국·이스라엘의 이란 대공습 및 하메네이 사망 중동 정세의 근본적 변화] 2026년 2월 28일, 미국과 이스라엘이 이란에 대해 대규모 공습을 단행하여 이란의 최고 지도자 아야톨라 알리 하메네이가 사망했습니다. 37년간 이어진 하메네이 통치가 종식되면서 이란 내 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
