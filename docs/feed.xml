@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Wed, 11 Mar 2026 11:03:26 +0900</lastBuildDate>
-    <pubDate>Wed, 11 Mar 2026 11:03:26 +0900</pubDate>
+    <lastBuildDate>Thu, 12 Mar 2026 11:09:41 +0900</lastBuildDate>
+    <pubDate>Thu, 12 Mar 2026 11:09:41 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[AI 코드 신뢰성 강화 및 보안 집중 | 2026-03-12 11:08]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-12-1109-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-12-1109-dev.html</guid>
+      <pubDate>Thu, 12 Mar 2026 11:09:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Gemini Embedding 2 출시: 구글이 최초의 네이티브 멀티모달 임베딩 모델을 발표하여 텍스트뿐만 아니라 다양한 형태의 데이터를 효율적으로 벡터화할 수 있게 되었습니다. BitNet 100B 1비트 모델: 마이크로소프트가 ... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[이란전 확전, 유가 및 증시 불안 | 2026-03-12 11:08]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-12-1109-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-12-1109-market.html</guid>
+      <pubDate>Thu, 12 Mar 2026 11:09:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [이란-이스라엘 전쟁 격화 및 전선 확대] 이스라엘의 베이루트 및 테헤란 공습이 지속되는 가운데, 이라크 영해 내 유조선 2척이 피격되어 화재가 발생했습니다. 전쟁의 여파가 이란을 넘어 주변국 해역과 오일 터미널로 확산되면서 글로벌 에너지 공급망이 심각한 위협을 받... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[AI 에이전트 보안 및 개발 생태계 재편 | 2026-03-11 11:02]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-11-1103-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Tue, 03 Mar 2026 11:11:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 미·이란 전쟁의 전방위적 확산 및 대사관 피습 이란이 미국과 이스라엘의 공격에 대한 보복으로 레바논, UAE에 이어 사우디아라비아 리야드 주재 미국 대사관을 드론으로 공격하여 화재가 발생했습니다. 트럼프 대통령은 필요시 지상군 투입 가능성까지 시사하며 중동 전역이 ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenAI 군사 협력 및 730조 가치 | 2026-03-02 11:08]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-02-1109-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-02-1109-dev.html</guid>
-      <pubDate>Mon, 02 Mar 2026 11:09:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Claude의 약진과 ChatGPT 반발: OpenAI의 국방부 협력 소식 이후, Anthropic의 Claude가 앱스토어 차트 1위를 차지하며 ChatGPT 사용자의 이탈 및 전환 현상이 관찰됨. Claude 메모리 가져오기: ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미·이 전면전 확산, 유가 폭등 | 2026-03-02 11:08]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-02-1109-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-02-1109-market.html</guid>
-      <pubDate>Mon, 02 Mar 2026 11:09:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [미·이 보복의 악순환 전면전 돌입 위기] 미국과 이스라엘의 이란 내 1,000개 목표 타격에 이어, 이란의 보복 미사일이 이스라엘 방공망을 돌파하며 긴장이 최고조에 달했습니다. 특히 미군 3명이 전사하면서 트럼프 대통령이 &#x27;보복(Avenge)&#x27;을 선언, 작전명 &#x27;... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
