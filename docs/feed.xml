@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Fri, 13 Mar 2026 11:07:04 +0900</lastBuildDate>
-    <pubDate>Fri, 13 Mar 2026 11:07:04 +0900</pubDate>
+    <lastBuildDate>Fri, 13 Mar 2026 18:11:49 +0900</lastBuildDate>
+    <pubDate>Fri, 13 Mar 2026 18:11:49 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[AI 에이전트 실무 워크플로우 혁신 | 2026-03-13 18:11]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-13-1811-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-13-1811-dev.html</guid>
+      <pubDate>Fri, 13 Mar 2026 18:11:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Claude 실시간 시각화 기능 출시: 코드 작성 없이 대화 중 차트, 다이어그램을 즉시 생성하는 인라인 시각화 기능이 베타로 공개되었습니다. Gemini 2.5 Flash vs Claude 3.7 Sonnet 비교: 실제 프로덕션... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[중동 전면전 위기, 유가 100불 돌파 | 2026-03-13 18:11]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-13-1811-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-13-1811-market.html</guid>
+      <pubDate>Fri, 13 Mar 2026 18:11:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [중동 분쟁의 전면전 확산과 에너지 공급망 마비] 이스라엘이 베이루트 도심을 직접 타격하고 오만과 사우디아라비아까지 드론 공격권에 들어가며 전쟁이 중동 전역으로 확산되고 있습니다. 특히 걸프국들이 석유 및 가스 선적에 대해 &#x27;불가항력(Force Majeure)&#x27;을 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[에이전트 보안 및 실행 환경 혁신 | 2026-03-13 11:06]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-13-1107-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Thu, 05 Mar 2026 11:08:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 미 상원, 대통령 전쟁 권한 제한 부결 공격 지속 전망 미 상원이 이란에 대한 군사 행동을 제한하려던 전쟁 권한 결의안을 부결시켰습니다. 이에 따라 트럼프 행정부의 이란 내 목표물 및 민간 시설 공습이 탄력을 받게 되었으며, 미군 사망자 발생과 맞물려 중동 내 군사... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GPT-5.3 출시와 AI 에이전트 혁신 | 2026-03-04 11:04]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-04-1105-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-04-1105-dev.html</guid>
-      <pubDate>Wed, 04 Mar 2026 11:05:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, GPT-5.3 Instant 출시: 더욱 부드럽고 유용한 일상 대화를 지원하는 신규 모델이 발표되었으며, 안전 가이드라인을 담은 시스템 카드가 함께 공개되었습니다. Google, Gemini 3.1 Flash-Lite... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[중동 전면전 확산, 코스피 7% 급락 | 2026-03-04 11:04]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-04-1105-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-04-1105-market.html</guid>
-      <pubDate>Wed, 04 Mar 2026 11:05:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 이스라엘-이란 전면전 돌입 및 이란 최고지도자 사망 이스라엘이 이란의 기간시설에 대해 &#x27;광범위한 공습&#x27;을 단행했으며, 이 과정에서 이란의 최고지도자 아야톨라 알리 하메네이가 사망한 것으로 알려졌습니다. 이란 해군 전체가 공격을 받고 정부 건물이 심각하게 파손되는 등... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
