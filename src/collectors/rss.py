@@ -126,12 +126,14 @@ class RSSCollector:
 
         return results
 
-    def format_for_analysis(self, data: Dict[str, List[RSSItem]]) -> str:
+    def format_for_analysis(self, data: Dict[str, List[RSSItem]], categories: Optional[List[str]] = None) -> str:
         """분석을 위한 텍스트 포맷"""
         output = []
         total_items = 0
 
         for category, items in data.items():
+            if categories is not None and category not in categories:
+                continue
             if not items:
                 continue
 

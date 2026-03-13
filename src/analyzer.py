@@ -28,6 +28,8 @@ class TrendAnalyzer:
 4. **실용적**: 실질적으로 유용한 정보 위주
 5. **가독성**: 각 항목 사이에 빈 줄을 넣어 읽기 쉽게 작성
 6. **사실만 작성**: 수집된 데이터에 있는 내용만 리포트에 포함
+7. **출처 우선순위 반영**: SEC, FRED, Treasury, Fed, ECB, OSV, arXiv 같은 공식/구조화 소스가 있으면 우선 반영
+8. **메타 문장 금지**: 리포트 끝에 "본 리포트는...", "수집된 데이터를 바탕으로...", "특정 분야는 제외되었습니다" 같은 설명문, 면책문, 작성 후기 문장을 추가하지 마세요
 """
         if previous_titles:
             rules += f"""
@@ -87,6 +89,8 @@ KEYWORDS: 중동, 유가, 지정학
 
 • [투자 시사점]: 이 정세를 고려한 구체적인 투자 전략 제안
 
+가능하면 FRED 지표, SEC 공시, Treasury/Fed/ECB 발표를 우선 인용하세요.
+
 
 ## 2. 시장 브리핑
 
@@ -133,9 +137,9 @@ KEYWORDS: 중동, 유가, 지정학
 • [상세 설명 2-3문장]
 
 
-## 4. 주식 커뮤니티 여론
+## 4. 커뮤니티 반응
 
-**디시인사이드 주식갤러리, 뽐뿌 주식/코인 게시판에서 수집된 내용을 분석하세요:**
+**클리앙, 루리웹 등 수집된 한국 커뮤니티 RSS 내용을 분석하세요:**
 
 ### a. 개인투자자 관심 종목
 • [커뮤니티에서 자주 언급되는 종목과 그 이유]
@@ -146,17 +150,14 @@ KEYWORDS: 중동, 유가, 지정학
 • [주요 우려사항이나 기대감]
 
 ### c. 핫이슈
-• [커뮤니티에서 논쟁 중인 주식/코인 관련 이슈]
+• [커뮤니티에서 논쟁 중인 관련 이슈]
 
-(주식 커뮤니티 데이터가 없으면 "데이터 없음"으로 표시)
+(커뮤니티 데이터가 없으면 "데이터 없음"으로 표시)
 
 
 ## 5. 인사이트
 
 [세계 정세, 시장, 커뮤니티 여론을 종합한 2-3문장 인사이트]
-
----
-세계 정세, 주식, 경제 관련 내용만 포함하세요. 개발/AI 관련 내용은 제외하세요.
 """
 
         return self._generate_report(prompt)
@@ -220,6 +221,8 @@ KEYWORDS: Claude, MCP, Anthropic
 
 • [프롬프트 엔지니어링 팁, 생산성 향상 노하우]
 
+가능하면 Claude Code 공식 release, npm 배포, open issue, GeekNews 최신 등록 글을 우선 반영하세요.
+
 ### b. AI 모델 & API
 
 • [AI 모델 업데이트, API 변경사항]
@@ -231,6 +234,10 @@ KEYWORDS: Claude, MCP, Anthropic
 • [프로그래밍 언어, 프레임워크, 라이브러리 관련 소식]
 
 • [GitHub Trending, 인기 프로젝트]
+
+### d. 보안 & 공급망
+
+• [OSV 취약점, 패키지 보안 이슈, 개발자에게 영향이 큰 공급망 리스크]
 
 
 ## 3. AI Coding Assistant
@@ -256,6 +263,11 @@ KEYWORDS: Claude, MCP, Anthropic
 - 개발자: DHH, ThePrimeagen, Theo, Fireship, Kent C. Dodds, Dan Abramov
 - 기타 영향력 있는 기술 인물
 
+최대 7개까지만 선정하세요. 우선순위는 다음과 같습니다:
+1. Claude Code, AI 코딩 에이전트, LLM, 개발 생산성과 직접 관련된 글
+2. 공식 블로그, 공식 릴리스, 1차 출처 링크가 있는 글
+3. GeekNews, Hacker News, DEV.to, OpenAI Blog, 기술 블로그 등에서 반복 언급되는 글
+
 ### [저자명] - [글 제목/주제]
 • 요약: [핵심 내용 2-3문장]
 • 링크: [URL이 있으면 포함]
@@ -266,9 +278,6 @@ KEYWORDS: Claude, MCP, Anthropic
 ## 5. 인사이트
 
 [개발과 AI 트렌드를 종합한 2-3문장 인사이트]
-
----
-개발, 프로그래밍, AI 관련 내용만 포함하세요. 세계 정세/주식 관련 내용은 제외하세요.
 """
 
         return self._generate_report(prompt)
@@ -279,7 +288,7 @@ KEYWORDS: Claude, MCP, Anthropic
             response = self.model.generate_content(prompt)
             text = response.text
             title, keywords, report = self._extract_title(text)
-            return title, keywords, report
+            return title, keywords, self._clean_report(report)
         except Exception as e:
             return "리포트", [], f"분석 실패: {e}"
 
@@ -301,6 +310,34 @@ KEYWORDS: Claude, MCP, Anthropic
                 report_lines.append(line)
 
         return title, keywords, '\n'.join(report_lines).strip()
+
+    def _clean_report(self, report: str) -> str:
+        """리포트 말미의 메타 설명/면책 문구 제거"""
+        blocked_prefixes = [
+            "본 리포트는",
+            "*본 리포트는",
+            "이 리포트는",
+            "모든 내용은 사실에 근거",
+            "모든 내용은 수집된 데이터",
+            "주식 및 정세 관련 뉴스는 제외",
+            "개발 및 기술적 상세 내용은 제외",
+            "개발/AI 관련 내용은 제외",
+            "세계 정세/주식 관련 내용은 제외",
+            "수집된 데이터를 바탕으로 작성",
+            "수집된 데이터를 바탕으로 분석",
+        ]
+
+        cleaned_lines = []
+        for line in report.splitlines():
+            stripped = line.strip()
+            if stripped == "---":
+                continue
+            if any(stripped.startswith(prefix) for prefix in blocked_prefixes):
+                continue
+            cleaned_lines.append(line)
+
+        cleaned_report = "\n".join(cleaned_lines).strip()
+        return cleaned_report
 
     def create_report_header(self) -> str:
         """리포트 헤더 생성 (날짜 부분만)"""

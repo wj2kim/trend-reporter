@@ -1,28 +1,4 @@
-# 수집할 데이터 소스 설정 (최적화됨)
-
-reddit:
-  # 세계 정세
-  world_news:
-    - worldnews
-    - geopolitics
-
-  # 미국 주식
-  stocks:
-    - stocks
-    - wallstreetbets
-
-  # 기술 트렌드
-  tech:
-    - technology
-    - programming
-
-  # AI
-  ai:
-    - MachineLearning
-    - LocalLLaMA
-
-  posts_per_subreddit: 10
-  sort_by: hot
+# 수집할 데이터 소스 설정
 
 hackernews:
   top_stories: 20
@@ -39,6 +15,99 @@ devto:
 lobsters:
   hottest: 20
   newest: 10
+
+github_api:
+  days_back: 7
+  per_query: 5
+  queries:
+    - name: ai_tools
+      query: 'topic:ai'
+    - name: llm
+      query: 'topic:llm'
+    - name: coding_agents
+      query: '"coding agent" in:name,description,readme'
+
+claude_code:
+  release_limit: 3
+  issue_limit: 3
+  issue_buckets:
+    - name: bug
+      label: bug
+    - name: mcp
+      label: mcp
+    - name: performance
+      label: performance
+
+geeknews_new:
+  limit: 12
+
+arxiv:
+  per_query: 5
+  queries:
+    - name: ai_agents
+      search_query: '(cat:cs.AI OR cat:cs.LG) AND all:agent'
+    - name: llm
+      search_query: '(cat:cs.CL OR cat:cs.AI) AND all:"large language model"'
+
+osv:
+  max_vulns_per_package: 3
+  packages:
+    - name: transformers
+      ecosystem: PyPI
+    - name: openai
+      ecosystem: PyPI
+    - name: langchain
+      ecosystem: PyPI
+    - name: llama-index
+      ecosystem: PyPI
+    - name: next
+      ecosystem: npm
+
+gdelt:
+  timespan: 24h
+  max_records: 8
+  queries:
+    - name: macro
+      category: world
+      query: '(tariff OR sanctions OR central bank OR inflation OR geopolitics OR oil) sourcelang:english'
+
+fred:
+  series:
+    - id: FEDFUNDS
+      name: Effective Federal Funds Rate
+      category: rates
+    - id: DGS10
+      name: 10-Year Treasury Yield
+      category: rates
+    - id: CPIAUCSL
+      name: CPI All Urban Consumers
+      category: inflation
+    - id: UNRATE
+      name: U.S. Unemployment Rate
+      category: labor
+
+sec:
+  limit_per_company: 2
+  companies:
+    - ticker: AAPL
+      name: Apple
+      cik: '0000320193'
+      forms: ['8-K', '10-K', '10-Q']
+    - ticker: NVDA
+      name: NVIDIA
+      cik: '0001045810'
+      forms: ['8-K', '10-K', '10-Q']
+    - ticker: MSFT
+      name: Microsoft
+      cik: '0000789019'
+      forms: ['8-K', '10-K', '10-Q']
+    - ticker: META
+      name: Meta Platforms
+      cik: '0001326801'
+      forms: ['8-K', '10-K', '10-Q']
+
+treasury:
+  limit: 6
 
 rss:
   feeds:
@@ -88,9 +157,13 @@ rss:
       url: https://feeds.bloomberg.com/markets/news.rss
       category: stocks
 
-    - name: Forbes
-      url: https://www.forbes.com/real-time/feed2/
-      category: stocks
+    - name: Federal Reserve Press Releases
+      url: https://www.federalreserve.gov/feeds/press_all.xml
+      category: macro
+
+    - name: ECB Press Releases
+      url: https://www.ecb.europa.eu/rss/press.html
+      category: macro
 
     # 기술/AI
     - name: Product Hunt
@@ -121,13 +194,13 @@ rss:
       url: https://www.cnet.com/rss/all/
       category: tech
 
-    - name: VentureBeat AI
-      url: https://venturebeat.com/category/ai/feed/
-      category: ai
-
     - name: OpenAI Blog
       url: https://openai.com/blog/rss.xml
       category: ai
+
+    - name: GeekNews
+      url: https://news.hada.io/rss/news
+      category: tech
 
     # 한국 커뮤니티
     - name: 클리앙 Hot
@@ -143,10 +216,3 @@ rss:
       category: community
 
   items_per_feed: 8
-
-# Google Trends 설정
-google_trends:
-  enabled: true
-  geo: "KR"  # 한국
-  timeframe: "now 1-d"  # 최근 1일
-  top_charts: 10

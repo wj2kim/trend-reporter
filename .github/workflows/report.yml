@@ -28,9 +28,10 @@ jobs:
         with:
           python-version: '3.11'
           cache: 'pip'
+          cache-dependency-path: requirements.txt
 
       - name: Install dependencies
-        run: pip install -q google-generativeai requests feedparser python-dotenv pyyaml pytz beautifulsoup4 cloudscraper pytrends
+        run: pip install -q -r requirements.txt
 
       - name: Create cache directory
         run: mkdir -p cache
@@ -46,7 +47,9 @@ jobs:
       - name: Run trend reporter
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
           # 오전 09:00 KST 또는 수동 실행일 때만 GitHub Pages 저장
           PUBLISH_PAGES: ${{ github.event.schedule == '0 0 * * *' || github.event_name == 'workflow_dispatch' }}
         run: python src/main.py

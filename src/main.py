@@ -17,10 +17,12 @@ from dotenv import load_dotenv
 from cache import ContentCache
 from collectors import (
     HackerNewsCollector, RSSCollector, DevToCollector, LobstersCollector,
-    GitHubTrendingCollector, HuggingFaceCollector
+    GitHubTrendingCollector, HuggingFaceCollector, GitHubAPICollector,
+    ArxivCollector, OSVCollector, GDELTCollector, FREDCollector,
+    SECFilingsCollector, TreasuryPressCollector, ClaudeCodeCollector,
+    GeekNewsNewCollector
 )
 from analyzer import TrendAnalyzer
-from notifier import DiscordNotifier
 from publisher import GitHubPagesPublisher
 
 
@@ -58,6 +60,39 @@ def load_previous_reports(limit: int = 10) -> dict:
     return previous
 
 
+def run_collection_step(step_no: int, total_steps: int, label: str, collect_fn, data_buckets: dict):
+    """수집 단계를 실행하고 결과를 누적"""
+    print(f"\n[{step_no}/{total_steps}] {label} 데이터 수집 중...")
+    try:
+        result = collect_fn()
+        if isinstance(result, dict):
+            for bucket, text in result.items():
+                if text:
+                    data_buckets[bucket].append(text)
+        elif result:
+            data_buckets["dev"].append(result)
+    except Exception as e:
+        print(f"[{label}] 수집 실패: {e}")
+        data_buckets["market"].append(f"[{label}] 수집 실패\n")
+        data_buckets["dev"].append(f"[{label}] 수집 실패\n")
+
+
+def collect_and_format(collector, collect_method: str, format_method: str, **kwargs) -> str:
+    """collector의 수집 및 포맷 메서드를 순서대로 실행"""
+    data = getattr(collector, collect_method)(**kwargs)
+    return getattr(collector, format_method)(data)
+
+
+def add_to_bucket(bucket: str, text: str) -> dict:
+    """단일 버퍼에 결과를 적재"""
+    return {bucket: text}
+
+
+def add_to_buckets(**kwargs) -> dict:
+    """여러 버퍼에 결과를 적재"""
+    return {bucket: text for bucket, text in kwargs.items() if text}
+
+
 def main():
     """메인 실행 함수"""
     # 환경변수 로드
@@ -73,95 +108,275 @@ def main():
     # 캐시 초기화
     cache = ContentCache(cache_dir=str(project_root / "cache"))
 
-    # 수집된 데이터 저장
-    collected_data = []
+    # 수집 데이터를 market/dev 버퍼로 분리
+    data_buckets = {
+        "market": [],
+        "dev": [],
+    }
+    total_steps = 15
+    hn_collector = HackerNewsCollector(cache=cache)
+    devto_collector = DevToCollector(cache=cache)
+    lobsters_collector = LobstersCollector(cache=cache)
+    rss_collector = RSSCollector(cache=cache)
+    github_trending_collector = GitHubTrendingCollector(cache=cache)
+    github_api_collector = GitHubAPICollector(cache=cache)
+    arxiv_collector = ArxivCollector(cache=cache)
+    osv_collector = OSVCollector(cache=cache)
+    gdelt_collector = GDELTCollector(cache=cache)
+    fred_collector = FREDCollector(cache=cache)
+    sec_collector = SECFilingsCollector(cache=cache)
+    treasury_collector = TreasuryPressCollector(cache=cache)
+    claude_code_collector = ClaudeCodeCollector(cache=cache)
+    geeknews_collector = GeekNewsNewCollector(cache=cache)
+    hf_collector = HuggingFaceCollector(cache=cache)
 
-    # 1. Hacker News 수집
-    print("\n[1/6] Hacker News 데이터 수집 중...")
-    try:
-        hn_collector = HackerNewsCollector(cache=cache)
-        hn_data = hn_collector.collect_all(
-            top_limit=config["hackernews"].get("top_stories", 20),
-            best_limit=config["hackernews"].get("best_stories", 10)
-        )
-        collected_data.append(hn_collector.format_for_analysis(hn_data))
-    except Exception as e:
-        print(f"[HN] 수집 실패: {e}")
-        collected_data.append("[HN] 수집 실패\n")
+    run_collection_step(
+        1, total_steps, "Hacker News",
+        lambda: add_to_bucket(
+            "dev",
+            collect_and_format(
+                hn_collector,
+                "collect_all",
+                "format_for_analysis",
+                top_limit=config["hackernews"].get("top_stories", 20),
+                best_limit=config["hackernews"].get("best_stories", 10),
+            ),
+        ),
+        data_buckets,
+    )
 
-    # 2. DEV.to 수집
-    print("\n[2/6] DEV.to 데이터 수집 중...")
-    try:
-        devto_collector = DevToCollector(cache=cache)
-        devto_data = devto_collector.collect_all(
-            general_limit=config.get("devto", {}).get("limit", 20),
-            tags=config.get("devto", {}).get("tags")
-        )
-        collected_data.append(devto_collector.format_for_analysis(devto_data))
-    except Exception as e:
-        print(f"[DEV.to] 수집 실패: {e}")
-        collected_data.append("[DEV.to] 수집 실패\n")
+    run_collection_step(
+        2, total_steps, "DEV.to",
+        lambda: add_to_bucket(
+            "dev",
+            collect_and_format(
+                devto_collector,
+                "collect_all",
+                "format_for_analysis",
+                general_limit=config.get("devto", {}).get("limit", 20),
+                tags=config.get("devto", {}).get("tags"),
+            ),
+        ),
+        data_buckets,
+    )
 
-    # 3. Lobste.rs 수집
-    print("\n[3/6] Lobste.rs 데이터 수집 중...")
-    try:
-        lobsters_collector = LobstersCollector(cache=cache)
-        lobsters_data = lobsters_collector.collect_all(
-            hottest_limit=config.get("lobsters", {}).get("hottest", 20),
-            newest_limit=config.get("lobsters", {}).get("newest", 10)
-        )
-        collected_data.append(lobsters_collector.format_for_analysis(lobsters_data))
-    except Exception as e:
-        print(f"[Lobsters] 수집 실패: {e}")
-        collected_data.append("[Lobsters] 수집 실패\n")
+    run_collection_step(
+        3, total_steps, "Lobste.rs",
+        lambda: add_to_bucket(
+            "dev",
+            collect_and_format(
+                lobsters_collector,
+                "collect_all",
+                "format_for_analysis",
+                hottest_limit=config.get("lobsters", {}).get("hottest", 20),
+                newest_limit=config.get("lobsters", {}).get("newest", 10),
+            ),
+        ),
+        data_buckets,
+    )
 
-    # 4. RSS 수집
-    print("\n[4/6] RSS 피드 수집 중...")
-    try:
-        rss_collector = RSSCollector(cache=cache)
-        rss_data = rss_collector.collect_all(
-            feeds_config=config["rss"].get("feeds", []),
-            items_per_feed=config["rss"].get("items_per_feed", 8)
-        )
-        collected_data.append(rss_collector.format_for_analysis(rss_data))
-    except Exception as e:
-        print(f"[RSS] 수집 실패: {e}")
-        collected_data.append("[RSS] 수집 실패\n")
+    run_collection_step(
+        4, total_steps, "RSS",
+        lambda: (
+            lambda rss_data: add_to_buckets(
+                market=rss_collector.format_for_analysis(
+                    rss_data,
+                    categories=["world", "stocks", "macro", "community"],
+                ),
+                dev=rss_collector.format_for_analysis(
+                    rss_data,
+                    categories=["tech", "ai", "trending"],
+                ),
+            )
+        )(
+            rss_collector.collect_all(
+                feeds_config=config["rss"].get("feeds", []),
+                items_per_feed=config["rss"].get("items_per_feed", 8),
+            )
+        ),
+        data_buckets,
+    )
 
-    # 5. GitHub Trending 수집
-    print("\n[5/6] GitHub Trending 수집 중...")
-    try:
-        github_collector = GitHubTrendingCollector(cache=cache)
-        github_data = github_collector.collect_all(limit=10)
-        collected_data.append(github_collector.format_for_analysis(github_data))
-    except Exception as e:
-        print(f"[GitHub] 수집 실패: {e}")
-        collected_data.append("[GitHub] 수집 실패\n")
+    run_collection_step(
+        5, total_steps, "GitHub Trending",
+        lambda: add_to_bucket(
+            "dev",
+            collect_and_format(
+                github_trending_collector,
+                "collect_all",
+                "format_for_analysis",
+                limit=10,
+            ),
+        ),
+        data_buckets,
+    )
 
-    # 6. Hugging Face 수집
-    print("\n[6/6] Hugging Face 모델 수집 중...")
-    try:
-        hf_collector = HuggingFaceCollector(cache=cache)
-        hf_data = hf_collector.collect_all(trending_limit=8, recent_limit=5)
-        collected_data.append(hf_collector.format_for_analysis(hf_data))
-    except Exception as e:
-        print(f"[HuggingFace] 수집 실패: {e}")
-        collected_data.append("[HuggingFace] 수집 실패\n")
+    run_collection_step(
+        6, total_steps, "GitHub API",
+        lambda: add_to_bucket(
+            "dev",
+            collect_and_format(
+                github_api_collector,
+                "collect_all",
+                "format_for_analysis",
+                queries=config.get("github_api", {}).get("queries", []),
+                days_back=config.get("github_api", {}).get("days_back", 7),
+                per_query=config.get("github_api", {}).get("per_query", 5),
+            ),
+        ),
+        data_buckets,
+    )
+
+    run_collection_step(
+        7, total_steps, "Claude Code",
+        lambda: add_to_bucket(
+            "dev",
+            collect_and_format(
+                claude_code_collector,
+                "collect_all",
+                "format_for_analysis",
+                release_limit=config.get("claude_code", {}).get("release_limit", 3),
+                issue_buckets=config.get("claude_code", {}).get("issue_buckets", []),
+                issue_limit=config.get("claude_code", {}).get("issue_limit", 3),
+            ),
+        ),
+        data_buckets,
+    )
+
+    run_collection_step(
+        8, total_steps, "GeekNews",
+        lambda: add_to_bucket(
+            "dev",
+            collect_and_format(
+                geeknews_collector,
+                "collect_all",
+                "format_for_analysis",
+                limit=config.get("geeknews_new", {}).get("limit", 12),
+            ),
+        ),
+        data_buckets,
+    )
+
+    run_collection_step(
+        9, total_steps, "arXiv",
+        lambda: add_to_bucket(
+            "dev",
+            collect_and_format(
+                arxiv_collector,
+                "collect_all",
+                "format_for_analysis",
+                queries=config.get("arxiv", {}).get("queries", []),
+                per_query=config.get("arxiv", {}).get("per_query", 5),
+            ),
+        ),
+        data_buckets,
+    )
+
+    run_collection_step(
+        10, total_steps, "OSV",
+        lambda: add_to_bucket(
+            "dev",
+            collect_and_format(
+                osv_collector,
+                "collect_all",
+                "format_for_analysis",
+                packages=config.get("osv", {}).get("packages", []),
+                max_vulns_per_package=config.get("osv", {}).get("max_vulns_per_package", 3),
+            ),
+        ),
+        data_buckets,
+    )
+
+    run_collection_step(
+        11, total_steps, "GDELT",
+        lambda: add_to_bucket(
+            "market",
+            collect_and_format(
+                gdelt_collector,
+                "collect_all",
+                "format_for_analysis",
+                queries=config.get("gdelt", {}).get("queries", []),
+                max_records=config.get("gdelt", {}).get("max_records", 8),
+                timespan=config.get("gdelt", {}).get("timespan", "24h"),
+            ),
+        ),
+        data_buckets,
+    )
+
+    run_collection_step(
+        12, total_steps, "FRED",
+        lambda: add_to_bucket(
+            "market",
+            collect_and_format(
+                fred_collector,
+                "collect_all",
+                "format_for_analysis",
+                series=config.get("fred", {}).get("series", []),
+            ),
+        ),
+        data_buckets,
+    )
+
+    run_collection_step(
+        13, total_steps, "SEC",
+        lambda: add_to_bucket(
+            "market",
+            collect_and_format(
+                sec_collector,
+                "collect_all",
+                "format_for_analysis",
+                companies=config.get("sec", {}).get("companies", []),
+                limit_per_company=config.get("sec", {}).get("limit_per_company", 3),
+            ),
+        ),
+        data_buckets,
+    )
+
+    run_collection_step(
+        14, total_steps, "Treasury",
+        lambda: add_to_bucket(
+            "market",
+            collect_and_format(
+                treasury_collector,
+                "collect_all",
+                "format_for_analysis",
+                limit=config.get("treasury", {}).get("limit", 6),
+            ),
+        ),
+        data_buckets,
+    )
+
+    run_collection_step(
+        15, total_steps, "Hugging Face",
+        lambda: add_to_bucket(
+            "dev",
+            collect_and_format(
+                hf_collector,
+                "collect_all",
+                "format_for_analysis",
+                trending_limit=8,
+                recent_limit=5,
+            ),
+        ),
+        data_buckets,
+    )
 
     # 캐시 저장
     cache.save()
 
-    # 수집 데이터 합치기
-    all_data = "\n".join(collected_data)
+    market_data = "\n".join(data_buckets["market"]).strip()
+    dev_data = "\n".join(data_buckets["dev"]).strip()
 
-    # 메인 데이터(HN, DEV.to, RSS 등)가 거의 없으면 알림만 보내고 종료
-    # 주식/커뮤니티 수집 실패는 무시 (보조 데이터)
-    main_data_length = len(all_data.split("## 주식 커뮤니티")[0].strip())
-    if main_data_length < 500:
-        print("\n새로운 데이터가 거의 없습니다.")
-        notifier = DiscordNotifier()
-        notifier.send_simple("📊 트렌드 리포트: 새로운 업데이트가 거의 없습니다.")
+    # 수집 데이터가 거의 없으면 분석 없이 종료
+    if len(market_data) < 300 and len(dev_data) < 300:
+        print("\n새로운 데이터가 거의 없습니다. 분석을 건너뜁니다.")
         return 0
+
+    if len(market_data) < 300:
+        market_data = "[시장/정세 관련 새 데이터가 거의 없습니다. 리포트가 필요하면 '새로운 업데이트 없음'을 중심으로 정리하세요.]\n"
+
+    if len(dev_data) < 300:
+        dev_data = "[개발/AI 관련 새 데이터가 거의 없습니다. 리포트가 필요하면 '새로운 업데이트 없음'을 중심으로 정리하세요.]\n"
 
     # 이전 리포트 로드 (중복 방지)
     previous_reports = load_previous_reports(limit=5)
@@ -174,7 +389,7 @@ def main():
     # 1. 세계 정세 & 주식 리포트
     print("  - 세계 정세 & 주식 리포트 생성 중...")
     world_headline, world_keywords, world_report = analyzer.analyze_world_market(
-        all_data,
+        market_data,
         previous_titles=previous_reports["market"]
     )
     world_title = f"{world_headline} | {date_str}"
@@ -182,7 +397,7 @@ def main():
     # 2. 개발 & AI 리포트
     print("  - 개발 & AI 리포트 생성 중...")
     dev_headline, dev_keywords, dev_report = analyzer.analyze_dev_ai(
-        all_data,
+        dev_data,
         previous_titles=previous_reports["dev"]
     )
     dev_title = f"{dev_headline} | {date_str}"
@@ -197,23 +412,9 @@ def main():
     print("=" * 50)
     print(dev_report[:500] + "..." if len(dev_report) > 500 else dev_report)
 
-    # Discord로 전송
-    print("\n[전송] Discord로 리포트 전송 중...")
-    notifier = DiscordNotifier()
-
-    # Market, Dev 리포트 전송
-    discord_success = notifier.send_dual_reports(
-        world_title, world_report,
-        dev_title, dev_report
-    )
-
-    if discord_success:
-        print("✅ Discord 전송 완료!")
-    else:
-        print("❌ Discord 전송 실패")
-
     # GitHub Pages로 저장 (오전 실행 또는 수동 실행일 때만)
     publish_pages = os.getenv("PUBLISH_PAGES", "true").lower() == "true"
+    publish_success = True
 
     if publish_pages:
         print("\n[저장] GitHub Pages용 HTML 생성 중...")
@@ -221,15 +422,16 @@ def main():
 
         world_success = publisher.publish(world_title, world_report, category="market", keywords=world_keywords)
         dev_success = publisher.publish(dev_title, dev_report, category="dev", keywords=dev_keywords)
+        publish_success = world_success and dev_success
 
-        if world_success and dev_success:
+        if publish_success:
             print("✅ GitHub Pages 저장 완료!")
         else:
             print("❌ GitHub Pages 저장 실패")
     else:
         print("\n[저장] GitHub Pages 저장 건너뜀 (오전 실행에서만 저장)")
 
-    return 0 if discord_success else 1
+    return 0 if publish_success else 1
 
 
 if __name__ == "__main__":
