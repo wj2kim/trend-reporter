@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Thu, 12 Mar 2026 11:09:41 +0900</lastBuildDate>
-    <pubDate>Thu, 12 Mar 2026 11:09:41 +0900</pubDate>
+    <lastBuildDate>Fri, 13 Mar 2026 11:07:04 +0900</lastBuildDate>
+    <pubDate>Fri, 13 Mar 2026 11:07:04 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[에이전트 보안 및 실행 환경 혁신 | 2026-03-13 11:06]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-13-1107-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-13-1107-dev.html</guid>
+      <pubDate>Fri, 13 Mar 2026 11:07:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI Responses API 진화: 셸(Shell) 도구와 호스팅된 컨테이너를 Responses API에 통합하여 보안성과 확장성을 갖춘 에이전트 실행 환경(런타임)을 구축했습니다. Bumble &#x27;Bee&#x27; 출시: 데이팅 앱... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[중동 전운 지속, 에너지 시장 '숨고르기' | 2026-03-13 11:06]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-13-1107-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-13-1107-market.html</guid>
+      <pubDate>Fri, 13 Mar 2026 11:07:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [중동 전쟁 장기화와 해상 보급로 위기] 이란의 호르무즈 해협 개방 유지 선언에도 불구하고, 이라크 내 미국 급유기 추락 및 이스라엘의 이란 핵 과학자 피격 시인 등으로 긴장이 고조되고 있습니다. 걸프만 인근 선원들의 고립과 민간인 피해 확산은 글로벌 공급망의 불확... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[AI 코드 신뢰성 강화 및 보안 집중 | 2026-03-12 11:08]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-12-1109-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Wed, 04 Mar 2026 11:05:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 이스라엘-이란 전면전 돌입 및 이란 최고지도자 사망 이스라엘이 이란의 기간시설에 대해 &#x27;광범위한 공습&#x27;을 단행했으며, 이 과정에서 이란의 최고지도자 아야톨라 알리 하메네이가 사망한 것으로 알려졌습니다. 이란 해군 전체가 공격을 받고 정부 건물이 심각하게 파손되는 등... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Cursor 매출 폭발, Karpathy의 Microgpt | 2026-03-03 11:10]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-03-1111-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-03-1111-dev.html</guid>
-      <pubDate>Tue, 03 Mar 2026 11:11:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Claude &#x27;메모리 가져오기&#x27; 기능: 사용자가 기존 서비스에서 Claude로 전환할 때 이전의 대화 맥락과 기억을 유지할 수 있는 데이터 임포트 기능을 지원합니다. ElevenLabs AI 음성 비서 상용화: 도이치텔레콤과 협력하... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[중동 전쟁 확산, 에너지·방산주 요동 | 2026-03-03 11:10]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-03-1111-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-03-1111-market.html</guid>
-      <pubDate>Tue, 03 Mar 2026 11:11:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 미·이란 전쟁의 전방위적 확산 및 대사관 피습 이란이 미국과 이스라엘의 공격에 대한 보복으로 레바논, UAE에 이어 사우디아라비아 리야드 주재 미국 대사관을 드론으로 공격하여 화재가 발생했습니다. 트럼프 대통령은 필요시 지상군 투입 가능성까지 시사하며 중동 전역이 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
