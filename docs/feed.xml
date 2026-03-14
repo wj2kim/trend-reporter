@@ -6,29 +6,29 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sat, 14 Mar 2026 11:04:50 +0900</lastBuildDate>
-    <pubDate>Sat, 14 Mar 2026 11:04:50 +0900</pubDate>
+    <lastBuildDate>Sat, 14 Mar 2026 23:59:50 +0900</lastBuildDate>
+    <pubDate>Sat, 14 Mar 2026 23:59:50 +0900</pubDate>
     <ttl>60</ttl>
     <image>
-      <url>https://wj2kim.github.io/trend-reporter/og-image.svg</url>
+      <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
     <item>
-      <title><![CDATA[Vite 8 출시와 Claude 1M 컨텍스트 | 2026-03-14 11:04]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-14-1104-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-14-1104-dev.html</guid>
-      <pubDate>Sat, 14 Mar 2026 11:04:00 +0900</pubDate>
+      <title><![CDATA[Claude 1M 지원 및 에이전트 혁신 | 2026-03-14 22:41]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-14-2242-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-14-2242-dev.html</guid>
+      <pubDate>Sat, 14 Mar 2026 22:42:00 +0900</pubDate>
       <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Claude 1M 컨텍스트 정식 지원: Anthropic이 Opus 4.6과 Sonnet 4.6 모델에서 100만 토큰 컨텍스트 윈도우를 GA(General Availability)로 전환했으며, 처리량 제한 없이 기존 단가를 유지... (읽기 시간: 5분)]]></description>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Claude 4.6(Opus 및 Sonnet)에서 100만(1M) 컨텍스트 윈도우가 정식 출시(GA)되어 Max, Team 사용자가 추가 요금 없이 대규모 코드베이스 처리가 가능해졌습니다. OpenAI는 ChatGPT 내에서 Spo... (읽기 시간: 5분)]]></description>
     </item>
     <item>
-      <title><![CDATA[미, 이란 석유 허브 폭격 강행 | 2026-03-14 11:04]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-14-1104-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-14-1104-market.html</guid>
-      <pubDate>Sat, 14 Mar 2026 11:04:00 +0900</pubDate>
+      <title><![CDATA[중동 전쟁 격화, 유가 100불 돌파 | 2026-03-14 22:41]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-14-2242-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-14-2242-market.html</guid>
+      <pubDate>Sat, 14 Mar 2026 22:42:00 +0900</pubDate>
       <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [미국, 이란 핵·석유 요충지 &#x27;카르그 섬&#x27; 폭격] 트럼프 대통령은 이란 원유 수출의 90%를 담당하는 카르그 섬(Kharg Island)의 군사 시설을 공습했다고 발표했습니다. 비록 석유 생산 인프라 자체는 직접 파괴하지 않았다고 주장하나, 핵심 수출 허브가 타격... (읽기 시간: 4분)]]></description>
+      <description><![CDATA[1. 세계 정세 [트럼프 대통령의 이란 에너지 인프라 파괴 위협] 트럼프 대통령은 이란이 호르무즈 해협 봉쇄를 지속할 경우, 이란의 핵심 에너지 거점인 카르그 섬(Kharg Island)의 석유 시설을 "완전히 파괴(wipe out)"하겠다고 강력히 경고하며 군사적 긴장을 고조시키... (읽기 시간: 4분)]]></description>
     </item>
     <item>
       <title><![CDATA[AI 에이전트 실무 워크플로우 혁신 | 2026-03-13 18:11]]></title>
@@ -36,7 +36,7 @@
       <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-13-1811-dev.html</guid>
       <pubDate>Fri, 13 Mar 2026 18:11:00 +0900</pubDate>
       <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Claude 실시간 시각화 기능 출시: 코드 작성 없이 대화 중 차트, 다이어그램을 즉시 생성하는 인라인 시각화 기능이 베타로 공개되었습니다. Gemini 2.5 Flash vs Claude 3.7 Sonnet 비교: 실제 프로덕션... (읽기 시간: 5분)]]></description>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Claude 실시간 시각화 기능 출시: 코드 작성 없이 대화 중 차트, 다이어그램을 즉시 생성하는 인라인 시각화 기능이 베타로 공개되었습니다. Gemini 2.5 Flash vs Claude 3.7 Sonnet 비교: 실제 프로덕션... (읽기 시간: 5분)]]></description>
     </item>
     <item>
       <title><![CDATA[중동 전면전 위기, 유가 100불 돌파 | 2026-03-13 18:11]]></title>
@@ -44,7 +44,7 @@
       <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-13-1811-market.html</guid>
       <pubDate>Fri, 13 Mar 2026 18:11:00 +0900</pubDate>
       <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [중동 분쟁의 전면전 확산과 에너지 공급망 마비] 이스라엘이 베이루트 도심을 직접 타격하고 오만과 사우디아라비아까지 드론 공격권에 들어가며 전쟁이 중동 전역으로 확산되고 있습니다. 특히 걸프국들이 석유 및 가스 선적에 대해 &#x27;불가항력(Force Majeure)&#x27;을 ... (읽기 시간: 4분)]]></description>
+      <description><![CDATA[1. 세계 정세 [중동 분쟁의 전면전 확산과 에너지 공급망 마비] 이스라엘이 베이루트 도심을 직접 타격하고 오만과 사우디아라비아까지 드론 공격권에 들어가며 전쟁이 중동 전역으로 확산되고 있습니다. 특히 걸프국들이 석유 및 가스 선적에 대해 '불가항력(Force Majeure)'을 ... (읽기 시간: 4분)]]></description>
     </item>
     <item>
       <title><![CDATA[에이전트 보안 및 실행 환경 혁신 | 2026-03-13 11:06]]></title>
@@ -52,7 +52,7 @@
       <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-13-1107-dev.html</guid>
       <pubDate>Fri, 13 Mar 2026 11:07:00 +0900</pubDate>
       <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI Responses API 진화: 셸(Shell) 도구와 호스팅된 컨테이너를 Responses API에 통합하여 보안성과 확장성을 갖춘 에이전트 실행 환경(런타임)을 구축했습니다. Bumble &#x27;Bee&#x27; 출시: 데이팅 앱... (읽기 시간: 5분)]]></description>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI Responses API 진화: 셸(Shell) 도구와 호스팅된 컨테이너를 Responses API에 통합하여 보안성과 확장성을 갖춘 에이전트 실행 환경(런타임)을 구축했습니다. Bumble 'Bee' 출시: 데이팅 앱... (읽기 시간: 5분)]]></description>
     </item>
     <item>
       <title><![CDATA[중동 전운 지속, 에너지 시장 '숨고르기' | 2026-03-13 11:06]]></title>
@@ -68,7 +68,7 @@
       <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-12-1109-dev.html</guid>
       <pubDate>Thu, 12 Mar 2026 11:09:00 +0900</pubDate>
       <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Gemini Embedding 2 출시: 구글이 최초의 네이티브 멀티모달 임베딩 모델을 발표하여 텍스트뿐만 아니라 다양한 형태의 데이터를 효율적으로 벡터화할 수 있게 되었습니다. BitNet 100B 1비트 모델: 마이크로소프트가 ... (읽기 시간: 5분)]]></description>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Gemini Embedding 2 출시: 구글이 최초의 네이티브 멀티모달 임베딩 모델을 발표하여 텍스트뿐만 아니라 다양한 형태의 데이터를 효율적으로 벡터화할 수 있게 되었습니다. BitNet 100B 1비트 모델: 마이크로소프트가 ... (읽기 시간: 5분)]]></description>
     </item>
     <item>
       <title><![CDATA[이란전 확전, 유가 및 증시 불안 | 2026-03-12 11:08]]></title>
@@ -84,7 +84,7 @@
       <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-11-1103-dev.html</guid>
       <pubDate>Wed, 11 Mar 2026 11:03:00 +0900</pubDate>
       <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI 보안 및 제어 기술 발표: 모델이 신뢰할 수 있는 지침을 우선시하도록 하는 &#x27;명령 계층 구조(Instruction Hierarchy)&#x27; 개선 및 사고 과정의 모니터링 가능성을 높이는 &#x27;CoT-Control&#x27; 기술을 공개... (읽기 시간: 5분)]]></description>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI 보안 및 제어 기술 발표: 모델이 신뢰할 수 있는 지침을 우선시하도록 하는 '명령 계층 구조(Instruction Hierarchy)' 개선 및 사고 과정의 모니터링 가능성을 높이는 'CoT-Control' 기술을 공개... (읽기 시간: 5분)]]></description>
     </item>
     <item>
       <title><![CDATA[이란전 장기화 우려 속 유가 진정 | 2026-03-11 11:02]]></title>
@@ -100,7 +100,7 @@
       <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-10-1104-dev.html</guid>
       <pubDate>Tue, 10 Mar 2026 11:04:00 +0900</pubDate>
       <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, GPT-5.4 &#x27;Thinking&#x27; 시스템 카드 공개: 추론 모델의 사고 과정(Chain of Thought) 제어 능력을 분석한 보고서를 발표했으며, 모델이 스스로 사고 과정을 통제하기 어려워하는 특성이 오히려 모니터... (읽기 시간: 5분)]]></description>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.4 'Thinking' 시스템 카드 공개: 추론 모델의 사고 과정(Chain of Thought) 제어 능력을 분석한 보고서를 발표했으며, 모델이 스스로 사고 과정을 통제하기 어려워하는 특성이 오히려 모니터... (읽기 시간: 5분)]]></description>
     </item>
     <item>
       <title><![CDATA[트럼프 종전 시사, 유가 급락 | 2026-03-10 11:03]]></title>
@@ -108,7 +108,7 @@
       <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-10-1104-market.html</guid>
       <pubDate>Tue, 10 Mar 2026 11:04:00 +0900</pubDate>
       <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프의 중동 전쟁 조기 종결 시사 및 경고 트럼프 대통령이 이란과의 전쟁이 &quot;매우 곧&quot; 끝날 것이라고 발언하며 시장에 안정감을 주는 동시에, 호르무즈 해협 봉쇄 시 20배 더 강력한 타격을 가할 것이라고 경고했습니다. 이는 유가 급락과 증시 반등의 직접적인 도화선... (읽기 시간: 4분)]]></description>
+      <description><![CDATA[1. 세계 정세 트럼프의 중동 전쟁 조기 종결 시사 및 경고 트럼프 대통령이 이란과의 전쟁이 "매우 곧" 끝날 것이라고 발언하며 시장에 안정감을 주는 동시에, 호르무즈 해협 봉쇄 시 20배 더 강력한 타격을 가할 것이라고 경고했습니다. 이는 유가 급락과 증시 반등의 직접적인 도화선... (읽기 시간: 4분)]]></description>
     </item>
     <item>
       <title><![CDATA[GPT-5.4 공식 출시와 AI 에이전트 혁신 | 2026-03-09 11:10]]></title>
@@ -116,7 +116,7 @@
       <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-09-1111-dev.html</guid>
       <pubDate>Mon, 09 Mar 2026 11:11:00 +0900</pubDate>
       <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, GPT-5.4 공식 출시: 코딩, 컴퓨터 제어, 도구 사용 능력이 극대화된 전문가용 모델로, 대규모 모델 평가에서 최첨단 성능을 기록했습니다. Codex Security 연구 프리뷰 공개: 프로젝트 컨텍스트를 분석하여... (읽기 시간: 4분)]]></description>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.4 공식 출시: 코딩, 컴퓨터 제어, 도구 사용 능력이 극대화된 전문가용 모델로, 대규모 모델 평가에서 최첨단 성능을 기록했습니다. Codex Security 연구 프리뷰 공개: 프로젝트 컨텍스트를 분석하여... (읽기 시간: 4분)]]></description>
     </item>
     <item>
       <title><![CDATA[이란 권력승계, 유가 폭등 증시 급락 | 2026-03-09 11:10]]></title>
@@ -132,7 +132,7 @@
       <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-08-1109-dev.html</guid>
       <pubDate>Sun, 08 Mar 2026 11:09:00 +0900</pubDate>
       <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI, GPT-5.4 공식 출시: 코딩, 컴퓨터 사용(Computer Use), 도구 활용 능력이 극대화된 전문가용 프론티어 모델입니다. 가장 유능하고 효율적인 업무 수행을 목표로 설계되었습니다. Codex Security ... (읽기 시간: 4분)]]></description>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.4 공식 출시: 코딩, 컴퓨터 사용(Computer Use), 도구 활용 능력이 극대화된 전문가용 프론티어 모델입니다. 가장 유능하고 효율적인 업무 수행을 목표로 설계되었습니다. Codex Security ... (읽기 시간: 4분)]]></description>
     </item>
     <item>
       <title><![CDATA[이란 유류고 피격, 유가 150불 경고 | 2026-03-08 11:09]]></title>
@@ -148,7 +148,7 @@
       <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-07-1100-dev.html</guid>
       <pubDate>Sat, 07 Mar 2026 11:00:00 +0900</pubDate>
       <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI GPT-5.4 및 Thinking 시스템 공개: 코딩, 도구 사용, 컴퓨터 제어 능력이 대폭 향상된 가장 효율적인 프론티어 모델이 출시되었습니다. 특히 사고의 사슬(CoT) 제어 능력을 다룬 &#x27;Thinking Syste... (읽기 시간: 4분)]]></description>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI GPT-5.4 및 Thinking 시스템 공개: 코딩, 도구 사용, 컴퓨터 제어 능력이 대폭 향상된 가장 효율적인 프론티어 모델이 출시되었습니다. 특히 사고의 사슬(CoT) 제어 능력을 다룬 'Thinking Syste... (읽기 시간: 4분)]]></description>
     </item>
     <item>
       <title><![CDATA[이란 전쟁 격화, 유가 $100 육박 | 2026-03-07 10:59]]></title>
@@ -156,7 +156,7 @@
       <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-07-1100-market.html</guid>
       <pubDate>Sat, 07 Mar 2026 11:00:00 +0900</pubDate>
       <category>Market</category>
-      <description><![CDATA[1. 세계 정세 이스라엘-이란 전면전 양상 돌입 및 트럼프의 강경 대응 이스라엘군이 이란 수도 테헤란의 메라바드 공항 인근을 대규모 공습했고, 이란은 텔아비브를 향해 보복 미사일을 발사했습니다. 특히 도널드 트럼프 미국 대통령이 이란에 대해 &#x27;조건 없는 항복(Unconditiona... (읽기 시간: 4분)]]></description>
+      <description><![CDATA[1. 세계 정세 이스라엘-이란 전면전 양상 돌입 및 트럼프의 강경 대응 이스라엘군이 이란 수도 테헤란의 메라바드 공항 인근을 대규모 공습했고, 이란은 텔아비브를 향해 보복 미사일을 발사했습니다. 특히 도널드 트럼프 미국 대통령이 이란에 대해 '조건 없는 항복(Unconditiona... (읽기 시간: 4분)]]></description>
     </item>
     <item>
       <title><![CDATA[GPT-5.4 출시와 AI 보안 위협 | 2026-03-06 11:06]]></title>
@@ -164,7 +164,7 @@
       <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-06-1107-dev.html</guid>
       <pubDate>Fri, 06 Mar 2026 11:07:00 +0900</pubDate>
       <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 OpenAI GPT-5.4 출시: 전문적인 작업, 코딩, 도구 사용 및 컴퓨터 제어 능력이 대폭 향상된 최신 프런티어 모델입니다. 특히 엑셀(Excel) 및 금융 데이터 통합 기능이 강화되었습니다. Qwen 3.5 및 Step 3.... (읽기 시간: 5분)]]></description>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI GPT-5.4 출시: 전문적인 작업, 코딩, 도구 사용 및 컴퓨터 제어 능력이 대폭 향상된 최신 프런티어 모델입니다. 특히 엑셀(Excel) 및 금융 데이터 통합 기능이 강화되었습니다. Qwen 3.5 및 Step 3.... (읽기 시간: 5분)]]></description>
     </item>
     <item>
       <title><![CDATA[중동 전쟁 격화 속 유가·증시 요동 | 2026-03-06 11:06]]></title>

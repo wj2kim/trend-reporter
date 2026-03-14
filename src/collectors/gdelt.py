@@ -53,6 +53,7 @@ class GDELTCollector:
             "timespan": timespan,
         }
 
+        payload = {}
         for attempt in range(2):
             try:
                 resp = self.session.get(GDELT_API_URL, params=params, timeout=30)
@@ -116,7 +117,7 @@ class GDELTCollector:
                 max_records=max_records,
                 timespan=timespan,
             )
-            results[category] = articles
+            results.setdefault(category, []).extend(articles)
             print(f"[GDELT] {category}: {len(articles)}개 기사 수집")
 
         return results

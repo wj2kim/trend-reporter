@@ -73,8 +73,6 @@ def run_collection_step(step_no: int, total_steps: int, label: str, collect_fn, 
             data_buckets["dev"].append(result)
     except Exception as e:
         print(f"[{label}] 수집 실패: {e}")
-        data_buckets["market"].append(f"[{label}] 수집 실패\n")
-        data_buckets["dev"].append(f"[{label}] 수집 실패\n")
 
 
 def collect_and_format(collector, collect_method: str, format_method: str, **kwargs) -> str:
@@ -113,7 +111,7 @@ def main():
         "market": [],
         "dev": [],
     }
-    total_steps = 15
+    total_steps = 15  # run_collection_step 호출 수와 일치시킬 것
     hn_collector = HackerNewsCollector(cache=cache)
     devto_collector = DevToCollector(cache=cache)
     lobsters_collector = LobstersCollector(cache=cache)
@@ -388,7 +386,7 @@ def main():
 
     # 1. 세계 정세 & 주식 리포트
     print("  - 세계 정세 & 주식 리포트 생성 중...")
-    world_headline, world_keywords, world_report = analyzer.analyze_world_market(
+    world_headline, world_keywords, world_insight, world_report = analyzer.analyze_world_market(
         market_data,
         previous_titles=previous_reports["market"]
     )
@@ -396,7 +394,7 @@ def main():
 
     # 2. 개발 & AI 리포트
     print("  - 개발 & AI 리포트 생성 중...")
-    dev_headline, dev_keywords, dev_report = analyzer.analyze_dev_ai(
+    dev_headline, dev_keywords, dev_insight, dev_report = analyzer.analyze_dev_ai(
         dev_data,
         previous_titles=previous_reports["dev"]
     )
@@ -420,8 +418,8 @@ def main():
         print("\n[저장] GitHub Pages용 HTML 생성 중...")
         publisher = GitHubPagesPublisher()
 
-        world_success = publisher.publish(world_title, world_report, category="market", keywords=world_keywords)
-        dev_success = publisher.publish(dev_title, dev_report, category="dev", keywords=dev_keywords)
+        world_success = publisher.publish(world_title, world_report, category="market", keywords=world_keywords, insight=world_insight)
+        dev_success = publisher.publish(dev_title, dev_report, category="dev", keywords=dev_keywords, insight=dev_insight)
         publish_success = world_success and dev_success
 
         if publish_success:

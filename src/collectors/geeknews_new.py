@@ -94,7 +94,7 @@ class GeekNewsNewCollector:
                 summary=self._clean_text(raw_summary)[:400],
                 points=int(points),
                 age_text=self._clean_text(age_text),
-                comments_text="댓글과 토론" if "go=comments" not in comments_path else "댓글과 토론",
+                comments_text="댓글과 토론",
                 discussion_url=f"https://news.hada.io/{discussion_path}",
             )
             items.append(item)

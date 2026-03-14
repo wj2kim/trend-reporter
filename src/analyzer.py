@@ -48,19 +48,19 @@ class TrendAnalyzer:
 
         prompt = f"""당신은 글로벌 정세 및 금융 시장 분석 전문가입니다. 아래 수집된 데이터에서 **세계 정세와 주식/경제 관련 내용만** 추출하여 한국어로 리포트를 작성해주세요.
 
-**중요: 리포트 맨 첫 줄에 반드시 아래 형식으로 제목과 키워드를 작성하세요:**
+**중요: 리포트 맨 첫 줄에 반드시 아래 형식으로 제목, 키워드, 인사이트를 작성하세요:**
 TITLE: [오늘의 가장 중요한 세계정세/주식 뉴스 한 줄 요약 (15자 이내)]
 KEYWORDS: [핵심 키워드 2-3개, 쉼표로 구분]
+INSIGHT: [오늘의 핵심 판단 1-2문장. 확신을 가진 의견. "~이다", "~해야 한다" 식의 단정적 톤. 단순 요약이 아니라 "이것들이 모이면 무슨 뜻인지, 그래서 어떻게 해야 하는지"를 담을 것.]
 
 예시:
 TITLE: 연준 금리 동결, 증시 상승
 KEYWORDS: 연준, 금리, FOMC
-
-TITLE: 트럼프 관세 발표, 시장 급락
-KEYWORDS: 트럼프, 관세, 무역전쟁
+INSIGHT: 금리 동결은 예상대로지만, 파월의 "데이터 의존적" 발언이 핵심이다. 3월 CPI가 기대 이하면 6월 인하가 현실화되므로, 지금은 금리 민감 섹터(리츠, 유틸리티) 비중을 소폭 확대할 시점이다.
 
 TITLE: 중동 긴장 고조, 유가 급등
 KEYWORDS: 중동, 유가, 지정학
+INSIGHT: 유가 급등 자체보다 유럽 제조업 셧다운 가능성이 진짜 리스크다. 유가는 이미 가격에 반영됐지만, 유럽 공급망 붕괴 → 한국 수출 타격 경로는 아직 시장이 안 보고 있다.
 
 ## 수집 시간
 {timestamp}
@@ -71,15 +71,28 @@ KEYWORDS: 중동, 유가, 지정학
 ## 리포트 작성 지침
 {self._get_base_rules(previous_titles)}
 
+**[So What? 규칙] 모든 핵심 bullet point에 "→" 로 시작하는 실행 가능한 인사이트 한 줄을 추가하세요.**
+"→"는 "그래서 뭘 해야 하는가", "이것이 의미하는 것은" 을 담는 줄입니다.
+
+예시:
+• 트럼프 대통령이 이란 에너지 인프라 파괴를 경고했습니다.
+→ 호르무즈 봉쇄 현실화 시 유가 $120 돌파 가능. 에너지 ETF(XLE) 단기 헤지 고려.
+
+• 실업률이 4.4%로 상승했습니다. (FRED 기준 2024년 이후 최고치)
+→ 역사적으로 이 수준에서 연준은 3개월 내 금리를 인하했다. 단, 이번엔 유가가 변수.
+
 ## 리포트 형식 (아래 형식을 정확히 따라주세요)
 
 ## 1. 세계 정세
 
 • [핵심 이슈 요약 - 왜 중요한지]
+→ [So What? - 실행 가능한 시사점]
 
 • [두 번째 이슈]
+→ [So What?]
 
 • [세 번째 이슈]
+→ [So What?]
 
 ### 시장 영향 분석
 
@@ -139,7 +152,7 @@ KEYWORDS: 중동, 유가, 지정학
 
 ## 4. 커뮤니티 반응
 
-**클리앙, 루리웹 등 수집된 한국 커뮤니티 RSS 내용을 분석하세요:**
+**수집된 한국 커뮤니티 RSS 내용을 분석하세요:**
 
 ### a. 개인투자자 관심 종목
 • [커뮤니티에서 자주 언급되는 종목과 그 이유]
@@ -169,19 +182,19 @@ KEYWORDS: 중동, 유가, 지정학
 
         prompt = f"""당신은 개발 및 AI 트렌드 분석 전문가입니다. 아래 수집된 데이터에서 **개발, 프로그래밍, AI 관련 내용만** 추출하여 한국어로 리포트를 작성해주세요.
 
-**중요: 리포트 맨 첫 줄에 반드시 아래 형식으로 제목과 키워드를 작성하세요:**
+**중요: 리포트 맨 첫 줄에 반드시 아래 형식으로 제목, 키워드, 인사이트를 작성하세요:**
 TITLE: [오늘의 가장 중요한 개발/AI 뉴스 한 줄 요약 (15자 이내)]
 KEYWORDS: [핵심 키워드 2-3개, 쉼표로 구분]
+INSIGHT: [오늘의 핵심 판단 1-2문장. 확신을 가진 의견. 개발자가 "그래서 나는 뭘 해야 하는데?"에 바로 답이 되는 내용.]
 
 예시:
 TITLE: GPT-5 발표, 코딩 혁신
 KEYWORDS: GPT-5, OpenAI, AI
-
-TITLE: React 19 출시, 성능 향상
-KEYWORDS: React, 프론트엔드, 웹개발
+INSIGHT: GPT-5의 코딩 능력 향상보다 중요한 건 Codex의 자동 PR 리뷰 기능이다. 이제 시니어 개발자의 병목이 코드 리뷰에서 아키텍처 설계로 옮겨간다.
 
 TITLE: Claude 업데이트, MCP 지원
 KEYWORDS: Claude, MCP, Anthropic
+INSIGHT: MCP 생태계가 본격화되면서 AI 에이전트의 도구 접근성이 표준화된다. 지금 MCP 서버를 만들어본 개발자가 6개월 후 시장에서 유리하다.
 
 ## 수집 시간
 {timestamp}
@@ -192,13 +205,25 @@ KEYWORDS: Claude, MCP, Anthropic
 ## 리포트 작성 지침
 {self._get_base_rules(previous_titles)}
 
+**[So What? 규칙] 모든 핵심 bullet point에 "→" 로 시작하는 실행 가능한 인사이트 한 줄을 추가하세요.**
+"→"는 "개발자로서 뭘 해야 하는가", "이것이 의미하는 것은" 을 담는 줄입니다.
+
+예시:
+• Claude Code v2.1.74: 컨텍스트 최적화 팁 추가
+→ 대규모 프로젝트에서 토큰 소모가 심했던 사용자라면, CLAUDE.md 최적화 규칙 직접 작성 부담이 줄어든다.
+
+• Vite 8.0 정식 출시
+→ Vite 7→8 마이그레이션은 breaking change 적음. 이번 주 내 업그레이드 가능.
+
 ## 리포트 형식 (아래 형식을 정확히 따라주세요)
 
 ## 1. AI/기술 트렌드
 
 ### a. AI 모델 & 서비스
 • [GPT, Gemini, Claude, Llama 등 주요 AI 모델 업데이트]
+→ [So What?]
 • [새로운 AI 서비스, 제품 출시]
+→ [So What?]
 
 ### b. AI 기업 동향
 • [OpenAI, Anthropic, Google, Meta 등 AI 기업 뉴스]
@@ -283,20 +308,21 @@ KEYWORDS: Claude, MCP, Anthropic
         return self._generate_report(prompt)
 
     def _generate_report(self, prompt: str) -> tuple:
-        """Gemini API로 리포트 생성. (title, keywords, report) 튜플 반환"""
+        """Gemini API로 리포트 생성. (title, keywords, insight, report) 튜플 반환"""
         try:
             response = self.model.generate_content(prompt)
             text = response.text
-            title, keywords, report = self._extract_title(text)
-            return title, keywords, self._clean_report(report)
+            title, keywords, insight, report = self._extract_title(text)
+            return title, keywords, insight, self._clean_report(report)
         except Exception as e:
-            return "리포트", [], f"분석 실패: {e}"
+            return "리포트", [], "", f"분석 실패: {e}"
 
     def _extract_title(self, text: str) -> tuple:
-        """응답에서 제목, 키워드, 본문 분리. (title, keywords, report) 튜플 반환"""
+        """응답에서 제목, 키워드, 인사이트, 본문 분리. (title, keywords, insight, report) 튜플 반환"""
         lines = text.strip().split('\n')
         title = "리포트"
         keywords = []
+        insight = ""
         report_lines = []
 
         for line in lines:
@@ -306,10 +332,12 @@ KEYWORDS: Claude, MCP, Anthropic
             elif stripped.startswith('KEYWORDS:'):
                 kw_str = stripped.replace('KEYWORDS:', '').strip()
                 keywords = [k.strip() for k in kw_str.split(',') if k.strip()]
+            elif stripped.startswith('INSIGHT:'):
+                insight = stripped.replace('INSIGHT:', '').strip()
             else:
                 report_lines.append(line)
 
-        return title, keywords, '\n'.join(report_lines).strip()
+        return title, keywords, insight, '\n'.join(report_lines).strip()
 
     def _clean_report(self, report: str) -> str:
         """리포트 말미의 메타 설명/면책 문구 제거"""

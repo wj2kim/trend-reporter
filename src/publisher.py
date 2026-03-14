@@ -19,7 +19,7 @@ class GitHubPagesPublisher:
     SITE_DESCRIPTION = "AI 기반 글로벌 트렌드 리포트 - 매일 세계 정세, 주식 시장, 개발, AI 트렌드를 분석하여 한국어로 제공합니다."
     SITE_AUTHOR = "Trend Reporter"
     SITE_LANGUAGE = "ko"
-    SITE_LOGO = "https://wj2kim.github.io/trend-reporter/og-image.svg"
+    SITE_LOGO = "https://wj2kim.github.io/trend-reporter/og-image.png"
 
     def __init__(self, docs_dir: Optional[str] = None):
         project_root = Path(__file__).parent.parent
@@ -32,7 +32,7 @@ class GitHubPagesPublisher:
         self.feed_file = self.docs_dir / "feed.xml"
 
     def publish(self, title: str, content: str, category: str = "general",
-                keywords: list = None) -> bool:
+                keywords: list = None, insight: str = "") -> bool:
         """리포트를 HTML로 저장
 
         Args:
@@ -66,7 +66,7 @@ class GitHubPagesPublisher:
             print(f"[Publisher] 리포트 저장: {filepath}")
 
             # 인덱스 업데이트
-            self._update_index(title, filename, now, category, description, reading_time, keywords)
+            self._update_index(title, filename, now, category, description, reading_time, keywords, insight)
 
             # robots.txt 생성 (없으면)
             self._generate_robots()
@@ -102,7 +102,7 @@ class GitHubPagesPublisher:
 
         if len(text) > max_length:
             text = text[:max_length-3] + "..."
-        return html.escape(text)
+        return text
 
     def _generate_html(self, title: str, content: str, timestamp: datetime,
                        category: str, filename: str, description: str,
@@ -153,6 +153,32 @@ class GitHubPagesPublisher:
             "articleSection": category_full,
             "inLanguage": self.SITE_LANGUAGE,
             "isAccessibleForFree": True
+        }
+
+        # BreadcrumbList 스키마
+        category_hub_url = f"{self.SITE_URL}/{category}.html"
+        json_ld_breadcrumb = {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": self.SITE_NAME,
+                    "item": self.SITE_URL
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": category_full,
+                    "item": category_hub_url
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": display_title
+                }
+            ]
         }
 
         return f'''<!DOCTYPE html>
@@ -207,6 +233,9 @@ class GitHubPagesPublisher:
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
 {json.dumps(json_ld, ensure_ascii=False, indent=4)}
+    </script>
+    <script type="application/ld+json">
+{json.dumps(json_ld_breadcrumb, ensure_ascii=False, indent=4)}
     </script>
 
     <style>
@@ -455,7 +484,8 @@ class GitHubPagesPublisher:
 
     def _update_index(self, title: str, filename: str, timestamp: datetime,
                       category: str = "general", description: str = "",
-                      reading_time: int = 1, keywords: list = None):
+                      reading_time: int = 1, keywords: list = None,
+                      insight: str = ""):
         """인덱스 페이지 업데이트"""
         if keywords is None:
             keywords = []
@@ -469,7 +499,7 @@ class GitHubPagesPublisher:
                 pass
 
         # 새 리포트 추가
-        reports.insert(0, {
+        entry = {
             "title": title,
             "filename": filename,
             "date": timestamp.strftime("%Y-%m-%d"),
@@ -478,7 +508,10 @@ class GitHubPagesPublisher:
             "description": description,
             "reading_time": reading_time,
             "keywords": keywords
-        })
+        }
+        if insight:
+            entry["insight"] = insight
+        reports.insert(0, entry)
 
         # 최근 50개만 유지 (두 카테고리이므로 넉넉하게)
         reports = reports[:50]
@@ -562,11 +595,6 @@ class GitHubPagesPublisher:
                     "url": self.SITE_LOGO
                 }
             },
-            "potentialAction": {
-                "@type": "SearchAction",
-                "target": f"{self.SITE_URL}/?q={{search_term_string}}",
-                "query-input": "required name=search_term_string"
-            }
         }
 
         json_ld_itemlist = {
@@ -577,6 +605,37 @@ class GitHubPagesPublisher:
             "numberOfItems": len(item_list_elements),
             "itemListElement": item_list_elements[:20]  # 최근 20개만
         }
+
+        # 인사이트 카드 생성 (각 카테고리 최신 1개)
+        market_insight_html = ""
+        dev_insight_html = ""
+        for r in market_reports:
+            if r.get('insight'):
+                mi = html.escape(r['insight'])
+                market_insight_html = f'''
+                <a href="reports/{r['filename']}" class="insight-card insight-market">
+                    <span class="insight-label">Market</span>
+                    <p class="insight-text">{mi}</p>
+                </a>'''
+                break
+        for r in dev_reports:
+            if r.get('insight'):
+                di = html.escape(r['insight'])
+                dev_insight_html = f'''
+                <a href="reports/{r['filename']}" class="insight-card insight-dev">
+                    <span class="insight-label">Dev</span>
+                    <p class="insight-text">{di}</p>
+                </a>'''
+                break
+
+        insight_section = ""
+        if market_insight_html or dev_insight_html:
+            insight_section = f'''
+        <section class="insights" aria-label="오늘의 판단">
+            <h2 class="section-title">오늘의 판단</h2>
+            <div class="insight-cards">{market_insight_html}{dev_insight_html}
+            </div>
+        </section>'''
 
         html_content = f'''<!DOCTYPE html>
 <html lang="ko">
@@ -666,21 +725,21 @@ class GitHubPagesPublisher:
             border-bottom: 1px solid #eee;
             padding-bottom: 16px;
         }}
-        .filter-tab {{
+        .nav-link {{
             padding: 8px 16px;
-            border: none;
             background: #f5f5f5;
             color: #666;
             font-size: 14px;
             font-weight: 500;
             border-radius: 20px;
-            cursor: pointer;
+            text-decoration: none;
             transition: all 0.2s;
         }}
-        .filter-tab:hover {{
+        .nav-link:hover {{
             background: #eee;
+            text-decoration: none;
         }}
-        .filter-tab.active {{
+        .nav-link.active {{
             background: #000;
             color: #fff;
         }}
@@ -689,11 +748,6 @@ class GitHubPagesPublisher:
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 48px;
-        }}
-        main.single-column {{
-            display: block;
-            max-width: 720px;
-            margin: 0 auto;
         }}
         .column {{
             display: flex;
@@ -709,6 +763,7 @@ class GitHubPagesPublisher:
             font-size: 14px;
             font-weight: 600;
             color: #666;
+            margin-top: 0;
             margin-bottom: 12px;
             padding-bottom: 12px;
             border-bottom: 2px solid #eee;
@@ -776,13 +831,6 @@ class GitHubPagesPublisher:
         .time {{
             display: none;
         }}
-        /* 단일 컬럼(필터) 모드에서 태그, 시간 표시 */
-        main.single-column .tags {{
-            display: flex;
-        }}
-        main.single-column .time {{
-            display: inline;
-        }}
         .date {{
             color: #888;
             font-size: 12px;
@@ -846,6 +894,53 @@ class GitHubPagesPublisher:
         footer a:hover {{
             text-decoration: underline;
         }}
+        /* Insight cards */
+        .insights {{
+            margin-bottom: 32px;
+        }}
+        .section-title {{
+            font-size: 14px;
+            font-weight: 600;
+            color: #666;
+            margin-bottom: 12px;
+        }}
+        .insight-cards {{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }}
+        .insight-card {{
+            display: block;
+            padding: 16px 20px;
+            border-radius: 12px;
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }}
+        .insight-card:hover {{
+            opacity: 0.7;
+        }}
+        .insight-market {{
+            background: #f0f6ff;
+            border-left: 3px solid #1a73e8;
+        }}
+        .insight-dev {{
+            background: #f0faf3;
+            border-left: 3px solid #1e8e3e;
+        }}
+        .insight-label {{
+            font-size: 11px;
+            font-weight: 600;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }}
+        .insight-text {{
+            color: #1a1a1a;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 1.5;
+            margin-top: 6px;
+        }}
         /* Mobile responsive */
         @media (max-width: 768px) {{
             main.two-column {{
@@ -853,6 +948,9 @@ class GitHubPagesPublisher:
             }}
             .column + .column {{
                 margin-top: 32px;
+            }}
+            .insight-cards {{
+                grid-template-columns: 1fr;
             }}
         }}
         @media (max-width: 640px) {{
@@ -880,20 +978,20 @@ class GitHubPagesPublisher:
             <h1>{self.SITE_NAME}</h1>
             <p class="subtitle">Daily Tech & Market Trends - AI가 분석하는 글로벌 트렌드</p>
         </header>
-        <nav aria-label="리포트 카테고리 필터">
-            <button class="filter-tab active" data-filter="all" aria-pressed="true">All</button>
-            <button class="filter-tab" data-filter="market" aria-pressed="false">Market</button>
-            <button class="filter-tab" data-filter="dev" aria-pressed="false">Dev</button>
-        </nav>
+        <nav aria-label="사이트 탐색">
+            <a href="index.html" class="nav-link active">All</a>
+            <a href="market.html" class="nav-link">Market</a>
+            <a href="dev.html" class="nav-link">Dev</a>
+        </nav>{insight_section}
         <main id="main" class="two-column" role="feed" aria-label="트렌드 리포트 목록">
             <section class="column column-market" id="column-market">
-                <div class="column-header">세계 정세 & 주식</div>
+                <h2 class="column-header">세계 정세 & 주식</h2>
                 <div class="column-items">
                     {market_items if market_items else '<p class="empty">No market reports yet.</p>'}
                 </div>
             </section>
             <section class="column column-dev" id="column-dev">
-                <div class="column-header">개발 & AI</div>
+                <h2 class="column-header">개발 & AI</h2>
                 <div class="column-items">
                     {dev_items if dev_items else '<p class="empty">No dev reports yet.</p>'}
                 </div>
@@ -906,11 +1004,9 @@ class GitHubPagesPublisher:
         </footer>
     </div>
     <script>
-        const ITEMS_PER_PAGE = 10;  // 각 컬럼당 아이템 수
+        const ITEMS_PER_PAGE = 10;
         let currentPage = 1;
-        let currentFilter = 'all';
 
-        const mainEl = document.getElementById('main');
         const marketColumn = document.getElementById('column-market');
         const devColumn = document.getElementById('column-dev');
 
@@ -921,8 +1017,6 @@ class GitHubPagesPublisher:
         function renderPage() {{
             const marketItems = getColumnItems(marketColumn);
             const devItems = getColumnItems(devColumn);
-
-            // 페이지 계산 (가장 긴 컬럼 기준)
             const maxItems = Math.max(marketItems.length, devItems.length);
             const totalPages = Math.ceil(maxItems / ITEMS_PER_PAGE);
 
@@ -931,7 +1025,6 @@ class GitHubPagesPublisher:
             const start = (currentPage - 1) * ITEMS_PER_PAGE;
             const end = start + ITEMS_PER_PAGE;
 
-            // 각 컬럼의 아이템 표시/숨김
             marketItems.forEach((item, i) => {{
                 item.classList.toggle('hidden', i < start || i >= end);
             }});
@@ -944,28 +1037,19 @@ class GitHubPagesPublisher:
 
         function renderPagination(totalPages) {{
             const container = document.getElementById('pagination');
-            if (totalPages <= 1) {{
-                container.innerHTML = '';
-                return;
-            }}
+            if (totalPages <= 1) {{ container.innerHTML = ''; return; }}
 
             let html = `<button onclick="goToPage(${{currentPage - 1}})" ${{currentPage === 1 ? 'disabled' : ''}}>&lt; Prev</button>`;
-
             const maxButtons = 5;
             let startPage = Math.max(1, currentPage - Math.floor(maxButtons / 2));
             let endPage = Math.min(totalPages, startPage + maxButtons - 1);
             if (endPage - startPage < maxButtons - 1) startPage = Math.max(1, endPage - maxButtons + 1);
-
             if (startPage > 1) html += `<button onclick="goToPage(1)">1</button><span class="page-info">...</span>`;
-
             for (let i = startPage; i <= endPage; i++) {{
                 html += `<button onclick="goToPage(${{i}})" class="${{i === currentPage ? 'active' : ''}}">${{i}}</button>`;
             }}
-
             if (endPage < totalPages) html += `<span class="page-info">...</span><button onclick="goToPage(${{totalPages}})">${{totalPages}}</button>`;
-
             html += `<button onclick="goToPage(${{currentPage + 1}})" ${{currentPage === totalPages ? 'disabled' : ''}}">Next &gt;</button>`;
-
             container.innerHTML = html;
         }}
 
@@ -975,54 +1059,6 @@ class GitHubPagesPublisher:
             window.scrollTo({{ top: 0, behavior: 'smooth' }});
         }}
 
-        function setFilter(filter) {{
-            currentFilter = filter;
-            currentPage = 1;
-
-            // 탭 UI 업데이트
-            document.querySelectorAll('.filter-tab').forEach(t => {{
-                t.classList.remove('active');
-                t.setAttribute('aria-pressed', 'false');
-            }});
-            const activeTab = document.querySelector(`[data-filter="${{filter}}"]`);
-            activeTab.classList.add('active');
-            activeTab.setAttribute('aria-pressed', 'true');
-
-            // 컬럼 표시/숨김 및 레이아웃 변경
-            if (filter === 'all') {{
-                mainEl.classList.remove('single-column');
-                mainEl.classList.add('two-column');
-                marketColumn.classList.remove('hidden');
-                devColumn.classList.remove('hidden');
-            }} else if (filter === 'market') {{
-                mainEl.classList.remove('two-column');
-                mainEl.classList.add('single-column');
-                marketColumn.classList.remove('hidden');
-                devColumn.classList.add('hidden');
-            }} else if (filter === 'dev') {{
-                mainEl.classList.remove('two-column');
-                mainEl.classList.add('single-column');
-                marketColumn.classList.add('hidden');
-                devColumn.classList.remove('hidden');
-            }}
-
-            renderPage();
-        }}
-
-        document.querySelectorAll('.filter-tab').forEach(tab => {{
-            tab.addEventListener('click', () => {{
-                const filter = tab.dataset.filter;
-                setFilter(filter);
-                history.pushState(null, '', filter === 'all' ? './' : filter);
-            }});
-        }});
-
-        // URL 경로에 따라 초기 필터 설정
-        const path = location.pathname.split('/').pop();
-        if (path === 'market' || path === 'dev') {{
-            setFilter(path);
-        }}
-
         renderPage();
     </script>
 </body>
@@ -1030,11 +1066,286 @@ class GitHubPagesPublisher:
 
         self.index_file.write_text(html_content, encoding='utf-8')
 
-        # market.html, dev.html 생성 (같은 내용, URL 라우팅용)
-        (self.docs_dir / "market.html").write_text(html_content, encoding='utf-8')
-        (self.docs_dir / "dev.html").write_text(html_content, encoding='utf-8')
+        # market.html, dev.html 독립 카테고리 허브 페이지 생성
+        self._generate_category_page("market", market_reports)
+        self._generate_category_page("dev", dev_reports)
 
         print(f"[Publisher] 인덱스 업데이트: {self.index_file}")
+
+    def _generate_category_page(self, category: str, reports: list):
+        """독립 카테고리 허브 페이지 생성 (market.html / dev.html)"""
+        if category == "market":
+            page_title = "세계 정세 & 주식 시장"
+            page_description = "AI 기반 세계 정세 및 주식 시장 트렌드 리포트 - 매일 글로벌 경제, 지정학, 시장 분석을 한국어로 제공합니다."
+            badge_class = "category-market"
+            badge_label = "Market"
+        else:
+            page_title = "개발 & AI 트렌드"
+            page_description = "AI 기반 개발 및 AI 트렌드 리포트 - 매일 최신 기술, AI 모델, 개발 도구 동향을 한국어로 분석합니다."
+            badge_class = "category-dev"
+            badge_label = "Dev"
+
+        canonical_url = f"{self.SITE_URL}/{category}.html"
+
+        def generate_report_item(r):
+            raw_title = r['title']
+            display_title = raw_title.split(" | ")[0] if " | " in raw_title else raw_title
+            title = html.escape(display_title)
+            keywords = r.get('keywords', [])
+            keywords_html = ' '.join([f'<span class="tag">#{html.escape(k)}</span>' for k in keywords[:3]])
+            return f'''
+                <a href="reports/{r['filename']}" class="report-item">
+                    <div class="item-left">
+                        <span class="badge {badge_class}">{badge_label}</span>
+                        <span class="title">{title}</span>
+                        <span class="tags">{keywords_html}</span>
+                    </div>
+                    <time class="date" datetime="{r['date']}T{r['time']}:00+09:00">{r['date']}<span class="time"> {r['time']}</span></time>
+                </a>'''
+
+        report_items = ''.join([generate_report_item(r) for r in reports])
+
+        # JSON-LD CollectionPage
+        json_ld_collection = {
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": page_title,
+            "description": page_description,
+            "url": canonical_url,
+            "inLanguage": self.SITE_LANGUAGE,
+            "isPartOf": {
+                "@type": "WebSite",
+                "name": self.SITE_NAME,
+                "url": self.SITE_URL
+            }
+        }
+
+        html_content = f'''<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Search Console Verification -->
+    <meta name="google-site-verification" content="SoecC62RmfwaJ6jbdXplSnQFsHqZrjrt-q1vf_csCTI" />
+    <meta name="naver-site-verification" content="78fcf466a31099b2a6c05d132e46b1f5fb9e14f5" />
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BZ704XQ445"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){{dataLayer.push(arguments);}}
+        gtag('js', new Date());
+        gtag('config', 'G-BZ704XQ445');
+    </script>
+
+    <!-- Primary Meta Tags -->
+    <title>{page_title} | {self.SITE_NAME}</title>
+    <meta name="title" content="{page_title} | {self.SITE_NAME}">
+    <meta name="description" content="{page_description}">
+    <meta name="author" content="{self.SITE_AUTHOR}">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="{canonical_url}">
+    <link rel="alternate" type="application/rss+xml" title="{self.SITE_NAME} RSS Feed" href="{self.SITE_URL}/feed.xml">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{canonical_url}">
+    <meta property="og:title" content="{page_title} | {self.SITE_NAME}">
+    <meta property="og:description" content="{page_description}">
+    <meta property="og:image" content="{self.SITE_LOGO}">
+    <meta property="og:site_name" content="{self.SITE_NAME}">
+    <meta property="og:locale" content="ko_KR">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{canonical_url}">
+    <meta property="twitter:title" content="{page_title} | {self.SITE_NAME}">
+    <meta property="twitter:description" content="{page_description}">
+    <meta property="twitter:image" content="{self.SITE_LOGO}">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+{json.dumps(json_ld_collection, ensure_ascii=False, indent=4)}
+    </script>
+
+    <style>
+        * {{ margin: 0; padding: 0; box-sizing: border-box; }}
+        body {{
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #fff;
+            min-height: 100vh;
+        }}
+        .container {{
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }}
+        header {{
+            margin-bottom: 32px;
+        }}
+        h1 {{
+            font-size: 32px;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+        }}
+        .subtitle {{
+            color: #666;
+            font-size: 15px;
+        }}
+        nav {{
+            display: flex;
+            gap: 8px;
+            margin-bottom: 24px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 16px;
+        }}
+        .nav-link {{
+            padding: 8px 16px;
+            background: #f5f5f5;
+            color: #666;
+            font-size: 14px;
+            font-weight: 500;
+            border-radius: 20px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }}
+        .nav-link:hover {{
+            background: #eee;
+            text-decoration: none;
+        }}
+        .nav-link.active {{
+            background: #000;
+            color: #fff;
+        }}
+        .report-item {{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 0;
+            border-bottom: 1px solid #eee;
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }}
+        .report-item:hover {{
+            opacity: 0.6;
+        }}
+        .item-left {{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            min-width: 0;
+            flex: 1;
+        }}
+        .badge {{
+            font-size: 11px;
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-weight: 500;
+            flex-shrink: 0;
+        }}
+        .category-market {{
+            background: #e8f4fc;
+            color: #1a73e8;
+        }}
+        .category-dev {{
+            background: #e6f4ea;
+            color: #1e8e3e;
+        }}
+        .title {{
+            color: #000;
+            font-size: 14px;
+            font-weight: 500;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }}
+        .tags {{
+            display: flex;
+            gap: 6px;
+            margin-left: 8px;
+        }}
+        .tag {{
+            color: #999;
+            font-size: 11px;
+        }}
+        .time {{
+            display: inline;
+        }}
+        .date {{
+            color: #888;
+            font-size: 12px;
+            flex-shrink: 0;
+            margin-left: 12px;
+        }}
+        .empty {{
+            color: #888;
+            padding: 40px 0;
+            text-align: center;
+        }}
+        footer {{
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid #eee;
+            color: #888;
+            font-size: 13px;
+            text-align: center;
+        }}
+        footer a {{
+            color: #666;
+            text-decoration: none;
+        }}
+        footer a:hover {{
+            text-decoration: underline;
+        }}
+        @media (max-width: 640px) {{
+            .container {{
+                padding: 32px 16px;
+            }}
+            h1 {{
+                font-size: 24px;
+            }}
+            .report-item {{
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 6px;
+                padding: 14px 0;
+            }}
+            .date {{
+                margin-left: 0;
+            }}
+        }}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>{self.SITE_NAME}</h1>
+            <p class="subtitle">{page_description}</p>
+        </header>
+        <nav aria-label="사이트 탐색">
+            <a href="index.html" class="nav-link">All</a>
+            <a href="market.html" class="nav-link{' active' if category == 'market' else ''}">Market</a>
+            <a href="dev.html" class="nav-link{' active' if category == 'dev' else ''}">Dev</a>
+        </nav>
+        <main role="feed" aria-label="{page_title} 리포트 목록">
+            {report_items if report_items else f'<p class="empty">No {category} reports yet.</p>'}
+        </main>
+        <footer>
+            <p>Powered by AI - 매일 자동으로 글로벌 트렌드를 수집하고 분석합니다.</p>
+            <p><a href="index.html">홈</a> · <a href="feed.xml">RSS Feed</a> · <a href="sitemap.xml">Sitemap</a></p>
+        </footer>
+    </div>
+</body>
+</html>'''
+
+        filepath = self.docs_dir / f"{category}.html"
+        filepath.write_text(html_content, encoding='utf-8')
+        print(f"[Publisher] 카테고리 페이지 생성: {filepath}")
 
     def _generate_sitemap(self, reports: list):
         """sitemap.xml 생성"""
@@ -1050,13 +1361,13 @@ class GitHubPagesPublisher:
     <priority>1.0</priority>
   </url>''',
             f'''  <url>
-    <loc>{self.SITE_URL}/market</loc>
+    <loc>{self.SITE_URL}/market.html</loc>
     <lastmod>{today}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>''',
             f'''  <url>
-    <loc>{self.SITE_URL}/dev</loc>
+    <loc>{self.SITE_URL}/dev.html</loc>
     <lastmod>{today}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -1091,11 +1402,30 @@ class GitHubPagesPublisher:
 User-agent: *
 Allow: /
 
+# AI Crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
 # Sitemap
 Sitemap: {self.SITE_URL}/sitemap.xml
-
-# Crawl-delay (optional, for polite crawlers)
-Crawl-delay: 1
 '''
         self.robots_file.write_text(robots, encoding='utf-8')
         print(f"[Publisher] robots.txt 생성: {self.robots_file}")

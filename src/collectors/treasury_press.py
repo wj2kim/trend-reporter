@@ -75,7 +75,10 @@ class TreasuryPressCollector:
             if len(items) >= limit:
                 break
 
-        print(f"[Treasury] {len(items)}개 보도자료 수집")
+        if len(items) == 0:
+            print("[Treasury] 경고: 0개 수집 — HTML 구조 변경 여부를 확인하세요")
+        else:
+            print(f"[Treasury] {len(items)}개 보도자료 수집")
         return items
 
     def format_for_analysis(self, data: List[TreasuryPressRelease]) -> str:
