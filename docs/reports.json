@@ -1,5 +1,33 @@
 [
   {
+    "title": "Vite 8 출시와 Claude 1M 컨텍스트 | 2026-03-14 11:04",
+    "filename": "2026-03-14-1104-dev.html",
+    "date": "2026-03-14",
+    "time": "11:04",
+    "category": "dev",
+    "description": "1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Claude 1M 컨텍스트 정식 지원: Anthropic이 Opus 4.6과 Sonnet 4.6 모델에서 100만 토큰 컨텍스트 윈도우를 GA(General Availability)로 전환했으며, 처리량 제한 없이 기존 단가를 유지...",
+    "reading_time": 5,
+    "keywords": [
+      "Vite 8",
+      "Claude",
+      "AI 에이전트"
+    ]
+  },
+  {
+    "title": "미, 이란 석유 허브 폭격 강행 | 2026-03-14 11:04",
+    "filename": "2026-03-14-1104-market.html",
+    "date": "2026-03-14",
+    "time": "11:04",
+    "category": "market",
+    "description": "1. 세계 정세 [미국, 이란 핵·석유 요충지 &#x27;카르그 섬&#x27; 폭격] 트럼프 대통령은 이란 원유 수출의 90%를 담당하는 카르그 섬(Kharg Island)의 군사 시설을 공습했다고 발표했습니다. 비록 석유 생산 인프라 자체는 직접 파괴하지 않았다고 주장하나, 핵심 수출 허브가 타격...",
+    "reading_time": 4,
+    "keywords": [
+      "이란 전쟁",
+      "카르그 섬",
+      "에너지 안보"
+    ]
+  },
+  {
     "title": "AI 에이전트 실무 워크플로우 혁신 | 2026-03-13 18:11",
     "filename": "2026-03-13-1811-dev.html",
     "date": "2026-03-13",
@@ -669,34 +697,6 @@
       "중동 정세",
       "메타",
       "트럼프 정책"
-    ]
-  },
-  {
-    "title": "Claude 4.6 및 실시간 코딩 모델 출시 | 2026-02-18 11:12",
-    "filename": "2026-02-18-1113-dev.html",
-    "date": "2026-02-18",
-    "time": "11:13",
-    "category": "dev",
-    "description": "1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Claude Sonnet 4.6 출시: Anthropic이 성능이 대폭 향상된 차세대 모델 Claude Sonnet 4.6을 발표하며 AI 모델 경쟁을 가속화하고 있습니다. GPT-5.3-Codex-Spark 공개: OpenAI가 ...",
-    "reading_time": 4,
-    "keywords": [
-      "Claude",
-      "GPT-5",
-      "코딩 에이전트"
-    ]
-  },
-  {
-    "title": "미-이란 회담 진전, 버크셔 신문 복귀 | 2026-02-18 11:12",
-    "filename": "2026-02-18-1113-market.html",
-    "date": "2026-02-18",
-    "time": "11:13",
-    "category": "market",
-    "description": "1. 세계 정세 [미-이란 핵 협상 &#x27;원칙적 합의&#x27; 도출 지정학적 긴장 완화 기대] 제네바에서 열린 미국과 이란의 회담에서 양측이 &#x27;일련의 지도 원칙&#x27;에 합의하며 긍정적인 진전을 보였습니다. 트럼프 대통령이 즉각적인 합의를 촉구하는 가운데, 중동의 핵 갈등이 외교적 해결 국면으로 ...",
-    "reading_time": 4,
-    "keywords": [
-      "미-이란 협상",
-      "버크셔 해서웨이",
-      "일본 수출"
     ]
   }
 ]
