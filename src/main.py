@@ -15,6 +15,7 @@ import yaml
 from dotenv import load_dotenv
 
 from cache import ContentCache
+from storage import TrendStorage
 from collectors import (
     HackerNewsCollector, RSSCollector, DevToCollector, LobstersCollector,
     GitHubTrendingCollector, HuggingFaceCollector, GitHubAPICollector,
@@ -60,7 +61,7 @@ def load_previous_reports(limit: int = 10) -> dict:
     return previous
 
 
-def run_collection_step(step_no: int, total_steps: int, label: str, collect_fn, data_buckets: dict):
+def run_collection_step(step_no: int, total_steps: int, label: str, collect_fn, data_buckets: dict, storage: TrendStorage = None):
     """수집 단계를 실행하고 결과를 누적"""
     print(f"\n[{step_no}/{total_steps}] {label} 데이터 수집 중...")
     try:
@@ -69,8 +70,12 @@ def run_collection_step(step_no: int, total_steps: int, label: str, collect_fn, 
             for bucket, text in result.items():
                 if text:
                     data_buckets[bucket].append(text)
+                    if storage:
+                        storage.save(source=label, category=bucket, content=text)
         elif result:
             data_buckets["dev"].append(result)
+            if storage:
+                storage.save(source=label, category="dev", content=result)
     except Exception as e:
         print(f"[{label}] 수집 실패: {e}")
 
@@ -103,8 +108,9 @@ def main():
     # 설정 로드
     config = load_config()
 
-    # 캐시 초기화
+    # 캐시 및 저장소 초기화
     cache = ContentCache(cache_dir=str(project_root / "cache"))
+    storage = TrendStorage()
 
     # 수집 데이터를 market/dev 버퍼로 분리
     data_buckets = {
@@ -141,6 +147,7 @@ def main():
             ),
         ),
         data_buckets,
+        storage,
     )
 
     run_collection_step(
@@ -156,6 +163,7 @@ def main():
             ),
         ),
         data_buckets,
+        storage,
     )
 
     run_collection_step(
@@ -171,6 +179,7 @@ def main():
             ),
         ),
         data_buckets,
+        storage,
     )
 
     run_collection_step(
@@ -193,6 +202,7 @@ def main():
             )
         ),
         data_buckets,
+        storage,
     )
 
     run_collection_step(
@@ -207,6 +217,7 @@ def main():
             ),
         ),
         data_buckets,
+        storage,
     )
 
     run_collection_step(
@@ -223,6 +234,7 @@ def main():
             ),
         ),
         data_buckets,
+        storage,
     )
 
     run_collection_step(
@@ -239,6 +251,7 @@ def main():
             ),
         ),
         data_buckets,
+        storage,
     )
 
     run_collection_step(
@@ -253,6 +266,7 @@ def main():
             ),
         ),
         data_buckets,
+        storage,
     )
 
     run_collection_step(
@@ -268,6 +282,7 @@ def main():
             ),
         ),
         data_buckets,
+        storage,
     )
 
     run_collection_step(
@@ -283,6 +298,7 @@ def main():
             ),
         ),
         data_buckets,
+        storage,
     )
 
     run_collection_step(
@@ -299,6 +315,7 @@ def main():
             ),
         ),
         data_buckets,
+        storage,
     )
 
     run_collection_step(
@@ -313,6 +330,7 @@ def main():
             ),
         ),
         data_buckets,
+        storage,
     )
 
     run_collection_step(
@@ -328,6 +346,7 @@ def main():
             ),
         ),
         data_buckets,
+        storage,
     )
 
     run_collection_step(
@@ -342,6 +361,7 @@ def main():
             ),
         ),
         data_buckets,
+        storage,
     )
 
     run_collection_step(
@@ -357,10 +377,12 @@ def main():
             ),
         ),
         data_buckets,
+        storage,
     )
 
-    # 캐시 저장
+    # 캐시 및 저장소 저장
     cache.save()
+    storage.close()
 
     market_data = "\n".join(data_buckets["market"]).strip()
     dev_data = "\n".join(data_buckets["dev"]).strip()

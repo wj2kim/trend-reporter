@@ -3,6 +3,10 @@
 
 # 캐시
 cache/
+
+# SQLite WAL/SHM
+*.db-wal
+*.db-shm
 __pycache__/
 *.pyc
 *.pyo
