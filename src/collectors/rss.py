@@ -73,7 +73,7 @@ class RSSCollector:
                     # HTML 태그 간단히 제거
                     summary = entry.summary
                     import re
-                    summary = re.sub(r'<[^>]+>', '', summary)[:300]
+                    summary = re.sub(r'<[^>]+>', '', summary)[:500]
 
                 items.append(RSSItem(
                     id=item_id,
@@ -144,7 +144,7 @@ class RSSCollector:
                     f"   URL: {item.url}\n"
                 )
                 if item.summary:
-                    output.append(f"   요약: {item.summary[:150]}...\n")
+                    output.append(f"   요약: {item.summary[:500]}\n")
                 total_items += 1
 
         if total_items == 0:

@@ -122,7 +122,9 @@ class HackerNewsCollector:
         return results
 
     def format_for_analysis(self, data: dict) -> str:
-        """분석을 위한 텍스트 포맷"""
+        """분석을 위한 텍스트 포맷 (상위 기사는 본문 핵심 문장 포함)"""
+        from article_extractor import extract_batch
+
         output = ["\n## Hacker News\n"]
 
         all_stories = data.get("top", []) + data.get("best", [])
@@ -131,11 +133,23 @@ class HackerNewsCollector:
         if not all_stories:
             return "[HN] 새로운 스토리 없음\n"
 
-        for i, story in enumerate(all_stories[:30], 1):
+        top_stories = all_stories[:30]
+
+        # 상위 15개 기사의 본문 핵심 문장 병렬 추출
+        extract_urls = [
+            s.url for s in top_stories[:15]
+            if s.url and not s.url.startswith("https://news.ycombinator.com/")
+        ]
+        extracted = extract_batch(extract_urls, max_sentences=3, timeout=5) if extract_urls else {}
+
+        for i, story in enumerate(top_stories, 1):
             output.append(
                 f"{i}. {story.title}\n"
                 f"   Score: {story.score} | Comments: {story.num_comments}\n"
                 f"   URL: {story.url}\n"
             )
+            body = extracted.get(story.url, "")
+            if body:
+                output.append(f"   본문: {body[:500]}\n")
 
         return "\n".join(output)

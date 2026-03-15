@@ -123,9 +123,19 @@ class GDELTCollector:
         return results
 
     def format_for_analysis(self, data: dict) -> str:
-        """분석용 텍스트 포맷"""
+        """분석용 텍스트 포맷 (본문 핵심 문장 포함)"""
+        from article_extractor import extract_batch
+
         output = []
         total = 0
+
+        # 모든 URL 수집 후 병렬 추출
+        all_urls = []
+        for articles in data.values():
+            for article in articles[:10]:
+                if article.url:
+                    all_urls.append(article.url)
+        extracted = extract_batch(all_urls, max_sentences=3, timeout=5) if all_urls else {}
 
         for category, articles in data.items():
             if not articles:
@@ -138,6 +148,9 @@ class GDELTCollector:
                     f"{i}. [{source}] {article.title}\n"
                     f"   URL: {article.url}\n"
                 )
+                body = extracted.get(article.url, "")
+                if body:
+                    output.append(f"   본문: {body[:500]}\n")
                 total += 1
 
         if total == 0:

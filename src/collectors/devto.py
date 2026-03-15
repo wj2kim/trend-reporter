@@ -157,5 +157,7 @@ class DevToCollector:
                 f"💬 {article.comments_count} | Tags: {tags_str}\n"
                 f"   URL: {article.url}\n"
             )
+            if article.description:
+                output.append(f"   요약: {article.description[:500]}\n")
 
         return "\n".join(output)
