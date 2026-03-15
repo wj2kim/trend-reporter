@@ -16,7 +16,7 @@ class GitHubPagesPublisher:
     # 사이트 설정
     SITE_URL = "https://wj2kim.github.io/trend-reporter"
     SITE_NAME = "Trend Reporter"
-    SITE_DESCRIPTION = "AI 기반 글로벌 트렌드 리포트 - 매일 세계 정세, 주식 시장, 개발, AI 트렌드를 분석하여 한국어로 제공합니다."
+    SITE_DESCRIPTION = "글로벌 트렌드 데일리 브리핑 - 매일 세계 정세, 주식 시장, 개발, AI 트렌드를 엄선하여 한국어로 제공합니다."
     SITE_AUTHOR = "Trend Reporter"
     SITE_LANGUAGE = "ko"
     SITE_LOGO = "https://wj2kim.github.io/trend-reporter/og-image.png"
@@ -601,7 +601,7 @@ class GitHubPagesPublisher:
             "@context": "https://schema.org",
             "@type": "ItemList",
             "name": "최신 트렌드 리포트",
-            "description": "AI가 분석한 최신 글로벌 트렌드 리포트 목록",
+            "description": "최신 글로벌 트렌드 리포트 목록",
             "numberOfItems": len(item_list_elements),
             "itemListElement": item_list_elements[:20]  # 최근 20개만
         }
@@ -657,8 +657,8 @@ class GitHubPagesPublisher:
     </script>
 
     <!-- Primary Meta Tags -->
-    <title>{self.SITE_NAME} - AI 기반 글로벌 트렌드 리포트</title>
-    <meta name="title" content="{self.SITE_NAME} - AI 기반 글로벌 트렌드 리포트">
+    <title>{self.SITE_NAME} - 글로벌 트렌드 데일리 브리핑</title>
+    <meta name="title" content="{self.SITE_NAME} - 글로벌 트렌드 데일리 브리핑">
     <meta name="description" content="{self.SITE_DESCRIPTION}">
     <meta name="author" content="{self.SITE_AUTHOR}">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
@@ -669,7 +669,7 @@ class GitHubPagesPublisher:
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="{self.SITE_URL}/">
-    <meta property="og:title" content="{self.SITE_NAME} - AI 기반 글로벌 트렌드 리포트">
+    <meta property="og:title" content="{self.SITE_NAME} - 글로벌 트렌드 데일리 브리핑">
     <meta property="og:description" content="{self.SITE_DESCRIPTION}">
     <meta property="og:image" content="{self.SITE_LOGO}">
     <meta property="og:site_name" content="{self.SITE_NAME}">
@@ -678,7 +678,7 @@ class GitHubPagesPublisher:
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="{self.SITE_URL}/">
-    <meta property="twitter:title" content="{self.SITE_NAME} - AI 기반 글로벌 트렌드 리포트">
+    <meta property="twitter:title" content="{self.SITE_NAME} - 글로벌 트렌드 데일리 브리핑">
     <meta property="twitter:description" content="{self.SITE_DESCRIPTION}">
     <meta property="twitter:image" content="{self.SITE_LOGO}">
 
@@ -976,7 +976,7 @@ class GitHubPagesPublisher:
     <div class="container">
         <header>
             <h1>{self.SITE_NAME}</h1>
-            <p class="subtitle">Daily Tech & Market Trends - AI가 분석하는 글로벌 트렌드</p>
+            <p class="subtitle">매일 엄선하는 글로벌 시장·기술 트렌드</p>
         </header>
         <nav aria-label="사이트 탐색">
             <a href="index.html" class="nav-link active">All</a>
@@ -999,7 +999,7 @@ class GitHubPagesPublisher:
         </main>
         <div class="pagination" id="pagination"></div>
         <footer>
-            <p>Powered by AI - 매일 자동으로 글로벌 트렌드를 수집하고 분석합니다.</p>
+            <p>매일 글로벌 시장과 기술 트렌드를 정리합니다.</p>
             <p><a href="feed.xml">RSS Feed</a> · <a href="sitemap.xml">Sitemap</a></p>
         </footer>
     </div>
@@ -1076,12 +1076,12 @@ class GitHubPagesPublisher:
         """독립 카테고리 허브 페이지 생성 (market.html / dev.html)"""
         if category == "market":
             page_title = "세계 정세 & 주식 시장"
-            page_description = "AI 기반 세계 정세 및 주식 시장 트렌드 리포트 - 매일 글로벌 경제, 지정학, 시장 분석을 한국어로 제공합니다."
+            page_description = "세계 정세 및 주식 시장 트렌드 리포트 - 매일 글로벌 경제, 지정학, 시장 분석을 한국어로 제공합니다."
             badge_class = "category-market"
             badge_label = "Market"
         else:
             page_title = "개발 & AI 트렌드"
-            page_description = "AI 기반 개발 및 AI 트렌드 리포트 - 매일 최신 기술, AI 모델, 개발 도구 동향을 한국어로 분석합니다."
+            page_description = "개발 및 AI 트렌드 리포트 - 매일 최신 기술, AI 모델, 개발 도구 동향을 한국어로 정리합니다."
             badge_class = "category-dev"
             badge_label = "Dev"
 
@@ -1336,7 +1336,7 @@ class GitHubPagesPublisher:
             {report_items if report_items else f'<p class="empty">No {category} reports yet.</p>'}
         </main>
         <footer>
-            <p>Powered by AI - 매일 자동으로 글로벌 트렌드를 수집하고 분석합니다.</p>
+            <p>매일 글로벌 시장과 기술 트렌드를 정리합니다.</p>
             <p><a href="index.html">홈</a> · <a href="feed.xml">RSS Feed</a> · <a href="sitemap.xml">Sitemap</a></p>
         </footer>
     </div>
