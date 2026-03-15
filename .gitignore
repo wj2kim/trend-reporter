@@ -4,7 +4,8 @@
 # 캐시
 cache/
 
-# SQLite WAL/SHM
+# SQLite
+data/
 *.db-wal
 *.db-shm
 __pycache__/
