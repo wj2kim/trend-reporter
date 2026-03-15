@@ -61,39 +61,146 @@ def load_previous_reports(limit: int = 10) -> dict:
     return previous
 
 
-def run_collection_step(step_no: int, total_steps: int, label: str, collect_fn, data_buckets: dict, storage: TrendStorage = None):
-    """수집 단계를 실행하고 결과를 누적"""
-    print(f"\n[{step_no}/{total_steps}] {label} 데이터 수집 중...")
+def store_collected_data(storage: TrendStorage, collectors: dict):
+    """수집기별 구조화된 데이터를 항목 단위로 DB에 저장"""
     try:
-        result = collect_fn()
-        if isinstance(result, dict):
-            for bucket, text in result.items():
-                if text:
-                    data_buckets[bucket].append(text)
-                    if storage:
-                        storage.save(source=label, category=bucket, content=text)
-        elif result:
-            data_buckets["dev"].append(result)
-            if storage:
-                storage.save(source=label, category="dev", content=result)
+        for name, (collector, raw_data, category) in collectors.items():
+            if raw_data is None:
+                continue
+            items = _extract_items(name, raw_data, category)
+            if items:
+                storage.save_items(items)
+                print(f"[Storage] {name}: {len(items)}개 항목 저장")
+        storage.flush()
     except Exception as e:
-        print(f"[{label}] 수집 실패: {e}")
+        print(f"[Storage] 저장 실패: {e}")
 
 
-def collect_and_format(collector, collect_method: str, format_method: str, **kwargs) -> str:
-    """collector의 수집 및 포맷 메서드를 순서대로 실행"""
-    data = getattr(collector, collect_method)(**kwargs)
-    return getattr(collector, format_method)(data)
+def _extract_items(source: str, raw_data, category: str) -> list:
+    """수집기 데이터를 항목 단위 dict 리스트로 변환"""
+    items = []
 
+    if source == "Hacker News":
+        for stories in raw_data.values():
+            for s in stories:
+                items.append({"source": source, "category": category,
+                              "title": s.title, "url": s.url, "score": s.score,
+                              "meta": f"comments:{s.num_comments} by:{s.author}"})
 
-def add_to_bucket(bucket: str, text: str) -> dict:
-    """단일 버퍼에 결과를 적재"""
-    return {bucket: text}
+    elif source == "DEV.to":
+        for articles in raw_data.values():
+            for a in articles:
+                items.append({"source": source, "category": category,
+                              "title": a.title, "url": a.url,
+                              "score": a.positive_reactions_count,
+                              "body": a.description,
+                              "meta": f"tags:{','.join(a.tags[:3])} comments:{a.comments_count}"})
 
+    elif source == "Lobsters":
+        for stories in raw_data.values():
+            for s in stories:
+                items.append({"source": source, "category": category,
+                              "title": s.title, "url": s.url, "score": s.score,
+                              "meta": f"tags:{','.join(s.tags[:3])} comments:{s.comment_count}"})
 
-def add_to_buckets(**kwargs) -> dict:
-    """여러 버퍼에 결과를 적재"""
-    return {bucket: text for bucket, text in kwargs.items() if text}
+    elif source.startswith("RSS"):
+        market_cats = {"world", "stocks", "macro", "community"}
+        dev_cats = {"tech", "ai", "trending"}
+        target_cats = market_cats if category == "market" else dev_cats
+        for cat_name, cat_items in raw_data.items():
+            if cat_name not in target_cats:
+                continue
+            for r in cat_items:
+                items.append({"source": f"RSS/{r.source}", "category": category,
+                              "title": r.title, "url": r.url, "body": r.summary})
+
+    elif source == "GitHub Trending":
+        for repos in raw_data.values():
+            for r in repos:
+                items.append({"source": source, "category": category,
+                              "title": r.name, "url": r.url, "score": r.stars,
+                              "body": r.description,
+                              "meta": f"lang:{r.language} today:+{r.stars_today}"})
+
+    elif source == "GitHub API":
+        for repos in raw_data.values():
+            for r in repos:
+                items.append({"source": source, "category": category,
+                              "title": r.full_name, "url": r.url, "score": r.stars,
+                              "body": r.description,
+                              "meta": f"lang:{r.language} query:{r.query_name}"})
+
+    elif source == "arXiv":
+        for papers in raw_data.values():
+            for p in papers:
+                items.append({"source": source, "category": category,
+                              "title": p.title, "url": p.url,
+                              "body": p.summary[:500],
+                              "meta": f"authors:{','.join(p.authors[:3])}"})
+
+    elif source == "GDELT":
+        for articles in raw_data.values():
+            for a in articles:
+                items.append({"source": source, "category": category,
+                              "title": a.title, "url": a.url,
+                              "meta": f"domain:{a.domain}"})
+
+    elif source == "FRED":
+        for obs in (raw_data if isinstance(raw_data, list) else []):
+            items.append({"source": source, "category": category,
+                          "title": f"{obs.name} ({obs.series_id})",
+                          "body": f"{obs.date}: {obs.value} (prev: {obs.previous_value})",
+                          "meta": f"category:{obs.category}"})
+
+    elif source == "SEC":
+        for filings in raw_data.values():
+            for f in filings:
+                items.append({"source": source, "category": category,
+                              "title": f"{f.company} ({f.ticker}) - {f.form}",
+                              "url": f.url,
+                              "meta": f"date:{f.filing_date}"})
+
+    elif source == "Treasury":
+        for pr in (raw_data if isinstance(raw_data, list) else []):
+            items.append({"source": source, "category": category,
+                          "title": pr.title, "url": pr.url,
+                          "meta": f"date:{pr.date}"})
+
+    elif source == "Claude Code":
+        releases = raw_data.get("releases", [])
+        for r in releases:
+            items.append({"source": source, "category": category,
+                          "title": f"Release {r.tag_name}", "url": r.url,
+                          "body": r.body[:500] if r.body else ""})
+        for bucket_name, issues in raw_data.get("issues", {}).items():
+            for iss in issues:
+                items.append({"source": source, "category": category,
+                              "title": iss.title, "url": iss.url,
+                              "meta": f"labels:{','.join(iss.labels[:3])}"})
+
+    elif source == "GeekNews":
+        for g in (raw_data if isinstance(raw_data, list) else []):
+            items.append({"source": source, "category": category,
+                          "title": g.title, "url": g.source_url,
+                          "score": g.points,
+                          "body": g.summary,
+                          "meta": f"domain:{g.source_domain}"})
+
+    elif source == "Hugging Face":
+        for models in raw_data.values():
+            for m in models:
+                items.append({"source": source, "category": category,
+                              "title": m.id, "url": m.url, "score": m.downloads,
+                              "meta": f"likes:{m.likes} pipeline:{m.pipeline_tag}"})
+
+    elif source == "OSV":
+        for vulns in raw_data.values():
+            for v in vulns:
+                items.append({"source": source, "category": category,
+                              "title": f"{v.vuln_id}: {v.package} ({v.ecosystem})",
+                              "meta": f"aliases:{','.join(v.aliases[:3])}"})
+
+    return items
 
 
 def main():
@@ -134,251 +241,83 @@ def main():
     geeknews_collector = GeekNewsNewCollector(cache=cache)
     hf_collector = HuggingFaceCollector(cache=cache)
 
-    run_collection_step(
-        1, total_steps, "Hacker News",
-        lambda: add_to_bucket(
-            "dev",
-            collect_and_format(
-                hn_collector,
-                "collect_all",
-                "format_for_analysis",
-                top_limit=config["hackernews"].get("top_stories", 20),
-                best_limit=config["hackernews"].get("best_stories", 10),
-            ),
-        ),
-        data_buckets,
-        storage,
-    )
+    # 수집 파이프라인 정의: (step, label, collector, category, collect_kwargs, format_kwargs)
+    # category가 None이면 RSS처럼 특수 처리
+    pipeline = [
+        (1, "Hacker News", hn_collector, "dev",
+         {"top_limit": config["hackernews"].get("top_stories", 20),
+          "best_limit": config["hackernews"].get("best_stories", 10)}, {}),
+        (2, "DEV.to", devto_collector, "dev",
+         {"general_limit": config.get("devto", {}).get("limit", 20),
+          "tags": config.get("devto", {}).get("tags")}, {}),
+        (3, "Lobste.rs", lobsters_collector, "dev",
+         {"hottest_limit": config.get("lobsters", {}).get("hottest", 20),
+          "newest_limit": config.get("lobsters", {}).get("newest", 10)}, {}),
+        (4, "RSS", rss_collector, None,  # 특수: market/dev 분리
+         {"feeds_config": config["rss"].get("feeds", []),
+          "items_per_feed": config["rss"].get("items_per_feed", 8)}, {}),
+        (5, "GitHub Trending", github_trending_collector, "dev",
+         {"limit": 10}, {}),
+        (6, "GitHub API", github_api_collector, "dev",
+         {"queries": config.get("github_api", {}).get("queries", []),
+          "days_back": config.get("github_api", {}).get("days_back", 7),
+          "per_query": config.get("github_api", {}).get("per_query", 5)}, {}),
+        (7, "Claude Code", claude_code_collector, "dev",
+         {"release_limit": config.get("claude_code", {}).get("release_limit", 3),
+          "issue_buckets": config.get("claude_code", {}).get("issue_buckets", []),
+          "issue_limit": config.get("claude_code", {}).get("issue_limit", 3)}, {}),
+        (8, "GeekNews", geeknews_collector, "dev",
+         {"limit": config.get("geeknews_new", {}).get("limit", 12)}, {}),
+        (9, "arXiv", arxiv_collector, "dev",
+         {"queries": config.get("arxiv", {}).get("queries", []),
+          "per_query": config.get("arxiv", {}).get("per_query", 5)}, {}),
+        (10, "OSV", osv_collector, "dev",
+         {"packages": config.get("osv", {}).get("packages", []),
+          "max_vulns_per_package": config.get("osv", {}).get("max_vulns_per_package", 3)}, {}),
+        (11, "GDELT", gdelt_collector, "market",
+         {"queries": config.get("gdelt", {}).get("queries", []),
+          "max_records": config.get("gdelt", {}).get("max_records", 8),
+          "timespan": config.get("gdelt", {}).get("timespan", "24h")}, {}),
+        (12, "FRED", fred_collector, "market",
+         {"series": config.get("fred", {}).get("series", [])}, {}),
+        (13, "SEC", sec_collector, "market",
+         {"companies": config.get("sec", {}).get("companies", []),
+          "limit_per_company": config.get("sec", {}).get("limit_per_company", 3)}, {}),
+        (14, "Treasury", treasury_collector, "market",
+         {"limit": config.get("treasury", {}).get("limit", 6)}, {}),
+        (15, "Hugging Face", hf_collector, "dev",
+         {"trending_limit": 8, "recent_limit": 5}, {}),
+    ]
 
-    run_collection_step(
-        2, total_steps, "DEV.to",
-        lambda: add_to_bucket(
-            "dev",
-            collect_and_format(
-                devto_collector,
-                "collect_all",
-                "format_for_analysis",
-                general_limit=config.get("devto", {}).get("limit", 20),
-                tags=config.get("devto", {}).get("tags"),
-            ),
-        ),
-        data_buckets,
-        storage,
-    )
+    # raw 데이터 보존용
+    raw_collected = {}
 
-    run_collection_step(
-        3, total_steps, "Lobste.rs",
-        lambda: add_to_bucket(
-            "dev",
-            collect_and_format(
-                lobsters_collector,
-                "collect_all",
-                "format_for_analysis",
-                hottest_limit=config.get("lobsters", {}).get("hottest", 20),
-                newest_limit=config.get("lobsters", {}).get("newest", 10),
-            ),
-        ),
-        data_buckets,
-        storage,
-    )
+    for step, label, collector, category, collect_kw, format_kw in pipeline:
+        print(f"\n[{step}/{total_steps}] {label} 데이터 수집 중...")
+        try:
+            raw_data = collector.collect_all(**collect_kw)
+            raw_collected[label] = (collector, raw_data, category or "dev")
 
-    run_collection_step(
-        4, total_steps, "RSS",
-        lambda: (
-            lambda rss_data: add_to_buckets(
-                market=rss_collector.format_for_analysis(
-                    rss_data,
-                    categories=["world", "stocks", "macro", "community"],
-                ),
-                dev=rss_collector.format_for_analysis(
-                    rss_data,
-                    categories=["tech", "ai", "trending"],
-                ),
-            )
-        )(
-            rss_collector.collect_all(
-                feeds_config=config["rss"].get("feeds", []),
-                items_per_feed=config["rss"].get("items_per_feed", 8),
-            )
-        ),
-        data_buckets,
-        storage,
-    )
+            # RSS는 market/dev 분리
+            if label == "RSS":
+                market_text = collector.format_for_analysis(raw_data, categories=["world", "stocks", "macro", "community"])
+                dev_text = collector.format_for_analysis(raw_data, categories=["tech", "ai", "trending"])
+                if market_text:
+                    data_buckets["market"].append(market_text)
+                if dev_text:
+                    data_buckets["dev"].append(dev_text)
+                # RSS는 양쪽 카테고리로 저장
+                raw_collected["RSS/market"] = (collector, raw_data, "market")
+                raw_collected["RSS/dev"] = (collector, raw_data, "dev")
+            else:
+                text = collector.format_for_analysis(raw_data, **format_kw)
+                if text:
+                    data_buckets[category].append(text)
+        except Exception as e:
+            print(f"[{label}] 수집 실패: {e}")
 
-    run_collection_step(
-        5, total_steps, "GitHub Trending",
-        lambda: add_to_bucket(
-            "dev",
-            collect_and_format(
-                github_trending_collector,
-                "collect_all",
-                "format_for_analysis",
-                limit=10,
-            ),
-        ),
-        data_buckets,
-        storage,
-    )
-
-    run_collection_step(
-        6, total_steps, "GitHub API",
-        lambda: add_to_bucket(
-            "dev",
-            collect_and_format(
-                github_api_collector,
-                "collect_all",
-                "format_for_analysis",
-                queries=config.get("github_api", {}).get("queries", []),
-                days_back=config.get("github_api", {}).get("days_back", 7),
-                per_query=config.get("github_api", {}).get("per_query", 5),
-            ),
-        ),
-        data_buckets,
-        storage,
-    )
-
-    run_collection_step(
-        7, total_steps, "Claude Code",
-        lambda: add_to_bucket(
-            "dev",
-            collect_and_format(
-                claude_code_collector,
-                "collect_all",
-                "format_for_analysis",
-                release_limit=config.get("claude_code", {}).get("release_limit", 3),
-                issue_buckets=config.get("claude_code", {}).get("issue_buckets", []),
-                issue_limit=config.get("claude_code", {}).get("issue_limit", 3),
-            ),
-        ),
-        data_buckets,
-        storage,
-    )
-
-    run_collection_step(
-        8, total_steps, "GeekNews",
-        lambda: add_to_bucket(
-            "dev",
-            collect_and_format(
-                geeknews_collector,
-                "collect_all",
-                "format_for_analysis",
-                limit=config.get("geeknews_new", {}).get("limit", 12),
-            ),
-        ),
-        data_buckets,
-        storage,
-    )
-
-    run_collection_step(
-        9, total_steps, "arXiv",
-        lambda: add_to_bucket(
-            "dev",
-            collect_and_format(
-                arxiv_collector,
-                "collect_all",
-                "format_for_analysis",
-                queries=config.get("arxiv", {}).get("queries", []),
-                per_query=config.get("arxiv", {}).get("per_query", 5),
-            ),
-        ),
-        data_buckets,
-        storage,
-    )
-
-    run_collection_step(
-        10, total_steps, "OSV",
-        lambda: add_to_bucket(
-            "dev",
-            collect_and_format(
-                osv_collector,
-                "collect_all",
-                "format_for_analysis",
-                packages=config.get("osv", {}).get("packages", []),
-                max_vulns_per_package=config.get("osv", {}).get("max_vulns_per_package", 3),
-            ),
-        ),
-        data_buckets,
-        storage,
-    )
-
-    run_collection_step(
-        11, total_steps, "GDELT",
-        lambda: add_to_bucket(
-            "market",
-            collect_and_format(
-                gdelt_collector,
-                "collect_all",
-                "format_for_analysis",
-                queries=config.get("gdelt", {}).get("queries", []),
-                max_records=config.get("gdelt", {}).get("max_records", 8),
-                timespan=config.get("gdelt", {}).get("timespan", "24h"),
-            ),
-        ),
-        data_buckets,
-        storage,
-    )
-
-    run_collection_step(
-        12, total_steps, "FRED",
-        lambda: add_to_bucket(
-            "market",
-            collect_and_format(
-                fred_collector,
-                "collect_all",
-                "format_for_analysis",
-                series=config.get("fred", {}).get("series", []),
-            ),
-        ),
-        data_buckets,
-        storage,
-    )
-
-    run_collection_step(
-        13, total_steps, "SEC",
-        lambda: add_to_bucket(
-            "market",
-            collect_and_format(
-                sec_collector,
-                "collect_all",
-                "format_for_analysis",
-                companies=config.get("sec", {}).get("companies", []),
-                limit_per_company=config.get("sec", {}).get("limit_per_company", 3),
-            ),
-        ),
-        data_buckets,
-        storage,
-    )
-
-    run_collection_step(
-        14, total_steps, "Treasury",
-        lambda: add_to_bucket(
-            "market",
-            collect_and_format(
-                treasury_collector,
-                "collect_all",
-                "format_for_analysis",
-                limit=config.get("treasury", {}).get("limit", 6),
-            ),
-        ),
-        data_buckets,
-        storage,
-    )
-
-    run_collection_step(
-        15, total_steps, "Hugging Face",
-        lambda: add_to_bucket(
-            "dev",
-            collect_and_format(
-                hf_collector,
-                "collect_all",
-                "format_for_analysis",
-                trending_limit=8,
-                recent_limit=5,
-            ),
-        ),
-        data_buckets,
-        storage,
-    )
+    # 구조화 데이터를 항목 단위로 DB 저장
+    store_collected_data(storage, raw_collected)
 
     # 캐시 및 저장소 저장
     cache.save()
