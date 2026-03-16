@@ -631,8 +631,8 @@ class GitHubPagesPublisher:
         insight_section = ""
         if market_insight_html or dev_insight_html:
             insight_section = f'''
-        <section class="insights" aria-label="오늘의 판단">
-            <h2 class="section-title">오늘의 판단</h2>
+        <section class="insights" aria-label="오늘의 인사이트">
+            <h2 class="section-title">오늘의 인사이트</h2>
             <div class="insight-cards">{market_insight_html}{dev_insight_html}
             </div>
         </section>'''
