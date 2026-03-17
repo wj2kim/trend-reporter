@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Mon, 16 Mar 2026 11:31:20 +0900</lastBuildDate>
-    <pubDate>Mon, 16 Mar 2026 11:31:20 +0900</pubDate>
+    <lastBuildDate>Tue, 17 Mar 2026 11:10:18 +0900</lastBuildDate>
+    <pubDate>Tue, 17 Mar 2026 11:10:18 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Opus 4.6 1M 컨텍스트와 에이전트 런타임 | 2026-03-17 11:09]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-17-1110-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-17-1110-dev.html</guid>
+      <pubDate>Tue, 17 Mar 2026 11:10:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Claude Opus 4.6, 1M 컨텍스트 정식 지원 및 출력 토큰 확장 Max, Team, Enterprise 사용자에게 1M 컨텍스트가 기본 활성화되었으며, Claude Code v2.1.77을 통해 최대 출력 토큰이 128k... (읽기 시간: 6분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프 미중회담 연기, 전쟁 장기화 | 2026-03-17 11:09]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-17-1110-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-17-1110-market.html</guid>
+      <pubDate>Tue, 17 Mar 2026 11:10:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 대통령이 이란과의 전쟁 대응을 이유로 시진핑 주석과의 정상회담을 전격 연기하고 동맹국들의 호르무즈 해협 개방 협조를 압박했습니다. → 지정학적 리스크가 외교적 해결보다는 물리적 충돌로 치닫고 있다. 미중 관계 개선 지연에 따른 공급망 불확실성에 대비해야 한다... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[AI 에이전트 인프라 표준화 가속 | 2026-03-16 11:30]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-16-1131-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Mon, 09 Mar 2026 11:11:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [이란 지도부 교체 및 강경 노선 고착화] 이스라엘의 공격으로 사망한 아야톨라 알리 하메네이의 뒤를 이어 그의 아들 모지타바 하메네이가 새 최고 지도자로 선출되었습니다. 이는 도널드 트럼프 행정부와 이스라엘에 대한 정면 돌파 의지로 풀이되며, 중동 내 지정학적 긴장... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GPT-5.4 출시 및 AI 보안 에이전트 | 2026-03-08 11:09]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-08-1109-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-08-1109-dev.html</guid>
-      <pubDate>Sun, 08 Mar 2026 11:09:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.4 공식 출시: 코딩, 컴퓨터 사용(Computer Use), 도구 활용 능력이 극대화된 전문가용 프론티어 모델입니다. 가장 유능하고 효율적인 업무 수행을 목표로 설계되었습니다. Codex Security ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[이란 유류고 피격, 유가 150불 경고 | 2026-03-08 11:09]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-08-1109-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-08-1109-market.html</guid>
-      <pubDate>Sun, 08 Mar 2026 11:09:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 이스라엘의 테헤란 유류고 공습과 전쟁의 새 국면 이스라엘이 테헤란 북부 샤흐란(Shahran) 유류고를 공습하여 대규모 화재가 발생했습니다. 이란은 항복 불가 의사를 분명히 했으며, 트럼프 대통령은 전사한 미국 군인 6명의 유해 송환식에 참석해 공격 대상을 확대하겠... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
