@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Wed, 18 Mar 2026 11:14:09 +0900</lastBuildDate>
-    <pubDate>Wed, 18 Mar 2026 11:14:09 +0900</pubDate>
+    <lastBuildDate>Thu, 19 Mar 2026 11:27:20 +0900</lastBuildDate>
+    <pubDate>Thu, 19 Mar 2026 11:27:20 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[MCP 생태계 확장, 개발 도구 표준화 | 2026-03-19 11:26]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-19-1127-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-19-1127-dev.html</guid>
+      <pubDate>Thu, 19 Mar 2026 11:27:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.4 mini 및 nano 출시: 코딩, 도구 사용, 하이볼륨 API 및 에이전트 워크로드에 최적화된 경량 모델. → 에이전트의 세부 작업(Sub-agent) 수행 시 비용과 속도 효율성이 극대화될 전망이다.... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[이란, 에너지 인프라 직접 타격 | 2026-03-19 11:26]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-19-1127-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-19-1127-market.html</guid>
+      <pubDate>Thu, 19 Mar 2026 11:27:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 이란이 카타르의 라스 라판(Ras Laffan) LNG 수출 시설에 미사일 공격을 감행하여 막대한 피해를 입혔으며, 사우디아라비아는 이란에 대해 "인내심이 무한하지 않다"고 강력 경고했습니다. → 글로벌 LNG 공급의 핵심 축인 카타르 시설 타격은 유럽과 아시아의 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.4 mini 출시, 에이전트 최적화 | 2026-03-18 11:13]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-18-1114-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Wed, 11 Mar 2026 11:03:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 미-이란 전쟁 11일째, 해상 봉쇄 차단 작전 본격화 미군이 호르무즈 해협 인근에서 이란의 기뢰 부설함 16척을 타격하며 에너지 수송로 확보에 나섰습니다. 이란은 이에 맞서 다탄두 미사일을 발사하고 미국과 이스라엘이 민간 시설을 공격하고 있다고 주장하며 정면 충돌하... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI 에이전트 보안 및 로컬 환경 강화 | 2026-03-10 11:03]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-10-1104-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-10-1104-dev.html</guid>
-      <pubDate>Tue, 10 Mar 2026 11:04:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.4 'Thinking' 시스템 카드 공개: 추론 모델의 사고 과정(Chain of Thought) 제어 능력을 분석한 보고서를 발표했으며, 모델이 스스로 사고 과정을 통제하기 어려워하는 특성이 오히려 모니터... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프 종전 시사, 유가 급락 | 2026-03-10 11:03]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-10-1104-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-10-1104-market.html</guid>
-      <pubDate>Tue, 10 Mar 2026 11:04:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프의 중동 전쟁 조기 종결 시사 및 경고 트럼프 대통령이 이란과의 전쟁이 "매우 곧" 끝날 것이라고 발언하며 시장에 안정감을 주는 동시에, 호르무즈 해협 봉쇄 시 20배 더 강력한 타격을 가할 것이라고 경고했습니다. 이는 유가 급락과 증시 반등의 직접적인 도화선... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
