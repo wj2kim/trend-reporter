@@ -1,14 +1,17 @@
 # Trend Reporter
 
-글로벌 트렌드(세계 정세, 주식, 기술, AI)를 수집하고 Gemini로 분석하여 GitHub Pages에 발행하는 자동화 시스템입니다.
+> **사이트**: [https://wj2kim.github.io/trend-reporter/](https://wj2kim.github.io/trend-reporter/)
+
+글로벌 트렌드(세계 정세, 주식, 기술, AI)를 15개 소스에서 수집하고 Gemini로 분석하여 GitHub Pages에 발행하는 자동화 시스템입니다.
 
 ## 기능
 
-- **다양한 소스 수집**: Hacker News, DEV.to, Lobste.rs, RSS, GitHub Trending, GitHub API, Claude Code 공식 채널, GeekNews, arXiv, OSV, GDELT, FRED, SEC, U.S. Treasury, Hugging Face
-- **AI 분석**: Gemini API로 2개의 리포트 생성
-- **자동 스케줄링**: GitHub Actions로 하루 2회 자동 실행
-- **정적 발행**: 오전 실행 결과를 GitHub Pages에 게시
+- **15개 소스 수집**: Hacker News, DEV.to, Lobste.rs, RSS, GitHub Trending, GitHub API, Claude Code 공식 채널, GeekNews, arXiv, OSV, GDELT, FRED, SEC, U.S. Treasury, Hugging Face
+- **AI 분석**: Gemini 3 Flash Preview로 2개의 리포트 생성 (세계 정세 & 주식 / 개발 & AI)
+- **자동 스케줄링**: GitHub Actions로 하루 2회 자동 실행 (09:00, 22:00 KST)
+- **정적 발행**: GitHub Pages에 게시
 - **중복 방지**: 이미 수집한 콘텐츠는 자동 스킵
+- **데이터 영구 저장**: SQLite + FTS5 전문 검색
 
 ## 모니터링 카테고리
 
@@ -70,13 +73,18 @@ cp .env.example .env
 python src/main.py
 ```
 
+## 리포트 구성
+
+| 리포트 | 주요 섹션 |
+|--------|----------|
+| 세계 정세 & 주식 | 세계 정세, 시장 브리핑 (주식흐름·수혜주·이벤트), 핫 토픽, 인사이트 |
+| 개발 & AI | AI/기술 트렌드, 개발 업데이트 (Vibe Coding·모델&API·개발 트렌드), 핫 레포, 인사이트 |
+
 ## 스케줄
 
 한국 시간 기준:
 - 오전 9시
 - 오후 10시
-
-오전 실행 또는 수동 실행일 때만 GitHub Pages가 갱신됩니다.
 
 ## 비용
 
