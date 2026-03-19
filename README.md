@@ -18,7 +18,6 @@
 | 미국 주식/경제 | Yahoo Finance, CNBC, MarketWatch, Seeking Alpha, Bloomberg, FRED, SEC, Treasury, Fed, ECB |
 | 개발 트렌드 | Hacker News, DEV.to, Lobste.rs, GitHub Trending, GitHub API, GeekNews |
 | AI | Hugging Face, OpenAI Blog, MIT Technology Review, arXiv |
-| 커뮤니티 | 클리앙, 루리웹 RSS |
 | 보안 | OSV |
 | Claude Code | npm, GitHub Releases, GitHub Issues |
 
