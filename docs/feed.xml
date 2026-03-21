@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Fri, 20 Mar 2026 11:09:07 +0900</lastBuildDate>
-    <pubDate>Fri, 20 Mar 2026 11:09:07 +0900</pubDate>
+    <lastBuildDate>Sat, 21 Mar 2026 11:03:15 +0900</lastBuildDate>
+    <pubDate>Sat, 21 Mar 2026 11:03:15 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[OpenAI, Astral 인수로 코딩 장악 가속 | 2026-03-21 11:02]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-21-1103-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-21-1103-dev.html</guid>
+      <pubDate>Sat, 21 Mar 2026 11:03:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.4 mini 및 nano 출시: 코딩, 도구 사용, 멀티모달 추론에 최적화된 소형 모델로, 대량의 API 호출과 서브 에이전트 워크로드에 특화됨. → 복잡한 작업을 여러 작은 에이전트로 쪼개서 처리하는 워크... (읽기 시간: 6분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미, 이란 석유 제재 한시 완화 | 2026-03-21 11:02]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-21-1103-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-21-1103-market.html</guid>
+      <pubDate>Sat, 21 Mar 2026 11:03:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [미 재무부, 유가 급등 저지 위해 이란산 석유 30일 제재 면제 승인] → 공급 불안은 단기 해소되나 전쟁 종결 없이는 유가 하방 경직성이 강하다. 에너지 ETF(XLE) 수익 실현 후 변동성 관망 필요. [트럼프 대통령의 '전쟁 마무리' 언급과 지상군 투입 준비... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[OpenAI, Astral 인수로 파이썬 도구 혁신 | 2026-03-20 11:08]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-20-1109-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Fri, 13 Mar 2026 11:07:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [중동 전쟁 장기화와 해상 보급로 위기] 이란의 호르무즈 해협 개방 유지 선언에도 불구하고, 이라크 내 미국 급유기 추락 및 이스라엘의 이란 핵 과학자 피격 시인 등으로 긴장이 고조되고 있습니다. 걸프만 인근 선원들의 고립과 민간인 피해 확산은 글로벌 공급망의 불확... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI 코드 신뢰성 강화 및 보안 집중 | 2026-03-12 11:08]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-12-1109-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-12-1109-dev.html</guid>
-      <pubDate>Thu, 12 Mar 2026 11:09:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Gemini Embedding 2 출시: 구글이 최초의 네이티브 멀티모달 임베딩 모델을 발표하여 텍스트뿐만 아니라 다양한 형태의 데이터를 효율적으로 벡터화할 수 있게 되었습니다. BitNet 100B 1비트 모델: 마이크로소프트가 ... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[이란전 확전, 유가 및 증시 불안 | 2026-03-12 11:08]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-12-1109-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-12-1109-market.html</guid>
-      <pubDate>Thu, 12 Mar 2026 11:09:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [이란-이스라엘 전쟁 격화 및 전선 확대] 이스라엘의 베이루트 및 테헤란 공습이 지속되는 가운데, 이라크 영해 내 유조선 2척이 피격되어 화재가 발생했습니다. 전쟁의 여파가 이란을 넘어 주변국 해역과 오일 터미널로 확산되면서 글로벌 에너지 공급망이 심각한 위협을 받... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
