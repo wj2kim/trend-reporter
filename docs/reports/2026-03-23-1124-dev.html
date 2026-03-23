@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Search Console Verification -->
+    <meta name="google-site-verification" content="SoecC62RmfwaJ6jbdXplSnQFsHqZrjrt-q1vf_csCTI" />
+    <meta name="naver-site-verification" content="78fcf466a31099b2a6c05d132e46b1f5fb9e14f5" />
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BZ704XQ445"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-BZ704XQ445');
+    </script>
+
+    <!-- Primary Meta Tags -->
+    <title>에이전트 보안 위협과 로컬 추론의 진화 | Trend Reporter</title>
+    <meta name="title" content="에이전트 보안 위협과 로컬 추론의 진화 | Trend Reporter">
+    <meta name="description" content="1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Flash-MoE: 맥북 프로에서 3,970억 파라미터 모델 실행 48GB RAM 환경에서 SSD 스트리밍과 Metal 가속을 통해 Qwen3.5-397B 모델을 초당 4.4토큰 속도로 추론 성공. → 이제 고가의 GPU 서버 없이...">
+    <meta name="author" content="Trend Reporter">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="keywords" content="개발 & AI 트렌드, 트렌드 리포트, Dev, AI 분석, 글로벌 트렌드, 한국어 리포트">
+    <link rel="canonical" href="https://wj2kim.github.io/trend-reporter/reports/2026-03-23-1124-dev.html">
+    <link rel="alternate" type="application/rss+xml" title="Trend Reporter RSS Feed" href="https://wj2kim.github.io/trend-reporter/feed.xml">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://wj2kim.github.io/trend-reporter/reports/2026-03-23-1124-dev.html">
+    <meta property="og:title" content="에이전트 보안 위협과 로컬 추론의 진화">
+    <meta property="og:description" content="1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Flash-MoE: 맥북 프로에서 3,970억 파라미터 모델 실행 48GB RAM 환경에서 SSD 스트리밍과 Metal 가속을 통해 Qwen3.5-397B 모델을 초당 4.4토큰 속도로 추론 성공. → 이제 고가의 GPU 서버 없이...">
+    <meta property="og:image" content="https://wj2kim.github.io/trend-reporter/og-image.png">
+    <meta property="og:site_name" content="Trend Reporter">
+    <meta property="og:locale" content="ko_KR">
+    <meta property="article:published_time" content="2026-03-23T11:24:05.031030+09:00">
+    <meta property="article:modified_time" content="2026-03-23T11:24:05.031030+09:00">
+    <meta property="article:section" content="개발 & AI 트렌드">
+    <meta property="article:author" content="Trend Reporter">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://wj2kim.github.io/trend-reporter/reports/2026-03-23-1124-dev.html">
+    <meta property="twitter:title" content="에이전트 보안 위협과 로컬 추론의 진화">
+    <meta property="twitter:description" content="1. AI/기술 트렌드 a. AI 모델 &amp; 서비스 Flash-MoE: 맥북 프로에서 3,970억 파라미터 모델 실행 48GB RAM 환경에서 SSD 스트리밍과 Metal 가속을 통해 Qwen3.5-397B 모델을 초당 4.4토큰 속도로 추론 성공. → 이제 고가의 GPU 서버 없이...">
+    <meta property="twitter:image" content="https://wj2kim.github.io/trend-reporter/og-image.png">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "에이전트 보안 위협과 로컬 추론의 진화 | 2026-03-23 11:23",
+    "description": "1. AI/기술 트렌드 a. AI 모델 & 서비스 Flash-MoE: 맥북 프로에서 3,970억 파라미터 모델 실행 48GB RAM 환경에서 SSD 스트리밍과 Metal 가속을 통해 Qwen3.5-397B 모델을 초당 4.4토큰 속도로 추론 성공. → 이제 고가의 GPU 서버 없이...",
+    "image": "https://wj2kim.github.io/trend-reporter/og-image.png",
+    "datePublished": "2026-03-23T11:24:05.031030+09:00",
+    "dateModified": "2026-03-23T11:24:05.031030+09:00",
+    "author": {
+        "@type": "Organization",
+        "name": "Trend Reporter",
+        "url": "https://wj2kim.github.io/trend-reporter"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Trend Reporter",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://wj2kim.github.io/trend-reporter/og-image.png"
+        }
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://wj2kim.github.io/trend-reporter/reports/2026-03-23-1124-dev.html"
+    },
+    "articleSection": "개발 & AI 트렌드",
+    "inLanguage": "ko",
+    "isAccessibleForFree": true
+}
+    </script>
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Trend Reporter",
+            "item": "https://wj2kim.github.io/trend-reporter"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "개발 & AI 트렌드",
+            "item": "https://wj2kim.github.io/trend-reporter/dev.html"
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "에이전트 보안 위협과 로컬 추론의 진화"
+        }
+    ]
+}
+    </script>
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+            line-height: 1.7;
+            color: #1a1a1a;
+            background: #fafafa;
+        }
+        header {
+            background: #fff;
+            border-bottom: 1px solid #eee;
+            padding: 16px 24px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 720px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .back-link {
+            color: #666;
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.2s;
+        }
+        .back-link:hover { color: #000; }
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .category-badge {
+            font-size: 12px;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-weight: 500;
+        }
+        .category-badge.market {
+            background: #e8f4fc;
+            color: #1a73e8;
+        }
+        .category-badge.dev {
+            background: #e6f4ea;
+            color: #1e8e3e;
+        }
+        time {
+            color: #888;
+            font-size: 13px;
+        }
+        .reading-time {
+            color: #888;
+            font-size: 13px;
+            padding-right: 12px;
+            border-right: 1px solid #ddd;
+        }
+        main {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 40px 24px 80px;
+        }
+        article {}
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 12px;
+            letter-spacing: -0.5px;
+        }
+        .article-meta {
+            color: #888;
+            font-size: 14px;
+            margin-bottom: 48px;
+        }
+        h2 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #000;
+            margin-top: 48px;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #eee;
+        }
+        h3 {
+            font-size: 15px;
+            font-weight: 600;
+            color: #444;
+            margin-top: 28px;
+            margin-bottom: 12px;
+        }
+        p {
+            margin-bottom: 16px;
+            color: #333;
+        }
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+            color: #333;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        strong {
+            font-weight: 600;
+            color: #000;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 14px;
+            font-family: 'SF Mono', Consolas, monospace;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="header-inner" aria-label="breadcrumb">
+            <a href="../index.html" class="back-link" aria-label="리포트 목록으로 돌아가기">&lt; Back</a>
+            <div class="header-right">
+                <span class="category-badge dev">Dev</span>
+                <span class="reading-time">5분 read</span>
+                <time datetime="2026-03-23T11:24:05.031030+09:00">2026-03-23 11:24</time>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <article itemscope itemtype="https://schema.org/NewsArticle">
+            <meta itemprop="datePublished" content="2026-03-23T11:24:05.031030+09:00">
+            <meta itemprop="dateModified" content="2026-03-23T11:24:05.031030+09:00">
+            <meta itemprop="author" content="Trend Reporter">
+            <h1 itemprop="headline">에이전트 보안 위협과 로컬 추론의 진화</h1>
+            <p class="article-meta">5 min read  ·  Mar 23, 2026</p>
+            <div class="content" itemprop="articleBody">
+                <h2>1. AI/기술 트렌드</h2>
+
+<h3>a. AI 모델 &amp; 서비스</h3>
+<ul>
+<li><strong>Flash-MoE: 맥북 프로에서 3,970억 파라미터 모델 실행</strong></li>
+<li>48GB RAM 환경에서 SSD 스트리밍과 Metal 가속을 통해 Qwen3.5-397B 모델을 초당 4.4토큰 속도로 추론 성공.</li>
+</ul>
+<p>→ 이제 고가의 GPU 서버 없이도 로컬 환경에서 대형 MoE 모델을 실무 수준(도구 호출 포함)으로 운용할 수 있다.</p>
+
+<ul>
+<li><strong>OpenAI, &#x27;완전 자동화된 연구원(AI Researcher)&#x27; 개발 착수</strong></li>
+<li>복잡한 문제를 스스로 해결하는 에이전트 기반 시스템 구축에 모든 자원을 집중하고 있음.</li>
+</ul>
+<p>→ 단순 코딩 보조를 넘어 가설 설정부터 실험까지 수행하는 AI가 등장하면, 개발자의 역할은 &#x27;연구 관리자&#x27;로 빠르게 전환될 것이다.</p>
+
+<h3>b. AI 기업 동향</h3>
+<ul>
+<li><strong>OpenAI의 내부 코딩 에이전트 모니터링 체계 공개</strong></li>
+<li>에이전트의 &#x27;생각의 흐름(CoT)&#x27;을 분석하여 의도하지 않은 정렬 불일치나 리스크를 탐지하는 기술 적용.</li>
+</ul>
+<p>→ 기업용 에이전트 도입 시 단순 결과 검증이 아닌, AI의 추론 과정을 감시하는 관제 시스템 구축이 필수가 될 것이다.</p>
+
+<h3>c. AI 연구 &amp; 기술</h3>
+<ul>
+<li><strong>AI는 인간의 &#x27;세 번째 사고 시스템&#x27;이라는 연구 발표</strong></li>
+<li>대니얼 카너먼의 사고 시스템(Fast &amp; Slow)에 이어 AI가 인간의 인지 능력을 재구성하는 새로운 계층으로 정의됨.</li>
+</ul>
+<p>→ AI와 협업하는 방식 자체가 개발자의 논리적 사고 설계 방식을 근본적으로 바꿀 것임을 시사한다.</p>
+
+<h3>d. AI 규제 &amp; 정책</h3>
+<ul>
+<li><strong>인터넷 아카이브(Internet Archive) 차단 논란</strong></li>
+<li>AI 학습 방지를 위해 언론사들이 아카이브 접근을 막으면서 웹의 역사 기록이 사라질 위기 처함.</li>
+</ul>
+<p>→ 데이터 저작권 강화가 오픈 웹의 정보 접근성을 저해하는 역설적 상황이 발생하고 있다.</p>
+
+
+<h2>2. 개발 업데이트</h2>
+
+<h3>a. Vibe Coding</h3>
+<ul>
+<li><strong>Garry Tan의 &#x27;gstack&#x27;: 1인이 20명 규모 팀처럼 일하는 AI 팩토리</strong></li>
+<li>Think-Plan-Build-Ship으로 이어지는 전체 스프린트를 AI 에이전트가 처리하는 오픈소스 워크플로우.</li>
+</ul>
+<p>→ 1인 개발자가 대규모 프로덕트를 유지보수할 수 있는 &#x27;가상 엔지니어링 팀&#x27; 구성이 가능해졌다.</p>
+
+<ul>
+<li><strong>Impeccable: AI의 디자인 능력을 높이는 스킬 패키지</strong></li>
+<li>Claude Code나 Codex가 프론트엔드 구현 시 더 나은 디자인 어휘를 사용하도록 돕는 오픈소스 스킬셋.</li>
+</ul>
+<p>→ &#x27;바이브 코딩&#x27;의 결과물이 심미적으로 부족했다면, 이러한 디자인 전용 프롬프트/스킬셋 도입이 해결책이다.</p>
+
+<h3>b. AI 모델 &amp; API</h3>
+<ul>
+<li><strong>OpenTelemetry, LLM 트레이싱 표준화</strong></li>
+<li>제각각이었던 LLM 도구들의 트레이싱 형식을 OpenTelemetry로 통합하여 코드 수준에서 관리 가능.</li>
+</ul>
+<p>→ 특정 벤더에 종속되지 않는 관측성(Observability) 확보를 위해 신규 프로젝트에 이 표준을 즉시 적용해야 한다.</p>
+
+<h3>c. 개발 트렌드</h3>
+<ul>
+<li><strong>Manyana: CRDT 기반의 차세대 버전 관리 시스템(VCS)</strong></li>
+<li>충돌(Conflict)이 발생하지 않는 CRDT 구조를 VCS에 도입하여 병합 복잡성 해결 시도.</li>
+</ul>
+<p>→ Git의 고질적인 머지 충돌 문제를 아키텍처 수준에서 해결하려는 시도가 본격화되고 있다.</p>
+
+<ul>
+<li><strong>JavaScript Bloat: e18e 커뮤니티의 의존성 다이어트</strong></li>
+<li>npm 의존성 트리가 비대해지는 문제를 해결하기 위해 불필요한 패키지를 pruning하는 정화 활동 확산.</li>
+</ul>
+<p>→ 프로젝트 성능 최적화를 위해 무분별한 라이브러리 추가보다는 핵심 의존성만 유지하는 &#x27;Lean&#x27;한 관리가 요구된다.</p>
+
+<h3>d. 보안 &amp; 공급망</h3>
+<ul>
+<li><strong>OpenClaw 보안 취약점 주의보</strong></li>
+<li>토큰 노출, 스킬 검증 부재 등 심각한 보안 리스크가 발견된 자율 에이전트 시스템에 대한 경고.</li>
+</ul>
+<p>→ 에이전트에게 OS 권한을 부여할 때는 반드시 &#x27;onecli&#x27; 같은 시크릿 게이트웨이를 통해 API 키 노출을 차단해야 한다.</p>
+
+
+<h2>3. AI Coding Assistant</h2>
+
+<ul>
+<li><strong>Claude Code v2.1.81 업데이트: <code>--bare</code> 플래그 추가</strong></li>
+<li>훅(hooks), LSP, 스킬 동기화 등을 생략하고 순수하게 스크립트 실행에만 집중하는 모드 지원.</li>
+</ul>
+<p>→ CI/CD 파이프라인이나 자동화 스크립트 내에서 Claude Code를 호출할 때 오버헤드를 줄이고 속도를 극대화할 수 있다.</p>
+
+<ul>
+<li><strong>Cursor, 코딩 특화 모델 &#x27;Composer 2&#x27; 출시</strong></li>
+<li>전작 대비 성능은 높이고 가격은 낮춘 코딩 전용 모델로 시장 점유율 강화.</li>
+</ul>
+<p>→ Claude Code와의 경쟁이 심화되면서 개발자는 더 저렴하고 강력한 코딩 도구를 선택할 수 있는 폭이 넓어졌다.</p>
+
+<ul>
+<li><strong>Project Nomad: 오프라인 생존형 AI 서버</strong></li>
+<li>인터넷 연결 없이도 하드웨어에서 직접 돌아가는 Wikipedia, AI, 지도 도구 패키지.</li>
+</ul>
+<p>→ 보안상 폐쇄망 환경에서 작업해야 하는 개발자들에게 유용한 로컬 에이전트 구축 가이드를 제공한다.</p>
+
+
+<h2>4. 주목할 만한 글</h2>
+
+<h3>[Garry Tan] - gstack: AI 소프트웨어 팩토리</h3>
+<ul>
+<li>요약: YC CEO가 직접 사용하는 AI 에이전트 팀 구성 방식. 한 명의 개발자가 기획부터 배포까지 전 과정을 자동화하는 슬래시 커맨드 체계를 설명함.</li>
+<li>링크: <a href="https://github.com/garrytan/gstack" target="_blank" rel="noopener noreferrer">https://github.com/garrytan/gstack</a></li>
+</ul>
+
+<h3>[Paul Bakaus] - Impeccable 디자인 스킬</h3>
+<ul>
+<li>요약: AI가 코드는 잘 짜지만 디자인 감각이 부족하다는 점을 지적하며, 프론트엔드 품질을 높이기 위한 디자인 어휘와 명령어 체계를 오픈소스로 공개함.</li>
+<li>링크: <a href="https://github.com/pbakaus/impeccable" target="_blank" rel="noopener noreferrer">https://github.com/pbakaus/impeccable</a></li>
+</ul>
+
+<h3>[Bram Cohen] - Manyana와 버전 관리의 미래</h3>
+<ul>
+<li>요약: BitTorrent 창시자가 제안하는 새로운 VCS. CRDT를 활용해 전통적인 &#x27;충돌&#x27; 개념을 없애고 UX 문제를 해결하려는 비전을 제시함.</li>
+<li>링크: <a href="https://bramcohen.com/p/manyana" target="_blank" rel="noopener noreferrer">https://bramcohen.com/p/manyana</a></li>
+</ul>
+
+<h3>[OpenAI Blog] - 코딩 에이전트 오정렬 모니터링</h3>
+<ul>
+<li>요약: 내부에서 사용하는 코딩 에이전트가 인간의 의도와 다르게 작동하는지 감시하는 &#x27;체인 오브 쏘트(CoT) 모니터링&#x27; 기법 상세 분석.</li>
+<li>링크: <a href="https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment" target="_blank" rel="noopener noreferrer">https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment</a></li>
+</ul>
+
+
+<h2>5. 인사이트</h2>
+
+<p>오늘 데이터의 핵심은 <strong>&quot;자율성의 대가로 요구되는 보안과 최적화&quot;</strong>입니다. Garry Tan의 <code>gstack</code>이나 <code>OpenClaw</code>처럼 1인이 수십 명의 역할을 하는 에이전트 시스템이 대중화되고 있으나, 동시에 그에 따른 보안 취약점과 하드웨어 리소스 문제가 수면 위로 떠올랐습니다. 개발자는 이제 Claude Code의 <code>--bare</code> 모드 같은 자동화 최적화 옵션을 익히고, 로컬에서 대형 모델을 돌리는 <code>Flash-MoE</code> 같은 기술을 통해 클라우드 의존도를 낮추면서도 보안을 직접 통제하는 아키텍처 설계 능력을 갖춰야 합니다. &quot;코드 작성&quot;은 AI의 몫이 되었으니, 개발자는 그 코드가 돌아가는 <strong>&quot;안전하고 빠른 환경&quot;</strong>을 설계하는 데 집중해야 할 때입니다.</p>
+            </div>
+        </article>
+    </main>
+</body>
+</html>

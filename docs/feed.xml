@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sun, 22 Mar 2026 11:23:03 +0900</lastBuildDate>
-    <pubDate>Sun, 22 Mar 2026 11:23:03 +0900</pubDate>
+    <lastBuildDate>Mon, 23 Mar 2026 11:24:05 +0900</lastBuildDate>
+    <pubDate>Mon, 23 Mar 2026 11:24:05 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[에이전트 보안 위협과 로컬 추론의 진화 | 2026-03-23 11:23]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-23-1124-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-23-1124-dev.html</guid>
+      <pubDate>Mon, 23 Mar 2026 11:24:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Flash-MoE: 맥북 프로에서 3,970억 파라미터 모델 실행 48GB RAM 환경에서 SSD 스트리밍과 Metal 가속을 통해 Qwen3.5-397B 모델을 초당 4.4토큰 속도로 추론 성공. → 이제 고가의 GPU 서버 없이... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[중동 전면전 위기, 아시아 증시 폭락 | 2026-03-23 11:23]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-23-1124-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-23-1124-market.html</guid>
+      <pubDate>Mon, 23 Mar 2026 11:24:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 대통령의 이란 전력망 타격 경고에 이란이 '호르무즈 해협 완전 봉쇄'로 맞대응하며 갈등이 최고조에 달했습니다. → 글로벌 원유 수송 요충지인 호르무즈 봉쇄 현실화 시 유가 $120 돌파는 시간문제이며, 에너지 ETF(XLE) 외 모든 자산군에서 회피해야 한다... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[자율 연구 AI와 오픈소스 에이전트의 부상 | 2026-03-22 11:22]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-22-1123-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sat, 14 Mar 2026 22:42:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [트럼프 대통령의 이란 에너지 인프라 파괴 위협] 트럼프 대통령은 이란이 호르무즈 해협 봉쇄를 지속할 경우, 이란의 핵심 에너지 거점인 카르그 섬(Kharg Island)의 석유 시설을 "완전히 파괴(wipe out)"하겠다고 강력히 경고하며 군사적 긴장을 고조시키... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI 에이전트 실무 워크플로우 혁신 | 2026-03-13 18:11]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-13-1811-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-13-1811-dev.html</guid>
-      <pubDate>Fri, 13 Mar 2026 18:11:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Claude 실시간 시각화 기능 출시: 코드 작성 없이 대화 중 차트, 다이어그램을 즉시 생성하는 인라인 시각화 기능이 베타로 공개되었습니다. Gemini 2.5 Flash vs Claude 3.7 Sonnet 비교: 실제 프로덕션... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[중동 전면전 위기, 유가 100불 돌파 | 2026-03-13 18:11]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-13-1811-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-13-1811-market.html</guid>
-      <pubDate>Fri, 13 Mar 2026 18:11:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [중동 분쟁의 전면전 확산과 에너지 공급망 마비] 이스라엘이 베이루트 도심을 직접 타격하고 오만과 사우디아라비아까지 드론 공격권에 들어가며 전쟁이 중동 전역으로 확산되고 있습니다. 특히 걸프국들이 석유 및 가스 선적에 대해 '불가항력(Force Majeure)'을 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
