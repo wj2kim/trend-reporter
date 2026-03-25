@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Tue, 24 Mar 2026 11:08:51 +0900</lastBuildDate>
-    <pubDate>Tue, 24 Mar 2026 11:08:51 +0900</pubDate>
+    <lastBuildDate>Wed, 25 Mar 2026 11:14:04 +0900</lastBuildDate>
+    <pubDate>Wed, 25 Mar 2026 11:14:04 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[LiteLLM 해킹, 보안 비상 | 2026-03-25 11:13]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-25-1114-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-25-1114-dev.html</guid>
+      <pubDate>Wed, 25 Mar 2026 11:14:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.4 mini 및 nano 출시 코딩, 도구 사용, 다중 모드 추론에 최적화된 경량 모델로, 높은 처리량의 API와 하위 에이전트(Sub-agent) 워크로드에 특화됨. → 대형 모델 하나에 의존하기보다, 특... (읽기 시간: 6분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프 협상설에 유가 급락, 증시 반등 | 2026-03-25 11:13]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-25-1114-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-25-1114-market.html</guid>
+      <pubDate>Wed, 25 Mar 2026 11:14:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 대통령, 파키스탄을 통해 이란에 15개 조항의 평화안 전달 및 82공정사단 2,000명 추가 파병 명령 → 협상 카드를 던지면서도 군사적 압박을 극대화하는 형국이다. 협상 결렬 시 즉각적 타격 가능성이 상존하므로 방산주 및 에너지 섹터의 변동성 매매에 대비해... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude의 PC 제어, 에이전트 시대 개막 | 2026-03-24 11:08]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-24-1108-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Mon, 16 Mar 2026 11:31:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프 대통령, 이란의 호르무즈 해협 봉쇄에 대응해 중국 등 우방국에 호위함 파견 강력 압박 → 한국을 포함한 아시아 국가들에 대한 파병 요구 가시화 시 지정학적 리스크 프리미엄 추가 상승. 미국-이스라엘의 이란 하마단 공습 및 두바이 공항 드론 공격 등 중동 전역... (읽기 시간: 3분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude 1M 확장, 에이전트 표준화 | 2026-03-15 11:29]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-15-1130-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-15-1130-dev.html</guid>
-      <pubDate>Sun, 15 Mar 2026 11:30:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Claude Opus 4.6 및 Sonnet 4.6에서 1M 컨텍스트 정식 출시(GA) → 수만 줄의 소스 코드를 한 번에 분석할 수 있게 되어, 모듈 단위 분석에서 전체 아키텍처 단위 분석으로 워크플로우를 전환해야 한다. Open... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[중동전 확산, 스태그플레이션 경계 | 2026-03-15 11:29]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-15-1130-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-15-1130-market.html</guid>
-      <pubDate>Sun, 15 Mar 2026 11:30:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프 대통령이 호르무즈 해협 개방을 위해 한국을 포함한 동맹국에 군함 파견과 비용 분담을 강력히 요구하고 나섰습니다. → 한국의 지정학적 리스크 및 방위비 부담 증가로 연결될 수 있으며, 해운 운임 상승에 따른 수출 기업의 수익성 악화가 우려됩니다. 이라크 내 주... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
