@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Thu, 26 Mar 2026 11:28:15 +0900</lastBuildDate>
-    <pubDate>Thu, 26 Mar 2026 11:28:15 +0900</pubDate>
+    <lastBuildDate>Fri, 27 Mar 2026 11:29:15 +0900</lastBuildDate>
+    <pubDate>Fri, 27 Mar 2026 11:29:15 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Claude Code 진화, 'MCP'와 '스킬' 표준화가 핵심 | 2026-03-27 11:28]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-27-1129-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-27-1129-dev.html</guid>
+      <pubDate>Fri, 27 Mar 2026 11:29:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI Sora 서비스 전격 종료 및 Disney 파트너십 해체 출시 6개월 만에 iOS 앱, API, Sora.com 서비스를 모두 종료하며 영상 생성 AI의 상업화 난항을 시사함. → 생성형 영상의 화제성보다 실제 산업 현... (읽기 시간: 6분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[이란 공격 유예, 증시 숨고르기 | 2026-03-27 11:28]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-27-1129-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-27-1129-market.html</guid>
+      <pubDate>Fri, 27 Mar 2026 11:29:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 대통령, 이란 에너지 시설 공격 계획 4월 6일까지 10일간 추가 유예 발표 → 호르무즈 해협 봉쇄 해제 압박을 위한 '숨 고르기' 단계이나, 기한 만료 시 충격은 더 커질 수 있으므로 유가 변동성 매도 전략은 지양해야 한다. 이란, 미사일 및 드론으로 쿠웨... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Sora 종료, 실용적 에이전트 시대 개막 | 2026-03-26 11:27]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-26-1128-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Wed, 18 Mar 2026 11:14:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 이란 핵심 지도자 알리 라리자니 암살 및 텔아비브 보복 미사일 공격 → 지정학적 리스크가 국지전을 넘어 국가 간 전면전으로 격상됨. 호르무즈 해협 봉쇄가 현실화될 경우 유가 $120 돌파는 시간문제이므로 에너지 상장지수펀드(ETF) 비중 확대를 검토해야 함. 미 대... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Opus 4.6 1M 컨텍스트와 에이전트 런타임 | 2026-03-17 11:09]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-17-1110-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-17-1110-dev.html</guid>
-      <pubDate>Tue, 17 Mar 2026 11:10:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Claude Opus 4.6, 1M 컨텍스트 정식 지원 및 출력 토큰 확장 Max, Team, Enterprise 사용자에게 1M 컨텍스트가 기본 활성화되었으며, Claude Code v2.1.77을 통해 최대 출력 토큰이 128k... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프 미중회담 연기, 전쟁 장기화 | 2026-03-17 11:09]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-17-1110-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-17-1110-market.html</guid>
-      <pubDate>Tue, 17 Mar 2026 11:10:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프 대통령이 이란과의 전쟁 대응을 이유로 시진핑 주석과의 정상회담을 전격 연기하고 동맹국들의 호르무즈 해협 개방 협조를 압박했습니다. → 지정학적 리스크가 외교적 해결보다는 물리적 충돌로 치닫고 있다. 미중 관계 개선 지연에 따른 공급망 불확실성에 대비해야 한다... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
