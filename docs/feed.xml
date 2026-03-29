@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sat, 28 Mar 2026 11:12:11 +0900</lastBuildDate>
-    <pubDate>Sat, 28 Mar 2026 11:12:11 +0900</pubDate>
+    <lastBuildDate>Sun, 29 Mar 2026 11:32:14 +0900</lastBuildDate>
+    <pubDate>Sun, 29 Mar 2026 11:32:14 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[깃허브 코드 학습 정책 변화 | 2026-03-29 11:31]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-29-1132-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-29-1132-dev.html</guid>
+      <pubDate>Sun, 29 Mar 2026 11:32:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Anthropic 차세대 모델 'Claude Mythos' 존재 확인: 데이터 유출을 통해 역대 가장 강력한 성능을 가진 모델의 존재가 공식 인정됨. → 조만간 Claude 3.5 Sonnet을 넘어서는 모델이 출시될 것이며, 개발... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[이란전 지상전 국면, 스태그플레이션 공포 | 2026-03-29 11:31]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-29-1132-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-29-1132-market.html</guid>
+      <pubDate>Sun, 29 Mar 2026 11:32:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미-이란 전쟁 2개월 차 진입 및 지상전 투입 검토 미 해병대의 중동 도착과 함께 트럼프 행정부가 이란 내 지상 작전을 준비 중입니다. 사우디 주둔 미군 기지가 공격받아 부상자가 발생하는 등 전면전 양상으로 치닫고 있습니다. → 지정학적 리스크가 에너지 공급망 마비... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[로컬의 반란, $500 GPU로 소네트 추월 | 2026-03-28 11:11]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-28-1112-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Fri, 20 Mar 2026 11:09:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 이란이 이스라엘 하이파 정유시설을 타격하고, 이스라엘은 이란 가스전을 독자 공격하며 에너지전이 전면화되었습니다. → 에너지 인프라가 직접 타겟이 됨에 따라 유가 변동성이 극대화될 것이며, 에너지 ETF(XLE)의 단기 변동성 매매가 유효하다. 트럼프 행정부 재무장관... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[MCP 생태계 확장, 개발 도구 표준화 | 2026-03-19 11:26]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-19-1127-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-19-1127-dev.html</guid>
-      <pubDate>Thu, 19 Mar 2026 11:27:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.4 mini 및 nano 출시: 코딩, 도구 사용, 하이볼륨 API 및 에이전트 워크로드에 최적화된 경량 모델. → 에이전트의 세부 작업(Sub-agent) 수행 시 비용과 속도 효율성이 극대화될 전망이다.... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[이란, 에너지 인프라 직접 타격 | 2026-03-19 11:26]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-19-1127-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-19-1127-market.html</guid>
-      <pubDate>Thu, 19 Mar 2026 11:27:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 이란이 카타르의 라스 라판(Ras Laffan) LNG 수출 시설에 미사일 공격을 감행하여 막대한 피해를 입혔으며, 사우디아라비아는 이란에 대해 "인내심이 무한하지 않다"고 강력 경고했습니다. → 글로벌 LNG 공급의 핵심 축인 카타르 시설 타격은 유럽과 아시아의 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
