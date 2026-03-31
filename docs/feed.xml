@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Mon, 30 Mar 2026 11:35:30 +0900</lastBuildDate>
-    <pubDate>Mon, 30 Mar 2026 11:35:30 +0900</pubDate>
+    <lastBuildDate>Tue, 31 Mar 2026 11:29:15 +0900</lastBuildDate>
+    <pubDate>Tue, 31 Mar 2026 11:29:15 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[에이전트 통신 표준화와 AI 신뢰 위기 | 2026-03-31 11:28]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-31-1129-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-31-1129-dev.html</guid>
+      <pubDate>Tue, 31 Mar 2026 11:29:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Qwen 3.5-Omni 출시: 텍스트, 이미지, 오디오, 영상을 동시에 처리하는 완전 옴니모달 LLM으로, 256k 컨텍스트와 MoE 아키텍처를 채택함. → 멀티모달 데이터 처리가 기본 사양이 됨에 따라, 복합 데이터를 다루는 서... (읽기 시간: 6분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프 종전 시그널, 증시 반등 기회 | 2026-03-31 11:28]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-31-1129-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-31-1129-market.html</guid>
+      <pubDate>Tue, 31 Mar 2026 11:29:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 대통령이 호르무즈 해협이 폐쇄된 상태에서도 이란과의 전쟁을 종식할 용의가 있다고 보좌관들에게 밝혔습니다. (WSJ 보도) → 공급망 완전 정상화 전이라도 군사적 긴장 완화 시 유가 하향 안정화 및 증시 안도 랠리가 가능하므로 에너지 비중 축소를 준비해야 한다... (읽기 시간: 3분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Code와 MCP 생태계 확장 | 2026-03-30 11:34]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-30-1135-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sun, 22 Mar 2026 11:23:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프 대통령, 이란에 호르무즈 해협 개방 48시간 최후통첩 및 발전소 타격 경고 → 원유 수송로 봉쇄 현실화 시 유가는 통제 불능 수준으로 급등할 것임. 에너지 ETF(XLE) 및 원유 선물 인버스 청산 필요. 이란 미사일의 이스라엘 핵 시설 인근(디모나, 아라드... (읽기 시간: 3분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenAI, Astral 인수로 코딩 장악 가속 | 2026-03-21 11:02]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-21-1103-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-21-1103-dev.html</guid>
-      <pubDate>Sat, 21 Mar 2026 11:03:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.4 mini 및 nano 출시: 코딩, 도구 사용, 멀티모달 추론에 최적화된 소형 모델로, 대량의 API 호출과 서브 에이전트 워크로드에 특화됨. → 복잡한 작업을 여러 작은 에이전트로 쪼개서 처리하는 워크... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미, 이란 석유 제재 한시 완화 | 2026-03-21 11:02]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-21-1103-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-21-1103-market.html</guid>
-      <pubDate>Sat, 21 Mar 2026 11:03:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [미 재무부, 유가 급등 저지 위해 이란산 석유 30일 제재 면제 승인] → 공급 불안은 단기 해소되나 전쟁 종결 없이는 유가 하방 경직성이 강하다. 에너지 ETF(XLE) 수익 실현 후 변동성 관망 필요. [트럼프 대통령의 '전쟁 마무리' 언급과 지상군 투입 준비... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
