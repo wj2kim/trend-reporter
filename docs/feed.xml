@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Tue, 31 Mar 2026 11:29:15 +0900</lastBuildDate>
-    <pubDate>Tue, 31 Mar 2026 11:29:15 +0900</pubDate>
+    <lastBuildDate>Wed, 01 Apr 2026 11:40:28 +0900</lastBuildDate>
+    <pubDate>Wed, 01 Apr 2026 11:40:28 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Claude 소스 유출과 공급망 공격 | 2026-04-01 11:39]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-01-1140-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-01-1140-dev.html</guid>
+      <pubDate>Wed, 01 Apr 2026 11:40:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, $852B 기업 가치로 $122B 투자 유치 완료 → 자본력을 바탕으로 차세대 연산 인프라와 기업용 AI 시장 지배력을 더욱 공고히 할 것으로 보임. Ollama, Apple Silicon에서 MLX 기반 프리뷰 지원... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프 종전 시그널, 증시 강력 반등 | 2026-04-01 11:39]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-01-1140-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-01-1140-market.html</guid>
+      <pubDate>Wed, 01 Apr 2026 11:40:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 대통령이 이란과의 전쟁을 2~3주 내에 종료하고 조만간 군사 캠페인을 축소하겠다고 발표했습니다. (NYT, Bloomberg) → 지정학적 불확실성 해소 기대감으로 위험자산 선호 심리가 급격히 회복될 것이다. 코스피 6% 급등과 같은 아시아 증시 랠리가 이를... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[에이전트 통신 표준화와 AI 신뢰 위기 | 2026-03-31 11:28]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-31-1129-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Mon, 23 Mar 2026 11:24:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프 대통령의 이란 전력망 타격 경고에 이란이 '호르무즈 해협 완전 봉쇄'로 맞대응하며 갈등이 최고조에 달했습니다. → 글로벌 원유 수송 요충지인 호르무즈 봉쇄 현실화 시 유가 $120 돌파는 시간문제이며, 에너지 ETF(XLE) 외 모든 자산군에서 회피해야 한다... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[자율 연구 AI와 오픈소스 에이전트의 부상 | 2026-03-22 11:22]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-22-1123-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-22-1123-dev.html</guid>
-      <pubDate>Sun, 22 Mar 2026 11:23:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.4 mini 및 nano 출시: 코딩, 도구 사용, 하이 볼륨 API 및 서브 에이전트 워크로드에 최적화된 경량 모델. → 에이전트 오케스트레이션 시 비용과 속도를 획기적으로 줄일 수 있어, 복합 에이전트 ... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프 48시간 최후통첩, 에너지 전쟁 임박 | 2026-03-22 11:22]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-22-1123-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-22-1123-market.html</guid>
-      <pubDate>Sun, 22 Mar 2026 11:23:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프 대통령, 이란에 호르무즈 해협 개방 48시간 최후통첩 및 발전소 타격 경고 → 원유 수송로 봉쇄 현실화 시 유가는 통제 불능 수준으로 급등할 것임. 에너지 ETF(XLE) 및 원유 선물 인버스 청산 필요. 이란 미사일의 이스라엘 핵 시설 인근(디모나, 아라드... (읽기 시간: 3분)]]></description>
     </item>
   </channel>
 </rss>
