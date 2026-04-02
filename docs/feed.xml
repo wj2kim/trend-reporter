@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Wed, 01 Apr 2026 11:40:28 +0900</lastBuildDate>
-    <pubDate>Wed, 01 Apr 2026 11:40:28 +0900</pubDate>
+    <lastBuildDate>Thu, 02 Apr 2026 11:26:27 +0900</lastBuildDate>
+    <pubDate>Thu, 02 Apr 2026 11:26:27 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Claude Code 유출과 에이전트 자율성 | 2026-04-02 11:25]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-02-1126-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-02-1126-dev.html</guid>
+      <pubDate>Thu, 02 Apr 2026 11:26:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, Gradient Labs를 통해 GPT-5 기반의 은행 고객 관리 AI 에이전트 사례 공개 → 금융권처럼 보안과 신뢰가 중요한 도메인에서도 GPT-5급 모델의 에이전트 도입이 본격화되고 있음을 의미한다. Google,... (읽기 시간: 4분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프 타격 예고, 유가·환율 요동 | 2026-04-02 11:25]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-02-1126-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-02-1126-market.html</guid>
+      <pubDate>Thu, 02 Apr 2026 11:26:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 대통령이 향후 2~3주 내에 이란을 "매우 강력하게 타격(extremely hard)"하여 전쟁을 끝내겠다고 선언했습니다. → 불확실한 종전 시점이 시장 변동성을 키우고 있으며, 단기적으로 군사적 충돌 강도가 정점에 이를 가능성이 높음. 이란이 호르무즈 해협... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude 소스 유출과 공급망 공격 | 2026-04-01 11:39]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-01-1140-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Tue, 24 Mar 2026 11:08:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프 대통령의 이란 협상 언급 및 이란 측의 '가짜 뉴스' 반박 → 트럼프는 매우 좋은 협상 기회가 있다고 주장했으나 이란 혁명수비대는 이를 기만적이라며 부인함. 양측의 메시지 혼선은 시장의 불확실성을 키우는 요소이나, '협상 가능성' 언급 자체로 국제 유가가 1... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[에이전트 보안 위협과 로컬 추론의 진화 | 2026-03-23 11:23]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-23-1124-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-23-1124-dev.html</guid>
-      <pubDate>Mon, 23 Mar 2026 11:24:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Flash-MoE: 맥북 프로에서 3,970억 파라미터 모델 실행 48GB RAM 환경에서 SSD 스트리밍과 Metal 가속을 통해 Qwen3.5-397B 모델을 초당 4.4토큰 속도로 추론 성공. → 이제 고가의 GPU 서버 없이... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[중동 전면전 위기, 아시아 증시 폭락 | 2026-03-23 11:23]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-23-1124-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-23-1124-market.html</guid>
-      <pubDate>Mon, 23 Mar 2026 11:24:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프 대통령의 이란 전력망 타격 경고에 이란이 '호르무즈 해협 완전 봉쇄'로 맞대응하며 갈등이 최고조에 달했습니다. → 글로벌 원유 수송 요충지인 호르무즈 봉쇄 현실화 시 유가 $120 돌파는 시간문제이며, 에너지 ETF(XLE) 외 모든 자산군에서 회피해야 한다... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
