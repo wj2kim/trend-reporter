@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Fri, 03 Apr 2026 11:27:43 +0900</lastBuildDate>
-    <pubDate>Fri, 03 Apr 2026 11:27:43 +0900</pubDate>
+    <lastBuildDate>Sat, 04 Apr 2026 11:13:37 +0900</lastBuildDate>
+    <pubDate>Sat, 04 Apr 2026 11:13:37 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Gemma 4 출시 및 Cursor 3 에이전트 시대 | 2026-04-04 11:12]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-04-1113-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-04-1113-dev.html</guid>
+      <pubDate>Sat, 04 Apr 2026 11:13:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Google Gemma 4 오픈 모델 출시: 모바일, IoT, 개인용 PC에 최적화된 새로운 경량 오픈 모델 시리즈 공개 → 모바일/임베디드 개발자는 클라우드 비용 없이 기기 내부에서 작동하는 고성능 AI 기능을 직접 구현할 준비를... (읽기 시간: 6분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미군기 피격, 중동 전면전 위기 고조 | 2026-04-04 11:12]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-04-1113-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-04-1113-market.html</guid>
+      <pubDate>Sat, 04 Apr 2026 11:13:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 이란에 의해 미군 F-15E 및 A-10 전투기 격추, 승무원 1명 실종 및 구조 헬기 피격 → 미군 직접 타격으로 인한 보복 공격 우려 확산. 방산주(RTX, LMT) 및 K-방산 섹터의 단기 모멘텀 강화. 이란의 호르무즈 해협 봉쇄 위협과 배럴당 1달러 수준의 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Gemma 4와 로컬 AI의 도약 | 2026-04-03 11:26]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-03-1127-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Thu, 26 Mar 2026 11:28:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 이란, 미국의 15개항 평화안 거부 및 독자적 5개 조건 제시 → 전쟁 장기화 확정. 호르무즈 해협 긴장 고조로 유가 상방 압력이 지속될 것이므로 원자재 ETF 비중 유지가 필요하다. ECB 라가르드 총재, "에너지 쇼크에 따른 기업들의 가격 인상 속도 가속화" 경... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[LiteLLM 해킹, 보안 비상 | 2026-03-25 11:13]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-25-1114-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-25-1114-dev.html</guid>
-      <pubDate>Wed, 25 Mar 2026 11:14:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.4 mini 및 nano 출시 코딩, 도구 사용, 다중 모드 추론에 최적화된 경량 모델로, 높은 처리량의 API와 하위 에이전트(Sub-agent) 워크로드에 특화됨. → 대형 모델 하나에 의존하기보다, 특... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프 협상설에 유가 급락, 증시 반등 | 2026-03-25 11:13]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-25-1114-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-25-1114-market.html</guid>
-      <pubDate>Wed, 25 Mar 2026 11:14:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프 대통령, 파키스탄을 통해 이란에 15개 조항의 평화안 전달 및 82공정사단 2,000명 추가 파병 명령 → 협상 카드를 던지면서도 군사적 압박을 극대화하는 형국이다. 협상 결렬 시 즉각적 타격 가능성이 상존하므로 방산주 및 에너지 섹터의 변동성 매매에 대비해... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
