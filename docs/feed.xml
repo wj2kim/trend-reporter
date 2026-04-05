@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sat, 04 Apr 2026 11:13:37 +0900</lastBuildDate>
-    <pubDate>Sat, 04 Apr 2026 11:13:37 +0900</pubDate>
+    <lastBuildDate>Sun, 05 Apr 2026 11:34:07 +0900</lastBuildDate>
+    <pubDate>Sun, 05 Apr 2026 11:34:07 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[에이전트 생태계 통제와 오픈소스의 반격 | 2026-04-05 11:33]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-05-1134-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-05-1134-dev.html</guid>
+      <pubDate>Sun, 05 Apr 2026 11:34:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Google Gemma 4 공개 및 모바일 최적화: 경량 오픈 모델인 Gemma 4가 공개되어 스마트폰 등 온디바이스 AI 구현이 가능해짐. → 저사양 하드웨어에서도 구동 가능한 Gemma 4를 활용해 개인용 보안 비서나 로컬 데이... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[이란發 인플레 역습, 금리 인상론 재부상 | 2026-04-05 11:33]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-05-1134-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-05-1134-market.html</guid>
+      <pubDate>Sun, 05 Apr 2026 11:34:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 대통령이 호르무즈 해협 재개방을 요구하며 "48시간 내 지옥이 펼쳐질 것"이라는 최후통첩을 보냈으나 이란이 이를 거부했습니다. → 호르무즈 봉쇄가 장기화될 경우 글로벌 물류 마비와 유가 폭등이 불가피하며, 공급망 차질에 따른 스태그플레이션 위험이 고조됨. 이... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Gemma 4 출시 및 Cursor 3 에이전트 시대 | 2026-04-04 11:12]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-04-1113-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Fri, 27 Mar 2026 11:29:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프 대통령, 이란 에너지 시설 공격 계획 4월 6일까지 10일간 추가 유예 발표 → 호르무즈 해협 봉쇄 해제 압박을 위한 '숨 고르기' 단계이나, 기한 만료 시 충격은 더 커질 수 있으므로 유가 변동성 매도 전략은 지양해야 한다. 이란, 미사일 및 드론으로 쿠웨... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Sora 종료, 실용적 에이전트 시대 개막 | 2026-03-26 11:27]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-26-1128-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-26-1128-dev.html</guid>
-      <pubDate>Thu, 26 Mar 2026 11:28:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, 동영상 생성 AI 'Sora' 서비스 및 파트너십 전격 종료 출시 6개월 만에 앱, API, Sora.com 서비스를 중단하고 디즈니와의 파트너십도 해체함. → 생성 AI의 방향성이 단순 콘텐츠 제작에서 실무 실행형 ... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[이란 종전 거부, 스태그플레이션 공포 | 2026-03-26 11:27]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-26-1128-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-26-1128-market.html</guid>
-      <pubDate>Thu, 26 Mar 2026 11:28:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 이란, 미국의 15개항 평화안 거부 및 독자적 5개 조건 제시 → 전쟁 장기화 확정. 호르무즈 해협 긴장 고조로 유가 상방 압력이 지속될 것이므로 원자재 ETF 비중 유지가 필요하다. ECB 라가르드 총재, "에너지 쇼크에 따른 기업들의 가격 인상 속도 가속화" 경... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
