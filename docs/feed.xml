@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sun, 05 Apr 2026 11:34:07 +0900</lastBuildDate>
-    <pubDate>Sun, 05 Apr 2026 11:34:07 +0900</pubDate>
+    <lastBuildDate>Mon, 06 Apr 2026 11:35:11 +0900</lastBuildDate>
+    <pubDate>Mon, 06 Apr 2026 11:35:11 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Claude 구독 제한과 로컬 에이전트의 부상 | 2026-04-06 11:34]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-06-1135-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-06-1135-dev.html</guid>
+      <pubDate>Mon, 06 Apr 2026 11:35:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Google, Gemma 4 iPhone용 앱 및 오픈소스 갤러리 출시 → 이제 모바일 기기에서 완전 오프라인으로 Gemma 4의 고급 추론 기능을 테스트할 수 있으며, 개발자는 온디바이스 AI 앱 구현을 위한 참조 코드를 확보하게... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프 이란 최후통첩, 유가 요동 | 2026-04-06 11:34]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-06-1135-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-06-1135-market.html</guid>
+      <pubDate>Mon, 06 Apr 2026 11:35:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 대통령이 호르무즈 해협 미개방 시 이란 전력망과 교량 등 민간 인프라 파괴를 경고하며 화요일을 최종 기한으로 제시했습니다. → 호르무즈 봉쇄 장기화 시 국제유가 $120 돌파는 필연적이며, 정유 및 에너지 ETF(XLE)의 비중 확대가 유효합니다. 이란 내 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[에이전트 생태계 통제와 오픈소스의 반격 | 2026-04-05 11:33]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-05-1134-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sat, 28 Mar 2026 11:12:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 이란의 사우디 프린스 술탄 공군기지 공격으로 미군 10~12명 부상 및 공군 급유기 파손 발생 → 미군의 직접적인 인명 피해는 미국의 강력한 보복 명분이 되며, 중동 전쟁의 전면전 확산 및 장기화 가능성을 높임. 후티 반군이 호르무즈 해협 및 아라비아반도 주요 항로... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code 진화, 'MCP'와 '스킬' 표준화가 핵심 | 2026-03-27 11:28]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-27-1129-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-27-1129-dev.html</guid>
-      <pubDate>Fri, 27 Mar 2026 11:29:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI Sora 서비스 전격 종료 및 Disney 파트너십 해체 출시 6개월 만에 iOS 앱, API, Sora.com 서비스를 모두 종료하며 영상 생성 AI의 상업화 난항을 시사함. → 생성형 영상의 화제성보다 실제 산업 현... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[이란 공격 유예, 증시 숨고르기 | 2026-03-27 11:28]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-27-1129-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-27-1129-market.html</guid>
-      <pubDate>Fri, 27 Mar 2026 11:29:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프 대통령, 이란 에너지 시설 공격 계획 4월 6일까지 10일간 추가 유예 발표 → 호르무즈 해협 봉쇄 해제 압박을 위한 '숨 고르기' 단계이나, 기한 만료 시 충격은 더 커질 수 있으므로 유가 변동성 매도 전략은 지양해야 한다. 이란, 미사일 및 드론으로 쿠웨... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
