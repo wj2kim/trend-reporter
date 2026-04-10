@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Thu, 09 Apr 2026 11:26:39 +0900</lastBuildDate>
-    <pubDate>Thu, 09 Apr 2026 11:26:39 +0900</pubDate>
+    <lastBuildDate>Fri, 10 Apr 2026 11:37:06 +0900</lastBuildDate>
+    <pubDate>Fri, 10 Apr 2026 11:37:06 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[OpenAI Pro 출시, 에이전트 경제 가속 | 2026-04-10 11:36]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-10-1137-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-10-1137-dev.html</guid>
+      <pubDate>Fri, 10 Apr 2026 11:37:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, 월 100달러 'ChatGPT Pro' 플랜 출시 → 고난도 코딩 에이전트(Codex) 사용량을 5배 늘린 고가 요금제의 등장은, AI가 단순 검색 도구가 아닌 '전문 엔지니어 대행' 서비스로 변모했음을 의미한다. G... (읽기 시간: 6분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미-이란 휴전 위태, 공급망 인플레 경계 | 2026-04-10 11:36]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-10-1137-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-10-1137-market.html</guid>
+      <pubDate>Fri, 10 Apr 2026 11:37:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 이스라엘이 레바논(헤즈볼라)에 대한 공격을 지속하고 트럼프 대통령이 이란의 호르무즈 해협 관리에 불만을 표시하며 미-이란 휴전이 위기를 맞았습니다. → 지정학적 불확실성이 해소되지 않았으므로 방산 및 에너지 섹터의 리스크 프리미엄은 유지될 것이다. 이란의 새 최고지... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Mythos, 보안 혁신 | 2026-04-09 11:25]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-09-1126-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Wed, 01 Apr 2026 11:40:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프 대통령이 이란과의 전쟁을 2~3주 내에 종료하고 조만간 군사 캠페인을 축소하겠다고 발표했습니다. (NYT, Bloomberg) → 지정학적 불확실성 해소 기대감으로 위험자산 선호 심리가 급격히 회복될 것이다. 코스피 6% 급등과 같은 아시아 증시 랠리가 이를... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[에이전트 통신 표준화와 AI 신뢰 위기 | 2026-03-31 11:28]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-31-1129-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-31-1129-dev.html</guid>
-      <pubDate>Tue, 31 Mar 2026 11:29:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Qwen 3.5-Omni 출시: 텍스트, 이미지, 오디오, 영상을 동시에 처리하는 완전 옴니모달 LLM으로, 256k 컨텍스트와 MoE 아키텍처를 채택함. → 멀티모달 데이터 처리가 기본 사양이 됨에 따라, 복합 데이터를 다루는 서... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프 종전 시그널, 증시 반등 기회 | 2026-03-31 11:28]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-03-31-1129-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-03-31-1129-market.html</guid>
-      <pubDate>Tue, 31 Mar 2026 11:29:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프 대통령이 호르무즈 해협이 폐쇄된 상태에서도 이란과의 전쟁을 종식할 용의가 있다고 보좌관들에게 밝혔습니다. (WSJ 보도) → 공급망 완전 정상화 전이라도 군사적 긴장 완화 시 유가 하향 안정화 및 증시 안도 랠리가 가능하므로 에너지 비중 축소를 준비해야 한다... (읽기 시간: 3분)]]></description>
     </item>
   </channel>
 </rss>
