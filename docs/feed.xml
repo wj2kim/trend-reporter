@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Fri, 10 Apr 2026 11:37:06 +0900</lastBuildDate>
-    <pubDate>Fri, 10 Apr 2026 11:37:06 +0900</pubDate>
+    <lastBuildDate>Sat, 11 Apr 2026 11:23:27 +0900</lastBuildDate>
+    <pubDate>Sat, 11 Apr 2026 11:23:27 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Claude Code 업데이트, 팀 협업 가속화 | 2026-04-11 11:22]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-11-1123-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-11-1123-dev.html</guid>
+      <pubDate>Sat, 11 Apr 2026 11:23:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Gemma 4 및 Google AI Edge Gallery 공개: 모바일 기기에서 텍스트 대화를 넘어 다양한 기능을 수행하는 온디바이스 AI 환경 강화 → 모바일 개발자는 클라우드 API 의존도를 낮추고 로컬에서 실행 가능한 경량 ... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미-이란 회담과 인플레 쇼크 | 2026-04-11 11:22]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-11-1123-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-11-1123-market.html</guid>
+      <pubDate>Sat, 11 Apr 2026 11:23:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미-이란 고위급 평화 회담 개시를 위해 JD 밴스 부통령이 파키스탄에 도착했습니다. → 1979년 이후 최고위급 접촉이나 협상 지속성에 대한 불확실성이 커, 결과 발표 전까지 유가 변동성을 이용한 단기 매매 전략이 유효함. 이스라엘의 레바논 정부 건물 타격으로 13... (읽기 시간: 3분)]]></description>
+    </item>
     <item>
       <title><![CDATA[OpenAI Pro 출시, 에이전트 경제 가속 | 2026-04-10 11:36]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-10-1137-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Thu, 02 Apr 2026 11:26:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프 대통령이 향후 2~3주 내에 이란을 "매우 강력하게 타격(extremely hard)"하여 전쟁을 끝내겠다고 선언했습니다. → 불확실한 종전 시점이 시장 변동성을 키우고 있으며, 단기적으로 군사적 충돌 강도가 정점에 이를 가능성이 높음. 이란이 호르무즈 해협... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude 소스 유출과 공급망 공격 | 2026-04-01 11:39]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-01-1140-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-01-1140-dev.html</guid>
-      <pubDate>Wed, 01 Apr 2026 11:40:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, $852B 기업 가치로 $122B 투자 유치 완료 → 자본력을 바탕으로 차세대 연산 인프라와 기업용 AI 시장 지배력을 더욱 공고히 할 것으로 보임. Ollama, Apple Silicon에서 MLX 기반 프리뷰 지원... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프 종전 시그널, 증시 강력 반등 | 2026-04-01 11:39]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-01-1140-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-01-1140-market.html</guid>
-      <pubDate>Wed, 01 Apr 2026 11:40:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프 대통령이 이란과의 전쟁을 2~3주 내에 종료하고 조만간 군사 캠페인을 축소하겠다고 발표했습니다. (NYT, Bloomberg) → 지정학적 불확실성 해소 기대감으로 위험자산 선호 심리가 급격히 회복될 것이다. 코스피 6% 급등과 같은 아시아 증시 랠리가 이를... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
