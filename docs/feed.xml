@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sun, 12 Apr 2026 11:39:01 +0900</lastBuildDate>
-    <pubDate>Sun, 12 Apr 2026 11:39:01 +0900</pubDate>
+    <lastBuildDate>Mon, 13 Apr 2026 11:44:22 +0900</lastBuildDate>
+    <pubDate>Mon, 13 Apr 2026 11:44:22 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Claude 캐시 변경과 에이전트 효율성 | 2026-04-13 11:43]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-13-1144-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-13-1144-dev.html</guid>
+      <pubDate>Mon, 13 Apr 2026 11:44:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Anthropic 'Mythos' 성능 논란 및 소형 모델의 부상 실험 결과 소형 오픈소스 모델들도 Mythos가 발견한 취약점을 유사하게 찾아내며, 보안 성능이 모델 크기에 비례하지 않음이 밝혀짐. → 모델의 크기보다 보안 전문성... (읽기 시간: 6분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[호르무즈 봉쇄, 유가 100불 돌파 | 2026-04-13 11:43]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-13-1144-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-13-1144-market.html</guid>
+      <pubDate>Mon, 13 Apr 2026 11:44:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 정부의 이란 항구 및 해안 전면 봉쇄 선언 (월요일 14:00 GMT 발효) 미-이란 간 이슬라마바드 평화 협상이 최종 결렬됨에 따라, 미 중부사령부(CENTCOM)가 이란 항구 입출항 선박을 차단하는 해상 봉쇄를 단행합니다. 호르무즈 해협 통과는 허용하되 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[에이전트 스스로 개선, '메타 AI' 시대 | 2026-04-12 11:38]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-12-1139-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sat, 04 Apr 2026 11:13:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 이란에 의해 미군 F-15E 및 A-10 전투기 격추, 승무원 1명 실종 및 구조 헬기 피격 → 미군 직접 타격으로 인한 보복 공격 우려 확산. 방산주(RTX, LMT) 및 K-방산 섹터의 단기 모멘텀 강화. 이란의 호르무즈 해협 봉쇄 위협과 배럴당 1달러 수준의 ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemma 4와 로컬 AI의 도약 | 2026-04-03 11:26]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-03-1127-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-03-1127-dev.html</guid>
-      <pubDate>Fri, 03 Apr 2026 11:27:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Google Gemma 4 오픈 모델 출시: 모바일, IoT, 개인용 PC에서 구동 가능한 프론티어급 지능을 갖춘 경량 모델 공개. → 클라우드 의존도를 낮추고 모바일 기기 내에서 직접 복잡한 추론을 수행하는 온디바이스 에이전트 개... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[이란 인프라 타격, 유가 100불 돌파 | 2026-04-03 11:26]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-03-1127-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-03-1127-market.html</guid>
-      <pubDate>Fri, 03 Apr 2026 11:27:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프 대통령이 이란의 주요 교량 및 고속도로 등 핵심 인프라 타격을 승인하며 "이란을 석기시대로 되돌리겠다"고 경고했습니다. → 인프라 파괴는 복구에 장기간이 소요되므로 유가 상방 압력이 구조화될 가능성이 높다. 에너지 ETF(XLE) 및 원유 선물 비중 확대가 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
