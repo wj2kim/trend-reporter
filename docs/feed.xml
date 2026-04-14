@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Mon, 13 Apr 2026 11:44:22 +0900</lastBuildDate>
-    <pubDate>Mon, 13 Apr 2026 11:44:22 +0900</pubDate>
+    <lastBuildDate>Tue, 14 Apr 2026 11:38:41 +0900</lastBuildDate>
+    <pubDate>Tue, 14 Apr 2026 11:38:41 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Claude 캐시 단축, 비용 관리 필수 | 2026-04-14 11:37]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-14-1138-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-14-1138-dev.html</guid>
+      <pubDate>Tue, 14 Apr 2026 11:38:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Claude 프롬프트 캐시 TTL(유지 시간) 5분으로 하향 조정 3월 초 Anthropic이 캐시 유지 시간을 기존 1시간에서 5분으로 단축한 사실이 분석됨. 이로 인해 캐시 생성 비용이 20~32% 증가하고 구독 사용자의 쿼터 ... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[호르무즈 봉쇄 개시, 인플레 재점화 | 2026-04-14 11:37]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-14-1138-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-14-1138-market.html</guid>
+      <pubDate>Tue, 14 Apr 2026 11:38:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [호르무즈 해협 미 군사 봉쇄 개시 및 협상 결렬] 트럼프 대통령이 이란의 5개년 핵 활동 중단 제안을 거절하고 호르무즈 해협 봉쇄를 강행했습니다. 이란은 이를 '해적 행위'로 규정하며 강력 반발 중입니다. → 글로벌 에너지 공급망의 핵심 요충지가 차단됨에 따라 유... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude 캐시 변경과 에이전트 효율성 | 2026-04-13 11:43]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-13-1144-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sun, 05 Apr 2026 11:34:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프 대통령이 호르무즈 해협 재개방을 요구하며 "48시간 내 지옥이 펼쳐질 것"이라는 최후통첩을 보냈으나 이란이 이를 거부했습니다. → 호르무즈 봉쇄가 장기화될 경우 글로벌 물류 마비와 유가 폭등이 불가피하며, 공급망 차질에 따른 스태그플레이션 위험이 고조됨. 이... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemma 4 출시 및 Cursor 3 에이전트 시대 | 2026-04-04 11:12]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-04-1113-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-04-1113-dev.html</guid>
-      <pubDate>Sat, 04 Apr 2026 11:13:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Google Gemma 4 오픈 모델 출시: 모바일, IoT, 개인용 PC에 최적화된 새로운 경량 오픈 모델 시리즈 공개 → 모바일/임베디드 개발자는 클라우드 비용 없이 기기 내부에서 작동하는 고성능 AI 기능을 직접 구현할 준비를... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미군기 피격, 중동 전면전 위기 고조 | 2026-04-04 11:12]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-04-1113-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-04-1113-market.html</guid>
-      <pubDate>Sat, 04 Apr 2026 11:13:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 이란에 의해 미군 F-15E 및 A-10 전투기 격추, 승무원 1명 실종 및 구조 헬기 피격 → 미군 직접 타격으로 인한 보복 공격 우려 확산. 방산주(RTX, LMT) 및 K-방산 섹터의 단기 모멘텀 강화. 이란의 호르무즈 해협 봉쇄 위협과 배럴당 1달러 수준의 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
