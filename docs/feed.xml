@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Wed, 15 Apr 2026 11:35:48 +0900</lastBuildDate>
-    <pubDate>Wed, 15 Apr 2026 11:35:48 +0900</pubDate>
+    <lastBuildDate>Thu, 16 Apr 2026 11:44:17 +0900</lastBuildDate>
+    <pubDate>Thu, 16 Apr 2026 11:44:17 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Claude Code 진화, 에이전트 인프라 표준화 | 2026-04-16 11:43]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-16-1144-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-16-1144-dev.html</guid>
+      <pubDate>Thu, 16 Apr 2026 11:44:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 macOS용 Gemini 앱 정식 출시 네이티브 앱으로 개발되었으며, 단축키(Option + Space)로 호출하여 현재 열려 있는 창의 문서, 코드, 데이터를 즉시 분석 가능. → 기획서나 API 명세서를 띄워놓고 바로 코드를 짜... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미-이란 평화 기대, 증시 신고가 | 2026-04-16 11:43]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-16-1144-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-16-1144-market.html</guid>
+      <pubDate>Thu, 16 Apr 2026 11:44:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미-이란 평화 협상 본격화 및 파키스탄의 중재 파키스탄 중재단이 이란에 도착하며 평화 회담이 재개되었고, 트럼프 대통령은 전쟁 종료 가능성에 낙관적 입장을 표명했습니다. 이란은 협상 조건으로 호르무즈 해협의 자유 항행 허용을 검토 중입니다. → 지정학적 리스크 감소... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude 데스크탑 & 자율 루틴 출시 | 2026-04-15 11:35]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-15-1135-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Tue, 07 Apr 2026 11:30:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프 대통령이 이란에 화요일 20시(현지시간)까지 최후통첩을 보냈으며, 호르무즈 해협 통행료 부과 계획을 언급했습니다. → 글로벌 에너지 물류비용의 영구적 상승 요인이다. 해운 및 에너지 인프라 종목의 변동성 확대에 대비해야 한다. 이스라엘의 레바논 침공 심화와 ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude 구독 제한과 로컬 에이전트의 부상 | 2026-04-06 11:34]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-06-1135-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-06-1135-dev.html</guid>
-      <pubDate>Mon, 06 Apr 2026 11:35:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Google, Gemma 4 iPhone용 앱 및 오픈소스 갤러리 출시 → 이제 모바일 기기에서 완전 오프라인으로 Gemma 4의 고급 추론 기능을 테스트할 수 있으며, 개발자는 온디바이스 AI 앱 구현을 위한 참조 코드를 확보하게... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프 이란 최후통첩, 유가 요동 | 2026-04-06 11:34]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-06-1135-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-06-1135-market.html</guid>
-      <pubDate>Mon, 06 Apr 2026 11:35:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프 대통령이 호르무즈 해협 미개방 시 이란 전력망과 교량 등 민간 인프라 파괴를 경고하며 화요일을 최종 기한으로 제시했습니다. → 호르무즈 봉쇄 장기화 시 국제유가 $120 돌파는 필연적이며, 정유 및 에너지 ETF(XLE)의 비중 확대가 유효합니다. 이란 내 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
