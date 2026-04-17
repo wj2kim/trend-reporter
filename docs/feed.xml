@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Thu, 16 Apr 2026 11:44:17 +0900</lastBuildDate>
-    <pubDate>Thu, 16 Apr 2026 11:44:17 +0900</pubDate>
+    <lastBuildDate>Fri, 17 Apr 2026 11:38:21 +0900</lastBuildDate>
+    <pubDate>Fri, 17 Apr 2026 11:38:21 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Claude 4.7 & Qwen 3.6, 에이전트 코딩 격돌 | 2026-04-17 11:37]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-17-1138-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-17-1138-dev.html</guid>
+      <pubDate>Fri, 17 Apr 2026 11:38:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Claude Opus 4.7 정식 출시: 고난도 소프트웨어 엔지니어링 작업에 특화된 개선. `xhigh` 노력 수준(effort level)이 추가되어 지능과 속도 사이의 선택권 제공. → 복잡한 리팩토링이나 아키텍처 변경 시 `x... (읽기 시간: 6분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[중동 휴전 돌입, 시장 향방 주목 | 2026-04-17 11:37]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-17-1138-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-17-1138-market.html</guid>
+      <pubDate>Fri, 17 Apr 2026 11:38:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 이스라엘과 레바논의 10일간 휴전 협정이 공식 발효되었으며, 트럼프 당선인이 이를 주도한 것으로 보도됨. → 지정학적 긴장의 일시적 완화는 호재이나, 헤즈볼라의 준수 여부가 불투명해 유가 변동성 확대에 대비한 분할 매수 전략이 유효함. 트럼프가 이란과의 핵 합의(고... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Code 진화, 에이전트 인프라 표준화 | 2026-04-16 11:43]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-16-1144-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Wed, 08 Apr 2026 11:31:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [미-이란 2주간 휴전 및 호르무즈 해협 재개방 합의] 트럼프 대통령의 공격 시한 직전, 파키스탄의 중재로 이란이 호르무즈 해협을 열고 미국이 공격을 유예하는 2주간의 휴전에 전격 합의했습니다. → 지정학적 리스크가 '충돌'에서 '협상' 국면으로 전환되며 시장의 극... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI 에이전트, 'Vibe'를 넘어 '인프라 레이어'로 | 2026-04-07 11:29]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-07-1130-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-07-1130-dev.html</guid>
-      <pubDate>Tue, 07 Apr 2026 11:30:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Gemma 4 on iPhone 및 Google AI Edge Gallery 공개 → 모바일 기기에서 인터넷 연결 없이 Gemma 4 패밀리를 구동하는 환경이 표준화되고 있다. 프라이버시가 중요한 온디바이스 AI 앱 개발에 즉시 활... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프 통행료 압박, 삼성 어닝 서프 | 2026-04-07 11:29]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-07-1130-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-07-1130-market.html</guid>
-      <pubDate>Tue, 07 Apr 2026 11:30:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프 대통령이 이란에 화요일 20시(현지시간)까지 최후통첩을 보냈으며, 호르무즈 해협 통행료 부과 계획을 언급했습니다. → 글로벌 에너지 물류비용의 영구적 상승 요인이다. 해운 및 에너지 인프라 종목의 변동성 확대에 대비해야 한다. 이스라엘의 레바논 침공 심화와 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
