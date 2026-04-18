@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Fri, 17 Apr 2026 11:38:21 +0900</lastBuildDate>
-    <pubDate>Fri, 17 Apr 2026 11:38:21 +0900</pubDate>
+    <lastBuildDate>Sat, 18 Apr 2026 11:29:14 +0900</lastBuildDate>
+    <pubDate>Sat, 18 Apr 2026 11:29:14 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Claude 4.7과 에이전트 인프라의 확장 | 2026-04-18 11:28]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-18-1129-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-18-1129-dev.html</guid>
+      <pubDate>Sat, 18 Apr 2026 11:29:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Claude Opus 4.7 및 Claude Design 출시: 고난도 소프트웨어 엔지니어링 작업에 특화된 모델과 함께 시각적 디자인/프로토타입 협업 도구인 'Claude Design'이 공개됨. → 단순 텍스트 기반 코딩을 넘어 ... (읽기 시간: 7분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[호르무즈 개방, 유가 급락과 공급망 회복 | 2026-04-18 11:28]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-18-1129-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-18-1129-market.html</guid>
+      <pubDate>Sat, 18 Apr 2026 11:29:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 이란의 호르무즈 해협 개방 선언 및 브렌트유 10% 폭락 → 에너지 비용 감소로 항공, 해운, 제조업 수익성 개선 기대. 에너지 인버스 혹은 인플레이션 둔화 수혜주(소비재)에 주목할 시점이다. 이스라엘-헤즈볼라 10일간의 임시 휴전 발효 및 레바논 피란민 귀환 → ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude 4.7 & Qwen 3.6, 에이전트 코딩 격돌 | 2026-04-17 11:37]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-17-1138-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Thu, 09 Apr 2026 11:26:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [미-이란 휴전 발효 직후 균열 조짐 레바논 공습 및 휴전 위반 논란] 미-이란 간 2주 휴전이 발효되었으나, 미국과 이스라엘이 레바논은 휴전 대상이 아니라고 선을 그으며 베이루트에 대규모 폭격을 가함. 이란은 이를 휴전 위반으로 규정하고 보복을 시사함. → 지정학... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Mythos 공개, 하네스 엔지니어링 부상 | 2026-04-08 11:30]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-08-1131-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-08-1131-dev.html</guid>
-      <pubDate>Wed, 08 Apr 2026 11:31:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Anthropic, 고성능 보안 특화 모델 'Claude Mythos Preview' 공개 → 인간 최상위 수준의 소프트웨어 취약점 탐지 및 공격 능력을 갖춘 모델로, 개발자는 이제 AI가 작성한 코드의 보안 검수를 다시 AI(My... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미-이란 2주 휴전, 유가 급락 증시 환호 | 2026-04-08 11:30]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-08-1131-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-08-1131-market.html</guid>
-      <pubDate>Wed, 08 Apr 2026 11:31:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [미-이란 2주간 휴전 및 호르무즈 해협 재개방 합의] 트럼프 대통령의 공격 시한 직전, 파키스탄의 중재로 이란이 호르무즈 해협을 열고 미국이 공격을 유예하는 2주간의 휴전에 전격 합의했습니다. → 지정학적 리스크가 '충돌'에서 '협상' 국면으로 전환되며 시장의 극... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
