@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Mon, 20 Apr 2026 11:45:30 +0900</lastBuildDate>
-    <pubDate>Mon, 20 Apr 2026 11:45:30 +0900</pubDate>
+    <lastBuildDate>Tue, 21 Apr 2026 11:39:16 +0900</lastBuildDate>
+    <pubDate>Tue, 21 Apr 2026 11:39:16 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[AI 에이전트 네이티브 시대 진입 | 2026-04-21 11:38]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-21-1139-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-21-1139-dev.html</guid>
+      <pubDate>Tue, 21 Apr 2026 11:39:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.4 및 Codex 엔터프라이즈 확장: Hyatt 등 글로벌 기업에 GPT-5.4와 Codex를 배포하여 생산성 및 운영 효율성 개선. → 기업용 시장에서 단순 챗봇을 넘어 업무 프로세스 전체를 자동화하는 대... (읽기 시간: 6분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[애플 수장 교체와 코스피 신고가 | 2026-04-21 11:38]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-21-1139-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-21-1139-market.html</guid>
+      <pubDate>Tue, 21 Apr 2026 11:39:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미-이란 평화 협상 혼선: JD 밴스 부통령 파견 vs 트럼프의 봉쇄 유지 천명 트럼프 대통령이 호르무즈 해협 봉쇄 유지를 선언한 가운데, JD 밴스 부통령을 파키스탄에 파견하여 이란과의 평화 협상을 시도하는 '투트랙' 전략을 구사하고 있습니다. 이란은 협박 속의 ... (읽기 시간: 5분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Opus 4.7 출시와 Vercel 보안 사고 | 2026-04-20 11:44]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-20-1145-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sun, 12 Apr 2026 11:39:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 미-이란 이슬라마바드 평화 회담, 21시간 마라톤 협상 끝에 합의 실패 → 호르무즈 해협 통행권 분쟁 장기화로 글로벌 물류 비용 상승 및 유가 변동성 상방 압력 지속. 미국 3월 소비자물가지수(CPI) 3.3% 기록, 에너지 가격 급등이 인플레 견인 → 연준의 금리... (읽기 시간: 3분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code 업데이트, 팀 협업 가속화 | 2026-04-11 11:22]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-11-1123-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-11-1123-dev.html</guid>
-      <pubDate>Sat, 11 Apr 2026 11:23:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Gemma 4 및 Google AI Edge Gallery 공개: 모바일 기기에서 텍스트 대화를 넘어 다양한 기능을 수행하는 온디바이스 AI 환경 강화 → 모바일 개발자는 클라우드 API 의존도를 낮추고 로컬에서 실행 가능한 경량 ... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미-이란 회담과 인플레 쇼크 | 2026-04-11 11:22]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-11-1123-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-11-1123-market.html</guid>
-      <pubDate>Sat, 11 Apr 2026 11:23:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 미-이란 고위급 평화 회담 개시를 위해 JD 밴스 부통령이 파키스탄에 도착했습니다. → 1979년 이후 최고위급 접촉이나 협상 지속성에 대한 불확실성이 커, 결과 발표 전까지 유가 변동성을 이용한 단기 매매 전략이 유효함. 이스라엘의 레바논 정부 건물 타격으로 13... (읽기 시간: 3분)]]></description>
     </item>
   </channel>
 </rss>
