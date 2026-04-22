@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Tue, 21 Apr 2026 11:39:16 +0900</lastBuildDate>
-    <pubDate>Tue, 21 Apr 2026 11:39:16 +0900</pubDate>
+    <lastBuildDate>Wed, 22 Apr 2026 11:37:36 +0900</lastBuildDate>
+    <pubDate>Wed, 22 Apr 2026 11:37:36 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[SpaceX의 Cursor 인수와 코딩 AI 격변 | 2026-04-22 11:36]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-22-1137-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-22-1137-dev.html</guid>
+      <pubDate>Wed, 22 Apr 2026 11:37:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Kimi K2.6 & Qwen 3.6-Max-Preview 공개: 코딩 및 긴 호흡의 실행(Long-horizon execution) 능력이 강화된 모델들이 오픈소스로 배포됨. → Rust, Go 등 시스템 언어 지원과 에이전트 스... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[이란 휴전 연장, 니케이 사상 최고치 | 2026-04-22 11:36]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-22-1137-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-22-1137-market.html</guid>
+      <pubDate>Wed, 22 Apr 2026 11:37:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 대통령, 이란과의 휴전 무기한 연장 발표 및 파키스탄의 중재 수용 → 전면전 공포는 후퇴했으나 '무기한'이라는 모호함은 시장에 장기 불확실성을 남긴다. 방산 섹터의 단기 차익 실현을 고려하되 포지션은 유지하라. 미 해군, 인도양에서 이란 유조선 '티파니(Ti... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[AI 에이전트 네이티브 시대 진입 | 2026-04-21 11:38]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-21-1139-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Mon, 13 Apr 2026 11:44:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프 정부의 이란 항구 및 해안 전면 봉쇄 선언 (월요일 14:00 GMT 발효) 미-이란 간 이슬라마바드 평화 협상이 최종 결렬됨에 따라, 미 중부사령부(CENTCOM)가 이란 항구 입출항 선박을 차단하는 해상 봉쇄를 단행합니다. 호르무즈 해협 통과는 허용하되 ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[에이전트 스스로 개선, '메타 AI' 시대 | 2026-04-12 11:38]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-12-1139-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-12-1139-dev.html</guid>
-      <pubDate>Sun, 12 Apr 2026 11:39:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Meta와 UBC, 자기 개선 프레임워크 'HyperAgents' 발표 → 에이전트가 코드뿐만 아니라 자신의 개선 메커니즘까지 스스로 수정하는 시대가 열렸다. 개발자는 이제 '코드 작성자'에서 '에이전트 자가 발전 시스템의 설계자'... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미-이란 회담 결렬, 인플레 재발작 | 2026-04-12 11:38]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-12-1139-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-12-1139-market.html</guid>
-      <pubDate>Sun, 12 Apr 2026 11:39:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 미-이란 이슬라마바드 평화 회담, 21시간 마라톤 협상 끝에 합의 실패 → 호르무즈 해협 통행권 분쟁 장기화로 글로벌 물류 비용 상승 및 유가 변동성 상방 압력 지속. 미국 3월 소비자물가지수(CPI) 3.3% 기록, 에너지 가격 급등이 인플레 견인 → 연준의 금리... (읽기 시간: 3분)]]></description>
     </item>
   </channel>
 </rss>
