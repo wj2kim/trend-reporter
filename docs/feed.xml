@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Thu, 23 Apr 2026 11:41:36 +0900</lastBuildDate>
-    <pubDate>Thu, 23 Apr 2026 11:41:36 +0900</pubDate>
+    <lastBuildDate>Fri, 24 Apr 2026 11:41:51 +0900</lastBuildDate>
+    <pubDate>Fri, 24 Apr 2026 11:41:51 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GPT-5.5와 8세대 TPU: 에이전트 혁명 | 2026-04-24 11:41]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-24-1141-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-24-1141-dev.html</guid>
+      <pubDate>Fri, 24 Apr 2026 11:41:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.5 전격 공개: 복잡한 작업을 스스로 계획하고 도구를 조합해 수행하는 에이전트형 모델로, 코딩, 데이터 분석, 소프트웨어 조작 능력이 대폭 강화됨. → 단순 텍스트 생성을 넘어 "실행"하는 단계로 진입했으므... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[휴전 연장과 빅테크 감원 가속 | 2026-04-24 11:41]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-24-1141-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-24-1141-market.html</guid>
+      <pubDate>Fri, 24 Apr 2026 11:41:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 이스라엘-레바논 휴전 3주 연장 및 트럼프의 대이란 평화 협상 압박 → 지정학적 리스크가 소폭 완화되었으나, 미 항공모함 3척이 여전히 인근에 배치되어 있어 유가 변동성 헤지 포지션은 유지해야 한다. 필리핀 중앙은행 금리 인상(4.5%) 및 일본 근원 물가 상승(1... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[8세대 TPU와 워크스페이스 에이전트의 시대 | 2026-04-23 11:40]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-23-1141-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Wed, 15 Apr 2026 11:35:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [미국-이란 및 이스라엘-레바논 직접 회담 추진] 워싱턴에서 이스라엘과 레바논 외교관들이 수십 년 만에 첫 직접 회담을 가졌으며, 트럼프 대통령은 이란과의 2차 회담이 파키스탄에서 열릴 수 있음을 시사했습니다. → 지정학적 긴장 완화 기대감이 시장에 선반영 중이다.... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude 캐시 단축, 비용 관리 필수 | 2026-04-14 11:37]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-14-1138-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-14-1138-dev.html</guid>
-      <pubDate>Tue, 14 Apr 2026 11:38:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Claude 프롬프트 캐시 TTL(유지 시간) 5분으로 하향 조정 3월 초 Anthropic이 캐시 유지 시간을 기존 1시간에서 5분으로 단축한 사실이 분석됨. 이로 인해 캐시 생성 비용이 20~32% 증가하고 구독 사용자의 쿼터 ... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[호르무즈 봉쇄 개시, 인플레 재점화 | 2026-04-14 11:37]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-14-1138-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-14-1138-market.html</guid>
-      <pubDate>Tue, 14 Apr 2026 11:38:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [호르무즈 해협 미 군사 봉쇄 개시 및 협상 결렬] 트럼프 대통령이 이란의 5개년 핵 활동 중단 제안을 거절하고 호르무즈 해협 봉쇄를 강행했습니다. 이란은 이를 '해적 행위'로 규정하며 강력 반발 중입니다. → 글로벌 에너지 공급망의 핵심 요충지가 차단됨에 따라 유... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
