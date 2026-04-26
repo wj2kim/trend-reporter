@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sat, 25 Apr 2026 11:31:11 +0900</lastBuildDate>
-    <pubDate>Sat, 25 Apr 2026 11:31:11 +0900</pubDate>
+    <lastBuildDate>Sun, 26 Apr 2026 11:47:22 +0900</lastBuildDate>
+    <pubDate>Sun, 26 Apr 2026 11:47:22 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GPT-5.5와 에이전트 경제의 서막 | 2026-04-26 11:46]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-26-1147-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-26-1147-dev.html</guid>
+      <pubDate>Sun, 26 Apr 2026 11:47:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.5 공식 발표: 코딩, 연구, 데이터 분석 등 복잡한 작업에 최적화된 가장 스마트하고 빠른 모델로 소개됨. → 단순 챗봇을 넘어 Codex 기반의 자동화(Automations)와 스케줄링 기능을 통해 워크플... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프 피격 미수와 이란 협상 결렬 | 2026-04-26 11:46]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-26-1147-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-26-1147-market.html</guid>
+      <pubDate>Sun, 26 Apr 2026 11:47:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 대통령 피격 미수 및 백악관 기자단 만찬장 총격 사건 발생 → 미 대선을 앞두고 정치적 불확실성이 최고조에 달하며 시장 내 안전자산 선호 심리 강화 가능성. 미국-이란 평화 협상 결렬 및 트럼프의 파키스탄 특사 파견 취소 → 호르무즈 해협 봉쇄 해소 기미가 ... (읽기 시간: 3분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.5와 DeepSeek-V4 격돌 | 2026-04-25 11:30]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-25-1131-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Fri, 17 Apr 2026 11:38:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 이스라엘과 레바논의 10일간 휴전 협정이 공식 발효되었으며, 트럼프 당선인이 이를 주도한 것으로 보도됨. → 지정학적 긴장의 일시적 완화는 호재이나, 헤즈볼라의 준수 여부가 불투명해 유가 변동성 확대에 대비한 분할 매수 전략이 유효함. 트럼프가 이란과의 핵 합의(고... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Code 진화, 에이전트 인프라 표준화 | 2026-04-16 11:43]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-16-1144-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-16-1144-dev.html</guid>
-      <pubDate>Thu, 16 Apr 2026 11:44:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 macOS용 Gemini 앱 정식 출시 네이티브 앱으로 개발되었으며, 단축키(Option + Space)로 호출하여 현재 열려 있는 창의 문서, 코드, 데이터를 즉시 분석 가능. → 기획서나 API 명세서를 띄워놓고 바로 코드를 짜... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미-이란 평화 기대, 증시 신고가 | 2026-04-16 11:43]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-16-1144-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-16-1144-market.html</guid>
-      <pubDate>Thu, 16 Apr 2026 11:44:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 미-이란 평화 협상 본격화 및 파키스탄의 중재 파키스탄 중재단이 이란에 도착하며 평화 회담이 재개되었고, 트럼프 대통령은 전쟁 종료 가능성에 낙관적 입장을 표명했습니다. 이란은 협상 조건으로 호르무즈 해협의 자유 항행 허용을 검토 중입니다. → 지정학적 리스크 감소... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
