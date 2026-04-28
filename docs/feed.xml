@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Mon, 27 Apr 2026 11:50:23 +0900</lastBuildDate>
-    <pubDate>Mon, 27 Apr 2026 11:50:23 +0900</pubDate>
+    <lastBuildDate>Tue, 28 Apr 2026 11:57:25 +0900</lastBuildDate>
+    <pubDate>Tue, 28 Apr 2026 11:57:25 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[[에이전트 플랫폼화와 하네스 설계의 부상] | 2026-04-28 11:56]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-28-1157-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-28-1157-dev.html</guid>
+      <pubDate>Tue, 28 Apr 2026 11:57:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 GPT-5.5 출시 및 시스템 카드 공개: 복잡한 코딩, 연구, 데이터 분석 작업에 최적화된 추론 능력 제공. → 에이전트의 판단력이 비약적으로 상승함에 따라, 개발자는 더 큰 단위의 시스템 아키텍처 설계를 AI에게 위임할 수 있게... (읽기 시간: 6분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[이란 전쟁 장기화, 국채 금리 고착화 | 2026-04-28 11:56]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-28-1157-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-28-1157-market.html</guid>
+      <pubDate>Tue, 28 Apr 2026 11:57:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 호르무즈 해협 봉쇄 위기와 글로벌 식량/에너지 안보 위협 UN 사무총장은 미-이란의 호르무즈 해협 대치가 글로벌 식량 비상사태를 유발할 수 있다고 경고했으며, 전쟁 발발 2개월 만에 첫 LNG 선박이 해협을 통과하는 등 긴장이 극도로 고조된 상태입니다. → 에너지 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.5 출시와 에이전트 실행 환경의 고도화 | 2026-04-27 11:49]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-27-1150-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sun, 19 Apr 2026 11:44:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 이란 혁명수비대의 호르무즈 해협 재봉쇄 선언 및 통과 선박 공격 발생 → 에너지 수입 의존도가 높은 한국 경제에 치명적 리스크다. 정유 및 화학 섹터의 비용 부담 급증에 대비한 리스크 관리가 필수적이다. 북한, 신포 일대에서 올해 7번째 탄도 미사일 발사로 지정학적... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude 4.7과 에이전트 인프라의 확장 | 2026-04-18 11:28]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-18-1129-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-18-1129-dev.html</guid>
-      <pubDate>Sat, 18 Apr 2026 11:29:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Claude Opus 4.7 및 Claude Design 출시: 고난도 소프트웨어 엔지니어링 작업에 특화된 모델과 함께 시각적 디자인/프로토타입 협업 도구인 'Claude Design'이 공개됨. → 단순 텍스트 기반 코딩을 넘어 ... (읽기 시간: 7분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[호르무즈 개방, 유가 급락과 공급망 회복 | 2026-04-18 11:28]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-18-1129-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-18-1129-market.html</guid>
-      <pubDate>Sat, 18 Apr 2026 11:29:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 이란의 호르무즈 해협 개방 선언 및 브렌트유 10% 폭락 → 에너지 비용 감소로 항공, 해운, 제조업 수익성 개선 기대. 에너지 인버스 혹은 인플레이션 둔화 수혜주(소비재)에 주목할 시점이다. 이스라엘-헤즈볼라 10일간의 임시 휴전 발효 및 레바논 피란민 귀환 → ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
