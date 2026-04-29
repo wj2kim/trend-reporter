@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Tue, 28 Apr 2026 11:57:25 +0900</lastBuildDate>
-    <pubDate>Tue, 28 Apr 2026 11:57:25 +0900</pubDate>
+    <lastBuildDate>Wed, 29 Apr 2026 11:55:26 +0900</lastBuildDate>
+    <pubDate>Wed, 29 Apr 2026 11:55:26 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GitHub 탈출과 AI 과금 체계의 변화 | 2026-04-29 11:54]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-29-1155-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-29-1155-dev.html</guid>
+      <pubDate>Wed, 29 Apr 2026 11:55:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Amazon Bedrock에 OpenAI 모델 및 Managed Agents 도입 OpenAI의 프론티어 모델과 Codex가 AWS 환경에 네이티브 에이전트 런타임 형태로 결합됩니다. 단순 API 호출을 넘어 ID 관리, 권한, 거... (읽기 시간: 6분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[UAE OPEC 탈퇴, 에너지 패권 붕괴 | 2026-04-29 11:54]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-29-1155-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-29-1155-market.html</guid>
+      <pubDate>Wed, 29 Apr 2026 11:55:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 UAE의 OPEC 탈퇴 선언 및 사우디아라비아와의 갈등 심화 → 중동 내 단일 대오가 무너지며 유가 통제력이 상실됨. 에너지 가격 변동성 극대화에 대비해 정유/가스 인프라 종목의 단기 트레이딩 전략 유효. 호르무즈 해협 봉쇄 지속 및 이란-미국 협상 교착 상태 → ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[[에이전트 플랫폼화와 하네스 설계의 부상] | 2026-04-28 11:56]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-28-1157-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Mon, 20 Apr 2026 11:45:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프 행정부, 호르무즈 해협 봉쇄 후 첫 이란 화물선 ‘투스카(Touska)’호 나포 강행 → 미 해군 구축함의 직접 사격 및 나포는 물리적 충돌의 임계점을 넘었음을 의미하며, 단기 유가 급등의 직접적 촉매제가 될 것이다. 이란의 즉각적 보복 선언 및 미 군함 대... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[특화 모델 확산과 에이전트 보안 표준화 | 2026-04-19 11:43]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-19-1144-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-19-1144-dev.html</guid>
-      <pubDate>Sun, 19 Apr 2026 11:44:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Anthropic 'Claude Design' 출시 (Opus 4.7 기반): 디자인, 프로토타입, 슬라이드 등 시각적 결과물을 Claude와 협업하여 제작하는 랩스 제품 공개. → 프론트엔드 개발자와 디자이너 사이의 협업 경계가 ... (읽기 시간: 7분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[호르무즈 재봉쇄, 스태그 경고등 | 2026-04-19 11:43]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-19-1144-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-19-1144-market.html</guid>
-      <pubDate>Sun, 19 Apr 2026 11:44:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 이란 혁명수비대의 호르무즈 해협 재봉쇄 선언 및 통과 선박 공격 발생 → 에너지 수입 의존도가 높은 한국 경제에 치명적 리스크다. 정유 및 화학 섹터의 비용 부담 급증에 대비한 리스크 관리가 필수적이다. 북한, 신포 일대에서 올해 7번째 탄도 미사일 발사로 지정학적... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
