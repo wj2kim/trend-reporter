@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Wed, 29 Apr 2026 11:55:26 +0900</lastBuildDate>
-    <pubDate>Wed, 29 Apr 2026 11:55:26 +0900</pubDate>
+    <lastBuildDate>Thu, 30 Apr 2026 11:57:07 +0900</lastBuildDate>
+    <pubDate>Thu, 30 Apr 2026 11:57:07 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Zed 1.0 출시와 에이전트 인프라 가속 | 2026-04-30 11:56]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-30-1157-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-30-1157-dev.html</guid>
+      <pubDate>Thu, 30 Apr 2026 11:57:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Google Gemma 4 출시: 새로운 세대의 오픈 모델인 Gemma 4가 공개되었으며, Cloud Run Jobs를 통한 서버리스 GPU 튜닝이 지원됨. → 오픈 소스 모델의 성능 향상으로 특정 도메인(예: 반려동물 분류 등)에... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[유가 $120 돌파, 빅테크 AI 투자 가속 | 2026-04-30 11:56]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-30-1157-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-30-1157-market.html</guid>
+      <pubDate>Thu, 30 Apr 2026 11:57:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 중동 전쟁 장기화 및 호르무즈 해협 봉쇄 우려로 국제 유가(WTI) $120 상회 (BBC, Al Jazeera) → 에너지 가격 상승은 한국 제조업의 비용 부담을 가중시키므로 정유·상사 섹터(S-Oil, 포스코인터내셔널) 외에는 보수적 접근이 필요함. 트럼프 전 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GitHub 탈출과 AI 과금 체계의 변화 | 2026-04-29 11:54]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-29-1155-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Tue, 21 Apr 2026 11:39:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 미-이란 평화 협상 혼선: JD 밴스 부통령 파견 vs 트럼프의 봉쇄 유지 천명 트럼프 대통령이 호르무즈 해협 봉쇄 유지를 선언한 가운데, JD 밴스 부통령을 파키스탄에 파견하여 이란과의 평화 협상을 시도하는 '투트랙' 전략을 구사하고 있습니다. 이란은 협박 속의 ... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Opus 4.7 출시와 Vercel 보안 사고 | 2026-04-20 11:44]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-20-1145-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-20-1145-dev.html</guid>
-      <pubDate>Mon, 20 Apr 2026 11:45:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Claude Opus 4.7 출시 (2026-04-16): 시스템 프롬프트가 업데이트되었으며, 이전 모델(4.6) 대비 토큰 사용 효율과 시간이 중요한 작업에서의 수행 능력이 향상됨. → 복잡한 코딩 작업 시 토큰 소모를 줄이기 위... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미-이란 물리적 충돌, 스태그플레이션 공포 확산 | 2026-04-20 11:44]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-20-1145-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-20-1145-market.html</guid>
-      <pubDate>Mon, 20 Apr 2026 11:45:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프 행정부, 호르무즈 해협 봉쇄 후 첫 이란 화물선 ‘투스카(Touska)’호 나포 강행 → 미 해군 구축함의 직접 사격 및 나포는 물리적 충돌의 임계점을 넘었음을 의미하며, 단기 유가 급등의 직접적 촉매제가 될 것이다. 이란의 즉각적 보복 선언 및 미 군함 대... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
