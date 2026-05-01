@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Thu, 30 Apr 2026 11:57:07 +0900</lastBuildDate>
-    <pubDate>Thu, 30 Apr 2026 11:57:07 +0900</pubDate>
+    <lastBuildDate>Fri, 01 May 2026 12:28:30 +0900</lastBuildDate>
+    <pubDate>Fri, 01 May 2026 12:28:30 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[에이전틱 개발 환경과 AI 금지 정책의 충돌 | 2026-05-01 12:27]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-01-1228-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-01-1228-dev.html</guid>
+      <pubDate>Fri, 01 May 2026 12:28:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 GPT-5.1 '고블린(Goblin)' 현상 분석: 모델이 답변에 고블린, 그렘린 등의 비유를 남발하는 현상 발생. 원인은 성격 커스터마이징 과정에서의 'Nerdy' 페르소나 학습 데이터의 오버피팅으로 판명. → 모델의 미세한 성격... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[호르무즈 해협 봉쇄와 트럼프의 선택 | 2026-05-01 12:27]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-01-1228-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-01-1228-market.html</guid>
+      <pubDate>Fri, 01 May 2026 12:28:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 이란 최고지도자 모즈타바 하메네이가 호르무즈 해협에 대한 '새로운 법적 프레임워크' 구축과 핵 능력 유지를 선언했습니다. → 호르무즈 해협의 상시적 봉쇄 명분이 마련됨에 따라 유가 변동성이 극도로 커질 전망이다. 에너지 ETF(XLE) 보유를 강화해야 한다. 미국 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Zed 1.0 출시와 에이전트 인프라 가속 | 2026-04-30 11:56]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-30-1157-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Wed, 22 Apr 2026 11:37:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프 대통령, 이란과의 휴전 무기한 연장 발표 및 파키스탄의 중재 수용 → 전면전 공포는 후퇴했으나 '무기한'이라는 모호함은 시장에 장기 불확실성을 남긴다. 방산 섹터의 단기 차익 실현을 고려하되 포지션은 유지하라. 미 해군, 인도양에서 이란 유조선 '티파니(Ti... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI 에이전트 네이티브 시대 진입 | 2026-04-21 11:38]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-21-1139-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-21-1139-dev.html</guid>
-      <pubDate>Tue, 21 Apr 2026 11:39:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.4 및 Codex 엔터프라이즈 확장: Hyatt 등 글로벌 기업에 GPT-5.4와 Codex를 배포하여 생산성 및 운영 효율성 개선. → 기업용 시장에서 단순 챗봇을 넘어 업무 프로세스 전체를 자동화하는 대... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[애플 수장 교체와 코스피 신고가 | 2026-04-21 11:38]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-21-1139-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-21-1139-market.html</guid>
-      <pubDate>Tue, 21 Apr 2026 11:39:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 미-이란 평화 협상 혼선: JD 밴스 부통령 파견 vs 트럼프의 봉쇄 유지 천명 트럼프 대통령이 호르무즈 해협 봉쇄 유지를 선언한 가운데, JD 밴스 부통령을 파키스탄에 파견하여 이란과의 평화 협상을 시도하는 '투트랙' 전략을 구사하고 있습니다. 이란은 협박 속의 ... (읽기 시간: 5분)]]></description>
     </item>
   </channel>
 </rss>
