@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Fri, 01 May 2026 12:28:30 +0900</lastBuildDate>
-    <pubDate>Fri, 01 May 2026 12:28:30 +0900</pubDate>
+    <lastBuildDate>Sat, 02 May 2026 11:46:05 +0900</lastBuildDate>
+    <pubDate>Sat, 02 May 2026 11:46:05 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[에이전트 권한 관리와 표준화 경쟁 가속 | 2026-05-02 11:45]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-02-1146-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-02-1146-dev.html</guid>
+      <pubDate>Sat, 02 May 2026 11:46:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI GPT-5.1 '고블린' 현상 보고: 모델이 비유 표현에서 특정 단어(고블린 등)를 반복 사용하는 기현상이 발생하여 원인 분석 및 수정 진행 중. → 단순한 성능 지표(Eval)로 잡히지 않는 모델의 성격(Persona... (읽기 시간: 6분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미군 독일 감축과 정유사 증산 거부 | 2026-05-02 11:45]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-02-1146-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-02-1146-market.html</guid>
+      <pubDate>Sat, 02 May 2026 11:46:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 대통령, 이란 전쟁 협조 거부하는 독일에 미군 5,000명 감축 통보 → 나토(NATO) 내 균열 가속화로 유럽 방위비 분담 압박 증대. 유럽 방산주 및 관련 ETF 변동성 확대 대비 필요. 엑손모빌(XOM)과 셰브론(CVX), 트럼프의 시추 확대 요청에도 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[에이전틱 개발 환경과 AI 금지 정책의 충돌 | 2026-05-01 12:27]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-01-1228-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Thu, 23 Apr 2026 11:41:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 이란 혁명수비대, 호르무즈 해협에서 선박 2척 나포 및 유가 $100 상회 → 휴전 연장 호재를 상쇄하는 물리적 도발이며, 유가 급등에 따른 인플레이션 재점화 위험에 대비해 에너지 ETF(XLE) 보유 비중을 늘려야 한다. 펜타곤, 호르무즈 해협 내 기뢰 제거에 최... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[SpaceX의 Cursor 인수와 코딩 AI 격변 | 2026-04-22 11:36]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-22-1137-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-22-1137-dev.html</guid>
-      <pubDate>Wed, 22 Apr 2026 11:37:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Kimi K2.6 & Qwen 3.6-Max-Preview 공개: 코딩 및 긴 호흡의 실행(Long-horizon execution) 능력이 강화된 모델들이 오픈소스로 배포됨. → Rust, Go 등 시스템 언어 지원과 에이전트 스... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[이란 휴전 연장, 니케이 사상 최고치 | 2026-04-22 11:36]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-22-1137-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-22-1137-market.html</guid>
-      <pubDate>Wed, 22 Apr 2026 11:37:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프 대통령, 이란과의 휴전 무기한 연장 발표 및 파키스탄의 중재 수용 → 전면전 공포는 후퇴했으나 '무기한'이라는 모호함은 시장에 장기 불확실성을 남긴다. 방산 섹터의 단기 차익 실현을 고려하되 포지션은 유지하라. 미 해군, 인도양에서 이란 유조선 '티파니(Ti... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
