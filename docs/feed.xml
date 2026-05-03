@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sat, 02 May 2026 11:46:05 +0900</lastBuildDate>
-    <pubDate>Sat, 02 May 2026 11:46:05 +0900</pubDate>
+    <lastBuildDate>Sun, 03 May 2026 11:57:15 +0900</lastBuildDate>
+    <pubDate>Sun, 03 May 2026 11:57:15 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[AI 코딩 과소비와 컨텍스트 최적화의 시대 | 2026-05-03 11:56]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-03-1157-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-03-1157-dev.html</guid>
+      <pubDate>Sun, 03 May 2026 11:57:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 DeepSeek V4 프리뷰 출시: 100만 토큰 컨텍스트 지원 → 중국의 DeepSeek가 1M 컨텍스트와 MoE 아키텍처를 갖춘 V4-Pro 및 Flash 모델을 공개하며 프런티어 모델 급 성능에 근접했다. OpenAI, GPT... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[이란 평화 제안과 트럼프의 '밀당' | 2026-05-03 11:56]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-03-1157-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-03-1157-market.html</guid>
+      <pubDate>Sun, 03 May 2026 11:57:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 이란이 미국에 14개 조항의 전쟁 종식 평화 제안서를 제출했으나, 트럼프 대통령은 '불량 행동 시 공습 재개'를 경고하며 신중한 입장을 보이고 있습니다. → 협상 타결 전까지 호르무즈 해협 폐쇄 리스크는 유효하며, 에너지 가격 변동성에 대비한 분할 매수 전략이 필요... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[에이전트 권한 관리와 표준화 경쟁 가속 | 2026-05-02 11:45]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-02-1146-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Fri, 24 Apr 2026 11:41:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 이스라엘-레바논 휴전 3주 연장 및 트럼프의 대이란 평화 협상 압박 → 지정학적 리스크가 소폭 완화되었으나, 미 항공모함 3척이 여전히 인근에 배치되어 있어 유가 변동성 헤지 포지션은 유지해야 한다. 필리핀 중앙은행 금리 인상(4.5%) 및 일본 근원 물가 상승(1... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[8세대 TPU와 워크스페이스 에이전트의 시대 | 2026-04-23 11:40]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-23-1141-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-23-1141-dev.html</guid>
-      <pubDate>Thu, 23 Apr 2026 11:41:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, ChatGPT Images 2.0 및 Workspace Agents 발표 텍스트 렌더링과 시각적 추론이 대폭 강화된 이미지 모델 2.0과 클라우드에서 복잡한 워크플로우를 자동화하는 Codex 기반 에이전트 출시. → ... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[호르무즈 나포, 유가 $100 돌파 | 2026-04-23 11:40]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-23-1141-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-23-1141-market.html</guid>
-      <pubDate>Thu, 23 Apr 2026 11:41:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 이란 혁명수비대, 호르무즈 해협에서 선박 2척 나포 및 유가 $100 상회 → 휴전 연장 호재를 상쇄하는 물리적 도발이며, 유가 급등에 따른 인플레이션 재점화 위험에 대비해 에너지 ETF(XLE) 보유 비중을 늘려야 한다. 펜타곤, 호르무즈 해협 내 기뢰 제거에 최... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
