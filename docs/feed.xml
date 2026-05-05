@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Mon, 04 May 2026 11:54:54 +0900</lastBuildDate>
-    <pubDate>Mon, 04 May 2026 11:54:54 +0900</pubDate>
+    <lastBuildDate>Tue, 05 May 2026 11:47:05 +0900</lastBuildDate>
+    <pubDate>Tue, 05 May 2026 11:47:05 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[에이전트 비용 절감과 하이브리드 아키텍처 | 2026-05-05 11:46]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-05-1147-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-05-1147-dev.html</guid>
+      <pubDate>Tue, 05 May 2026 11:47:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 DeepClaude 출시: Claude Code와 DeepSeek V4 Pro의 결합 → Claude Code의 강력한 에이전트 루프를 유지하면서 DeepSeek 백엔드를 사용해 비용을 17배 절감할 수 있다. 고비용 API 부담을... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[호르무즈 교전 발생, 공급망 위기 고조 | 2026-05-05 11:46]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-05-1147-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-05-1147-market.html</guid>
+      <pubDate>Tue, 05 May 2026 11:47:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [호르무즈 해협 미-이란 직접 교전 발생 지정학적 리스크의 실체화] 미 해군 구축함이 호르무즈 해협을 통과하는 상선들을 보호하는 과정에서 이란의 미사일과 드론을 격추했으며, UAE 석유 시설이 드론 공격을 받았습니다. → 호르무즈 해협 봉쇄가 현실화될 경우 글로벌 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[중국 AI의 추격과 에이전트 인프라의 확장 | 2026-05-04 11:54]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-04-1154-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sun, 26 Apr 2026 11:47:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프 대통령 피격 미수 및 백악관 기자단 만찬장 총격 사건 발생 → 미 대선을 앞두고 정치적 불확실성이 최고조에 달하며 시장 내 안전자산 선호 심리 강화 가능성. 미국-이란 평화 협상 결렬 및 트럼프의 파키스탄 특사 파견 취소 → 호르무즈 해협 봉쇄 해소 기미가 ... (읽기 시간: 3분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GPT-5.5와 DeepSeek-V4 격돌 | 2026-04-25 11:30]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-25-1131-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-25-1131-dev.html</guid>
-      <pubDate>Sat, 25 Apr 2026 11:31:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.5 공식 출시: 코딩, 연구, 도구를 활용한 데이터 분석 등 복잡한 태스크에 최적화된 가장 스마트한 모델 발표. → 단순 챗을 넘어 다단계 도구 실행이 필요한 워크플로우에 GPT-5.5를 우선 배치하여 자동... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미-이란 협상 재개, AI 반도체 독주 | 2026-04-25 11:30]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-25-1131-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-25-1131-market.html</guid>
-      <pubDate>Sat, 25 Apr 2026 11:31:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [미국 특사단 파키스탄 급파, 이란과의 대화 시도] 트럼프 측 특사(위트코프, 쿠슈너)가 이란 외무장관이 머무는 파키스탄으로 향하며 중동 긴장 완화에 대한 기대감이 확산되고 있습니다. → 지정학적 불확실성 감소로 증시에는 긍정적이나, 최종 합의 전까지 유가 변동성에... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
