@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Tue, 05 May 2026 11:47:05 +0900</lastBuildDate>
-    <pubDate>Tue, 05 May 2026 11:47:05 +0900</pubDate>
+    <lastBuildDate>Wed, 06 May 2026 11:53:51 +0900</lastBuildDate>
+    <pubDate>Wed, 06 May 2026 11:53:51 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GPT-5.5 출시와 에이전트 경제성 | 2026-05-06 11:53]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-06-1153-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-06-1153-dev.html</guid>
+      <pubDate>Wed, 06 May 2026 11:53:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI GPT-5.5 Instant 출시: 더 똑똑해진 답변과 환각 감소, 개인화 제어 기능 강화 및 광고 관리자 베타 도입. → 모델의 성능 상향 평준화로 인해 개발자는 프롬프트 튜닝보다 도메인 데이터 주입과 에이전트 제어 ... (읽기 시간: 6분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[호르무즈 작전 중단, 유가 하방 압력 | 2026-05-06 11:53]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-06-1153-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-06-1153-market.html</guid>
+      <pubDate>Wed, 06 May 2026 11:53:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 대통령, 호르무즈 해협 선박 호위 작전인 'Project Freedom' 중단 지시 → 이란과의 협상 진전 가능성으로 국제 유가가 즉각 하락했으며, 단기적으로 에너지 섹터의 차익 실현 매물이 출현할 수 있다. 호주 중앙은행(RBA), 기준금리 4.35%로 2... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[에이전트 비용 절감과 하이브리드 아키텍처 | 2026-05-05 11:46]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-05-1147-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Mon, 27 Apr 2026 11:50:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [미-이란 평화 협상 교착 및 호르무즈 해협 폐쇄 지속] 미국과 이란의 2차 평화 회담이 무산되면서 호르무즈 해협이 사실상 통행 불능 상태로 유지되고 있으며, 브렌트유는 2% 이상 급등해 $100를 돌파했습니다. → 유가 $100 고착화는 한국 등 에너지 수입국의 ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GPT-5.5와 에이전트 경제의 서막 | 2026-04-26 11:46]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-26-1147-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-26-1147-dev.html</guid>
-      <pubDate>Sun, 26 Apr 2026 11:47:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.5 공식 발표: 코딩, 연구, 데이터 분석 등 복잡한 작업에 최적화된 가장 스마트하고 빠른 모델로 소개됨. → 단순 챗봇을 넘어 Codex 기반의 자동화(Automations)와 스케줄링 기능을 통해 워크플... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프 피격 미수와 이란 협상 결렬 | 2026-04-26 11:46]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-26-1147-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-26-1147-market.html</guid>
-      <pubDate>Sun, 26 Apr 2026 11:47:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프 대통령 피격 미수 및 백악관 기자단 만찬장 총격 사건 발생 → 미 대선을 앞두고 정치적 불확실성이 최고조에 달하며 시장 내 안전자산 선호 심리 강화 가능성. 미국-이란 평화 협상 결렬 및 트럼프의 파키스탄 특사 파견 취소 → 호르무즈 해협 봉쇄 해소 기미가 ... (읽기 시간: 3분)]]></description>
     </item>
   </channel>
 </rss>
