@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Thu, 07 May 2026 11:54:28 +0900</lastBuildDate>
-    <pubDate>Thu, 07 May 2026 11:54:28 +0900</pubDate>
+    <lastBuildDate>Fri, 08 May 2026 11:57:09 +0900</lastBuildDate>
+    <pubDate>Fri, 08 May 2026 11:57:09 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[에이전트, 배포를 넘어 결제까지 | 2026-05-08 11:56]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-08-1157-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-08-1157-dev.html</guid>
+      <pubDate>Fri, 08 May 2026 11:57:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.5 및 GPT-5.5-Cyber 공개: 사이버 보안 방어자를 위한 특화 모델과 함께 더 개인화된 답변을 제공하는 GPT-5.5 시리즈를 발표했습니다. → 보안 취약점 연구 및 인프라 보호 업무에 LLM을 직... (읽기 시간: 7분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미-이란 교전 재개, 에너지 쇼크 경보 | 2026-05-08 11:56]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-08-1157-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-08-1157-market.html</guid>
+      <pubDate>Fri, 08 May 2026 11:57:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 호르무즈 해협 내 미-이란 무력 충돌 재개 및 휴전 무력화 위기 미국 군함에 대한 이란의 공격과 이에 따른 미국의 보복 공습이 발생하며 선포된 휴전이 사실상 파기될 위기에 처했습니다. → 호르무즈 해협 폐쇄 장기화 시 유가 $100 돌파 가능성이 농후하므로 원유 선... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[에이전트 자율 배포와 브라우저 내장 LLM | 2026-05-07 11:53]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-07-1154-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Wed, 29 Apr 2026 11:55:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 UAE의 OPEC 탈퇴 선언 및 사우디아라비아와의 갈등 심화 → 중동 내 단일 대오가 무너지며 유가 통제력이 상실됨. 에너지 가격 변동성 극대화에 대비해 정유/가스 인프라 종목의 단기 트레이딩 전략 유효. 호르무즈 해협 봉쇄 지속 및 이란-미국 협상 교착 상태 → ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[[에이전트 플랫폼화와 하네스 설계의 부상] | 2026-04-28 11:56]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-28-1157-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-28-1157-dev.html</guid>
-      <pubDate>Tue, 28 Apr 2026 11:57:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 GPT-5.5 출시 및 시스템 카드 공개: 복잡한 코딩, 연구, 데이터 분석 작업에 최적화된 추론 능력 제공. → 에이전트의 판단력이 비약적으로 상승함에 따라, 개발자는 더 큰 단위의 시스템 아키텍처 설계를 AI에게 위임할 수 있게... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[이란 전쟁 장기화, 국채 금리 고착화 | 2026-04-28 11:56]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-28-1157-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-28-1157-market.html</guid>
-      <pubDate>Tue, 28 Apr 2026 11:57:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 호르무즈 해협 봉쇄 위기와 글로벌 식량/에너지 안보 위협 UN 사무총장은 미-이란의 호르무즈 해협 대치가 글로벌 식량 비상사태를 유발할 수 있다고 경고했으며, 전쟁 발발 2개월 만에 첫 LNG 선박이 해협을 통과하는 등 긴장이 극도로 고조된 상태입니다. → 에너지 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
