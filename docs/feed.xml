@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sat, 09 May 2026 11:51:57 +0900</lastBuildDate>
-    <pubDate>Sat, 09 May 2026 11:51:57 +0900</pubDate>
+    <lastBuildDate>Sun, 10 May 2026 11:58:55 +0900</lastBuildDate>
+    <pubDate>Sun, 10 May 2026 11:58:55 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GPT-5.5 공개, 에이전트 기억력 혁신 | 2026-05-10 11:58]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-10-1158-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-10-1158-dev.html</guid>
+      <pubDate>Sun, 10 May 2026 11:58:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.5 및 GPT-5.5-Cyber 출시: 보안 방어자를 위한 취약점 연구 가속화 및 인프라 보호 특화 기능 탑재. → 보안 엔지니어는 이제 직접 취약점을 찾는 대신 GPT-5.5-Cyber를 활용한 '자동 방... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[중동 에너지 쇼크와 푸틴의 종전 암시 | 2026-05-10 11:58]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-10-1158-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-10-1158-market.html</guid>
+      <pubDate>Sun, 10 May 2026 11:58:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 연준(Fed), 중동 전쟁으로 인한 '오일 쇼크'를 금융 시스템의 2대 리스크로 규정 → 에너지 공급망 붕괴가 금리 경로를 완전히 바꿀 수 있다. 에너지 ETF(XLE) 및 원자재 관련주를 포트폴리오의 필수 헤지 수단으로 활용하라. 푸틴 러시아 대통령, 우크라이나 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[에이전트 제어 흐름의 시대 | 2026-05-09 11:51]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-09-1151-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Fri, 01 May 2026 12:28:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 이란 최고지도자 모즈타바 하메네이가 호르무즈 해협에 대한 '새로운 법적 프레임워크' 구축과 핵 능력 유지를 선언했습니다. → 호르무즈 해협의 상시적 봉쇄 명분이 마련됨에 따라 유가 변동성이 극도로 커질 전망이다. 에너지 ETF(XLE) 보유를 강화해야 한다. 미국 ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Zed 1.0 출시와 에이전트 인프라 가속 | 2026-04-30 11:56]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-30-1157-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-30-1157-dev.html</guid>
-      <pubDate>Thu, 30 Apr 2026 11:57:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Google Gemma 4 출시: 새로운 세대의 오픈 모델인 Gemma 4가 공개되었으며, Cloud Run Jobs를 통한 서버리스 GPU 튜닝이 지원됨. → 오픈 소스 모델의 성능 향상으로 특정 도메인(예: 반려동물 분류 등)에... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[유가 $120 돌파, 빅테크 AI 투자 가속 | 2026-04-30 11:56]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-04-30-1157-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-04-30-1157-market.html</guid>
-      <pubDate>Thu, 30 Apr 2026 11:57:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 중동 전쟁 장기화 및 호르무즈 해협 봉쇄 우려로 국제 유가(WTI) $120 상회 (BBC, Al Jazeera) → 에너지 가격 상승은 한국 제조업의 비용 부담을 가중시키므로 정유·상사 섹터(S-Oil, 포스코인터내셔널) 외에는 보수적 접근이 필요함. 트럼프 전 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
