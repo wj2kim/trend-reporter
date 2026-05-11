@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sun, 10 May 2026 11:58:55 +0900</lastBuildDate>
-    <pubDate>Sun, 10 May 2026 11:58:55 +0900</pubDate>
+    <lastBuildDate>Mon, 11 May 2026 12:35:14 +0900</lastBuildDate>
+    <pubDate>Mon, 11 May 2026 12:35:14 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GPT-5.5 수학 혁신과 로컬 AI | 2026-05-11 12:34]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-11-1235-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-11-1235-dev.html</guid>
+      <pubDate>Mon, 11 May 2026 12:35:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 ChatGPT 5.5 Pro, PhD 수준의 수학적 연구 성과 창출 → 단순 코딩을 넘어 복잡한 논리 구조와 도메인 지식이 필요한 연구 단계에서도 AI가 시니어급 역량을 발휘함을 시사한다. OpenAI, GPT-5.5 Cyber 및... (읽기 시간: 6분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[트럼프 협상 거절, 고유가 지속 | 2026-05-11 12:34]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-11-1235-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-11-1235-market.html</guid>
+      <pubDate>Mon, 11 May 2026 12:35:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 대통령, 이란의 우라늄 이전 등을 포함한 평화 제안을 "전혀 받아들일 수 없다"며 거부 → 지정학적 리스크가 해소 국면에서 다시 장기전으로 전환됨에 따라 시장의 불확실성 증대. 호르무즈 해협 봉쇄 지속으로 글로벌 에너지 공급망 마비 및 유가 급등세 유지 → ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.5 공개, 에이전트 기억력 혁신 | 2026-05-10 11:58]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-10-1158-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sat, 02 May 2026 11:46:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프 대통령, 이란 전쟁 협조 거부하는 독일에 미군 5,000명 감축 통보 → 나토(NATO) 내 균열 가속화로 유럽 방위비 분담 압박 증대. 유럽 방산주 및 관련 ETF 변동성 확대 대비 필요. 엑손모빌(XOM)과 셰브론(CVX), 트럼프의 시추 확대 요청에도 ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[에이전틱 개발 환경과 AI 금지 정책의 충돌 | 2026-05-01 12:27]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-01-1228-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-01-1228-dev.html</guid>
-      <pubDate>Fri, 01 May 2026 12:28:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 GPT-5.1 '고블린(Goblin)' 현상 분석: 모델이 답변에 고블린, 그렘린 등의 비유를 남발하는 현상 발생. 원인은 성격 커스터마이징 과정에서의 'Nerdy' 페르소나 학습 데이터의 오버피팅으로 판명. → 모델의 미세한 성격... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[호르무즈 해협 봉쇄와 트럼프의 선택 | 2026-05-01 12:27]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-01-1228-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-01-1228-market.html</guid>
-      <pubDate>Fri, 01 May 2026 12:28:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 이란 최고지도자 모즈타바 하메네이가 호르무즈 해협에 대한 '새로운 법적 프레임워크' 구축과 핵 능력 유지를 선언했습니다. → 호르무즈 해협의 상시적 봉쇄 명분이 마련됨에 따라 유가 변동성이 극도로 커질 전망이다. 에너지 ETF(XLE) 보유를 강화해야 한다. 미국 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
