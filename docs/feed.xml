@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sat, 16 May 2026 11:56:37 +0900</lastBuildDate>
-    <pubDate>Sat, 16 May 2026 11:56:37 +0900</pubDate>
+    <lastBuildDate>Sun, 17 May 2026 12:30:23 +0900</lastBuildDate>
+    <pubDate>Sun, 17 May 2026 12:30:23 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[AI 결제 가속화와 Bun의 Rust 전환 | 2026-05-17 12:29]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-17-1230-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-17-1230-dev.html</guid>
+      <pubDate>Sun, 17 May 2026 12:30:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 GPT-5.5 기반 엔터프라이즈 에이전트 워크플로우 (Databricks) → OfficeQA Pro 벤치마크에서 신기록을 달성한 GPT-5.5가 실제 기업용 에이전트 환경에 적용되기 시작했습니다. 이제 단순 챗봇이 아닌 업무 프로... (읽기 시간: 6분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[연준 의장 교체와 호르무즈 긴장 | 2026-05-17 12:29]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-17-1230-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-17-1230-market.html</guid>
+      <pubDate>Sun, 17 May 2026 12:30:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 이란이 이스라엘의 레바논/가자지구 공격에 대응해 호르무즈 해협 통행료 징수 계획을 발표할 예정입니다. → 글로벌 원유 물동량의 20%가 지나는 경로의 비용 상승은 유가 및 물류비의 상방 압력을 직접적으로 높인다. 에너지(XLE) 및 해운주 변동성에 대비해야 한다. ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.5 공개와 에이전트 샌드박스 표준화 | 2026-05-16 11:55]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-16-1156-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Fri, 08 May 2026 11:57:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 호르무즈 해협 내 미-이란 무력 충돌 재개 및 휴전 무력화 위기 미국 군함에 대한 이란의 공격과 이에 따른 미국의 보복 공습이 발생하며 선포된 휴전이 사실상 파기될 위기에 처했습니다. → 호르무즈 해협 폐쇄 장기화 시 유가 $100 돌파 가능성이 농후하므로 원유 선... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[에이전트 자율 배포와 브라우저 내장 LLM | 2026-05-07 11:53]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-07-1154-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-07-1154-dev.html</guid>
-      <pubDate>Thu, 07 May 2026 11:54:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.5 Instant 출시: 기본 모델 업데이트를 통해 더 정확한 답변과 개인화 컨트롤, 감소된 할루시네이션을 제공. → 모델의 성능 향상만큼이나 '개인화' 기능이 강화되고 있으므로, 사용자 컨텍스트를 모델에 ... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미·이란 협상 국면과 닛케이 신고가 | 2026-05-07 11:53]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-07-1154-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-07-1154-market.html</guid>
-      <pubDate>Thu, 07 May 2026 11:54:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프 대통령의 대이란 협상 제안과 군사적 위협 병행 → 트럼프는 이란과 "매우 좋은 대화"를 가졌다고 언급하면서도, 협상 결렬 시 강력한 폭격을 경고하는 양면 전략을 구사 중이다. 에너지 시장의 불확실성이 지속되므로 유가 변동성 헤지를 위한 원유 선물이나 에너지 ... (읽기 시간: 5분)]]></description>
     </item>
   </channel>
 </rss>
