@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Mon, 18 May 2026 12:44:17 +0900</lastBuildDate>
-    <pubDate>Mon, 18 May 2026 12:44:17 +0900</pubDate>
+    <lastBuildDate>Tue, 19 May 2026 12:37:05 +0900</lastBuildDate>
+    <pubDate>Tue, 19 May 2026 12:37:05 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[[Anthropic, MCP 도구화 선점] | 2026-05-19 12:36]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-19-1237-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-19-1237-dev.html</guid>
+      <pubDate>Tue, 19 May 2026 12:37:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.5 엔터프라이즈 워크플로우 도입: Databricks와 협력하여 GPT-5.5를 에이전트 워크플로우에 적용, OfficeQA Pro 벤치마크에서 최고 기록 달성. → 기업용 에이전트 시장에서 모델 성능 경쟁... (읽기 시간: 7분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[국채금리 쇼크와 이란 공격 보류 | 2026-05-19 12:36]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-19-1237-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-19-1237-market.html</guid>
+      <pubDate>Tue, 19 May 2026 12:37:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 대통령, 걸프 동맹국 요청으로 이란 공격 잠정 보류 및 협상 개시 발표 → 군사적 충돌 우려가 '협상 모드'로 전환되며 유가는 하락했으나, 협상 결렬 시 즉각 재등등할 수 있는 '바이너리(Binary)' 리스크 구간이다. 푸틴 러시아 대통령, 트럼프 방중 직... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.5 도입과 에이전트 비용 최적화 | 2026-05-18 12:43]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-18-1244-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sun, 10 May 2026 11:58:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 연준(Fed), 중동 전쟁으로 인한 '오일 쇼크'를 금융 시스템의 2대 리스크로 규정 → 에너지 공급망 붕괴가 금리 경로를 완전히 바꿀 수 있다. 에너지 ETF(XLE) 및 원자재 관련주를 포트폴리오의 필수 헤지 수단으로 활용하라. 푸틴 러시아 대통령, 우크라이나 ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[에이전트 제어 흐름의 시대 | 2026-05-09 11:51]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-09-1151-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-09-1151-dev.html</guid>
-      <pubDate>Sat, 09 May 2026 11:51:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.5 및 GPT-5.5-Cyber 출시: 보안 방어자를 위해 취약점 연구를 가속화하고 국가 임계 인프라를 보호하는 전용 모델을 포함한 업데이트 발표. → 보안 담당 개발자는 GPT-5.5-Cyber의 Trus... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[[중동 전운 속 반도체 공급망 재편] | 2026-05-09 11:51]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-09-1151-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-09-1151-market.html</guid>
-      <pubDate>Sat, 09 May 2026 11:51:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 미국이 호르무즈 해협에서 이란 유조선을 타격하며 교전이 심화되었고, 트럼프 행정부는 평화 협상안에 대한 이란의 답변을 대기 중입니다. → 호르무즈 봉쇄가 장기화될 경우 유가 $100 안착 및 물가 재발화 위험 상존. 정유주와 방산 섹터의 하방 경직성 확보 필요. 노... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
