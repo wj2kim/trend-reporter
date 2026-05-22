@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Thu, 21 May 2026 12:44:28 +0900</lastBuildDate>
-    <pubDate>Thu, 21 May 2026 12:44:28 +0900</pubDate>
+    <lastBuildDate>Fri, 22 May 2026 12:42:47 +0900</lastBuildDate>
+    <pubDate>Fri, 22 May 2026 12:42:47 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[AI 수학 난제 해결, 에이전트 스킬 중심 재편 | 2026-05-22 12:42]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-22-1242-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-22-1242-dev.html</guid>
+      <pubDate>Fri, 22 May 2026 12:42:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI 모델, 80년 묵은 수학 난제 '단위 거리 문제' 해결 → AI가 단순 패턴 매칭을 넘어 고도의 논리적 추론이 필요한 수학적 증명 영역에서 인간 수준의 성과를 내기 시작했다. Qwen3.7-Max 공개: 에이전트 능력의... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미-이란 협상과 7% 금리 충격 | 2026-05-22 12:42]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-22-1242-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-22-1242-market.html</guid>
+      <pubDate>Fri, 22 May 2026 12:42:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미-이란 평화 협상 진전 및 에너지 시장 불확실성 지속 → 협상 기대감에 비철금속은 상승했으나, 이란의 우라늄 농축 유지 소식으로 유가는 다시 반등하는 복합적 상황이다. 에너지 ETF(XLE)의 변동성 확대에 대비하라. 트럼프 행정부의 지정학적 영향력 확대 (폴란드... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Gemini 3.5와 에이전트 실행 최적화 | 2026-05-21 12:43]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-21-1244-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Wed, 13 May 2026 12:29:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 미국 4월 소비자물가지수(CPI) 3.8% 기록, 3년 만에 최고치 경신 → 유가 상승이 물가에 전이되는 '세컨드 라운드'가 시작되었다. 연준의 금리 인하 기대치를 완전히 철회하고 고금리 장기화(Higher for Longer)에 맞춘 포트폴리오 재편이 시급하다. ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[로컬 AI와 에이전트 실전 배치 | 2026-05-12 11:58]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-12-1159-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-12-1159-dev.html</guid>
-      <pubDate>Tue, 12 May 2026 11:59:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Anthropic 'Mythos' 모델, curl 보안 취약점 발견 → AI가 소스 코드의 심각한 결함을 찾는 능력이 임계점을 넘었다. 이제 보안 감사(Audit) 단계에서 AI 도구 활용은 선택이 아닌 필수다. Gemma 4 출시... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프 강경론에 유가·금리 동반 상승 | 2026-05-12 11:58]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-12-1159-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-12-1159-market.html</guid>
-      <pubDate>Tue, 12 May 2026 11:59:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프 대통령이 이란의 14개 항 평화 제안을 "쓰레기(Garbage)"라며 거부하고, 한 달간의 휴전이 "생명 유지 장치"에 의존하는 위기 상태라고 규정했습니다. → 호르무즈 해협 긴장 재점화로 유가(WTI) 추가 상승 가능성 농후. 에너지 ETF(XLE) 및 정... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
