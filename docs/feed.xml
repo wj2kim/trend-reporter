@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Fri, 22 May 2026 12:42:47 +0900</lastBuildDate>
-    <pubDate>Fri, 22 May 2026 12:42:47 +0900</pubDate>
+    <lastBuildDate>Sat, 23 May 2026 11:58:52 +0900</lastBuildDate>
+    <pubDate>Sat, 23 May 2026 11:58:52 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Claude Code 진화와 에이전트 언어 | 2026-05-23 11:58]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-23-1158-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-23-1158-dev.html</guid>
+      <pubDate>Sat, 23 May 2026 11:58:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.5 기반 Codex 활용 사례 확산: Ramp는 코드 리뷰 시간을 시간 단위에서 분 단위로 단축했으며, Virgin Atlantic은 모바일 앱 리뉴얼 시 유닛 테스트 커버리지를 100%에 가깝게 달성함. ... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[워시 의장 취임, 금리 인상 재점화 | 2026-05-23 11:58]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-23-1158-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-23-1158-market.html</guid>
+      <pubDate>Sat, 23 May 2026 11:58:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미국-이란 휴전 중재 난항 및 중동 긴장 고착화 카타르와 파키스탄의 중재에도 불구하고 이란과의 휴전 협상이 실패하며 전쟁 장기화 우려가 커지고 있습니다. → 호르무즈 해협 봉쇄 리스크가 8월까지 지속될 경우 2008년식 유가 폭등 시나리오가 재현될 가능성이 높으므로... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[AI 수학 난제 해결, 에이전트 스킬 중심 재편 | 2026-05-22 12:42]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-22-1242-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Thu, 14 May 2026 12:29:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프-시진핑 베이징 정상회담 개최 (이란 전쟁 및 무역 현안 논의) → 이란 전쟁으로 인한 무역 경로 차단 해결을 위해 미-중 간 천연가스 무역 재개 등 '에너지 빅딜' 가능성이 높다. 에너지 관련주(XLE, 천연가스)의 변동성에 대비하라. → [So What?]... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI 보안 에이전트와 공급망 위기 | 2026-05-13 12:29]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-13-1229-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-13-1229-dev.html</guid>
-      <pubDate>Wed, 13 May 2026 12:29:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Anthropic 'Mythos' 모델, Curl 취약점 발견: 보안 취약점 탐지에 특화된 Mythos 모델이 공식 출시 전 curl의 보안 결함을 찾아냄. → 이제 AI가 인간보다 먼저 제로데이 취약점을 찾을 수 있으므로, 보안 ... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[인플레 쇼크와 트럼프·엔비디아 방중 | 2026-05-13 12:29]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-13-1229-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-13-1229-market.html</guid>
-      <pubDate>Wed, 13 May 2026 12:29:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 미국 4월 소비자물가지수(CPI) 3.8% 기록, 3년 만에 최고치 경신 → 유가 상승이 물가에 전이되는 '세컨드 라운드'가 시작되었다. 연준의 금리 인하 기대치를 완전히 철회하고 고금리 장기화(Higher for Longer)에 맞춘 포트폴리오 재편이 시급하다. ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
