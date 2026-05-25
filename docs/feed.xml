@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sun, 24 May 2026 12:39:08 +0900</lastBuildDate>
-    <pubDate>Sun, 24 May 2026 12:39:08 +0900</pubDate>
+    <lastBuildDate>Mon, 25 May 2026 12:58:39 +0900</lastBuildDate>
+    <pubDate>Mon, 25 May 2026 12:58:39 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[에이전트 스킬 최적화와 비용 통제 | 2026-05-25 12:53]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-25-1258-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-25-1258-dev.html</guid>
+      <pubDate>Mon, 25 May 2026 12:58:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 DeepSeek Reasonix 출시: 고성능 캐싱과 저비용을 앞세운 네이티브 코딩 에이전트 등장. → 고비용 모델 의존도를 낮추기 위해 DeepSeek 같은 가성비 모델을 서브 에이전트로 병행 사용하는 아키텍처 검토가 필요하다. ... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미-이란 평화 협상, 유가 급락 증시 환호 | 2026-05-25 12:53]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-25-1258-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-25-1258-market.html</guid>
+      <pubDate>Mon, 25 May 2026 12:58:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [미국-이란 평화 협정 타결 임박 및 호르무즈 해협 재개방 합의] 트럼프 대통령이 협상을 서두르지 않겠다고 언급했으나, 원칙적으로 호르무즈 재개방과 이란의 농축 우라늄 폐기 방안에 양측이 합의하며 전쟁 종결 가능성이 매우 높아졌습니다. → 에너지 공급망 정상화로 인... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[AI 에이전트, 스킬과 보안 중심 재편 | 2026-05-24 12:38]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-24-1239-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sat, 16 May 2026 11:56:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [트럼프-시진핑 정상회담 종료 및 대만 독립 경고 지정학적 관리 모드] 트럼프 대통령이 시진핑 주석과의 회담 직후 대만을 향해 "독립 선언을 자제하고 냉정을 찾으라"고 경고하며 미·중 갈등의 전선을 관리하려는 의지를 보였습니다. → 대만 리스크 완화는 단기적으로 반... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Bun의 Rust 전환과 에이전트 인프라 가속화 | 2026-05-15 12:33]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-15-1234-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-15-1234-dev.html</guid>
-      <pubDate>Fri, 15 May 2026 12:34:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI Codex, ChatGPT 모바일 앱 통합: 모바일 환경에서도 실시간으로 코딩 작업을 모니터링하고 승인할 수 있는 에이전틱 코딩 지원 강화. → 데스크톱을 벗어나 이동 중에도 AI 에이전트의 PR이나 코드 생성을 최종 ... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미·중 에너지 밀월과 인플레 재발 | 2026-05-15 12:33]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-15-1234-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-15-1234-market.html</guid>
-      <pubDate>Fri, 15 May 2026 12:34:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [미·중 정상회담, 중국의 미국산 원유 대량 구매 합의] 중국이 미국의 '성가신 Appetite'를 채우기 위해 미국산 원유를 구매하기로 합의했습니다. 트럼프는 이를 큰 성과로 홍보하고 있습니다. → 무역 수지 개선에는 긍정적이나, 수요 강세 확인으로 유가가 반등하... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
