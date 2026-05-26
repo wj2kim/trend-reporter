@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Mon, 25 May 2026 12:58:39 +0900</lastBuildDate>
-    <pubDate>Mon, 25 May 2026 12:58:39 +0900</pubDate>
+    <lastBuildDate>Tue, 26 May 2026 12:36:17 +0900</lastBuildDate>
+    <pubDate>Tue, 26 May 2026 12:36:17 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[DeepSeek 가격 파괴와 AI 코딩의 질적 전환 | 2026-05-26 12:35]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-26-1236-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-26-1236-dev.html</guid>
+      <pubDate>Tue, 26 May 2026 12:36:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 DeepSeek, V4-Pro API 가격 75% 영구 인하 및 Reasonix 공개 → 중국발 가격 전쟁이 본격화되면서 추론 비용이 극도로 낮아졌다. 이제 개발자는 비용 최적화보다 여러 모델을 앙상블하여 정확도를 높이는 구조 설계... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미-이란 충돌과 협상 양면 전술 | 2026-05-26 12:35]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-26-1236-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-26-1236-market.html</guid>
+      <pubDate>Tue, 26 May 2026 12:36:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미국이 카타르 협상 중에도 이란 남부 해안의 미사일 발사지와 보트를 타격하며 '자위적 공격'을 수행했습니다. → 협상 테이블에서의 우위를 점하기 위한 군사적 압박이며, 호르무즈 해협의 완전한 개방 전까지는 에너지 공급망 리스크가 해소된 것이 아니다. 케빈 워시(Ke... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[에이전트 스킬 최적화와 비용 통제 | 2026-05-25 12:53]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-25-1258-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sun, 17 May 2026 12:30:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 이란이 이스라엘의 레바논/가자지구 공격에 대응해 호르무즈 해협 통행료 징수 계획을 발표할 예정입니다. → 글로벌 원유 물동량의 20%가 지나는 경로의 비용 상승은 유가 및 물류비의 상방 압력을 직접적으로 높인다. 에너지(XLE) 및 해운주 변동성에 대비해야 한다. ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GPT-5.5 공개와 에이전트 샌드박스 표준화 | 2026-05-16 11:55]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-16-1156-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-16-1156-dev.html</guid>
-      <pubDate>Sat, 16 May 2026 11:56:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.5 공개 및 Databricks 도입: GPT-5.5가 OfficeQA Pro 벤치마크에서 SOTA를 달성하며 기업용 에이전트 워크플로우에 공식 도입됨. → 고성능 모델의 기업 데이터 결합이 가속화되므로, ... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미·중 회담 종료 및 유가 10% 폭등 | 2026-05-16 11:55]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-16-1156-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-16-1156-market.html</guid>
-      <pubDate>Sat, 16 May 2026 11:56:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [트럼프-시진핑 정상회담 종료 및 대만 독립 경고 지정학적 관리 모드] 트럼프 대통령이 시진핑 주석과의 회담 직후 대만을 향해 "독립 선언을 자제하고 냉정을 찾으라"고 경고하며 미·중 갈등의 전선을 관리하려는 의지를 보였습니다. → 대만 리스크 완화는 단기적으로 반... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
