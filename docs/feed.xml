@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sat, 30 May 2026 12:28:32 +0900</lastBuildDate>
-    <pubDate>Sat, 30 May 2026 12:28:32 +0900</pubDate>
+    <lastBuildDate>Sun, 31 May 2026 12:55:36 +0900</lastBuildDate>
+    <pubDate>Sun, 31 May 2026 12:55:36 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Anthropic 부상과 지루한 기술 | 2026-05-31 12:54]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-31-1255-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-31-1255-dev.html</guid>
+      <pubDate>Sun, 31 May 2026 12:55:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Anthropic, OpenAI 제치고 가장 가치 있는 AI 스타트업 등극: 평가액 1조 달러 근접. → Claude의 엔터프라이즈 시장 지배력이 강화됨에 따라 AWS Bedrock 및 Google Vertex AI 기반의 Clau... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[연준 의장 교체와 AI 투자 가속화 | 2026-05-31 12:54]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-31-1255-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-31-1255-market.html</guid>
+      <pubDate>Sun, 31 May 2026 12:55:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 케빈 워시(Kevin Warsh) 신임 연준 의장 취임 및 FOMC 의장 선출 → 정책 결정권자의 교체는 시장에 새로운 통화정책 가이던스를 제공할 것이며, 그의 과거 성향을 고려할 때 데이터 중심의 유연한 금리 경로가 예상된다. 미국-이스라엘 군사 통합 추진 및 중... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude 4.8과 에이전트 자동화 가속 | 2026-05-30 12:27]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-30-1228-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Fri, 22 May 2026 12:42:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 미-이란 평화 협상 진전 및 에너지 시장 불확실성 지속 → 협상 기대감에 비철금속은 상승했으나, 이란의 우라늄 농축 유지 소식으로 유가는 다시 반등하는 복합적 상황이다. 에너지 ETF(XLE)의 변동성 확대에 대비하라. 트럼프 행정부의 지정학적 영향력 확대 (폴란드... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Gemini 3.5와 에이전트 실행 최적화 | 2026-05-21 12:43]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-21-1244-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-21-1244-dev.html</guid>
-      <pubDate>Thu, 21 May 2026 12:44:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Gemini 3.5 Flash 출시: 복잡한 에이전틱 워크플로우 실행에 최적화된 모델로, 지능과 행동(Action)의 결합을 강조함. → 단순히 답변을 잘하는 모델보다 도구 호출(Tool-calling)과 다단계 추론 속도가 빠른 ... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[엔비디아 실적 폭발과 스페이스X IPO | 2026-05-21 12:43]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-21-1244-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-21-1244-market.html</guid>
-      <pubDate>Thu, 21 May 2026 12:44:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [이란 전쟁 고착화에 따른 글로벌 원유 재고 급감] 골드만삭스에 따르면 중동 전쟁 지속으로 이번 달 글로벌 원유 및 석유 제품 재고가 기록적인 속도로 감소하고 있습니다. → 공급 부족 우려가 실물 경제에 반영되기 시작했으므로 정유주 및 에너지 인프라 섹터의 수익성 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
