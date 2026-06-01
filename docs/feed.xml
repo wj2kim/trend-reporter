@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sun, 31 May 2026 12:55:36 +0900</lastBuildDate>
-    <pubDate>Sun, 31 May 2026 12:55:36 +0900</pubDate>
+    <lastBuildDate>Mon, 01 Jun 2026 13:07:48 +0900</lastBuildDate>
+    <pubDate>Mon, 01 Jun 2026 13:07:48 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Anthropic 가치 1조 달러 돌파와 도메인 지식 | 2026-06-01 13:07]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-01-1307-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-01-1307-dev.html</guid>
+      <pubDate>Mon, 01 Jun 2026 13:07:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Anthropic, OpenAI 제치고 세계 최고 가치 AI 스타트업 등극 → Claude 개발사인 Anthropic이 650억 달러 규모의 시리즈 H 투자를 유치하며 기업 가치 1조 달러(약 1,300조 원)에 육박. 시장의 신뢰... (읽기 시간: 6분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[중동 전면전 위기와 연준 독립성 논란 | 2026-06-01 13:07]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-01-1307-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-01-1307-market.html</guid>
+      <pubDate>Mon, 01 Jun 2026 13:07:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 이스라엘이 레바논 남부의 전략적 요충지인 보포르 성을 점령하며 지상 공세를 확대하고 있습니다. → 전면전 확산 시 유가 급등 및 공급망 마비 가능성 농후. 에너지 ETF(XLE) 및 방산주(LIG넥스원 등)의 비중 유지가 필수적이다. 미국 상무부가 제3국 법인을 통... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Anthropic 부상과 지루한 기술 | 2026-05-31 12:54]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-31-1255-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sat, 23 May 2026 11:58:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 미국-이란 휴전 중재 난항 및 중동 긴장 고착화 카타르와 파키스탄의 중재에도 불구하고 이란과의 휴전 협상이 실패하며 전쟁 장기화 우려가 커지고 있습니다. → 호르무즈 해협 봉쇄 리스크가 8월까지 지속될 경우 2008년식 유가 폭등 시나리오가 재현될 가능성이 높으므로... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI 수학 난제 해결, 에이전트 스킬 중심 재편 | 2026-05-22 12:42]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-22-1242-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-22-1242-dev.html</guid>
-      <pubDate>Fri, 22 May 2026 12:42:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI 모델, 80년 묵은 수학 난제 '단위 거리 문제' 해결 → AI가 단순 패턴 매칭을 넘어 고도의 논리적 추론이 필요한 수학적 증명 영역에서 인간 수준의 성과를 내기 시작했다. Qwen3.7-Max 공개: 에이전트 능력의... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미-이란 협상과 7% 금리 충격 | 2026-05-22 12:42]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-22-1242-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-22-1242-market.html</guid>
-      <pubDate>Fri, 22 May 2026 12:42:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 미-이란 평화 협상 진전 및 에너지 시장 불확실성 지속 → 협상 기대감에 비철금속은 상승했으나, 이란의 우라늄 농축 유지 소식으로 유가는 다시 반등하는 복합적 상황이다. 에너지 ETF(XLE)의 변동성 확대에 대비하라. 트럼프 행정부의 지정학적 영향력 확대 (폴란드... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
