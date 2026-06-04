@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Wed, 03 Jun 2026 13:10:09 +0900</lastBuildDate>
-    <pubDate>Wed, 03 Jun 2026 13:10:09 +0900</pubDate>
+    <lastBuildDate>Thu, 04 Jun 2026 13:04:29 +0900</lastBuildDate>
+    <pubDate>Thu, 04 Jun 2026 13:04:29 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Gemma 4와 AI 비용 관리 시대 | 2026-06-04 13:03]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-04-1304-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-04-1304-dev.html</guid>
+      <pubDate>Thu, 04 Jun 2026 13:04:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Gemma 4 12B 출시: 구글이 노트북에서 직접 구동 가능한 인코더 프리 멀티모달 모델을 공개함. → 클라우드 비용 없이 로컬에서 고성능 멀티모달 에이전트를 구축할 수 있는 길이 열렸다. MAI-Code-1-Flash: 마이크로... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[SpaceX 상장 예고와 새 연준 의장 취임 | 2026-06-04 13:03]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-04-1304-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-04-1304-market.html</guid>
+      <pubDate>Thu, 04 Jun 2026 13:04:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미국 하원이 이란 관련 트럼프 대통령의 전쟁 권한을 제한하는 법안을 통과시켰으며, 이스라엘과 레바논은 미국 중재 하에 휴전 재합의에 도달했습니다. → 지정학적 긴장 완화 시도가 이어지고 있으나, 이란의 쿠웨이트 공항 공격 영상 공개 등 돌발 변수가 여전해 방산 섹터... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[AI 에이전트, OS와 개발 도구의 표준으로 | 2026-06-03 13:09]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-03-1310-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Tue, 26 May 2026 12:36:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 미국이 카타르 협상 중에도 이란 남부 해안의 미사일 발사지와 보트를 타격하며 '자위적 공격'을 수행했습니다. → 협상 테이블에서의 우위를 점하기 위한 군사적 압박이며, 호르무즈 해협의 완전한 개방 전까지는 에너지 공급망 리스크가 해소된 것이 아니다. 케빈 워시(Ke... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[에이전트 스킬 최적화와 비용 통제 | 2026-05-25 12:53]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-25-1258-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-25-1258-dev.html</guid>
-      <pubDate>Mon, 25 May 2026 12:58:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 DeepSeek Reasonix 출시: 고성능 캐싱과 저비용을 앞세운 네이티브 코딩 에이전트 등장. → 고비용 모델 의존도를 낮추기 위해 DeepSeek 같은 가성비 모델을 서브 에이전트로 병행 사용하는 아키텍처 검토가 필요하다. ... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미-이란 평화 협상, 유가 급락 증시 환호 | 2026-05-25 12:53]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-25-1258-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-25-1258-market.html</guid>
-      <pubDate>Mon, 25 May 2026 12:58:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [미국-이란 평화 협정 타결 임박 및 호르무즈 해협 재개방 합의] 트럼프 대통령이 협상을 서두르지 않겠다고 언급했으나, 원칙적으로 호르무즈 재개방과 이란의 농축 우라늄 폐기 방안에 양측이 합의하며 전쟁 종결 가능성이 매우 높아졌습니다. → 에너지 공급망 정상화로 인... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
