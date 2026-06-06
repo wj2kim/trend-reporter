@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Fri, 05 Jun 2026 12:49:02 +0900</lastBuildDate>
-    <pubDate>Fri, 05 Jun 2026 12:49:02 +0900</pubDate>
+    <lastBuildDate>Sat, 06 Jun 2026 12:34:07 +0900</lastBuildDate>
+    <pubDate>Sat, 06 Jun 2026 12:34:07 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[AI 자율 개발과 인프라 통합의 시대 | 2026-06-06 12:33]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-06-1234-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-06-1234-dev.html</guid>
+      <pubDate>Sat, 06 Jun 2026 12:34:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Gemma 4 12B 및 QAT 모델 출시: 구글이 노트북/모바일 환경에 최적화된 인코더리스 멀티모달 모델과 양자화(QAT) 기술을 공개함. → 이제 클라우드 의존도를 낮추고 로컬 환경에서 지연 시간 없이 고성능 멀티모달 기능을 구... (읽기 시간: 7분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[나스닥 역대급 폭락, 연준 매파 전환 | 2026-06-06 12:33]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-06-1234-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-06-1234-market.html</guid>
+      <pubDate>Sat, 06 Jun 2026 12:34:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 푸틴 러시아 대통령, 젤렌스키의 대면 회담 제안 거부 및 '전쟁 지속' 의지 피력 → 우크라이나 전쟁 장기화 고착화로 인해 유럽 에너지 가격의 하방 경직성이 강화될 전망이다. 시진핑 중국 국가주석, 북한의 신규 핵연료 시설 공개 직후 다음 주 방북 발표 → 북·중·... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Elixir 타입화와 AI 자율 개선 | 2026-06-05 12:48]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-05-1249-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Thu, 28 May 2026 12:39:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 미국의 이란 드론 기지 추가 공습 및 쿠웨이트 방공망 가동으로 인한 중동 긴장 재고조 → 호르무즈 해협의 지정학적 리스크가 다시 실체화되며 유가 하방 경직성을 강화함. 에너지 관련 자산 보유가 필수적인 시점임. 이스라엘의 레바논 남부 대규모 대피령 및 헤즈볼라와의 ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI 에이전트, '속도'보다 '품질'과 '거버넌스'로 | 2026-05-27 12:53]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-27-1254-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-27-1254-dev.html</guid>
-      <pubDate>Wed, 27 May 2026 12:54:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI Codex & GPT-5.5 엔터프라이즈 적용 확대: Ramp와 Virgin Atlantic이 Codex를 활용해 코드 리뷰 속도를 높이고 단위 테스트 커버리지를 100%에 가깝게 달성했다는 사례 발표. → 엔터프라이즈... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[하이닉스 시총 1조 달러, AI 독주 시대 | 2026-05-27 12:53]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-27-1254-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-27-1254-market.html</guid>
-      <pubDate>Wed, 27 May 2026 12:54:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 미국-이란 평화 협상의 진전 기대감과 이스라엘의 레바논 공격 격화가 공존하고 있습니다. → 지정학적 리스크 완화 기대감에 구리, 알루미늄 등 비철금속 가격이 상승 중이며, 원자재 관련 ETF(DBB)에 주목할 시점입니다. 케빈 워시(Kevin Warsh)가 연방준비... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
