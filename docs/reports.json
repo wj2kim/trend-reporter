@@ -1,5 +1,25 @@
 [
   {
+    "title": "리포트 | 2026-06-09 12:33",
+    "filename": "2026-06-09-1233-dev.html",
+    "date": "2026-06-09",
+    "time": "12:33",
+    "category": "dev",
+    "description": "분석 실패: 429 Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https...",
+    "reading_time": 1,
+    "keywords": []
+  },
+  {
+    "title": "리포트 | 2026-06-09 12:33",
+    "filename": "2026-06-09-1233-market.html",
+    "date": "2026-06-09",
+    "time": "12:33",
+    "category": "market",
+    "description": "분석 실패: 429 Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https...",
+    "reading_time": 1,
+    "keywords": []
+  },
+  {
     "title": "DeepSeek의 역전과 에이전트 표준화 | 2026-06-08 13:03",
     "filename": "2026-06-08-1304-dev.html",
     "date": "2026-06-08",
@@ -718,35 +738,5 @@
       "연준 의장 교체"
     ],
     "insight": "미·중 정상회담이 구체적 딜 없이 종료된 가운데, 이란 리스크로 유가가 주간 10% 폭등하며 인플레이션 경로가 불투명해졌다. 연준 리더십이 파월에서 케빈 워시로 교체되는 과도기인 만큼, 유가와 금리의 동반 상승에 대비해 방어적 포트폴리오(유틸리티, 에너지) 비중을 확대해야 한다."
-  },
-  {
-    "title": "Bun의 Rust 전환과 에이전트 인프라 가속화 | 2026-05-15 12:33",
-    "filename": "2026-05-15-1234-dev.html",
-    "date": "2026-05-15",
-    "time": "12:34",
-    "category": "dev",
-    "description": "1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI Codex, ChatGPT 모바일 앱 통합: 모바일 환경에서도 실시간으로 코딩 작업을 모니터링하고 승인할 수 있는 에이전틱 코딩 지원 강화. → 데스크톱을 벗어나 이동 중에도 AI 에이전트의 PR이나 코드 생성을 최종 ...",
-    "reading_time": 6,
-    "keywords": [
-      "Bun",
-      "Claude Code",
-      "Agentic Infrastructure"
-    ],
-    "insight": "Bun의 Rust 전환으로 런타임 성능 경쟁이 재점화되었으며, Claude Code의 백그라운드 세션 관리 기능은 개발자를 '에이전트 오케스트레이터'로 격상시킨다. 이제 개별 코드 작성을 넘어 에이전트 전용 인프라(gstack, agentmemory)를 구축하는 능력이 시니어의 기준이 된다."
-  },
-  {
-    "title": "미·중 에너지 밀월과 인플레 재발 | 2026-05-15 12:33",
-    "filename": "2026-05-15-1234-market.html",
-    "date": "2026-05-15",
-    "time": "12:34",
-    "category": "market",
-    "description": "1. 세계 정세 [미·중 정상회담, 중국의 미국산 원유 대량 구매 합의] 중국이 미국의 '성가신 Appetite'를 채우기 위해 미국산 원유를 구매하기로 합의했습니다. 트럼프는 이를 큰 성과로 홍보하고 있습니다. → 무역 수지 개선에는 긍정적이나, 수요 강세 확인으로 유가가 반등하...",
-    "reading_time": 4,
-    "keywords": [
-      "미중정상회담",
-      "원유",
-      "인플레이션"
-    ],
-    "insight": "트럼프의 '미국산 원유 강매'가 성사되며 유가는 올랐고, 시장은 다시 인플레이션을 공포로 받아들이기 시작했다. 코스피 8,000 돌파라는 광풍 속에서도 국채 금리 상승에 따른 기술주 조정에 대비한 포트폴리오 리밸런싱이 시급하다."
   }
 ]
