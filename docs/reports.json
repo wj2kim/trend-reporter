@@ -1,5 +1,25 @@
 [
   {
+    "title": "리포트 | 2026-06-10 12:43",
+    "filename": "2026-06-10-1243-dev.html",
+    "date": "2026-06-10",
+    "time": "12:43",
+    "category": "dev",
+    "description": "분석 실패: 429 Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https...",
+    "reading_time": 1,
+    "keywords": []
+  },
+  {
+    "title": "리포트 | 2026-06-10 12:43",
+    "filename": "2026-06-10-1243-market.html",
+    "date": "2026-06-10",
+    "time": "12:43",
+    "category": "market",
+    "description": "분석 실패: 429 Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https...",
+    "reading_time": 1,
+    "keywords": []
+  },
+  {
     "title": "리포트 | 2026-06-09 12:33",
     "filename": "2026-06-09-1233-dev.html",
     "date": "2026-06-09",
@@ -708,35 +728,5 @@
       "중러 밀착"
     ],
     "insight": "케빈 워시 취임 전 파월의 의장 대행 체제는 통화 정책의 일관성 우려를 낳는 불확실성 요소다. 이란의 호르무즈 통행료 징수 예고는 공급망 인플레이션을 직접적으로 자극할 것이므로, 에너지 인프라 및 유틸리티 섹터 위주의 방어적 포트폴리오 재편이 시급하다."
-  },
-  {
-    "title": "GPT-5.5 공개와 에이전트 샌드박스 표준화 | 2026-05-16 11:55",
-    "filename": "2026-05-16-1156-dev.html",
-    "date": "2026-05-16",
-    "time": "11:56",
-    "category": "dev",
-    "description": "1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.5 공개 및 Databricks 도입: GPT-5.5가 OfficeQA Pro 벤치마크에서 SOTA를 달성하며 기업용 에이전트 워크플로우에 공식 도입됨. → 고성능 모델의 기업 데이터 결합이 가속화되므로, ...",
-    "reading_time": 6,
-    "keywords": [
-      "GPT-5.5",
-      "Claude Code",
-      "에이전트 샌드박스"
-    ],
-    "insight": "단순 코드 생성을 넘어 OS 수준에서 작동하는 '에이전틱 개발'이 표준이 되었다. 이제 개발자는 코드 작성 자체보다 에이전트가 안전하게 활동할 수 있는 샌드박스 환경과 MCP 스킬을 설계하는 능력이 연봉을 결정한다."
-  },
-  {
-    "title": "미·중 회담 종료 및 유가 10% 폭등 | 2026-05-16 11:55",
-    "filename": "2026-05-16-1156-market.html",
-    "date": "2026-05-16",
-    "time": "11:56",
-    "category": "market",
-    "description": "1. 세계 정세 [트럼프-시진핑 정상회담 종료 및 대만 독립 경고 지정학적 관리 모드] 트럼프 대통령이 시진핑 주석과의 회담 직후 대만을 향해 \"독립 선언을 자제하고 냉정을 찾으라\"고 경고하며 미·중 갈등의 전선을 관리하려는 의지를 보였습니다. → 대만 리스크 완화는 단기적으로 반...",
-    "reading_time": 4,
-    "keywords": [
-      "트럼프-시진핑",
-      "유가 급등",
-      "연준 의장 교체"
-    ],
-    "insight": "미·중 정상회담이 구체적 딜 없이 종료된 가운데, 이란 리스크로 유가가 주간 10% 폭등하며 인플레이션 경로가 불투명해졌다. 연준 리더십이 파월에서 케빈 워시로 교체되는 과도기인 만큼, 유가와 금리의 동반 상승에 대비해 방어적 포트폴리오(유틸리티, 에너지) 비중을 확대해야 한다."
   }
 ]

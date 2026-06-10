@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Tue, 09 Jun 2026 12:33:12 +0900</lastBuildDate>
-    <pubDate>Tue, 09 Jun 2026 12:33:12 +0900</pubDate>
+    <lastBuildDate>Wed, 10 Jun 2026 12:43:48 +0900</lastBuildDate>
+    <pubDate>Wed, 10 Jun 2026 12:43:48 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[리포트 | 2026-06-10 12:43]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-10-1243-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-10-1243-dev.html</guid>
+      <pubDate>Wed, 10 Jun 2026 12:43:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[분석 실패: 429 Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https... (읽기 시간: 1분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[리포트 | 2026-06-10 12:43]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-10-1243-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-10-1243-market.html</guid>
+      <pubDate>Wed, 10 Jun 2026 12:43:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[분석 실패: 429 Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https... (읽기 시간: 1분)]]></description>
+    </item>
     <item>
       <title><![CDATA[리포트 | 2026-06-09 12:33]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-09-1233-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Mon, 01 Jun 2026 13:07:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 이스라엘이 레바논 남부의 전략적 요충지인 보포르 성을 점령하며 지상 공세를 확대하고 있습니다. → 전면전 확산 시 유가 급등 및 공급망 마비 가능성 농후. 에너지 ETF(XLE) 및 방산주(LIG넥스원 등)의 비중 유지가 필수적이다. 미국 상무부가 제3국 법인을 통... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Anthropic 부상과 지루한 기술 | 2026-05-31 12:54]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-31-1255-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-31-1255-dev.html</guid>
-      <pubDate>Sun, 31 May 2026 12:55:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Anthropic, OpenAI 제치고 가장 가치 있는 AI 스타트업 등극: 평가액 1조 달러 근접. → Claude의 엔터프라이즈 시장 지배력이 강화됨에 따라 AWS Bedrock 및 Google Vertex AI 기반의 Clau... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[연준 의장 교체와 AI 투자 가속화 | 2026-05-31 12:54]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-05-31-1255-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-05-31-1255-market.html</guid>
-      <pubDate>Sun, 31 May 2026 12:55:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 케빈 워시(Kevin Warsh) 신임 연준 의장 취임 및 FOMC 의장 선출 → 정책 결정권자의 교체는 시장에 새로운 통화정책 가이던스를 제공할 것이며, 그의 과거 성향을 고려할 때 데이터 중심의 유연한 금리 경로가 예상된다. 미국-이스라엘 군사 통합 추진 및 중... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
