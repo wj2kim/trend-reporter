@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Fri, 12 Jun 2026 13:01:48 +0900</lastBuildDate>
-    <pubDate>Fri, 12 Jun 2026 13:01:48 +0900</pubDate>
+    <lastBuildDate>Sat, 13 Jun 2026 12:47:41 +0900</lastBuildDate>
+    <pubDate>Sat, 13 Jun 2026 12:47:41 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Fable 5 중단과 에이전트 실무 | 2026-06-13 12:46]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-13-1247-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-13-1247-dev.html</guid>
+      <pubDate>Sat, 13 Jun 2026 12:47:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 미국 정부, Anthropic Fable 5 및 Mythos 5 모델 전면 차단 지시 국가 안보 및 수출 통제를 이유로 외국인의 접근을 금지함에 따라 서비스가 전격 중단됨. → 특정 상용 모델의 갑작스러운 중단에 대비해, LLM에 ... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[SpaceX 상장 대박, 머스크 1조 달러 시대 | 2026-06-13 12:46]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-13-1247-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-13-1247-market.html</guid>
+      <pubDate>Sat, 13 Jun 2026 12:47:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미국과 이란의 종전 및 평화 협정 체결 임박 (호르무즈 해협 재개방 논의) → 유가 하락 압력이 거세질 전망이다. 에너지 섹터(XLE) 수익 실현 후 인플레이션 둔화 수혜주인 대형 기술주로 갈아타야 한다. 일론 머스크, SpaceX 상장과 함께 세계 최초 '트릴리어... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Fable 5 논란과 에이전트 통제 | 2026-06-12 13:01]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-12-1301-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Thu, 04 Jun 2026 13:04:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 미국 하원이 이란 관련 트럼프 대통령의 전쟁 권한을 제한하는 법안을 통과시켰으며, 이스라엘과 레바논은 미국 중재 하에 휴전 재합의에 도달했습니다. → 지정학적 긴장 완화 시도가 이어지고 있으나, 이란의 쿠웨이트 공항 공격 영상 공개 등 돌발 변수가 여전해 방산 섹터... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI 에이전트, OS와 개발 도구의 표준으로 | 2026-06-03 13:09]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-03-1310-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-03-1310-dev.html</guid>
-      <pubDate>Wed, 03 Jun 2026 13:10:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Microsoft, 빠르고 효율적인 코딩 전용 모델 'MAI-Code-1-Flash' 출시 → VS Code 사용자라면 기본 코딩 모델로 설정하여 응답 속도와 정확도의 균형을 즉시 개선할 수 있다. Google Gemma 4 출시 ... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미-이란 직접 충돌, 증시 최고치 경신 | 2026-06-03 13:09]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-03-1310-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-03-1310-market.html</guid>
-      <pubDate>Wed, 03 Jun 2026 13:10:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [미국-이란 본토 및 우방국 직접 타격 발생 전면전 위기 고조] 미국이 이란 퀘섬(Qeshm) 섬을 공격한 데 이어, 이란이 바레인과 쿠웨이트 등 미국의 우방국과 유조선을 타격하며 직접적인 무력 충돌이 발생했습니다. → 호르무즈 해협 봉쇄 리스크가 임계점에 도달했다... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
