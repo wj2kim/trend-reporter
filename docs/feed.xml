@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sun, 14 Jun 2026 13:08:10 +0900</lastBuildDate>
-    <pubDate>Sun, 14 Jun 2026 13:08:10 +0900</pubDate>
+    <lastBuildDate>Mon, 15 Jun 2026 13:19:50 +0900</lastBuildDate>
+    <pubDate>Mon, 15 Jun 2026 13:19:50 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Claude Code 진화, Ona 인수로 굳히는 에이전트 | 2026-06-15 13:19]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-15-1319-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-15-1319-dev.html</guid>
+      <pubDate>Mon, 15 Jun 2026 13:19:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Claude Fable 5, Google Cloud 정식 출시(GA) → GCP 환경을 사용하는 기업용 서비스 개발자들은 Anthropic의 최신 프론티어 모델을 즉시 인프라에 통합하여 성능 향상을 꾀할 수 있다. Gemini 3.... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미-이란 평화 합의, 글로벌 증시 급등 | 2026-06-15 13:19]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-15-1319-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-15-1319-market.html</guid>
+      <pubDate>Mon, 15 Jun 2026 13:19:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미국과 이란, 금요일 평화 협정 조인식 예정 및 호르무즈 해협 봉쇄 해제 합의 → 글로벌 물류의 동맥이 뚫리면서 에너지 공급 리스크가 해소됨에 따라 국제 유가 하향 안정화 가속화. 케빈 워시(Kevin Warsh) 신임 연준 의장 취임 및 통화 정책 불확실성 상존 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Fable 5 중단과 로컬 에이전트 부상 | 2026-06-14 13:07]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-14-1308-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sat, 06 Jun 2026 12:34:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 푸틴 러시아 대통령, 젤렌스키의 대면 회담 제안 거부 및 '전쟁 지속' 의지 피력 → 우크라이나 전쟁 장기화 고착화로 인해 유럽 에너지 가격의 하방 경직성이 강화될 전망이다. 시진핑 중국 국가주석, 북한의 신규 핵연료 시설 공개 직후 다음 주 방북 발표 → 북·중·... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Elixir 타입화와 AI 자율 개선 | 2026-06-05 12:48]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-05-1249-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-05-1249-dev.html</guid>
-      <pubDate>Fri, 05 Jun 2026 12:49:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Gemma 4 12B 출시: 노트북 환경에서 실행 가능한 고성능 멀티모달 모델로, 에이전트 기능을 직접 지원하도록 설계됨. → 고사양 서버 없이 로컬 환경에서 멀티모달 AI 에이전트를 구축할 수 있는 기회가 열렸다. ChatGPT ... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI 반도체 조정과 신흥국 금융 불안 | 2026-06-05 12:48]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-05-1249-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-05-1249-market.html</guid>
-      <pubDate>Fri, 05 Jun 2026 12:49:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [헤즈볼라, 미-레바논 휴전안 공식 거부 중동 전쟁 장기화 국면] 헤즈볼라가 미국의 중재로 도출된 이스라엘-레바논 정부 간 휴전 합의를 '항복'이라 칭하며 거부하고 교전을 지속하겠다고 발표했습니다. → 지정학적 리스크가 유가 하단 부근을 강하게 지지하고 있어 에너지... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
