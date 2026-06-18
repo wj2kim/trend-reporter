@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Wed, 17 Jun 2026 13:11:48 +0900</lastBuildDate>
-    <pubDate>Wed, 17 Jun 2026 13:11:48 +0900</pubDate>
+    <lastBuildDate>Thu, 18 Jun 2026 13:02:27 +0900</lastBuildDate>
+    <pubDate>Thu, 18 Jun 2026 13:02:27 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[로컬 LLM 전성시대와 쿼리 표준화 | 2026-06-18 13:01]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-18-1302-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-18-1302-dev.html</guid>
+      <pubDate>Thu, 18 Jun 2026 13:02:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 GLM-5.2 오픈 웨이트 모델 출시: Artificial Analysis 지표에서 비용 대비 성능(Pareto frontier) 1위를 기록하며 DeepSeek V4 Pro를 제침. → 로컬 서버나 자체 인프라 구축 시 가성비와 ... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미-이란 딜 타결, 유가 하락 가속 | 2026-06-18 13:01]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-18-1302-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-18-1302-market.html</guid>
+      <pubDate>Thu, 18 Jun 2026 13:02:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [미-이란 종전 MoU 체결 및 3,000억 달러 재건 계획 발표] 트럼프 대통령과 이란 페제시키안 대통령이 전쟁 종식과 60일간의 핵 협상을 골자로 한 양해각서(MoU)에 서명했습니다. 3,000억 달러 규모의 재건 펀드가 핵심입니다. → 중동 지정학적 리스크가 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[SpaceX의 Cursor 인수와 에이전트 실행 환경 혁신 | 2026-06-17 13:11]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-17-1311-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Tue, 09 Jun 2026 12:33:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[분석 실패: 429 Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https... (읽기 시간: 1분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[DeepSeek의 역전과 에이전트 표준화 | 2026-06-08 13:03]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-08-1304-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-08-1304-dev.html</guid>
-      <pubDate>Mon, 08 Jun 2026 13:04:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 DeepSeek V4 Pro, GPT-5.5 Pro 정밀도 추월: 중국의 DeepSeek V4 Pro가 벤치마크에서 GPT-5.5 Pro의 성능을 능가하는 결과 발표. → 모델 성능의 격차가 줄어들고 있다. 특정 모델에 의존하기보다... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[중동 확전과 코스피 8% 폭락 | 2026-06-08 13:03]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-08-1304-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-08-1304-market.html</guid>
-      <pubDate>Mon, 08 Jun 2026 13:04:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 이란과 이스라엘이 4월 휴전 이후 처음으로 상호 본토 타격 및 보복 공격을 감행했습니다. → 중동발 공급망 불안이 재점화되며 국제 유가(WTI)가 3% 이상 급등, 인플레이션 압력을 다시 자극하고 있습니다. 트럼프 대통령 하에서 케빈 워시(Kevin Warsh)가 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
