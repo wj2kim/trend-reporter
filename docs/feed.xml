@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Fri, 19 Jun 2026 13:22:05 +0900</lastBuildDate>
-    <pubDate>Fri, 19 Jun 2026 13:22:05 +0900</pubDate>
+    <lastBuildDate>Sat, 20 Jun 2026 12:43:27 +0900</lastBuildDate>
+    <pubDate>Sat, 20 Jun 2026 12:43:27 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[JDK 28 발할라와 에이전트 안전 | 2026-06-20 12:42]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-20-1243-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-20-1243-dev.html</guid>
+      <pubDate>Sat, 20 Jun 2026 12:43:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 DeepSeek, 비전 기능을 포함한 DeepSeek-V 출시 → 멀티모달 기능이 오픈 모델에서도 표준화되고 있으며, 이미지 기반 코드 생성이나 분석 성능을 즉시 테스트해볼 가치가 있다. OpenAI, 건강 정보 지능 향상을 위한 ... (읽기 시간: 6분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[신임 페드 의장의 매파적 데뷔와 일 증시 7만P | 2026-06-20 12:42]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-20-1243-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-20-1243-market.html</guid>
+      <pubDate>Sat, 20 Jun 2026 12:43:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 이스라엘-헤즈볼라 휴전 합의 및 미-이란 평화 가시화 이스라엘과 헤즈볼라가 미-이란 평화 협정 보호를 위해 휴전에 합의했으며, 호르무즈 해협의 유조선 통행량이 급증하고 있습니다. → 지정학적 리스크 감소로 유가는 하향 안정화되겠으나, 해협 통행료 징수 여부가 향후 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GLM-5.2 오픈 모델 혁신과 에이전트 통제권 강화 | 2026-06-19 13:21]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-19-1322-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Thu, 11 Jun 2026 13:01:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 미국-이란 무력 충돌 2일째 지속 및 이란의 호르무즈 해협 봉쇄 선포 → 전 세계 원유 물동량의 핵심 요충지가 차단됨에 따라 유가 $120 돌파는 시간문제다. 정유 및 에너지 ETF(XLE) 외의 모든 섹터에서 보수적 관망이 필요하다. 미국 내 인플레이션 3년 만에... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[리포트 | 2026-06-10 12:43]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-10-1243-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-10-1243-dev.html</guid>
-      <pubDate>Wed, 10 Jun 2026 12:43:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[분석 실패: 429 Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https... (읽기 시간: 1분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[리포트 | 2026-06-10 12:43]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-10-1243-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-10-1243-market.html</guid>
-      <pubDate>Wed, 10 Jun 2026 12:43:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[분석 실패: 429 Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https... (읽기 시간: 1분)]]></description>
     </item>
   </channel>
 </rss>
