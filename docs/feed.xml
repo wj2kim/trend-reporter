@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sun, 21 Jun 2026 13:16:26 +0900</lastBuildDate>
-    <pubDate>Sun, 21 Jun 2026 13:16:26 +0900</pubDate>
+    <lastBuildDate>Mon, 22 Jun 2026 13:17:17 +0900</lastBuildDate>
+    <pubDate>Mon, 22 Jun 2026 13:17:17 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[MCP 생태계 확장과 에이전트 안전 | 2026-06-22 13:16]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-22-1317-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-22-1317-dev.html</guid>
+      <pubDate>Mon, 22 Jun 2026 13:17:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.5 Instant 공개 및 건강 지능 강화 → 의료진 수준의 추론과 문맥 이해를 제공하는 경량 모델의 등장으로, 헬스케어 및 전문 도메인 특화 에이전트 구축이 용이해진다. Gemini 3.5 Live 출시 ... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미-이란 평화 로드맵과 인플레 데이터 대기 | 2026-06-22 13:16]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-22-1317-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-22-1317-market.html</guid>
+      <pubDate>Mon, 22 Jun 2026 13:17:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미-이란, 60일 내 최종 합의를 목표로 하는 평화 로드맵 및 레바논 군사 작전 중단 계획에 합의했습니다. → 지정학적 긴장 완화로 유가 하락 압력이 거세지며 인플레이션 둔화에 기여할 전망입니다. 트럼프 대통령이 이란에 대한 군사적 위협을 지속하는 가운데, 이란은 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.5 출시와 MCP 생태계 확장 | 2026-06-21 13:15]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-21-1316-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sat, 13 Jun 2026 12:47:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 미국과 이란의 종전 및 평화 협정 체결 임박 (호르무즈 해협 재개방 논의) → 유가 하락 압력이 거세질 전망이다. 에너지 섹터(XLE) 수익 실현 후 인플레이션 둔화 수혜주인 대형 기술주로 갈아타야 한다. 일론 머스크, SpaceX 상장과 함께 세계 최초 '트릴리어... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Fable 5 논란과 에이전트 통제 | 2026-06-12 13:01]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-12-1301-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-12-1301-dev.html</guid>
-      <pubDate>Fri, 12 Jun 2026 13:01:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Claude Fable 5 출시 및 성능 논란: Anthropic의 신규 모델 Fable 5가 코딩 작업에서 기대 이하의 성능을 보인다는 평가와 함께, 보안 관련 요청에 과도한 가드레일을 적용해 연구자들의 반발을 사고 있음. → 실... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[트럼프-이란 평화 모드, 증시 급등 | 2026-06-12 13:01]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-12-1301-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-12-1301-market.html</guid>
-      <pubDate>Fri, 12 Jun 2026 13:01:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프 대통령이 이란 공습 계획을 전격 취소하고 평화 협상 타결이 임박했음을 시사했습니다. → 지정학적 리스크로 급등했던 유가가 하락 반전하며 인플레이션 우려를 완화, 증시 랠리의 강력한 트리거가 됨. 미국이 사우디와 러시아를 제치고 세계 최대 원유 수출국 지위에 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
