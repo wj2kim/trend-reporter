@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Tue, 23 Jun 2026 12:37:00 +0900</lastBuildDate>
-    <pubDate>Tue, 23 Jun 2026 12:37:00 +0900</pubDate>
+    <lastBuildDate>Wed, 24 Jun 2026 12:38:29 +0900</lastBuildDate>
+    <pubDate>Wed, 24 Jun 2026 12:38:29 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GLM-5.2 오픈 모델과 에이전트 루프의 가속화 | 2026-06-24 12:37]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-24-1238-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-24-1238-dev.html</guid>
+      <pubDate>Wed, 24 Jun 2026 12:38:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 GLM-5.2 오픈 모델 출시 및 로컬 실행 지원: 744B 파라미터(활성 40B)와 1M 컨텍스트 윈도우를 갖춘 GLM-5.2가 공개되었으며, Unsloth Dynamic GGUF를 통해 로컬 실행이 가능해졌습니다. → Claud... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[알파벳 다우 편입, 미-이란 긴장 지속 | 2026-06-24 12:37]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-24-1238-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-24-1238-market.html</guid>
+      <pubDate>Wed, 24 Jun 2026 12:38:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미국과 이란의 핵 협상 내용 상충 및 진실 공방 트럼프 대통령은 이란이 최고 수준의 사찰에 동의했다고 주장했으나, 이란 측은 세부 논의가 없었다고 즉각 반박하며 양측의 서술이 엇갈리고 있습니다. → 협상 타결 기대감에 기반한 유가 하락은 시기상조다. 지정학적 불확실... (읽기 시간: 5분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Deno 데스크탑 및 에이전트 인프라 혁신 | 2026-06-23 12:36]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-23-1237-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Mon, 15 Jun 2026 13:19:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 미국과 이란, 금요일 평화 협정 조인식 예정 및 호르무즈 해협 봉쇄 해제 합의 → 글로벌 물류의 동맥이 뚫리면서 에너지 공급 리스크가 해소됨에 따라 국제 유가 하향 안정화 가속화. 케빈 워시(Kevin Warsh) 신임 연준 의장 취임 및 통화 정책 불확실성 상존 ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Fable 5 중단과 로컬 에이전트 부상 | 2026-06-14 13:07]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-14-1308-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-14-1308-dev.html</guid>
-      <pubDate>Sun, 14 Jun 2026 13:08:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Gemma 4 및 MTP 업데이트: 다중 토큰 예측(MTP) 지원으로 macOS에서 Gemma 4 구동 속도가 2배 향상됨. → 로컬 환경에서도 충분히 빠른 코딩 에이전트 구성이 가능해졌으므로, 보안이 중요한 프로젝트는 로컬 LLM... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[이란 종전 임박, 한국 MSCI 편입 가시화 | 2026-06-14 13:07]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-14-1308-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-14-1308-market.html</guid>
-      <pubDate>Sun, 14 Jun 2026 13:08:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프 대통령, 일요일(6월 14일) 이란과의 전쟁 종식 합의 서명 예고 → 종전 합의 시 지정학적 리스크 프리미엄이 제거되며 유가 하락 및 위험자산 선호 현상이 뚜렷해질 것이다. 정유주보다는 소비재와 기술주로 포트폴리오를 전환하라. 케빈 워시(Kevin Warsh... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
