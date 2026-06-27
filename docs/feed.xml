@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Fri, 26 Jun 2026 12:44:19 +0900</lastBuildDate>
-    <pubDate>Fri, 26 Jun 2026 12:44:19 +0900</pubDate>
+    <lastBuildDate>Sat, 27 Jun 2026 12:30:08 +0900</lastBuildDate>
+    <pubDate>Sat, 27 Jun 2026 12:30:08 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GPT-5.6 Sol 및 Claude Mythos 출시 | 2026-06-27 12:29]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-27-1230-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-27-1230-dev.html</guid>
+      <pubDate>Sat, 27 Jun 2026 12:30:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, 차세대 모델 GPT-5.6 'Sol' 시리즈 프리뷰 공개 플래그십 모델 Sol, 가성비 모델 Terra, 저비용 모델 Luna를 포함하며 코딩 및 보안 성능이 대폭 강화되었습니다. → 특정 작업에 맞춰 모델을 선택적으... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미-이란 충돌 재점화와 AI 거품론 확산 | 2026-06-27 12:29]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-27-1230-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-27-1230-market.html</guid>
+      <pubDate>Sat, 27 Jun 2026 12:30:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미국의 이란 보복 공습 및 호르무즈 긴장 고조 미 중부사령부가 호르무즈 해협 내 화물선 공격에 대한 보복으로 이란 내 미사일·드론 저장 시설을 타격했습니다. 60일간의 적대행위 중단 합의 기간 중 발생한 충돌입니다. → 지정학적 불확실성이 실질적 군사 행동으로 이어... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[AI 칩 주권 시대와 GPT-5 연구 성과 | 2026-06-26 12:43]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-26-1244-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Thu, 18 Jun 2026 13:02:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [미-이란 종전 MoU 체결 및 3,000억 달러 재건 계획 발표] 트럼프 대통령과 이란 페제시키안 대통령이 전쟁 종식과 60일간의 핵 협상을 골자로 한 양해각서(MoU)에 서명했습니다. 3,000억 달러 규모의 재건 펀드가 핵심입니다. → 중동 지정학적 리스크가 ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[SpaceX의 Cursor 인수와 에이전트 실행 환경 혁신 | 2026-06-17 13:11]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-17-1311-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-17-1311-dev.html</guid>
-      <pubDate>Wed, 17 Jun 2026 13:11:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, 배포 전 모델 행동 예측을 위한 'Deployment Simulation' 도입 → 실제 대화 데이터를 활용해 모델 배포 전 안전성과 성능을 검증할 수 있게 되어, 업데이트 시 발생할 수 있는 '성능 퇴보' 리스크가 ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미-이란 석유 수출 재개 합의 임박 | 2026-06-17 13:11]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-17-1311-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-17-1311-market.html</guid>
-      <pubDate>Wed, 17 Jun 2026 13:11:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 미-이란 평화 협정 프레임워크 합의 및 석유 판매 즉각 허용 이란 외무장관은 금요일부터 핵무기 및 제재 완화에 관한 새로운 회담이 시작될 것이라고 밝혔으며, 합의안 최종 초안에는 이란의 즉각적인 석유 판매 권한이 포함되었습니다. → 글로벌 원유 공급량 증가로 국제 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
