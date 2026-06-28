@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sat, 27 Jun 2026 12:30:08 +0900</lastBuildDate>
-    <pubDate>Sat, 27 Jun 2026 12:30:08 +0900</pubDate>
+    <lastBuildDate>Sun, 28 Jun 2026 12:54:32 +0900</lastBuildDate>
+    <pubDate>Sun, 28 Jun 2026 12:54:32 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[AI 추론 칩 경쟁과 에이전트 성능 병목 | 2026-06-28 12:53]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-28-1254-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-28-1254-dev.html</guid>
+      <pubDate>Sun, 28 Jun 2026 12:54:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, 차세대 GPT-5.6 Sol 시리즈 공개: 플래그십 Sol, 업무용 Terra(GPT-5.5급 성능, 2배 저렴), 보급형 Luna(최저가)로 라인업 세분화. → 고성능 모델에 매몰되지 말고, 비용 효율적인 Terra... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[중동 전면전 위기, 방산·에너지 비중 확대 | 2026-06-28 12:53]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-28-1254-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-28-1254-market.html</guid>
+      <pubDate>Sun, 28 Jun 2026 12:54:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미국과 이란이 상호 본토 및 인근 기지를 타격하며 60일 휴전 협정이 붕괴되었습니다. 이란은 쿠웨이트와 바레인 내 미군 시설을 공격했고, 트럼프는 "군사적으로 끝장을 내겠다"고 경고했습니다. → 호르무즈 해협의 물리적 봉쇄 가능성이 최고조에 달함에 따라 유가 급등에... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.6 Sol 및 Claude Mythos 출시 | 2026-06-27 12:29]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-27-1230-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Fri, 19 Jun 2026 13:22:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 미-이란 합의 발효 및 호르무즈 해협 봉쇄 해제 미국과 이란이 전쟁 종식을 위한 60일간의 공식 협상 기간에 돌입하며 해상 봉쇄를 해제했습니다. 이란은 연간 600억 달러 이상의 원유 판매 수익을 확보할 기회를 얻었습니다. → 에너지 공급 불확실성 해소로 유가는 하... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[로컬 LLM 전성시대와 쿼리 표준화 | 2026-06-18 13:01]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-18-1302-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-18-1302-dev.html</guid>
-      <pubDate>Thu, 18 Jun 2026 13:02:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 GLM-5.2 오픈 웨이트 모델 출시: Artificial Analysis 지표에서 비용 대비 성능(Pareto frontier) 1위를 기록하며 DeepSeek V4 Pro를 제침. → 로컬 서버나 자체 인프라 구축 시 가성비와 ... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미-이란 딜 타결, 유가 하락 가속 | 2026-06-18 13:01]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-18-1302-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-18-1302-market.html</guid>
-      <pubDate>Thu, 18 Jun 2026 13:02:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [미-이란 종전 MoU 체결 및 3,000억 달러 재건 계획 발표] 트럼프 대통령과 이란 페제시키안 대통령이 전쟁 종식과 60일간의 핵 협상을 골자로 한 양해각서(MoU)에 서명했습니다. 3,000억 달러 규모의 재건 펀드가 핵심입니다. → 중동 지정학적 리스크가 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
