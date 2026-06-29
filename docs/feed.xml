@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sun, 28 Jun 2026 12:54:32 +0900</lastBuildDate>
-    <pubDate>Sun, 28 Jun 2026 12:54:32 +0900</pubDate>
+    <lastBuildDate>Mon, 29 Jun 2026 12:58:47 +0900</lastBuildDate>
+    <pubDate>Mon, 29 Jun 2026 12:58:47 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GLM-5.2 도약과 MCP 표준화 | 2026-06-29 12:57]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-29-1258-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-29-1258-dev.html</guid>
+      <pubDate>Mon, 29 Jun 2026 12:58:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 GLM-5.2 릴리스 및 사이버 보안 성과: 중국 Zhipu AI의 GLM-5.2가 특정 보안 벤치마크에서 Claude를 능가하며 버그 탐지 능력을 입증함. → 보안 특화 에이전트 구축 시 Claude 일변도에서 벗어나 오픈 가중치... (읽기 시간: 6분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미·이란 휴전 합의, 공급망 대격변 | 2026-06-29 12:57]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-29-1258-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-29-1258-market.html</guid>
+      <pubDate>Mon, 29 Jun 2026 12:58:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [미국-이란, 호르무즈 해협 공격 중단 및 상선 자유 통행 합의] (NYT, CNBC) → 호르무즈 봉쇄에 따른 유가 $100 돌파 시나리오는 폐기되었으나, 지정학적 불확실성은 여전하다. 에너지 ETF(XLE)는 단기 차익 실현 후 관망하라. [중국, 일본 방산 기... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[AI 추론 칩 경쟁과 에이전트 성능 병목 | 2026-06-28 12:53]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-28-1254-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sat, 20 Jun 2026 12:43:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 이스라엘-헤즈볼라 휴전 합의 및 미-이란 평화 가시화 이스라엘과 헤즈볼라가 미-이란 평화 협정 보호를 위해 휴전에 합의했으며, 호르무즈 해협의 유조선 통행량이 급증하고 있습니다. → 지정학적 리스크 감소로 유가는 하향 안정화되겠으나, 해협 통행료 징수 여부가 향후 ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GLM-5.2 오픈 모델 혁신과 에이전트 통제권 강화 | 2026-06-19 13:21]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-19-1322-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-19-1322-dev.html</guid>
-      <pubDate>Fri, 19 Jun 2026 13:22:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 GLM-5.2 오픈 웨이트 모델 출시: Artificial Analysis 지능 지수에서 51점을 기록하며 MiniMax-M3 및 DeepSeek V4 Pro를 제치고 오픈 모델 1위 등극. → $1.4/1M 토큰의 저렴한 비용으로... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[이란 평화와 금리 인상론의 충돌 | 2026-06-19 13:21]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-19-1322-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-19-1322-market.html</guid>
-      <pubDate>Fri, 19 Jun 2026 13:22:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 미-이란 합의 발효 및 호르무즈 해협 봉쇄 해제 미국과 이란이 전쟁 종식을 위한 60일간의 공식 협상 기간에 돌입하며 해상 봉쇄를 해제했습니다. 이란은 연간 600억 달러 이상의 원유 판매 수익을 확보할 기회를 얻었습니다. → 에너지 공급 불확실성 해소로 유가는 하... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
