@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Mon, 29 Jun 2026 12:58:47 +0900</lastBuildDate>
-    <pubDate>Mon, 29 Jun 2026 12:58:47 +0900</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 12:41:39 +0900</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 12:41:39 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GPT-5.6 Sol과 로컬 모델의 부상 | 2026-06-30 12:40]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-30-1241-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-30-1241-dev.html</guid>
+      <pubDate>Tue, 30 Jun 2026 12:41:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, 차세대 모델 'GPT-5.6 Sol' 프리뷰 공개 코딩, 과학, 사이버 보안 능력이 대폭 강화되었으며, 고도화된 안전 스택을 포함하여 에이전트 실행의 안정성을 확보했다. → 복잡한 아키텍처 설계와 보안 취약점 진단 업... (읽기 시간: 6분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미-이란 협상 기대와 엔저 쇼크 | 2026-06-30 12:40]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-30-1241-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-30-1241-market.html</guid>
+      <pubDate>Tue, 30 Jun 2026 12:41:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 대통령, 미-이란 긴장 완화를 위한 카타르 도하 회담 전격 추진 → 중동발 지정학적 리스크 감소로 유가 및 금값 하락 압력 가중, 에너지 집약 산업의 비용 절감 기대. 미 대법원, 행정부의 규제 당국 수장 해임 권한 확대 판결 (트럼프 측 승리) → 차기 행... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GLM-5.2 도약과 MCP 표준화 | 2026-06-29 12:57]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-29-1258-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sun, 21 Jun 2026 13:16:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 이란 군 당국이 이스라엘의 레바논 공격에 대한 대응으로 호르무즈 해협 봉쇄를 선언했으며, JD 밴스 미 부통령이 이란 대표단과 스위스에서 핵 및 레바논 사태 논의를 위한 회담에 나섭니다. → 해협 봉쇄는 글로벌 원유 물동량의 20%를 마비시킬 수 있는 사안으로, 유... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[JDK 28 발할라와 에이전트 안전 | 2026-06-20 12:42]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-20-1243-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-20-1243-dev.html</guid>
-      <pubDate>Sat, 20 Jun 2026 12:43:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 DeepSeek, 비전 기능을 포함한 DeepSeek-V 출시 → 멀티모달 기능이 오픈 모델에서도 표준화되고 있으며, 이미지 기반 코드 생성이나 분석 성능을 즉시 테스트해볼 가치가 있다. OpenAI, 건강 정보 지능 향상을 위한 ... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[신임 페드 의장의 매파적 데뷔와 일 증시 7만P | 2026-06-20 12:42]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-20-1243-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-20-1243-market.html</guid>
-      <pubDate>Sat, 20 Jun 2026 12:43:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 이스라엘-헤즈볼라 휴전 합의 및 미-이란 평화 가시화 이스라엘과 헤즈볼라가 미-이란 평화 협정 보호를 위해 휴전에 합의했으며, 호르무즈 해협의 유조선 통행량이 급증하고 있습니다. → 지정학적 리스크 감소로 유가는 하향 안정화되겠으나, 해협 통행료 징수 여부가 향후 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
