@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Tue, 30 Jun 2026 12:41:39 +0900</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 12:41:39 +0900</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 12:57:29 +0900</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 12:57:29 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Claude Sonnet 5, 에이전트 시대 개막 | 2026-07-01 12:56]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-01-1257-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-01-1257-dev.html</guid>
+      <pubDate>Wed, 01 Jul 2026 12:57:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Claude Sonnet 5 및 Claude Science 출시 Anthropic이 에이전트 능력을 극대화한 Sonnet 5를 출시했습니다. 브라우저와 터미널을 자율적으로 사용하며, 과학 연구에 특화된 Claude Science는 ... (읽기 시간: 7분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[엔저·원저 위기와 AI 수출 통제 해제 | 2026-07-01 12:56]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-01-1257-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-01-1257-market.html</guid>
+      <pubDate>Wed, 01 Jul 2026 12:57:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미국과 이란이 카타르 중재로 직접 협상을 재개하며 이란의 석유 수출이 4천만 배럴 규모로 급증했습니다. → 호르무즈 해협 긴장 완화로 유가 하방 압력이 커질 전망이다. 에너지 섹터 비중을 축소하고 운송·항공주 수익성을 점검해야 한다. 미 상무부가 안스로픽(Anthr... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.6 Sol과 로컬 모델의 부상 | 2026-06-30 12:40]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-30-1241-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Mon, 22 Jun 2026 13:17:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 미-이란, 60일 내 최종 합의를 목표로 하는 평화 로드맵 및 레바논 군사 작전 중단 계획에 합의했습니다. → 지정학적 긴장 완화로 유가 하락 압력이 거세지며 인플레이션 둔화에 기여할 전망입니다. 트럼프 대통령이 이란에 대한 군사적 위협을 지속하는 가운데, 이란은 ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GPT-5.5 출시와 MCP 생태계 확장 | 2026-06-21 13:15]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-21-1316-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-21-1316-dev.html</guid>
-      <pubDate>Sun, 21 Jun 2026 13:16:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.5 Instant 및 건강 지능 업데이트 발표 진화된 추론 모델을 통해 희귀 유전병 진단 보조 및 건강/웰니스 응답 성능을 개선하고 의료진 수준의 평가 시스템을 도입함. → 의료, 생명과학 등 전문 도메인 ... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[호르무즈 봉쇄 위기와 금리 인상 압박 | 2026-06-21 13:15]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-21-1316-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-21-1316-market.html</guid>
-      <pubDate>Sun, 21 Jun 2026 13:16:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 이란 군 당국이 이스라엘의 레바논 공격에 대한 대응으로 호르무즈 해협 봉쇄를 선언했으며, JD 밴스 미 부통령이 이란 대표단과 스위스에서 핵 및 레바논 사태 논의를 위한 회담에 나섭니다. → 해협 봉쇄는 글로벌 원유 물동량의 20%를 마비시킬 수 있는 사안으로, 유... (읽기 시간: 5분)]]></description>
     </item>
   </channel>
 </rss>
