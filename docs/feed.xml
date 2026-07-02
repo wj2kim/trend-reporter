@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Wed, 01 Jul 2026 12:57:29 +0900</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 12:57:29 +0900</pubDate>
+    <lastBuildDate>Thu, 02 Jul 2026 12:37:56 +0900</lastBuildDate>
+    <pubDate>Thu, 02 Jul 2026 12:37:56 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Claude Sonnet 5와 도메인 특화 에이전트 | 2026-07-02 12:37]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-02-1237-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-02-1237-dev.html</guid>
+      <pubDate>Thu, 02 Jul 2026 12:37:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Claude Sonnet 5 출시 및 Claude Code 기본 모델 채택 1M 토큰 컨텍스트 윈도우와 향상된 도구 사용(브라우저, 터미널) 능력을 갖춘 가장 에이전틱한 모델 발표. → 대규모 프로젝트 전체를 컨텍스트에 넣고 자율적... (읽기 시간: 6분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[반도체 투매와 애플-중국 칩 협상 | 2026-07-02 12:37]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-02-1237-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-02-1237-market.html</guid>
+      <pubDate>Thu, 02 Jul 2026 12:37:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 러시아, 우크라이나 키이우에 수주 만에 최대 규모 미사일 및 드론 공습 감행 → 동유럽 지정학적 리스크 재점화로 인한 국방 및 방산 섹터의 변동성 확대 대비 필요. 미-이란 도하 회담 종료 및 호르무즈 해협 석유 물동량 일일 1,000만 배럴 돌파 → 중동 긴장 완... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Claude Sonnet 5, 에이전트 시대 개막 | 2026-07-01 12:56]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-01-1257-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Tue, 23 Jun 2026 12:37:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 미국-이란 석유 제재 완화와 핵 사찰 이견 지속 미국 재무부가 8월까지 이란산 원유 수입을 허용했으나, 이란은 JD 밴스 부통령이 주장한 '유엔 핵 사찰 수용'을 공식 부인하며 교착 상태를 보이고 있습니다. → 핵 합의 완전 타결 전까지 유가는 박스권에 갇힐 가능성... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[MCP 생태계 확장과 에이전트 안전 | 2026-06-22 13:16]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-22-1317-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-22-1317-dev.html</guid>
-      <pubDate>Mon, 22 Jun 2026 13:17:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5.5 Instant 공개 및 건강 지능 강화 → 의료진 수준의 추론과 문맥 이해를 제공하는 경량 모델의 등장으로, 헬스케어 및 전문 도메인 특화 에이전트 구축이 용이해진다. Gemini 3.5 Live 출시 ... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미-이란 평화 로드맵과 인플레 데이터 대기 | 2026-06-22 13:16]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-22-1317-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-22-1317-market.html</guid>
-      <pubDate>Mon, 22 Jun 2026 13:17:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 미-이란, 60일 내 최종 합의를 목표로 하는 평화 로드맵 및 레바논 군사 작전 중단 계획에 합의했습니다. → 지정학적 긴장 완화로 유가 하락 압력이 거세지며 인플레이션 둔화에 기여할 전망입니다. 트럼프 대통령이 이란에 대한 군사적 위협을 지속하는 가운데, 이란은 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
