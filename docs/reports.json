@@ -1,5 +1,35 @@
 [
   {
+    "title": "시니어급 AI 에이전트와 과학 연구 AI의 도래 | 2026-07-03 12:17",
+    "filename": "2026-07-03-1218-dev.html",
+    "date": "2026-07-03",
+    "time": "12:18",
+    "category": "dev",
+    "description": "1. AI/기술 트렌드 a. AI 모델 & 서비스 Anthropic, 과학 연구 특화 모델 'Claude Science' 발표 → 소프트웨어 공학의 Claude Code처럼, 과학적 가설 검증과 데이터 분석을 자율 수행하는 에이전트 시대가 열렸다. OpenAI, 차세대 모델 'GP...",
+    "reading_time": 5,
+    "keywords": [
+      "Senior SWE-Bench",
+      "Claude Science",
+      "GPT-5.6 Sol"
+    ],
+    "insight": "AI의 능력이 주니어 수준의 코드 생성을 넘어 시니어급 문제 해결과 과학적 가설 검증 단계로 진입했다. 개발자는 이제 단순 구현자가 아닌, AI가 해결할 \"복잡한 문제의 맥락\"을 설계하는 아키텍트이자 오케스트레이터가 되어야 한다."
+  },
+  {
+    "title": "중동 리스크와 금리 인상 중단 기대 | 2026-07-03 12:17",
+    "filename": "2026-07-03-1218-market.html",
+    "date": "2026-07-03",
+    "time": "12:18",
+    "category": "market",
+    "description": "1. 세계 정세 이란이 호르무즈 해협 통행료 징수를 고수하며 미국의 수십억 달러 제안에도 강경한 입장을 보이고 있습니다. → 해상 물류 비용의 구조적 상승과 유가 변동성 확대를 초래한다. 에너지(XLE) 및 해운 섹터의 변동성에 대비해야 한다. 러시아가 우크라이나 키이우에 대규모 ...",
+    "reading_time": 4,
+    "keywords": [
+      "호르무즈",
+      "금리 동결",
+      "금(Gold)"
+    ],
+    "insight": "중동의 지정학적 위기는 호르무즈 통행료 징수라는 실질적 물류 비용 상승으로 전이되고 있다. 미국 고용 둔화로 금리 인상 가능성이 낮아진 만큼, 안전 자산인 금과 에너지 전환의 핵심인 천연가스 비중을 확대해야 한다."
+  },
+  {
     "title": "Claude Sonnet 5와 도메인 특화 에이전트 | 2026-07-02 12:37",
     "filename": "2026-07-02-1237-dev.html",
     "date": "2026-07-02",
@@ -699,35 +729,5 @@
     "description": "분석 실패: 429 Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https...",
     "reading_time": 1,
     "keywords": []
-  },
-  {
-    "title": "DeepSeek의 역전과 에이전트 표준화 | 2026-06-08 13:03",
-    "filename": "2026-06-08-1304-dev.html",
-    "date": "2026-06-08",
-    "time": "13:04",
-    "category": "dev",
-    "description": "1. AI/기술 트렌드 a. AI 모델 & 서비스 DeepSeek V4 Pro, GPT-5.5 Pro 정밀도 추월: 중국의 DeepSeek V4 Pro가 벤치마크에서 GPT-5.5 Pro의 성능을 능가하는 결과 발표. → 모델 성능의 격차가 줄어들고 있다. 특정 모델에 의존하기보다...",
-    "reading_time": 5,
-    "keywords": [
-      "DeepSeek V4",
-      "Claude Code",
-      "MCP"
-    ],
-    "insight": "모델 성능이 상향 평준화되면서 모델 자체보다 MCP 기반의 도구 연결성과 로컬 우선(Local-first) 아키텍처 구현 능력이 개발자의 핵심 경쟁력이 된다. 지금 바로 MCP 서버를 구축하고 IndexedDB 기반 동기화 패턴을 익혀야 한다."
-  },
-  {
-    "title": "중동 확전과 코스피 8% 폭락 | 2026-06-08 13:03",
-    "filename": "2026-06-08-1304-market.html",
-    "date": "2026-06-08",
-    "time": "13:04",
-    "category": "market",
-    "description": "1. 세계 정세 이란과 이스라엘이 4월 휴전 이후 처음으로 상호 본토 타격 및 보복 공격을 감행했습니다. → 중동발 공급망 불안이 재점화되며 국제 유가(WTI)가 3% 이상 급등, 인플레이션 압력을 다시 자극하고 있습니다. 트럼프 대통령 하에서 케빈 워시(Kevin Warsh)가 ...",
-    "reading_time": 4,
-    "keywords": [
-      "이란-이스라엘",
-      "코스피",
-      "케빈 워시"
-    ],
-    "insight": "4월 휴전 파기로 유가 상승과 AI 거품론이 맞물린 '퍼펙트 스톰' 구간이다. 엔비디아의 저점 매수 신호보다 지정학적 인플레이션에 따른 연준의 매파적 전환 리스크가 더 크므로, 당분간 반도체 비중을 줄이고 현금 비중을 30% 이상 확보해야 한다."
   }
 ]
