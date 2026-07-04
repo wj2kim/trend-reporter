@@ -1,5 +1,35 @@
 [
   {
+    "title": "GPT-5.6 Sol과 자율 루프 엔지니어링 | 2026-07-04 11:56",
+    "filename": "2026-07-04-1157-dev.html",
+    "date": "2026-07-04",
+    "time": "11:57",
+    "category": "dev",
+    "description": "1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, 차세대 모델 'GPT-5.6 Sol' 프리뷰 공개: 코딩, 과학 연구 및 사이버 보안 분야에서 강력한 성능을 발휘하며, 역대 가장 진보된 안전 스택을 탑재함. → 에이전트가 수행 가능한 작업의 복잡도가 비약적으로 상승...",
+    "reading_time": 7,
+    "keywords": [
+      "GPT-5.6 Sol",
+      "Claude Code",
+      "에이전트 하네스"
+    ],
+    "insight": "AI 모델의 코딩 능력이 GPT-5.6 Sol 수준으로 격상됨에 따라, 개발자의 역할은 코드 작성이 아닌 에이전트의 자율성을 통제하고 검증하는 '루프 엔지니어링'으로 재편된다. 지금 즉시 Claude Code와 같은 도구에 자신만의 '검증 하네스(Harness)'를 설계하는 연습을 시작해야 한다."
+  },
+  {
+    "title": "하메네이 장례와 트럼프 계좌의 등장 | 2026-07-04 11:56",
+    "filename": "2026-07-04-1157-market.html",
+    "date": "2026-07-04",
+    "time": "11:57",
+    "category": "market",
+    "description": "1. 세계 정세 [이란 하메네이 장례식 거행 및 호르무즈 해협 통행료 요구] → 전쟁 후 세력 과시를 위해 이란이 에너지 통로 봉쇄 및 통행료 징수를 압박하고 있다. 에너지 공급망 리스크가 상시화되므로 원유 수입처 다변화가 시급하다. [미 재무부, '트럼프 계좌' 투자 라인업 및 ...",
+    "reading_time": 4,
+    "keywords": [
+      "호르무즈 해협",
+      "트럼프 계좌",
+      "전력망 위기"
+    ],
+    "insight": "이란의 호르무즈 통행료 요구는 에너지 안보를 직접 위협하는 실질적 카드다. 동시에 미 재무부가 도입한 '트럼프 계좌'는 자국 우선주의 자본 흐름을 강제하겠다는 선언이므로, 해외 자산 비중을 줄이고 미국 내수 및 AI 인프라 섹터로 포트폴리오를 재편해야 한다."
+  },
+  {
     "title": "시니어급 AI 에이전트와 과학 연구 AI의 도래 | 2026-07-03 12:17",
     "filename": "2026-07-03-1218-dev.html",
     "date": "2026-07-03",
@@ -705,26 +735,6 @@
     "filename": "2026-06-10-1243-market.html",
     "date": "2026-06-10",
     "time": "12:43",
-    "category": "market",
-    "description": "분석 실패: 429 Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https...",
-    "reading_time": 1,
-    "keywords": []
-  },
-  {
-    "title": "리포트 | 2026-06-09 12:33",
-    "filename": "2026-06-09-1233-dev.html",
-    "date": "2026-06-09",
-    "time": "12:33",
-    "category": "dev",
-    "description": "분석 실패: 429 Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https...",
-    "reading_time": 1,
-    "keywords": []
-  },
-  {
-    "title": "리포트 | 2026-06-09 12:33",
-    "filename": "2026-06-09-1233-market.html",
-    "date": "2026-06-09",
-    "time": "12:33",
     "category": "market",
     "description": "분석 실패: 429 Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https...",
     "reading_time": 1,
