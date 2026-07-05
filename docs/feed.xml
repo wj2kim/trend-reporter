@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sat, 04 Jul 2026 11:57:35 +0900</lastBuildDate>
-    <pubDate>Sat, 04 Jul 2026 11:57:35 +0900</pubDate>
+    <lastBuildDate>Sun, 05 Jul 2026 12:26:32 +0900</lastBuildDate>
+    <pubDate>Sun, 05 Jul 2026 12:26:32 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[AI 에이전트 도구 표준화 가속화 | 2026-07-05 12:25]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-05-1226-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-05-1226-dev.html</guid>
+      <pubDate>Sun, 05 Jul 2026 12:26:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Mistral AI, Leanstral 1.5 출시: 수학적 증명 및 코드 검증 특화 6B 파라미터 모델로 PutnamBench에서 587/672 문제를 해결하며, 실제 57개 리포지토리에서 5개의 미발견 버그를 찾아냄. → 단순한... (읽기 시간: 6분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[중동 권력 공백과 트럼프 계좌 런칭 | 2026-07-05 12:25]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-05-1226-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-05-1226-market.html</guid>
+      <pubDate>Sun, 05 Jul 2026 12:26:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [이란 하메네이 사망 후 리더십 공백 및 후계 분열] 이란 최고 지도자 장례식이 진행 중이나, 유력 후계자 모즈타바 하메네이의 부재로 지도부 내 극심한 분열 포착. → 중동 내 권력 투쟁 장기화는 국제 유가의 하방 경직성을 확보하며, 방산 및 보안 섹터의 중기적 강... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.6 Sol과 자율 루프 엔지니어링 | 2026-07-04 11:56]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-04-1157-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Fri, 26 Jun 2026 12:44:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 호르무즈 해협 화물선 피격으로 인한 평화 로드맵 중단 이란의 소행으로 추정되는 화물선 공격이 발생하며 UN의 통행 재개 계획이 일시 중단되었습니다. → 유가 상방 압력이 다시 강화됨에 따라 인플레이션 재발 리스크를 반영하여 에너지 섹터 비중을 유지해야 한다. 프랑스... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[OpenAI 첫 칩 '할라피뇨'와 Claude Tag 출시 | 2026-06-25 12:35]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-25-1236-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-25-1236-dev.html</guid>
-      <pubDate>Thu, 25 Jun 2026 12:36:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI GPT-5 및 관련 모델 업데이트: GPT-5 Pro가 3년 된 면역학 미스터리를 해결하는 데 기여했으며, 보안 특화 모델인 GPT-5.5-Cyber가 공개됨. → 특정 도메인(바이오, 보안)에서의 LLM 활용이 '보조... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[SK하이닉스 나스닥 상장, AI 메모리 대전환 | 2026-06-25 12:35]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-25-1236-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-25-1236-market.html</guid>
-      <pubDate>Thu, 25 Jun 2026 12:36:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 이란이 호르무즈 해협의 새로운 통항 경로를 '위험'하다고 경고하며 통제권을 강조했습니다. → 유조선 통행은 재개되었으나 이란의 지정학적 레버리지는 여전하므로 유가 하방 경직성을 유의해야 한다. 베네수엘라 카라카스 인근에서 규모 7.5와 7.2의 연속 강진이 발생해 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>

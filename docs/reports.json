@@ -1,5 +1,35 @@
 [
   {
+    "title": "AI 에이전트 도구 표준화 가속화 | 2026-07-05 12:25",
+    "filename": "2026-07-05-1226-dev.html",
+    "date": "2026-07-05",
+    "time": "12:26",
+    "category": "dev",
+    "description": "1. AI/기술 트렌드 a. AI 모델 & 서비스 Mistral AI, Leanstral 1.5 출시: 수학적 증명 및 코드 검증 특화 6B 파라미터 모델로 PutnamBench에서 587/672 문제를 해결하며, 실제 57개 리포지토리에서 5개의 미발견 버그를 찾아냄. → 단순한...",
+    "reading_time": 6,
+    "keywords": [
+      "MCP",
+      "Leanstral 1.5",
+      "Claude Code"
+    ],
+    "insight": "MCP(Model Context Protocol)를 통한 브라우저 및 개발 도구 직접 제어가 본격화되고 있다. 이제 단순 코드 생성을 넘어 에이전트 전용 도구(Skill)를 설계하고 환경을 구축하는 능력이 개발자의 핵심 경쟁력이 된다."
+  },
+  {
+    "title": "중동 권력 공백과 트럼프 계좌 런칭 | 2026-07-05 12:25",
+    "filename": "2026-07-05-1226-market.html",
+    "date": "2026-07-05",
+    "time": "12:26",
+    "category": "market",
+    "description": "1. 세계 정세 [이란 하메네이 사망 후 리더십 공백 및 후계 분열] 이란 최고 지도자 장례식이 진행 중이나, 유력 후계자 모즈타바 하메네이의 부재로 지도부 내 극심한 분열 포착. → 중동 내 권력 투쟁 장기화는 국제 유가의 하방 경직성을 확보하며, 방산 및 보안 섹터의 중기적 강...",
+    "reading_time": 4,
+    "keywords": [
+      "이란 정세",
+      "트럼프 계좌",
+      "인도 증시"
+    ],
+    "insight": "이란의 후계 구도 분열과 미국의 에너지 지출 확대는 글로벌 공급망의 근본적 재편을 의미한다. 지정학적 리스크가 유럽 경제를 압박하는 상황에서, AI 거품의 피신처로 부각된 인도 증시와 미국 내수 부양책인 '트럼프 계좌' 관련 수혜 자산으로 포트폴리오를 재배치해야 한다."
+  },
+  {
     "title": "GPT-5.6 Sol과 자율 루프 엔지니어링 | 2026-07-04 11:56",
     "filename": "2026-07-04-1157-dev.html",
     "date": "2026-07-04",
@@ -719,25 +749,5 @@
       "스태그플레이션"
     ],
     "insight": "이란의 호르무즈 해협 봉쇄는 단순한 위협을 넘어 글로벌 에너지 공급망의 마비를 의미한다. 유가 급등과 인플레이션 재점화가 불가피하므로, 원자재 중심의 포트폴리오 방어와 함께 공급망 붕괴에 취약한 IT·제조업 비중을 즉각 축소해야 한다."
-  },
-  {
-    "title": "리포트 | 2026-06-10 12:43",
-    "filename": "2026-06-10-1243-dev.html",
-    "date": "2026-06-10",
-    "time": "12:43",
-    "category": "dev",
-    "description": "분석 실패: 429 Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https...",
-    "reading_time": 1,
-    "keywords": []
-  },
-  {
-    "title": "리포트 | 2026-06-10 12:43",
-    "filename": "2026-06-10-1243-market.html",
-    "date": "2026-06-10",
-    "time": "12:43",
-    "category": "market",
-    "description": "분석 실패: 429 Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https...",
-    "reading_time": 1,
-    "keywords": []
   }
 ]
