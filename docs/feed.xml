@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sun, 05 Jul 2026 12:26:32 +0900</lastBuildDate>
-    <pubDate>Sun, 05 Jul 2026 12:26:32 +0900</pubDate>
+    <lastBuildDate>Mon, 06 Jul 2026 12:34:43 +0900</lastBuildDate>
+    <pubDate>Mon, 06 Jul 2026 12:34:43 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GPT-5.6 출시와 에이전트 보안 위기 | 2026-07-06 12:33]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-06-1234-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-06-1234-dev.html</guid>
+      <pubDate>Mon, 06 Jul 2026 12:34:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, 차세대 모델 'GPT-5.6 Sol' 프리뷰 공개 → 코딩, 과학, 사이버 보안 능력이 대폭 강화된 모델로, 기존 에이전트의 작업 성공률을 한 단계 높일 것으로 예상된다. GPT-5.5 Codex의 추론 토큰 클러스터... (읽기 시간: 6분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[OPEC+ 증산과 AI 공급 병목, 변동성 주의 | 2026-07-06 12:33]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-06-1234-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-06-1234-market.html</guid>
+      <pubDate>Mon, 06 Jul 2026 12:34:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 OPEC+ 7개국, 8월부터 월간 원유 생산량 일일 18.8만 배럴 증산 합의 → 공급 부족 우려가 해소되며 유가 하방 압력이 커질 전망. 정유주 비중을 축소하고 운송·항공 등 비용 절감 섹터에 주목해야 함. 프랑스 마린 르펜의 항소 판결 임박에 따른 유럽 정치 불... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[AI 에이전트 도구 표준화 가속화 | 2026-07-05 12:25]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-05-1226-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sat, 27 Jun 2026 12:30:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 미국의 이란 보복 공습 및 호르무즈 긴장 고조 미 중부사령부가 호르무즈 해협 내 화물선 공격에 대한 보복으로 이란 내 미사일·드론 저장 시설을 타격했습니다. 60일간의 적대행위 중단 합의 기간 중 발생한 충돌입니다. → 지정학적 불확실성이 실질적 군사 행동으로 이어... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI 칩 주권 시대와 GPT-5 연구 성과 | 2026-06-26 12:43]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-26-1244-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-26-1244-dev.html</guid>
-      <pubDate>Fri, 26 Jun 2026 12:44:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, GPT-5를 통한 실제 연구 성과 공유: 면역학자 Derya Unutmaz가 3년간 해결하지 못한 T세포 행동 미스터리를 GPT-5 Pro를 활용해 해결함. → AI가 단순 보조를 넘어 전문 과학 영역의 가설 검증 및... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[호르무즈 피격과 아시아 증시 폭락 | 2026-06-26 12:43]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-26-1244-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-26-1244-market.html</guid>
-      <pubDate>Fri, 26 Jun 2026 12:44:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 호르무즈 해협 화물선 피격으로 인한 평화 로드맵 중단 이란의 소행으로 추정되는 화물선 공격이 발생하며 UN의 통행 재개 계획이 일시 중단되었습니다. → 유가 상방 압력이 다시 강화됨에 따라 인플레이션 재발 리스크를 반영하여 에너지 섹터 비중을 유지해야 한다. 프랑스... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
