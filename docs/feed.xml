@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Mon, 06 Jul 2026 12:34:43 +0900</lastBuildDate>
-    <pubDate>Mon, 06 Jul 2026 12:34:43 +0900</pubDate>
+    <lastBuildDate>Tue, 07 Jul 2026 12:25:10 +0900</lastBuildDate>
+    <pubDate>Tue, 07 Jul 2026 12:25:10 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GPT-5.6 Sol과 AI 개발 전용 PC의 등장 | 2026-07-07 12:24]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-07-1225-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-07-1225-dev.html</guid>
+      <pubDate>Tue, 07 Jul 2026 12:25:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, 차세대 모델 'GPT-5.6 Sol' 프리뷰 공개: 코딩, 과학 연구, 사이버 보안 능력 강화 및 고급 안전 스택 적용. → 코딩 에이전트의 자율성이 임계점을 넘을 것으로 예상되므로, 보안 및 코드 리뷰 파이프라인에 ... (읽기 시간: 6분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[삼성 호실적에도 기술주 조정, 순환매 대비 | 2026-07-07 12:24]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-07-1225-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-07-1225-market.html</guid>
+      <pubDate>Tue, 07 Jul 2026 12:25:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 중국이 태평양으로 핵 탑재 가능 잠수함 발사 미사일(SLBM) 시험 발사를 단행하며 미국 동맹국들을 자극하고 있습니다. → 아시아-태평양 지역의 지정학적 리스크 프리미엄이 상승하며 방산 섹터의 중장기 우상향 모멘텀이 강화될 것이다. 트럼프 전 대통령이 미국 축구대표... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.6 출시와 에이전트 보안 위기 | 2026-07-06 12:33]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-06-1234-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sun, 28 Jun 2026 12:54:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 미국과 이란이 상호 본토 및 인근 기지를 타격하며 60일 휴전 협정이 붕괴되었습니다. 이란은 쿠웨이트와 바레인 내 미군 시설을 공격했고, 트럼프는 "군사적으로 끝장을 내겠다"고 경고했습니다. → 호르무즈 해협의 물리적 봉쇄 가능성이 최고조에 달함에 따라 유가 급등에... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GPT-5.6 Sol 및 Claude Mythos 출시 | 2026-06-27 12:29]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-27-1230-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-27-1230-dev.html</guid>
-      <pubDate>Sat, 27 Jun 2026 12:30:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, 차세대 모델 GPT-5.6 'Sol' 시리즈 프리뷰 공개 플래그십 모델 Sol, 가성비 모델 Terra, 저비용 모델 Luna를 포함하며 코딩 및 보안 성능이 대폭 강화되었습니다. → 특정 작업에 맞춰 모델을 선택적으... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미-이란 충돌 재점화와 AI 거품론 확산 | 2026-06-27 12:29]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-27-1230-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-27-1230-market.html</guid>
-      <pubDate>Sat, 27 Jun 2026 12:30:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 미국의 이란 보복 공습 및 호르무즈 긴장 고조 미 중부사령부가 호르무즈 해협 내 화물선 공격에 대한 보복으로 이란 내 미사일·드론 저장 시설을 타격했습니다. 60일간의 적대행위 중단 합의 기간 중 발생한 충돌입니다. → 지정학적 불확실성이 실질적 군사 행동으로 이어... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
