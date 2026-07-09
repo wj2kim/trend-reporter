@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Wed, 08 Jul 2026 11:43:48 +0900</lastBuildDate>
-    <pubDate>Wed, 08 Jul 2026 11:43:48 +0900</pubDate>
+    <lastBuildDate>Thu, 09 Jul 2026 12:18:55 +0900</lastBuildDate>
+    <pubDate>Thu, 09 Jul 2026 12:18:55 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[Grok 4.5와 GPT-Live, 에이전트 경쟁 가속 | 2026-07-09 12:18]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-09-1218-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-09-1218-dev.html</guid>
+      <pubDate>Thu, 09 Jul 2026 12:18:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 SpaceXAI, Grok 4.5 출시: 코딩과 에이전트 작업에 최적화된 최상위 모델로, Cursor와 함께 학습되어 개발 워크플로우에 특화됨. → 단순 벤치마크 점수보다 실제 IDE 내에서의 에이전트 수행 능력이 개발 생산성의 핵... (읽기 시간: 7분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[미-이란 전쟁 재개, 금리 인상 압박 | 2026-07-09 12:18]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-09-1218-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-09-1218-market.html</guid>
+      <pubDate>Thu, 09 Jul 2026 12:18:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 대통령의 이란 휴전 종료 선언 및 추가 공습으로 호르무즈 해협 통행이 사실상 마비되었습니다. → 글로벌 에너지 공급망 붕괴로 인한 유가 급등은 항공, 물류, 건설 섹터에 직명적인 비용 압박으로 작용할 것이다. 한국은행(BOK) 신현송 총재가 다음 주 금통위를... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[AI 에이전트 도구 표준화와 비용 절감 | 2026-07-08 11:42]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-08-1143-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Tue, 30 Jun 2026 12:41:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 트럼프 대통령, 미-이란 긴장 완화를 위한 카타르 도하 회담 전격 추진 → 중동발 지정학적 리스크 감소로 유가 및 금값 하락 압력 가중, 에너지 집약 산업의 비용 절감 기대. 미 대법원, 행정부의 규제 당국 수장 해임 권한 확대 판결 (트럼프 측 승리) → 차기 행... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GLM-5.2 도약과 MCP 표준화 | 2026-06-29 12:57]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-29-1258-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-29-1258-dev.html</guid>
-      <pubDate>Mon, 29 Jun 2026 12:58:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 GLM-5.2 릴리스 및 사이버 보안 성과: 중국 Zhipu AI의 GLM-5.2가 특정 보안 벤치마크에서 Claude를 능가하며 버그 탐지 능력을 입증함. → 보안 특화 에이전트 구축 시 Claude 일변도에서 벗어나 오픈 가중치... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미·이란 휴전 합의, 공급망 대격변 | 2026-06-29 12:57]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-29-1258-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-29-1258-market.html</guid>
-      <pubDate>Mon, 29 Jun 2026 12:58:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [미국-이란, 호르무즈 해협 공격 중단 및 상선 자유 통행 합의] (NYT, CNBC) → 호르무즈 봉쇄에 따른 유가 $100 돌파 시나리오는 폐기되었으나, 지정학적 불확실성은 여전하다. 에너지 ETF(XLE)는 단기 차익 실현 후 관망하라. [중국, 일본 방산 기... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
