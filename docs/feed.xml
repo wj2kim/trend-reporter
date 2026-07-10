@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Thu, 09 Jul 2026 12:18:55 +0900</lastBuildDate>
-    <pubDate>Thu, 09 Jul 2026 12:18:55 +0900</pubDate>
+    <lastBuildDate>Fri, 10 Jul 2026 12:21:15 +0900</lastBuildDate>
+    <pubDate>Fri, 10 Jul 2026 12:21:15 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GPT-5.6과 Rust 인프라 혁명 | 2026-07-10 12:20]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-10-1221-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-10-1221-dev.html</guid>
+      <pubDate>Fri, 10 Jul 2026 12:21:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI GPT-5.6 정식 출시: Sol(플래그십), Terra(균형), Luna(가성비) 모델군 발표 및 Microsoft 365 Copilot 기본 모델 채택. → 모델 선택지가 지능/비용별로 세분화됨에 따라, 서비스 규모... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[SK하이닉스 나스닥 상장, 테크 반등 | 2026-07-10 12:20]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-10-1221-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-10-1221-market.html</guid>
+      <pubDate>Fri, 10 Jul 2026 12:21:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 [미-이란 무력 충돌 속 '기술적 대화' 지속 외교적 해결 여지 확인] → 전쟁 확전 우려가 가격에 반영된 후 하락하는 국면이므로, 에너지 섹터보다는 낙폭이 컸던 기술주 위주로 저가 매수에 나서야 한다. [일본 재무장관의 GPIF 국내 투자 독려 엔화 및 채권 시장... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[Grok 4.5와 GPT-Live, 에이전트 경쟁 가속 | 2026-07-09 12:18]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-09-1218-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Wed, 01 Jul 2026 12:57:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 미국과 이란이 카타르 중재로 직접 협상을 재개하며 이란의 석유 수출이 4천만 배럴 규모로 급증했습니다. → 호르무즈 해협 긴장 완화로 유가 하방 압력이 커질 전망이다. 에너지 섹터 비중을 축소하고 운송·항공주 수익성을 점검해야 한다. 미 상무부가 안스로픽(Anthr... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GPT-5.6 Sol과 로컬 모델의 부상 | 2026-06-30 12:40]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-30-1241-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-30-1241-dev.html</guid>
-      <pubDate>Tue, 30 Jun 2026 12:41:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, 차세대 모델 'GPT-5.6 Sol' 프리뷰 공개 코딩, 과학, 사이버 보안 능력이 대폭 강화되었으며, 고도화된 안전 스택을 포함하여 에이전트 실행의 안정성을 확보했다. → 복잡한 아키텍처 설계와 보안 취약점 진단 업... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[미-이란 협상 기대와 엔저 쇼크 | 2026-06-30 12:40]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-06-30-1241-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-06-30-1241-market.html</guid>
-      <pubDate>Tue, 30 Jun 2026 12:41:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 트럼프 대통령, 미-이란 긴장 완화를 위한 카타르 도하 회담 전격 추진 → 중동발 지정학적 리스크 감소로 유가 및 금값 하락 압력 가중, 에너지 집약 산업의 비용 절감 기대. 미 대법원, 행정부의 규제 당국 수장 해임 권한 확대 판결 (트럼프 측 승리) → 차기 행... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
