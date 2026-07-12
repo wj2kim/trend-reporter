@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sat, 11 Jul 2026 11:40:20 +0900</lastBuildDate>
-    <pubDate>Sat, 11 Jul 2026 11:40:20 +0900</pubDate>
+    <lastBuildDate>Sun, 12 Jul 2026 11:48:32 +0900</lastBuildDate>
+    <pubDate>Sun, 12 Jul 2026 11:48:32 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[AI 에이전트 시대, 도구 제작이 핵심 | 2026-07-12 11:47]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-12-1148-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-12-1148-dev.html</guid>
+      <pubDate>Sun, 12 Jul 2026 11:48:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI GPT-5.6 Sol Ultra, 수학 난제 증명 및 벤치마크 선점 Cycle Double Cover Conjecture 증명 성공에 이어, 실제 앱 제작 테스트(레이캐스터 미로 등)에서 Claude Fable 5와 함... (읽기 시간: 6분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[호르무즈 폐쇄, 물가 재발화 | 2026-07-12 11:47]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-12-1148-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-12-1148-market.html</guid>
+      <pubDate>Sun, 12 Jul 2026 11:48:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 이란의 호르무즈 해협 폐쇄 선언과 미국의 이란 본토 항구 도시(반다르 아바스 등)에 대한 3차 보복 공습 단행 → 글로벌 원유 물동량의 20%가 지나는 길목이 막히며 유가 $100 돌파 가능성이 현실화되었으므로 원자재 ETF 및 정유주 비중을 확대해야 한다. 케빈 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.6 Sol의 수학 난제 증명과 Rust 전환 가속 | 2026-07-11 11:39]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-11-1140-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Fri, 03 Jul 2026 12:18:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 이란이 호르무즈 해협 통행료 징수를 고수하며 미국의 수십억 달러 제안에도 강경한 입장을 보이고 있습니다. → 해상 물류 비용의 구조적 상승과 유가 변동성 확대를 초래한다. 에너지(XLE) 및 해운 섹터의 변동성에 대비해야 한다. 러시아가 우크라이나 키이우에 대규모 ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[Claude Sonnet 5와 도메인 특화 에이전트 | 2026-07-02 12:37]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-02-1237-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-02-1237-dev.html</guid>
-      <pubDate>Thu, 02 Jul 2026 12:37:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Claude Sonnet 5 출시 및 Claude Code 기본 모델 채택 1M 토큰 컨텍스트 윈도우와 향상된 도구 사용(브라우저, 터미널) 능력을 갖춘 가장 에이전틱한 모델 발표. → 대규모 프로젝트 전체를 컨텍스트에 넣고 자율적... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[반도체 투매와 애플-중국 칩 협상 | 2026-07-02 12:37]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-02-1237-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-02-1237-market.html</guid>
-      <pubDate>Thu, 02 Jul 2026 12:37:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 러시아, 우크라이나 키이우에 수주 만에 최대 규모 미사일 및 드론 공습 감행 → 동유럽 지정학적 리스크 재점화로 인한 국방 및 방산 섹터의 변동성 확대 대비 필요. 미-이란 도하 회담 종료 및 호르무즈 해협 석유 물동량 일일 1,000만 배럴 돌파 → 중동 긴장 완... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
