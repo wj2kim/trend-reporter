@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Sun, 12 Jul 2026 11:48:32 +0900</lastBuildDate>
-    <pubDate>Sun, 12 Jul 2026 11:48:32 +0900</pubDate>
+    <lastBuildDate>Mon, 13 Jul 2026 11:49:21 +0900</lastBuildDate>
+    <pubDate>Mon, 13 Jul 2026 11:49:21 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[에이전트 토큰 효율과 보안 | 2026-07-13 11:48]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-13-1149-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-13-1149-dev.html</guid>
+      <pubDate>Mon, 13 Jul 2026 11:49:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 GPT-5.6 공식 출시 및 Microsoft 365 Copilot 탑재: 기존 모델 대비 2.2배 빠르고 27% 저렴해진 GPT-5.6이 배포되었으며, 워드, 엑셀 등 오피스 전반에 적용됨. → 상용 AI 에이전트 운영 시 GPT... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[호르무즈 교전 격화, 금리 재발화 | 2026-07-13 11:48]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-13-1149-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-13-1149-market.html</guid>
+      <pubDate>Mon, 13 Jul 2026 11:49:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 미-이란 호르무즈 해협 교전 격화 및 상호 공습 재개 미국이 이란의 항구도시(반다르아바스 등)를 공습하자 이란이 호르무즈 해협 폐쇄를 선언하며 보복 공습을 가해 긴장이 최고조에 달함. → 글로벌 에너지 공급망 마비로 인한 물가 급등 우려가 금융시장의 최대 리스크로 ... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[AI 에이전트 시대, 도구 제작이 핵심 | 2026-07-12 11:47]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-12-1148-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sat, 04 Jul 2026 11:57:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [이란 하메네이 장례식 거행 및 호르무즈 해협 통행료 요구] → 전쟁 후 세력 과시를 위해 이란이 에너지 통로 봉쇄 및 통행료 징수를 압박하고 있다. 에너지 공급망 리스크가 상시화되므로 원유 수입처 다변화가 시급하다. [미 재무부, '트럼프 계좌' 투자 라인업 및 ... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[시니어급 AI 에이전트와 과학 연구 AI의 도래 | 2026-07-03 12:17]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-03-1218-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-03-1218-dev.html</guid>
-      <pubDate>Fri, 03 Jul 2026 12:18:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Anthropic, 과학 연구 특화 모델 'Claude Science' 발표 → 소프트웨어 공학의 Claude Code처럼, 과학적 가설 검증과 데이터 분석을 자율 수행하는 에이전트 시대가 열렸다. OpenAI, 차세대 모델 'GP... (읽기 시간: 5분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[중동 리스크와 금리 인상 중단 기대 | 2026-07-03 12:17]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-03-1218-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-03-1218-market.html</guid>
-      <pubDate>Fri, 03 Jul 2026 12:18:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 이란이 호르무즈 해협 통행료 징수를 고수하며 미국의 수십억 달러 제안에도 강경한 입장을 보이고 있습니다. → 해상 물류 비용의 구조적 상승과 유가 변동성 확대를 초래한다. 에너지(XLE) 및 해운 섹터의 변동성에 대비해야 한다. 러시아가 우크라이나 키이우에 대규모 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
