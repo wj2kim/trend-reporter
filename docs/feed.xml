@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Mon, 13 Jul 2026 11:49:21 +0900</lastBuildDate>
-    <pubDate>Mon, 13 Jul 2026 11:49:21 +0900</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2026 11:30:35 +0900</lastBuildDate>
+    <pubDate>Tue, 14 Jul 2026 11:30:35 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GPT-5.6 실전 배치와 이해의 병목 | 2026-07-14 11:29]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-14-1130-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-14-1130-dev.html</guid>
+      <pubDate>Tue, 14 Jul 2026 11:30:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 GPT-5.6, Microsoft 365 Copilot의 기본 모델로 채택 Word, Excel, PowerPoint 등 주요 오피스 앱에서 더 강력한 지능과 토큰당 높은 성능을 제공하도록 업데이트됨. → 기업용 생산성 도구에 최신... (읽기 시간: 6분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[호르무즈 통행료, 인플레 재점화 | 2026-07-14 11:29]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-14-1130-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-14-1130-market.html</guid>
+      <pubDate>Tue, 14 Jul 2026 11:30:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 대통령, 호르무즈 해협 통행료 20% 부과 및 봉쇄 재개 선언 미국은 이란에 대한 3일 연속 공습과 함께 호르무즈 해협을 통과하는 상품에 20%의 수수료를 부과하고 이란 항구 봉쇄를 명령했습니다. → 글로벌 에너지 물류 비용이 즉각적으로 20% 상승하는 효과... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[에이전트 토큰 효율과 보안 | 2026-07-13 11:48]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-13-1149-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Sun, 05 Jul 2026 12:26:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 [이란 하메네이 사망 후 리더십 공백 및 후계 분열] 이란 최고 지도자 장례식이 진행 중이나, 유력 후계자 모즈타바 하메네이의 부재로 지도부 내 극심한 분열 포착. → 중동 내 권력 투쟁 장기화는 국제 유가의 하방 경직성을 확보하며, 방산 및 보안 섹터의 중기적 강... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[GPT-5.6 Sol과 자율 루프 엔지니어링 | 2026-07-04 11:56]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-04-1157-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-04-1157-dev.html</guid>
-      <pubDate>Sat, 04 Jul 2026 11:57:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 OpenAI, 차세대 모델 'GPT-5.6 Sol' 프리뷰 공개: 코딩, 과학 연구 및 사이버 보안 분야에서 강력한 성능을 발휘하며, 역대 가장 진보된 안전 스택을 탑재함. → 에이전트가 수행 가능한 작업의 복잡도가 비약적으로 상승... (읽기 시간: 7분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[하메네이 장례와 트럼프 계좌의 등장 | 2026-07-04 11:56]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-04-1157-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-04-1157-market.html</guid>
-      <pubDate>Sat, 04 Jul 2026 11:57:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [이란 하메네이 장례식 거행 및 호르무즈 해협 통행료 요구] → 전쟁 후 세력 과시를 위해 이란이 에너지 통로 봉쇄 및 통행료 징수를 압박하고 있다. 에너지 공급망 리스크가 상시화되므로 원유 수입처 다변화가 시급하다. [미 재무부, '트럼프 계좌' 투자 라인업 및 ... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
