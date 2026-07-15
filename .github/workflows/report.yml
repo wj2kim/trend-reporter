@@ -1,11 +1,12 @@
 name: Daily Trend Report
 
 on:
-  schedule:
-    # KST 09:00 = UTC 00:00
-    - cron: '0 0 * * *'
-    # KST 22:00 = UTC 13:00
-    - cron: '0 13 * * *'
+  # schedule 비활성화 (AI 비용 절감을 위해 일시 중단, 2026-07-15)
+  # schedule:
+  #   # KST 09:00 = UTC 00:00
+  #   - cron: '0 0 * * *'
+  #   # KST 22:00 = UTC 13:00
+  #   - cron: '0 13 * * *'
 
   workflow_dispatch:
 
