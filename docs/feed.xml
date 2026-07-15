@@ -6,14 +6,30 @@
     <link>https://wj2kim.github.io/trend-reporter/</link>
     <atom:link href="https://wj2kim.github.io/trend-reporter/feed.xml" rel="self" type="application/rss+xml"/>
     <language>ko</language>
-    <lastBuildDate>Tue, 14 Jul 2026 11:30:35 +0900</lastBuildDate>
-    <pubDate>Tue, 14 Jul 2026 11:30:35 +0900</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2026 11:28:35 +0900</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2026 11:28:35 +0900</pubDate>
     <ttl>60</ttl>
     <image>
       <url>https://wj2kim.github.io/trend-reporter/og-image.png</url>
       <title>Trend Reporter</title>
       <link>https://wj2kim.github.io/trend-reporter/</link>
     </image>
+    <item>
+      <title><![CDATA[GPT-5.6 시대, 에이전트가 주역 | 2026-07-15 11:27]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-15-1128-dev.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-15-1128-dev.html</guid>
+      <pubDate>Wed, 15 Jul 2026 11:28:00 +0900</pubDate>
+      <category>Dev</category>
+      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 GPT-5.6 공식 출시 및 Microsoft 365 Copilot 기본 모델 채택 → 성능 대비 비용 효율이 극대화된 GPT-5.6을 활용해 사내 문서 자동화 및 복잡한 워크플로우를 재설계할 적기다. Bonsai 27B: 아이폰에... (읽기 시간: 5분)]]></description>
+    </item>
+    <item>
+      <title><![CDATA[중동 전운 속 테크 리레이팅 | 2026-07-15 11:27]]></title>
+      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-15-1128-market.html</link>
+      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-15-1128-market.html</guid>
+      <pubDate>Wed, 15 Jul 2026 11:28:00 +0900</pubDate>
+      <category>Market</category>
+      <description><![CDATA[1. 세계 정세 트럼프 대통령이 호르무즈 해협 통행료(20%) 계획을 철회했으나, 이란 항구 봉쇄와 군사 공격은 지속하겠다고 선언했습니다. → 통행료 불확실성은 해소됐으나 군사적 긴장은 최고조다. 유가 변동성 확대에 대비해 에너지 섹터(XLE) 수익 실현 후 관망이 필요하다. 이란... (읽기 시간: 4분)]]></description>
+    </item>
     <item>
       <title><![CDATA[GPT-5.6 실전 배치와 이해의 병목 | 2026-07-14 11:29]]></title>
       <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-14-1130-dev.html</link>
@@ -157,22 +173,6 @@
       <pubDate>Mon, 06 Jul 2026 12:34:00 +0900</pubDate>
       <category>Market</category>
       <description><![CDATA[1. 세계 정세 OPEC+ 7개국, 8월부터 월간 원유 생산량 일일 18.8만 배럴 증산 합의 → 공급 부족 우려가 해소되며 유가 하방 압력이 커질 전망. 정유주 비중을 축소하고 운송·항공 등 비용 절감 섹터에 주목해야 함. 프랑스 마린 르펜의 항소 판결 임박에 따른 유럽 정치 불... (읽기 시간: 4분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[AI 에이전트 도구 표준화 가속화 | 2026-07-05 12:25]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-05-1226-dev.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-05-1226-dev.html</guid>
-      <pubDate>Sun, 05 Jul 2026 12:26:00 +0900</pubDate>
-      <category>Dev</category>
-      <description><![CDATA[1. AI/기술 트렌드 a. AI 모델 & 서비스 Mistral AI, Leanstral 1.5 출시: 수학적 증명 및 코드 검증 특화 6B 파라미터 모델로 PutnamBench에서 587/672 문제를 해결하며, 실제 57개 리포지토리에서 5개의 미발견 버그를 찾아냄. → 단순한... (읽기 시간: 6분)]]></description>
-    </item>
-    <item>
-      <title><![CDATA[중동 권력 공백과 트럼프 계좌 런칭 | 2026-07-05 12:25]]></title>
-      <link>https://wj2kim.github.io/trend-reporter/reports/2026-07-05-1226-market.html</link>
-      <guid isPermaLink="true">https://wj2kim.github.io/trend-reporter/reports/2026-07-05-1226-market.html</guid>
-      <pubDate>Sun, 05 Jul 2026 12:26:00 +0900</pubDate>
-      <category>Market</category>
-      <description><![CDATA[1. 세계 정세 [이란 하메네이 사망 후 리더십 공백 및 후계 분열] 이란 최고 지도자 장례식이 진행 중이나, 유력 후계자 모즈타바 하메네이의 부재로 지도부 내 극심한 분열 포착. → 중동 내 권력 투쟁 장기화는 국제 유가의 하방 경직성을 확보하며, 방산 및 보안 섹터의 중기적 강... (읽기 시간: 4분)]]></description>
     </item>
   </channel>
 </rss>
